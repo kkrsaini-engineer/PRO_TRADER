@@ -298,6 +298,7 @@ def main() -> None:
 
     total = len(WATCHLIST)
     rows = []
+    pending_candidates = []
     for i, symbol in enumerate(WATCHLIST, start=0):
         logger.info("[%d/%d] Full report scan: %s", i + 1, total, symbol)
         r = scanner.scan_symbol(
@@ -310,6 +311,8 @@ def main() -> None:
             logger.warning("Skipping %s from report: %s", symbol, r.diagnostics.get("error"))
             continue
         rows.append(build_row(next_id + i, r, trade_lookup.get(symbol)))
+        if r.action in ("BUY", "SELL") and r.portfolio_allowed:
+            pending_candidates.append(r)
 
     # APPEND mode: this is ONE running file that accumulates a full history
     # (filter by the "Date" column to see any day/month) rather than being
@@ -408,6 +411,44 @@ def main() -> None:
         message="\n".join(summary_lines),
         dedup_key=f"scan_completed::{time.strftime('%Y-%m-%d')}::{now_ist().strftime('%H:%M:%S.%f')}",
     )
+
+    # ==========================================================
+    # PENDING ORDERS FOR MORNING EXECUTION
+    # ==========================================================
+    # Writes the top max_trade_candidates (by ranking) to
+    # candidates_order.json, using ONLY fields already computed during
+    # tonight's scan (no new analysis). A separate morning-executor
+    # script (run at market open) reads this file, checks the actual
+    # opening price against the stop/target boundaries already set
+    # here, and decides execute/skip — see that script for details.
+    scan_timestamp = ist_now.isoformat()
+    pending_candidates.sort(key=lambda r: r.ranking, reverse=True)
+    top_candidates = pending_candidates[: market_state["max_trade_candidates"]]
+    pending_orders = []
+    for r in top_candidates:
+        d = r.diagnostics
+        pending_orders.append({
+            "symbol": r.symbol,
+            "direction": r.action,
+            "prev_close": d.get("latest_close"),
+            "atr_14": d.get("atr_14"),
+            "atr_percent": d.get("atr_percent"),
+            "stop_loss": d.get("stop_loss"),
+            "target1": d.get("target1"),
+            "target2": d.get("target2"),
+            "overall_score": round(r.score, 2),
+            "ranking": round(r.ranking, 2),
+            "sector": d.get("sector"),
+            "scan_date": today_date.isoformat(),
+        })
+    pending_path = Path("reports/candidates_order.json")
+    with open(pending_path, "w") as f:
+        json.dump({
+            "scan_date": today_date.isoformat(),
+            "scan_timestamp": scan_timestamp,
+            "candidates": pending_orders,
+        }, f, indent=2)
+    logger.info("Wrote %d pending candidates to %s", len(pending_orders), pending_path)
 
 
 if __name__ == "__main__":
