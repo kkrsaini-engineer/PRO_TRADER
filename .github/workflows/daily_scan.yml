@@ -2,7 +2,7 @@ name: Daily Scan
 
 on:
   schedule:
-    - cron: "0 17 * * *"  # 10:30 PM IST (17:00 UTC)
+    - cron: "0 15 * * *"  # 8:30 PM IST (15:00 UTC)
   workflow_dispatch:
     inputs:
       force:
@@ -41,4 +41,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A -- reports/ storage/trades/ storage/reports/
           git diff --staged --quiet || git commit -m "Daily scan update: $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push rejected (likely a concurrent workflow pushed first) — pulling and retrying ($i/5)..."
+            git pull --rebase origin main
+            sleep 5
+          done
