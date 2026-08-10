@@ -1,5 +1,8 @@
 """
-WATCHDOG — Alerts if Daily Scan hasn't started within its expected window.
+WATCHDOG — Alerts if a given scheduled workflow hasn't started within
+its expected window. Generalized (via CLI args) to check ANY workflow
+— used for both Daily Scan and Morning Executor, avoiding duplicating
+this logic per-workflow.
 
 Standalone by design: does NOT import from the main codebase, so it
 keeps working even if something else in the app is broken. Uses only
@@ -7,24 +10,32 @@ the GitHub REST API (via GITHUB_TOKEN, already available in Actions)
 and a direct Telegram API call.
 
 Catches: GitHub Actions hosted-runner queue congestion (or any other
-reason Daily Scan didn't start on time) — not a fix for the delay
-itself, just visibility so it's noticed immediately instead of
+reason the target workflow didn't start on time) — not a fix for the
+delay itself, just visibility so it's noticed immediately instead of
 discovered later.
 
-Run this on its own schedule, some minutes AFTER Daily Scan's expected
-start time (see the paired workflow file).
+Usage:
+    python scripts/watchdog_workflow.py \
+        --workflow-file daily_scan.yml \
+        --scheduled-hour-utc 17 --scheduled-minute-utc 0 \
+        --max-delay-minutes 20 --label "Daily Scan"
+
+    python scripts/watchdog_workflow.py \
+        --workflow-file morning_executor.yml \
+        --scheduled-hour-utc 3 --scheduled-minute-utc 46 \
+        --max-delay-minutes 4 --label "Morning Executor"
 """
 
 from __future__ import annotations
 
+import argparse
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 import requests
 
-WORKFLOW_FILE = "daily_scan.yml"
-EXPECTED_MAX_DELAY_MINUTES = 45
+from core.trading_calendar import is_trading_day
 
 
 def send_telegram_alert(message: str) -> None:
@@ -44,6 +55,18 @@ def send_telegram_alert(message: str) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--workflow-file", required=True, help="e.g. daily_scan.yml")
+    parser.add_argument("--scheduled-hour-utc", type=int, required=True)
+    parser.add_argument("--scheduled-minute-utc", type=int, default=0)
+    parser.add_argument("--max-delay-minutes", type=int, required=True)
+    parser.add_argument("--label", required=True, help="Human-readable name for notification text")
+    args = parser.parse_args()
+
+    if not is_trading_day(date.today()):
+        print("Not a trading day — watchdog skipping check.")
+        return
+
     github_token = os.environ.get("GITHUB_TOKEN")
     repo = os.environ.get("GITHUB_REPOSITORY")
     if not github_token or not repo:
@@ -51,40 +74,59 @@ def main() -> None:
         sys.exit(1)
 
     headers = {"Authorization": f"Bearer {github_token}", "Accept": "application/vnd.github+json"}
-    url = f"https://api.github.com/repos/{repo}/actions/workflows/{WORKFLOW_FILE}/runs?per_page=5"
+    url = f"https://api.github.com/repos/{repo}/actions/workflows/{args.workflow_file}/runs?per_page=5"
 
     try:
         resp = requests.get(url, headers=headers, timeout=30)
         resp.raise_for_status()
         runs = resp.json().get("workflow_runs", [])
     except Exception as exc:
-        send_telegram_alert(f"⚠️ Watchdog could not check Daily Scan status: {exc}")
+        send_telegram_alert(f"⚠️ Watchdog could not check {args.label} status: {exc}")
         sys.exit(1)
 
     if not runs:
         send_telegram_alert(
-            "🔴 WATCHDOG: No Daily Scan runs found at all via GitHub API — "
-            "please check manually."
+            f"🔴 WATCHDOG: No {args.label} runs found at all via GitHub API — "
+            f"please check manually."
         )
         return
 
     latest = runs[0]
     created_at = datetime.fromisoformat(latest["created_at"].replace("Z", "+00:00"))
     now = datetime.now(timezone.utc)
-    age_minutes = (now - created_at).total_seconds() / 60
+    today_utc = now.date()
 
-    print(f"Latest Daily Scan run created at: {created_at.isoformat()} ({age_minutes:.1f} min ago)")
+    # Compare against the workflow's OWN scheduled trigger-time, NOT
+    # "now" — using "now" was a confirmed bug: if the watchdog itself
+    # gets queued late (same GitHub runner-congestion that can delay
+    # the target workflow), it would falsely report a delay even when
+    # the target workflow triggered on time, simply because the
+    # WATCHDOG'S OWN check ran late.
+    if created_at.date() < today_utc:
+        send_telegram_alert(
+            f"🔴 WATCHDOG: No {args.label} run found for today yet "
+            f"(latest run was {created_at.isoformat()}, from a previous day) — please check manually."
+        )
+        return
+
+    scheduled_time = datetime(
+        today_utc.year, today_utc.month, today_utc.day,
+        args.scheduled_hour_utc, args.scheduled_minute_utc, tzinfo=timezone.utc,
+    )
+    delay_minutes = (created_at - scheduled_time).total_seconds() / 60
+
+    print(f"Latest {args.label} run created at: {created_at.isoformat()} "
+          f"({delay_minutes:.1f} min after its {args.scheduled_hour_utc:02d}:{args.scheduled_minute_utc:02d} UTC schedule)")
     print(f"Status: {latest.get('status')}, Conclusion: {latest.get('conclusion')}")
 
-    if age_minutes > EXPECTED_MAX_DELAY_MINUTES:
+    if delay_minutes > args.max_delay_minutes:
         send_telegram_alert(
-            f"🟠 WATCHDOG: Daily Scan hasn't started in the last "
-            f"{EXPECTED_MAX_DELAY_MINUTES} minutes (last run was "
-            f"{age_minutes:.0f} min ago). Likely a GitHub Actions "
-            f"runner-queue delay — no code issue, just flagging for visibility."
+            f"🟠 WATCHDOG: {args.label} triggered {delay_minutes:.0f} min after its "
+            f"scheduled time (allowed: {args.max_delay_minutes} min). Likely a "
+            f"GitHub Actions runner-queue delay — no code issue, just flagging for visibility."
         )
     else:
-        print("OK — Daily Scan started within the expected window. No alert needed.")
+        print(f"OK — {args.label} started within the expected window. No alert needed.")
 
 
 if __name__ == "__main__":
