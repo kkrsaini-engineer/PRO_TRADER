@@ -1,20 +1,20 @@
 {
-  "scan_date": "2026-08-08",
-  "scan_timestamp": "2026-08-08T15:20:14.240643+00:00",
+  "scan_date": "2026-08-10",
+  "scan_timestamp": "2026-08-11T02:07:46.581277+00:00",
   "candidates": [
     {
       "symbol": "AUROPHARMA.NS",
       "direction": "BUY",
       "prev_close": 1658.0,
-      "atr_14": 44.42,
+      "atr_14": 45.78,
       "atr_percent": null,
-      "stop_loss": 1569.16,
-      "target1": 1746.84,
-      "target2": 1813.47,
+      "stop_loss": 1566.44,
+      "target1": 1749.56,
+      "target2": 1818.23,
       "overall_score": 78.1,
       "ranking": 86.21,
       "sector": "Healthcare",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "BELRISE.NS",
@@ -28,63 +28,35 @@
       "overall_score": 77.94,
       "ranking": 86.09,
       "sector": "Consumer Cyclical",
-      "scan_date": "2026-08-08"
-    },
-    {
-      "symbol": "INDIANB.NS",
-      "direction": "BUY",
-      "prev_close": 889.5,
-      "atr_14": 18.31,
-      "atr_percent": null,
-      "stop_loss": 852.88,
-      "target1": 926.12,
-      "target2": 953.59,
-      "overall_score": 77.62,
-      "ranking": 85.84,
-      "sector": "Financial Services",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "GRASIM.NS",
       "direction": "BUY",
       "prev_close": 3323.0,
-      "atr_14": 72.3,
+      "atr_14": 74.11,
       "atr_percent": null,
-      "stop_loss": 3178.4,
-      "target1": 3467.6,
-      "target2": 3576.05,
-      "overall_score": 75.56,
-      "ranking": 84.18,
+      "stop_loss": 3174.78,
+      "target1": 3471.22,
+      "target2": 3582.39,
+      "overall_score": 75.06,
+      "ranking": 83.76,
       "sector": "Basic Materials",
-      "scan_date": "2026-08-08"
-    },
-    {
-      "symbol": "UNIONBANK.NS",
-      "direction": "BUY",
-      "prev_close": 183.6,
-      "atr_14": 4.49,
-      "atr_percent": null,
-      "stop_loss": 174.62,
-      "target1": 192.58,
-      "target2": 199.31,
-      "overall_score": 75.27,
-      "ranking": 83.94,
-      "sector": "Financial Services",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "ASIANPAINT.NS",
       "direction": "BUY",
       "prev_close": 2735.0,
-      "atr_14": 61.73,
+      "atr_14": 61.76,
       "atr_percent": null,
-      "stop_loss": 2611.54,
-      "target1": 2858.46,
-      "target2": 2951.05,
+      "stop_loss": 2611.48,
+      "target1": 2858.52,
+      "target2": 2951.16,
       "overall_score": 74.35,
       "ranking": 83.15,
       "sector": "Basic Materials",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "TECHM.NS",
@@ -98,7 +70,7 @@
       "overall_score": 74.1,
       "ranking": 82.93,
       "sector": "Technology",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "BHARATFORG.NS",
@@ -112,21 +84,7 @@
       "overall_score": 74.09,
       "ranking": 82.92,
       "sector": "Consumer Cyclical",
-      "scan_date": "2026-08-08"
-    },
-    {
-      "symbol": "PNBHOUSING.NS",
-      "direction": "BUY",
-      "prev_close": 1143.0,
-      "atr_14": 36.85,
-      "atr_percent": null,
-      "stop_loss": 1069.3,
-      "target1": 1216.7,
-      "target2": 1271.97,
-      "overall_score": 73.94,
-      "ranking": 82.79,
-      "sector": "Financial Services",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "ABCAPITAL.NS",
@@ -140,7 +98,21 @@
       "overall_score": 73.92,
       "ranking": 82.77,
       "sector": "Financial Services",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
+    },
+    {
+      "symbol": "PNBHOUSING.NS",
+      "direction": "BUY",
+      "prev_close": 1143.0,
+      "atr_14": 37.15,
+      "atr_percent": null,
+      "stop_loss": 1068.7,
+      "target1": 1217.3,
+      "target2": 1273.03,
+      "overall_score": 73.92,
+      "ranking": 82.77,
+      "sector": "Financial Services",
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "BLUESTARCO.NS",
@@ -154,21 +126,21 @@
       "overall_score": 73.85,
       "ranking": 82.71,
       "sector": "Industrials",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "360ONE.NS",
       "direction": "BUY",
       "prev_close": 1168.1,
-      "atr_14": 32.85,
+      "atr_14": 32.24,
       "atr_percent": null,
-      "stop_loss": 1102.4,
-      "target1": 1233.8,
-      "target2": 1283.07,
+      "stop_loss": 1103.62,
+      "target1": 1232.58,
+      "target2": 1280.94,
       "overall_score": 73.5,
       "ranking": 82.4,
       "sector": "Financial Services",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "LLOYDSME.NS",
@@ -182,7 +154,7 @@
       "overall_score": 72.96,
       "ranking": 81.91,
       "sector": "Basic Materials",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "MOTHERSON.NS",
@@ -196,7 +168,7 @@
       "overall_score": 72.75,
       "ranking": 81.72,
       "sector": "Consumer Cyclical",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "TATATECH.NS",
@@ -210,63 +182,63 @@
       "overall_score": 72.7,
       "ranking": 81.67,
       "sector": "Technology",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "AIIL.NS",
       "direction": "BUY",
       "prev_close": 596.6,
-      "atr_14": 23.4,
+      "atr_14": 23.25,
       "atr_percent": null,
-      "stop_loss": 549.8,
-      "target1": 643.4,
-      "target2": 678.5,
+      "stop_loss": 550.1,
+      "target1": 643.1,
+      "target2": 677.98,
       "overall_score": 72.25,
       "ranking": 81.25,
       "sector": "Financial Services",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
-      "symbol": "HONASA.NS",
+      "symbol": "INDIANB.NS",
       "direction": "BUY",
-      "prev_close": 477.6,
-      "atr_14": 13.96,
+      "prev_close": 889.5,
+      "atr_14": 20.2,
       "atr_percent": null,
-      "stop_loss": 449.68,
-      "target1": 505.52,
-      "target2": 526.46,
-      "overall_score": 71.71,
-      "ranking": 80.73,
-      "sector": "Consumer Defensive",
-      "scan_date": "2026-08-08"
+      "stop_loss": 849.1,
+      "target1": 929.9,
+      "target2": 960.2,
+      "overall_score": 71.37,
+      "ranking": 80.41,
+      "sector": "Financial Services",
+      "scan_date": "2026-08-10"
+    },
+    {
+      "symbol": "UNIONBANK.NS",
+      "direction": "BUY",
+      "prev_close": 183.6,
+      "atr_14": 5.01,
+      "atr_percent": null,
+      "stop_loss": 173.58,
+      "target1": 193.62,
+      "target2": 201.13,
+      "overall_score": 71.27,
+      "ranking": 80.31,
+      "sector": "Financial Services",
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "EXIDEIND.NS",
       "direction": "BUY",
       "prev_close": 490.0,
-      "atr_14": 18.7,
+      "atr_14": 18.28,
       "atr_percent": null,
-      "stop_loss": 452.6,
-      "target1": 527.4,
-      "target2": 555.45,
+      "stop_loss": 453.44,
+      "target1": 526.56,
+      "target2": 553.98,
       "overall_score": 70.38,
       "ranking": 79.42,
       "sector": "Consumer Cyclical",
-      "scan_date": "2026-08-08"
-    },
-    {
-      "symbol": "TITAN.NS",
-      "direction": "BUY",
-      "prev_close": 4941.0,
-      "atr_14": 85.89,
-      "atr_percent": null,
-      "stop_loss": 4769.22,
-      "target1": 5112.78,
-      "target2": 5241.61,
-      "overall_score": 70.12,
-      "ranking": 79.16,
-      "sector": "Consumer Cyclical",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
     },
     {
       "symbol": "POONAWALLA.NS",
@@ -280,7 +252,35 @@
       "overall_score": 70.0,
       "ranking": 79.04,
       "sector": "Financial Services",
-      "scan_date": "2026-08-08"
+      "scan_date": "2026-08-10"
+    },
+    {
+      "symbol": "HAL.NS",
+      "direction": "BUY",
+      "prev_close": 4910.0,
+      "atr_14": 99.58,
+      "atr_percent": null,
+      "stop_loss": 4710.84,
+      "target1": 5109.16,
+      "target2": 5258.53,
+      "overall_score": 69.71,
+      "ranking": 78.74,
+      "sector": "Industrials",
+      "scan_date": "2026-08-10"
+    },
+    {
+      "symbol": "TITAN.NS",
+      "direction": "BUY",
+      "prev_close": 4941.0,
+      "atr_14": 85.89,
+      "atr_percent": null,
+      "stop_loss": 4769.22,
+      "target1": 5112.78,
+      "target2": 5241.61,
+      "overall_score": 68.87,
+      "ranking": 77.86,
+      "sector": "Consumer Cyclical",
+      "scan_date": "2026-08-10"
     }
   ]
 }
