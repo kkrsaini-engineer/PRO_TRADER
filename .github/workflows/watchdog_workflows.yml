@@ -2,7 +2,7 @@ name: Watchdog - Daily Scan & Morning Executor
 
 on:
   schedule:
-    - cron: "20 17 * * *"  # 10:50 PM IST — checks Daily Scan (scheduled 10:30 PM IST, 20 min margin)
+    - cron: "20 15 * * *"  # 8:50 PM IST — checks Daily Scan (scheduled 8:30 PM IST, 20 min margin)
     - cron: "50 3 * * *"   # 9:20 AM IST — checks Morning Executor (scheduled 9:16 AM IST, 4 min margin)
   workflow_dispatch:
     inputs:
@@ -29,7 +29,7 @@ jobs:
         run: pip install requests
 
       - name: Check Daily Scan status
-        if: github.event.schedule == '20 17 * * *' || (github.event_name == 'workflow_dispatch' && inputs.target == 'daily_scan')
+        if: github.event.schedule == '20 15 * * *' || (github.event_name == 'workflow_dispatch' && inputs.target == 'daily_scan')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -37,7 +37,7 @@ jobs:
         run: >
           python scripts/watchdog_workflow.py
           --workflow-file daily_scan.yml
-          --scheduled-hour-utc 17 --scheduled-minute-utc 0
+          --scheduled-hour-utc 15 --scheduled-minute-utc 0
           --max-delay-minutes 20 --label "Daily Scan"
 
       - name: Check Morning Executor status
