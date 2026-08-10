@@ -46,6 +46,8 @@ from data.news_data import NewsDataProvider
 from news.sentiment_engine import SentimentEngine
 from paper_trading.virtual_portfolio import VirtualPortfolio
 from risk.risk_manager import RiskManager
+from storage.trades.trade_diary import TradeDiary
+from storage.trades.trade_store import TradeStore
 
 logger = get_logger(__name__)
 
@@ -238,6 +240,8 @@ def main() -> None:
         return
 
     portfolio = VirtualPortfolio()
+    diary = TradeDiary()
+    trade_store = TradeStore()
 
     executed, skipped = [], []
 
@@ -312,6 +316,31 @@ def main() -> None:
         if not added:
             skipped.append((symbol, direction, "Position already exists or insufficient capital (see engine log)."))
             continue
+
+        # CONFIRMED ROOT CAUSE FIX: without writing a matching diary +
+        # trade_store record here, paper_trading_engine.py's monitoring
+        # loop (_find_open_trade_id) can never find this position —
+        # every single Morning-Executor-opened position was failing
+        # nightly monitoring with "MissingDiaryEntryError" (seen in
+        # production: all 20 open positions failed this way). Same
+        # trade_id pattern ("paper_{SYMBOL}_{timestamp}") the night
+        # cycle already uses, so monitoring finds it identically.
+        trade_id = f"paper_{symbol.replace('.', '_')}_{int(time.time() * 1000)}"
+        entry_reasons = [
+            f"Morning Executor: gap {gap_pct:+.2f}% ({ratio:.2f}x ATR, {band} band)",
+            news_reason,
+        ]
+        diary.open_trade(
+            trade_id=trade_id, symbol=symbol, direction=direction,
+            entry_price=open_price, entry_date=today_date.isoformat(),
+            buy_probability=0.0, buy_confidence=0.0,
+            entry_reasons=entry_reasons,
+        )
+        trade_store.save_trade({
+            "id": trade_id, "symbol": symbol, "direction": direction, "action": direction,
+            "quantity": quantity, "entry_price": open_price, "status": "OPEN",
+            "regime": "N/A", "confidence": 0.0, "reasons": "; ".join(entry_reasons),
+        })
 
         executed.append((symbol, direction, open_price, quantity, gap_pct, band, ratio))
 
