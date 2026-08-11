@@ -143,11 +143,19 @@ def fetch_open_price(symbol: str, max_retries: int = 3, retry_delay_seconds: int
             if df.empty:
                 last_error = "empty dataframe returned"
             else:
+                # Flatten yfinance's MultiIndex columns (same fix used in
+                # run_backtest.py) — without this, df["Open"] is a nested
+                # Series/DataFrame rather than a clean per-row scalar
+                # column, and float() on it only works via a deprecated
+                # pandas fallback (confirmed via a recurring FutureWarning
+                # in production logs) that becomes a hard TypeError in a
+                # future pandas version.
+                df.columns = [str(c).lower() if not isinstance(c, tuple) else str(c[0]).lower() for c in df.columns]
                 last_row_date = pd.Timestamp(df.index[-1]).strftime("%Y-%m-%d")
                 if last_row_date != today_str:
                     last_error = f"latest available candle is {last_row_date}, not today ({today_str}) — today's data not ready yet"
                 else:
-                    return float(df["Open"].iloc[-1]), "OK"
+                    return float(df["open"].iloc[-1]), "OK"
         except Exception as exc:
             last_error = f"{type(exc).__name__}: {exc}"
 
