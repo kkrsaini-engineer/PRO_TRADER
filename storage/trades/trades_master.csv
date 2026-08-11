@@ -1,2 +1,0 @@
-id,timestamp,symbol,direction,action,quantity,entry_price,exit_price,status,realized_pnl,realized_pnl_percent,max_profit_percent,max_drawdown_percent,regime,confidence,reasons
-paper_HAL_NS_1786430454195,1786430454.1963284,HAL.NS,BUY,BUY,1,4930.10009765625,,OPEN,,,,,N/A,0.0,"Morning Executor: gap +0.41% (0.20x ATR, NORMAL band); No NEW overnight news since last night's scan."
