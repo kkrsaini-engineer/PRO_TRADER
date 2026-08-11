@@ -3,13 +3,14 @@ name: Market Intelligence
 on:
   schedule:
     # Post-market-close monitoring, 6x per day (IST -> UTC):
-    - cron: "5 10 * * *"    # 15:35 IST
-    - cron: "30 11 * * *"   # 17:00 IST
-    - cron: "30 13 * * *"   # 19:00 IST
-    - cron: "30 15 * * *"   # 21:00 IST
-    - cron: "30 17 * * *"   # 23:00 IST
-    - cron: "30 19 * * *"   # 01:00 IST (next day) — final overnight scan
+    - cron: "30 11 * * *"   # 5:00 PM IST
+    - cron: "30 21 * * *"   # 3:00 AM IST (next day)
+    - cron: "0 3 * * *"     # 8:30 AM IST
   workflow_dispatch:
+
+concurrency:
+  group: repo-write-lock
+  cancel-in-progress: false
 
 permissions:
   contents: write
