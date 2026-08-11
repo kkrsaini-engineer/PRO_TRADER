@@ -12,6 +12,10 @@ on:
         options: ["daily_scan", "morning_executor"]
         default: "daily_scan"
 
+concurrency:
+  group: repo-write-lock
+  cancel-in-progress: false
+
 permissions:
   contents: read
   actions: read
