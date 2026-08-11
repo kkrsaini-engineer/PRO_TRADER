@@ -1,7 +1,7 @@
 {
   "total_capital": 500000.0,
-  "available_capital": 185665.80966186523,
-  "used_capital": 314334.19033813477,
+  "available_capital": 180735.70956420898,
+  "used_capital": 319264.290435791,
   "total_pnl": 0.0,
   "total_pnl_percent": 0.0,
   "exposure": 0.0,
@@ -326,9 +326,25 @@
       "max_drawdown_percent": 0.0,
       "status": "OPEN",
       "updated_at": 1786351086.897632
+    },
+    "HAL.NS": {
+      "symbol": "HAL.NS",
+      "quantity": 1,
+      "entry_price": 4930.10009765625,
+      "current_price": 4930.10009765625,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 4930.10009765625,
+      "lowest_price": 4930.10009765625,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1786430454.1959107
     }
   },
   "closed_positions": [],
   "symbol_sector": {},
-  "saved_at": 1786352450.630923
+  "saved_at": 1786430454.6390045
 }
