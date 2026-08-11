@@ -1,11 +1,11 @@
 {
   "date": "2026-08-11",
   "opening_balance": 180735.70956420898,
-  "total_capital_in_positions": 316718.4200000001,
+  "total_capital_in_positions": 316651.11999999994,
   "remaining_balance": 180735.70956420898,
-  "portfolio_value": 497454.1295642091,
-  "realized_pnl": -2309.870435791019,
-  "portfolio_return_percent": -0.5091740871581831,
+  "portfolio_value": 497386.8295642089,
+  "realized_pnl": -2345.170435791013,
+  "portfolio_return_percent": -0.5226340871582157,
   "opened_today": [],
   "closed_today": [],
   "open_positions_now": 21

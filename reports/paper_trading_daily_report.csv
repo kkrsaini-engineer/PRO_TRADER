@@ -3,3 +3,4 @@ Date,OpenedToday,ClosedToday,Monitored,OpenPositions,ClosedPositions,CashBalance
 2026-08-08,0,0,0,0,0,500000.0,500000.0,0.0,0.0,,,0.0,{},[],[]
 2026-08-09,0,0,0,0,0,500000.0,500000.0,0.0,0.0,,,0.0,{},[],[]
 2026-08-11,0,0,1,1,0,180735.71,497454.13,-2309.87,-0.51,,,0.0,"{""Healthcare"": 23107.0, ""Consumer Cyclical"": 72487.55, ""Financial Services"": 108837.87, ""Basic Materials"": 51192.4, ""Technology"": 30267.699999999997, ""Industrials"": 19900.9, ""Consumer Defensive"": 10925.0}",[],[]
+2026-08-11,0,0,1,1,0,180735.71,497386.83,-2345.17,-0.52,,,0.0,"{""Healthcare"": 23062.2, ""Consumer Cyclical"": 72444.81, ""Financial Services"": 108785.56000000001, ""Basic Materials"": 51317.600000000006, ""Technology"": 30310.300000000003, ""Industrials"": 19875.8, ""Consumer Defensive"": 10854.85}",[],[]

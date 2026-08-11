@@ -8,6 +8,13 @@
     "portfolio_summary::2026-08-11::12:19:17.046213",
     "analysis_summary::2026-08-11::12:19:17.913761",
     "learning_summary::2026-08-11::12:19:19.578907",
-    "morning_exec::2026-08-11::12:31:33.831725"
+    "morning_exec::2026-08-11::12:31:33.831725",
+    "paper_trading_started::2026-08-11::12:32:16.407027",
+    "monitoring_summary::2026-08-11::12:32:43.610793",
+    "holding_status::2026-08-11::part1::12:32:44.182872",
+    "candidates_not_executed::2026-08-11::12:42:55.416809",
+    "portfolio_summary::2026-08-11::12:42:57.178155",
+    "analysis_summary::2026-08-11::12:42:58.072486",
+    "learning_summary::2026-08-11::12:42:59.929359"
   ]
 }
