@@ -5,6 +5,10 @@ on:
     - cron: "46 3 * * *"  # 9:16 AM IST — right after NSE market open (9:15 AM)
   workflow_dispatch:
 
+concurrency:
+  group: repo-write-lock
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
