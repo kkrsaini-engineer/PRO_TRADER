@@ -1,7 +1,7 @@
 {
   "total_capital": 500000.0,
-  "available_capital": 259289.12664489745,
-  "used_capital": 240703.92274475098,
+  "available_capital": 204275.6769378662,
+  "used_capital": 295717.3724517822,
   "total_pnl": -243.84296447754417,
   "total_pnl_percent": -0.04876859289550883,
   "exposure": 0.48140784548950194,
@@ -246,6 +246,86 @@
       "max_drawdown_percent": 0.836635843240863,
       "status": "OPEN",
       "updated_at": 1786506466.5077827
+    },
+    "HONASA.NS": {
+      "symbol": "HONASA.NS",
+      "quantity": 27,
+      "entry_price": 467.45001220703125,
+      "current_price": 467.45001220703125,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 467.45001220703125,
+      "lowest_price": 467.45001220703125,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1786524264.197336
+    },
+    "KEC.NS": {
+      "symbol": "KEC.NS",
+      "quantity": 27,
+      "entry_price": 450.79998779296875,
+      "current_price": 450.79998779296875,
+      "direction": "SELL",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 450.79998779296875,
+      "lowest_price": 450.79998779296875,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1786524264.48152
+    },
+    "LLOYDSME.NS": {
+      "symbol": "LLOYDSME.NS",
+      "quantity": 5,
+      "entry_price": 1976.5,
+      "current_price": 1976.5,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 1976.5,
+      "lowest_price": 1976.5,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1786524265.2980704
+    },
+    "ANTHEM.NS": {
+      "symbol": "ANTHEM.NS",
+      "quantity": 12,
+      "entry_price": 898.0,
+      "current_price": 898.0,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 898.0,
+      "lowest_price": 898.0,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1786524266.9054365
+    },
+    "PAYTM.NS": {
+      "symbol": "PAYTM.NS",
+      "quantity": 6,
+      "entry_price": 1593.699951171875,
+      "current_price": 1593.699951171875,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 1593.699951171875,
+      "lowest_price": 1593.699951171875,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1786524267.126705
     }
   },
   "closed_positions": [
@@ -352,5 +432,5 @@
     "TITAN.NS": "Consumer Cyclical",
     "HONASA.NS": "Consumer Defensive"
   },
-  "saved_at": 1786506475.999756
+  "saved_at": 1786524267.374307
 }
