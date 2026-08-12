@@ -39,7 +39,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: >
-          python scripts/watchdog_workflow.py
+          PYTHONPATH=. python scripts/watchdog_workflow.py
           --workflow-file daily_scan.yml
           --scheduled-hour-utc 15 --scheduled-minute-utc 0
           --max-delay-minutes 20 --label "Daily Scan"
@@ -51,7 +51,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: >
-          python scripts/watchdog_workflow.py
+          PYTHONPATH=. python scripts/watchdog_workflow.py
           --workflow-file morning_executor.yml
           --scheduled-hour-utc 3 --scheduled-minute-utc 46
           --max-delay-minutes 4 --label "Morning Executor"
