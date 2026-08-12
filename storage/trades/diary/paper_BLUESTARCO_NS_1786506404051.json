@@ -1,0 +1,24 @@
+{
+  "trade_id": "paper_BLUESTARCO_NS_1786506404051",
+  "symbol": "BLUESTARCO.NS",
+  "direction": "SELL",
+  "entry_date": "2026-08-12",
+  "entry_price": 1497.9000244140625,
+  "buy_probability": 0.0,
+  "buy_confidence": 0.0,
+  "entry_reasons": [
+    "Morning Executor: gap +0.00% (0.00x ATR, NORMAL band)",
+    "No NEW overnight news since last night's scan."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1786506404.0519767,
+  "updated_at": 1786506404.051977
+}
