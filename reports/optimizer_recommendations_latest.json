@@ -31,7 +31,7 @@
   },
   {
     "category": "BUY ACCURACY",
-    "finding": "4 trades, 25.0% win rate.",
+    "finding": "7 trades, 28.57% win rate.",
     "suggestion": "Sample too small to recommend a threshold change yet.",
     "confidence": "LOW"
   },
