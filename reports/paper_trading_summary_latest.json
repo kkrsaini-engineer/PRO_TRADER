@@ -1,25 +1,29 @@
 {
-  "date": "2026-08-12",
-  "opening_balance": 204275.6769378662,
-  "total_capital_in_positions": 263424.7,
-  "remaining_balance": 233655.28458374023,
-  "portfolio_value": 497079.98458374024,
-  "realized_pnl": -2158.3233306884795,
-  "portfolio_return_percent": -0.5840030832519522,
+  "date": "2026-08-13",
+  "opening_balance": 233655.28458374023,
+  "total_capital_in_positions": 210918.34999999998,
+  "remaining_balance": 283491.88326538086,
+  "portfolio_value": 494410.23326538084,
+  "realized_pnl": -4021.793330688478,
+  "portfolio_return_percent": -1.1179533469238319,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "ANTHEM.NS",
-      "pnl": -234.0
+      "symbol": "KEC.NS",
+      "pnl": 152.54967041015686
     },
     {
-      "symbol": "LLOYDSME.NS",
-      "pnl": -426.0000000000002
+      "symbol": "MRPL.NS",
+      "pnl": -775.5905657958976
     },
     {
-      "symbol": "PAYTM.NS",
-      "pnl": 55.80029296875
+      "symbol": "JSWSTEEL.NS",
+      "pnl": -164.80019531250036
+    },
+    {
+      "symbol": "ASIANPAINT.NS",
+      "pnl": -21.599804687499272
     }
   ],
-  "open_positions_now": 17
+  "open_positions_now": 13
 }
