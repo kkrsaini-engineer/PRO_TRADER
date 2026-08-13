@@ -1,29 +1,17 @@
 {
   "date": "2026-08-13",
-  "opening_balance": 233655.28458374023,
-  "total_capital_in_positions": 210918.34999999998,
-  "remaining_balance": 283491.88326538086,
-  "portfolio_value": 494410.23326538084,
-  "realized_pnl": -4021.793330688478,
-  "portfolio_return_percent": -1.1179533469238319,
+  "opening_balance": 283491.88326538086,
+  "total_capital_in_positions": 201118.89999999997,
+  "remaining_balance": 292556.0541607666,
+  "portfolio_value": 493674.95416076656,
+  "realized_pnl": -3911.043330688475,
+  "portfolio_return_percent": -1.265009167846688,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "KEC.NS",
-      "pnl": 152.54967041015686
-    },
-    {
-      "symbol": "MRPL.NS",
-      "pnl": -775.5905657958976
-    },
-    {
-      "symbol": "JSWSTEEL.NS",
-      "pnl": -164.80019531250036
-    },
-    {
-      "symbol": "ASIANPAINT.NS",
-      "pnl": -21.599804687499272
+      "symbol": "TITAN.NS",
+      "pnl": -137.79999999999927
     }
   ],
-  "open_positions_now": 13
+  "open_positions_now": 12
 }

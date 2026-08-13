@@ -1,50 +1,56 @@
 [
   {
     "category": "TECHNICAL",
-    "finding": "High-Tier2-score trades win 44.44% vs 0.0% for low-Tier2-score trades (+44.4pp).",
+    "finding": "High-Tier2-score trades win 40.0% vs 0.0% for low-Tier2-score trades (+40.0pp).",
     "suggestion": "Technical (Tier 2) weight looks well-calibrated.",
     "confidence": "MEDIUM"
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'adx': passing this rule wins 25.0% vs 50.0% when it fails (-25.0pp) \u2014 backwards.",
+    "finding": "'adx': passing this rule wins 22.22% vs 50.0% when it fails (-27.8pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "MEDIUM"
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'fundamental': passing this rule wins 0.0% vs 36.36% when it fails (-36.4pp) \u2014 backwards.",
+    "finding": "'fundamental': passing this rule wins 0.0% vs 33.33% when it fails (-33.3pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "MEDIUM"
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'market_score': passing this rule wins 20.0% vs 100.0% when it fails (-80.0pp) \u2014 backwards.",
+    "finding": "'market_score': passing this rule wins 18.18% vs 100.0% when it fails (-81.8pp) \u2014 backwards.",
+    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
+    "confidence": "MEDIUM"
+  },
+  {
+    "category": "RULE (weak/backwards)",
+    "finding": "'mfi': passing this rule wins 28.57% vs 33.33% when it fails (-4.8pp) \u2014 backwards.",
+    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
+    "confidence": "MEDIUM"
+  },
+  {
+    "category": "RULE (weak/backwards)",
+    "finding": "'news': passing this rule wins 20.0% vs 66.67% when it fails (-46.7pp) \u2014 backwards.",
+    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
+    "confidence": "MEDIUM"
+  },
+  {
+    "category": "RULE (weak/backwards)",
+    "finding": "'obv': passing this rule wins 18.18% vs 100.0% when it fails (-81.8pp) \u2014 backwards.",
+    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
+    "confidence": "MEDIUM"
+  },
+  {
+    "category": "RULE (weak/backwards)",
+    "finding": "'pullback': passing this rule wins 0.0% vs 20.0% when it fails (-20.0pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "MEDIUM"
   },
   {
     "category": "RULE (weak)",
-    "finding": "'mfi': only +0.0pp win-rate difference between passing and failing.",
+    "finding": "'volume': only +4.8pp win-rate difference between passing and failing.",
     "suggestion": "Weak predictive value \u2014 candidate for removal or re-weighting.",
-    "confidence": "MEDIUM"
-  },
-  {
-    "category": "RULE (weak/backwards)",
-    "finding": "'news': passing this rule wins 22.22% vs 66.67% when it fails (-44.5pp) \u2014 backwards.",
-    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
-    "confidence": "MEDIUM"
-  },
-  {
-    "category": "RULE (weak/backwards)",
-    "finding": "'obv': passing this rule wins 20.0% vs 100.0% when it fails (-80.0pp) \u2014 backwards.",
-    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
-    "confidence": "MEDIUM"
-  },
-  {
-    "category": "RULE (weak/backwards)",
-    "finding": "'pullback': passing this rule wins 0.0% vs 22.22% when it fails (-22.2pp) \u2014 backwards.",
-    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "MEDIUM"
   },
   {
@@ -79,13 +85,13 @@
   },
   {
     "category": "REGIME",
-    "finding": "BULL regime: 20.0% win rate over 10 trades.",
+    "finding": "BULL regime: 18.18% win rate over 11 trades.",
     "suggestion": "Feed this into Phase 3's Dynamic Regime Weights once sample size is HIGH confidence.",
     "confidence": "MEDIUM"
   },
   {
     "category": "BUY ACCURACY",
-    "finding": "10 trades, 20.0% win rate.",
+    "finding": "11 trades, 18.18% win rate.",
     "suggestion": "Below 45% with a decent sample would suggest the qualify threshold is too loose for this side; above 65% may mean it's too strict and missing volume.",
     "confidence": "MEDIUM"
   },
