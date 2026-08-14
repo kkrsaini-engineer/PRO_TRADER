@@ -9,6 +9,15 @@
     "portfolio_summary::2026-08-14::09:17:56.934363",
     "analysis_summary::2026-08-14::09:17:57.782244",
     "learning_summary::2026-08-14::09:17:59.699072",
-    "optimizer_recommendation::2026-08-14::09:18:00.522788"
+    "optimizer_recommendation::2026-08-14::09:18:00.522788",
+    "paper_trading_started::2026-08-14::14:10:57.267575",
+    "monitoring_summary::2026-08-14::14:11:14.700475",
+    "holding_status::2026-08-14::part1::14:11:15.226459",
+    "holding_status::2026-08-14::part2::14:11:15.774166",
+    "holding_status::2026-08-14::part3::14:11:16.309141",
+    "portfolio_summary::2026-08-14::14:11:16.853131",
+    "analysis_summary::2026-08-14::14:11:17.703450",
+    "learning_summary::2026-08-14::14:11:19.658496",
+    "optimizer_recommendation::2026-08-14::14:11:20.575487"
   ]
 }

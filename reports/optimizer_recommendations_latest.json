@@ -1,7 +1,7 @@
 [
   {
     "category": "NEWS",
-    "finding": "News-present trades win 100.0% vs 0.0% without news (+100.0pp).",
+    "finding": "News-present trades win 50.0% vs 0.0% without news (+50.0pp).",
     "suggestion": "Consider increasing the news weight in Tier 3 \u2014 it appears to carry real signal.",
     "confidence": "MEDIUM"
   },
@@ -36,8 +36,14 @@
     "confidence": "HIGH"
   },
   {
+    "category": "BUY ACCURACY",
+    "finding": "1 trades, 0.0% win rate.",
+    "suggestion": "Sample too small to recommend a threshold change yet.",
+    "confidence": "LOW"
+  },
+  {
     "category": "SELL ACCURACY",
-    "finding": "2 trades, 50.0% win rate.",
+    "finding": "4 trades, 50.0% win rate.",
     "suggestion": "Sample too small to recommend a threshold change yet.",
     "confidence": "LOW"
   }
