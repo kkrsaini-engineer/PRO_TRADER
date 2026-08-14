@@ -1,0 +1,24 @@
+{
+  "trade_id": "paper_GPIL_NS_1786679209060",
+  "symbol": "GPIL.NS",
+  "direction": "SELL",
+  "entry_date": "2026-08-14",
+  "entry_price": 241.6300048828125,
+  "buy_probability": 0.0,
+  "buy_confidence": 0.0,
+  "entry_reasons": [
+    "Morning Executor: gap +5.52% (1.62x ATR, WARNING band)",
+    "No news available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1786679209.0602765,
+  "updated_at": 1786679209.0602765
+}
