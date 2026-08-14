@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-14",
+  "opening_balance": 215168.84854125977,
+  "total_capital_in_positions": 258816.28000000003,
+  "remaining_balance": 241183.9994104004,
+  "portfolio_value": 500000.2794104004,
+  "realized_pnl": 208.07941040038935,
+  "portfolio_return_percent": 5.588208008557558e-05,
+  "opened_today": [],
+  "closed_today": [
+    {
+      "symbol": "GPIL.NS",
+      "pnl": -82.31976074218761
+    },
+    {
+      "symbol": "KEC.NS",
+      "pnl": 14.400195312500728
+    }
+  ],
+  "open_positions_now": 15
+}

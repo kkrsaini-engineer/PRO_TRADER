@@ -10,15 +10,28 @@
     "Morning Executor: gap +3.46% (1.01x ATR, WARNING band)",
     "No NEW overnight news since last night's scan."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-08-14",
+      "current_price": 936.9,
+      "current_pnl": 59.800000000000296,
+      "current_buy_confidence": 36.22,
+      "current_sell_confidence": 61.05,
+      "current_exit_score": 18.62,
+      "recommendation": "HOLD",
+      "notes": [
+        "Exit score 18.6/100 (threshold 60.0) -> HOLD."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1786679208.820107,
-  "updated_at": 1786679208.820107
+  "updated_at": 1786679273.4069097
 }
