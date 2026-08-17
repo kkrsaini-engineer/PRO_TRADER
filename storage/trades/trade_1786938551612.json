@@ -1,0 +1,18 @@
+{
+  "symbol": "HUDCO.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 45,
+  "entry_price": 189.60000610351562,
+  "exit_price": 187.63,
+  "status": "CLOSED",
+  "realized_pnl": 88.65027465820333,
+  "realized_pnl_percent": 1.0390327215707307,
+  "max_profit_percent": 1.0390327215707307,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 58.81,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1786938551612",
+  "timestamp": 1786938551.612195
+}

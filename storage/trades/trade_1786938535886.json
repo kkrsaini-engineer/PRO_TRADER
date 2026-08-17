@@ -1,0 +1,18 @@
+{
+  "symbol": "BERGEPAINT.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 15,
+  "entry_price": 549.0,
+  "exit_price": 548.55,
+  "status": "CLOSED",
+  "realized_pnl": -6.750000000000682,
+  "realized_pnl_percent": -0.08196721311476238,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.08196721311476238,
+  "regime": "BULL",
+  "confidence": 57.32,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1786938535886",
+  "timestamp": 1786938535.8868833
+}

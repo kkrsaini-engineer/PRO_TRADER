@@ -1,0 +1,18 @@
+{
+  "symbol": "360ONE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 11,
+  "entry_price": 1179.0,
+  "exit_price": 1152.0,
+  "status": "CLOSED",
+  "realized_pnl": -297.0,
+  "realized_pnl_percent": -2.2900763358778624,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 2.2900763358778624,
+  "regime": "BULL",
+  "confidence": 55.79,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1786938544521",
+  "timestamp": 1786938544.5217938
+}

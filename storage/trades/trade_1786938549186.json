@@ -1,0 +1,18 @@
+{
+  "symbol": "NSLNISP.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 221,
+  "entry_price": 43.0,
+  "exit_price": 41.4,
+  "status": "CLOSED",
+  "realized_pnl": -353.6000000000003,
+  "realized_pnl_percent": -3.720930232558143,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 3.720930232558143,
+  "regime": "SIDEWAYS",
+  "confidence": 51.76,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1786938549186",
+  "timestamp": 1786938549.1867442
+}

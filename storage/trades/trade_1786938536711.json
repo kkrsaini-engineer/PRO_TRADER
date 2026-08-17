@@ -1,0 +1,18 @@
+{
+  "symbol": "ELGIEQUIP.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 22,
+  "entry_price": 614.0,
+  "exit_price": 606.0,
+  "status": "CLOSED",
+  "realized_pnl": -176.0,
+  "realized_pnl_percent": -1.3029315960912053,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.3029315960912053,
+  "regime": "BULL",
+  "confidence": 69.12,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1786938536711",
+  "timestamp": 1786938536.7112432
+}
