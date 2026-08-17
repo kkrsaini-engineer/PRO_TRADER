@@ -1,0 +1,13 @@
+{
+  "id": "paper_NATIONALUM_NS_1786938492604",
+  "symbol": "NATIONALUM.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 27,
+  "entry_price": 377.8999938964844,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.51% (0.14x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1786938492.6051354
+}

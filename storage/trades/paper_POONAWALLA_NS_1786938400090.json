@@ -1,0 +1,13 @@
+{
+  "id": "paper_POONAWALLA_NS_1786938400090",
+  "symbol": "POONAWALLA.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 25,
+  "entry_price": 499.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.22% (0.07x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1786938400.091276
+}

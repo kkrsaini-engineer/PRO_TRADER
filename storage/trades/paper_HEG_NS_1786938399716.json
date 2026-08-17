@@ -1,0 +1,13 @@
+{
+  "id": "paper_HEG_NS_1786938399716",
+  "symbol": "HEG.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 19,
+  "entry_price": 704.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.43% (0.14x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1786938399.7164893
+}
