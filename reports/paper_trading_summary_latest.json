@@ -1,41 +1,25 @@
 {
-  "date": "2026-08-17",
-  "opening_balance": 135474.0383779907,
-  "total_capital_in_positions": 280028.17,
-  "remaining_balance": 217055.89919586183,
-  "portfolio_value": 497084.0691958618,
-  "realized_pnl": -2521.8896658325193,
-  "portfolio_return_percent": -0.5831861608276376,
+  "date": "2026-08-18",
+  "opening_balance": 217055.89919586183,
+  "total_capital_in_positions": 231891.87,
+  "remaining_balance": 265642.33018432616,
+  "portfolio_value": 497534.20018432615,
+  "realized_pnl": -2212.8296658325216,
+  "portfolio_return_percent": -0.4931599631347694,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "BERGEPAINT.NS",
-      "pnl": -6.750000000000682
+      "symbol": "JSWINFRA.NS",
+      "pnl": -422.79931640625
     },
     {
-      "symbol": "ELGIEQUIP.NS",
-      "pnl": -176.0
+      "symbol": "AARTIIND.NS",
+      "pnl": -492.800537109375
     },
     {
-      "symbol": "GLENMARK.NS",
-      "pnl": 15.600195312499636
-    },
-    {
-      "symbol": "360ONE.NS",
-      "pnl": -297.0
-    },
-    {
-      "symbol": "NSLNISP.NS",
-      "pnl": -353.6000000000003
-    },
-    {
-      "symbol": "HUDCO.NS",
-      "pnl": 88.65027465820333
-    },
-    {
-      "symbol": "BELRISE.NS",
-      "pnl": -989.5199487304676
+      "symbol": "HDFCAMC.NS",
+      "pnl": -132.59970703125055
     }
   ],
-  "open_positions_now": 20
+  "open_positions_now": 17
 }

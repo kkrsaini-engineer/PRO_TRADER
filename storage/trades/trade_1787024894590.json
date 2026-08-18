@@ -1,0 +1,18 @@
+{
+  "symbol": "HDFCAMC.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 3,
+  "entry_price": 2481.60009765625,
+  "exit_price": 2525.8,
+  "status": "CLOSED",
+  "realized_pnl": -132.59970703125055,
+  "realized_pnl_percent": -1.7811049566565873,
+  "max_profit_percent": 0.05641914898264654,
+  "max_drawdown_percent": 1.7811049566565873,
+  "regime": "BEAR",
+  "confidence": 53.75,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (65/100).",
+  "id": "trade_1787024894590",
+  "timestamp": 1787024894.590751
+}
