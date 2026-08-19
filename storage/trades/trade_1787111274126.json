@@ -1,0 +1,18 @@
+{
+  "symbol": "SBIN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 14,
+  "entry_price": 1082.0,
+  "exit_price": 1048.7,
+  "status": "CLOSED",
+  "realized_pnl": -466.19999999999936,
+  "realized_pnl_percent": -3.0776340110905687,
+  "max_profit_percent": 0.09242144177449169,
+  "max_drawdown_percent": 3.0776340110905687,
+  "regime": "BULL",
+  "confidence": 57.39,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787111274126",
+  "timestamp": 1787111274.1262794
+}

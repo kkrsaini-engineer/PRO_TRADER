@@ -46,3 +46,5 @@
 {"date": "2026-08-17", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 304.6}
 {"date": "2026-08-18", "symbol": "FINCABLES.NS", "direction": "BUY", "entry_price": 1320.85}
 {"date": "2026-08-18", "symbol": "FACT.NS", "direction": "SELL", "entry_price": 793.25}
+{"date": "2026-08-19", "symbol": "HEG.NS", "direction": "BUY", "entry_price": 739.25}
+{"date": "2026-08-19", "symbol": "COLPAL.NS", "direction": "SELL", "entry_price": 1903.0}

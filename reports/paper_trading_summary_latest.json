@@ -1,25 +1,33 @@
 {
-  "date": "2026-08-18",
-  "opening_balance": 217055.89919586183,
-  "total_capital_in_positions": 231891.87,
-  "remaining_balance": 265642.33018432616,
-  "portfolio_value": 497534.20018432615,
-  "realized_pnl": -2212.8296658325216,
-  "portfolio_return_percent": -0.4931599631347694,
+  "date": "2026-08-19",
+  "opening_balance": 119489.00064788817,
+  "total_capital_in_positions": 310225.36999999994,
+  "remaining_balance": 186728.40020843508,
+  "portfolio_value": 496953.770208435,
+  "realized_pnl": -3125.3181768798863,
+  "portfolio_return_percent": -0.6092459583129967,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "JSWINFRA.NS",
-      "pnl": -422.79931640625
+      "symbol": "IFCI.NS",
+      "pnl": 77.18974456787136
     },
     {
-      "symbol": "AARTIIND.NS",
-      "pnl": -492.800537109375
+      "symbol": "SBIN.NS",
+      "pnl": -466.19999999999936
     },
     {
-      "symbol": "HDFCAMC.NS",
-      "pnl": -132.59970703125055
+      "symbol": "MRPL.NS",
+      "pnl": -38.4999999999998
+    },
+    {
+      "symbol": "ARE&M.NS",
+      "pnl": -214.20000000000095
+    },
+    {
+      "symbol": "UNIONBANK.NS",
+      "pnl": -100.58017211914148
     }
   ],
-  "open_positions_now": 17
+  "open_positions_now": 29
 }

@@ -1,0 +1,18 @@
+{
+  "symbol": "IFCI.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 93,
+  "entry_price": 81.87000274658203,
+  "exit_price": 82.7,
+  "status": "CLOSED",
+  "realized_pnl": 77.18974456787136,
+  "realized_pnl_percent": 1.0137989807904617,
+  "max_profit_percent": 1.0137989807904617,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 54.1,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (71/100).; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1787111262784",
+  "timestamp": 1787111262.7848473
+}

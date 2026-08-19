@@ -10,15 +10,35 @@
     "Morning Executor: gap +0.63% (0.18x ATR, NORMAL band)",
     "No news available."
   ],
-  "daily_log": [],
-  "status": "OPEN",
-  "exit_date": null,
-  "exit_price": null,
-  "exit_reason": null,
-  "holding_days": 0,
-  "max_profit_percent": 0.0,
+  "daily_log": [
+    {
+      "date": "2026-08-19",
+      "current_price": 82.7,
+      "current_pnl": 77.18974456787136,
+      "current_buy_confidence": 54.1,
+      "current_sell_confidence": 39.08,
+      "current_exit_score": 21.2,
+      "recommendation": "EXIT",
+      "notes": [
+        "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+        "Fundamentals have deteriorated for this BUY position (71/100).",
+        "No fresh news \u2014 news component does not contribute to the exit score."
+      ]
+    }
+  ],
+  "status": "CLOSED",
+  "exit_date": "2026-08-19",
+  "exit_price": 82.7,
+  "exit_reason": "Risk engine flagged this symbol as unsafe.",
+  "holding_days": 1,
+  "max_profit_percent": 1.0137989807904617,
   "max_drawdown_percent": 0.0,
-  "final_pnl": null,
+  "final_pnl": 77.18974456787136,
   "created_at": 1787111211.6025474,
-  "updated_at": 1787111211.6025476
+  "updated_at": 1787111262.7850828,
+  "final_pnl_percent": 1.0137989807904617,
+  "exit_score": 21.2,
+  "target1_status": "NOT REACHED",
+  "target2_status": "NOT REACHED",
+  "stop_loss_status": "NOT HIT"
 }
