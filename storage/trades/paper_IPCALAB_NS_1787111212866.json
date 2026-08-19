@@ -1,0 +1,13 @@
+{
+  "id": "paper_IPCALAB_NS_1787111212866",
+  "symbol": "IPCALAB.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 3,
+  "entry_price": 1882.0999755859375,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.00% (0.00x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787111212.8669493
+}

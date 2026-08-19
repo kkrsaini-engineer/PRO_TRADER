@@ -1,0 +1,13 @@
+{
+  "id": "paper_IFCI_NS_1787111211602",
+  "symbol": "IFCI.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 93,
+  "entry_price": 81.87000274658203,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.63% (0.18x ATR, NORMAL band); No news available.",
+  "timestamp": 1787111211.603035
+}

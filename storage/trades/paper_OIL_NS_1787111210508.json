@@ -1,0 +1,13 @@
+{
+  "id": "paper_OIL_NS_1787111210508",
+  "symbol": "OIL.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 18,
+  "entry_price": 485.79998779296875,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +1.10% (0.41x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787111210.508578
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_MINDACORP_NS_1787111212229",
+  "symbol": "MINDACORP.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 9,
+  "entry_price": 749.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.50% (0.13x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787111212.2301958
+}
