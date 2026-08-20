@@ -1,33 +1,21 @@
 {
-  "date": "2026-08-19",
-  "opening_balance": 119489.00064788817,
-  "total_capital_in_positions": 310225.36999999994,
-  "remaining_balance": 186728.40020843508,
-  "portfolio_value": 496953.770208435,
-  "realized_pnl": -3125.3181768798863,
-  "portfolio_return_percent": -0.6092459583129967,
+  "date": "2026-08-20",
+  "opening_balance": 186728.40020843508,
+  "total_capital_in_positions": 294926.27999999997,
+  "remaining_balance": 202143.60212493897,
+  "portfolio_value": 497069.88212493894,
+  "realized_pnl": -1948.1881768798846,
+  "portfolio_return_percent": -0.5860235750122113,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "IFCI.NS",
-      "pnl": 77.18974456787136
+      "symbol": "AEGISLOG.NS",
+      "pnl": -123.89982910156186
     },
     {
-      "symbol": "SBIN.NS",
-      "pnl": -466.19999999999936
-    },
-    {
-      "symbol": "MRPL.NS",
-      "pnl": -38.4999999999998
-    },
-    {
-      "symbol": "ARE&M.NS",
-      "pnl": -214.20000000000095
-    },
-    {
-      "symbol": "UNIONBANK.NS",
-      "pnl": -100.58017211914148
+      "symbol": "MCX.NS",
+      "pnl": -15.399999999999636
     }
   ],
-  "open_positions_now": 29
+  "open_positions_now": 27
 }

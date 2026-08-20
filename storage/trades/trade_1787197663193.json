@@ -1,0 +1,18 @@
+{
+  "symbol": "MCX.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 2,
+  "entry_price": 3060.0,
+  "exit_price": 3052.3,
+  "status": "CLOSED",
+  "realized_pnl": -15.399999999999636,
+  "realized_pnl_percent": -0.25163398692809863,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.8202614379084937,
+  "regime": "BULL",
+  "confidence": 61.85,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787197663193",
+  "timestamp": 1787197663.1931305
+}
