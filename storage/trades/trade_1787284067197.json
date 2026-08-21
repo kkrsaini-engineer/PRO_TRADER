@@ -1,0 +1,18 @@
+{
+  "symbol": "SHRIRAMFIN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 7,
+  "entry_price": 1116.0,
+  "exit_price": 1133.4,
+  "status": "CLOSED",
+  "realized_pnl": 121.80000000000064,
+  "realized_pnl_percent": 1.5591397849462447,
+  "max_profit_percent": 1.5591397849462447,
+  "max_drawdown_percent": 1.0304659498207887,
+  "regime": "BULL",
+  "confidence": 62.6,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787284067197",
+  "timestamp": 1787284067.1976924
+}

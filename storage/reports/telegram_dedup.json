@@ -1,5 +1,15 @@
 {
   "2026-08-21": [
-    "morning_exec::2026-08-21::09:16:53.564955"
+    "morning_exec::2026-08-21::09:16:53.564955",
+    "paper_trading_started::2026-08-21::09:17:32.238159",
+    "monitoring_summary::2026-08-21::09:17:58.011700",
+    "holding_status::2026-08-21::part1::09:17:58.530632",
+    "holding_status::2026-08-21::part2::09:17:59.028011",
+    "holding_status::2026-08-21::part3::09:17:59.524904",
+    "holding_status::2026-08-21::part4::09:18:00.050126",
+    "portfolio_summary::2026-08-21::09:18:00.581862",
+    "analysis_summary::2026-08-21::09:18:01.572758",
+    "learning_summary::2026-08-21::09:18:03.333995",
+    "optimizer_recommendation::2026-08-21::09:18:04.067308"
   ]
 }

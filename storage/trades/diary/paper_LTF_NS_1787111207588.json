@@ -35,16 +35,34 @@
         "Technical trend reversing against the BUY position (60/100).",
         "Exit score 42.9/100 (threshold 60.0) -> HOLD."
       ]
+    },
+    {
+      "date": "2026-08-21",
+      "current_price": 315.55,
+      "current_pnl": -457.99999999999955,
+      "current_buy_confidence": 56.8,
+      "current_sell_confidence": 35.02,
+      "current_exit_score": 44.6,
+      "recommendation": "EXIT",
+      "notes": [
+        "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+        "Technical trend reversing against the BUY position (60/100)."
+      ]
     }
   ],
-  "status": "OPEN",
-  "exit_date": null,
-  "exit_price": null,
-  "exit_reason": null,
-  "holding_days": 2,
+  "status": "CLOSED",
+  "exit_date": "2026-08-21",
+  "exit_price": 315.55,
+  "exit_reason": "Risk engine flagged this symbol as unsafe.",
+  "holding_days": 3,
   "max_profit_percent": 0.0,
-  "max_drawdown_percent": 0.0,
-  "final_pnl": null,
+  "max_drawdown_percent": 3.501529051987764,
+  "final_pnl": -457.99999999999955,
   "created_at": 1787111207.5887814,
-  "updated_at": 1787197654.760051
+  "updated_at": 1787284058.508151,
+  "final_pnl_percent": -3.501529051987764,
+  "exit_score": 44.6,
+  "target1_status": "NOT REACHED",
+  "target2_status": "NOT REACHED",
+  "stop_loss_status": "NOT HIT"
 }
