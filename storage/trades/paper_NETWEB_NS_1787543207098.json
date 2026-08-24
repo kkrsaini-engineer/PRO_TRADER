@@ -1,0 +1,13 @@
+{
+  "id": "paper_NETWEB_NS_1787543207098",
+  "symbol": "NETWEB.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 1,
+  "entry_price": 5600.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.02% (0.00x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787543207.0987523
+}

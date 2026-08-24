@@ -1,0 +1,13 @@
+{
+  "id": "paper_MCX_NS_1787543206765",
+  "symbol": "MCX.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 2,
+  "entry_price": 3200.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.47% (0.14x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787543206.7772949
+}

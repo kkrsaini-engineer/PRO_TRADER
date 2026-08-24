@@ -1,0 +1,13 @@
+{
+  "id": "paper_AMBUJACEM_NS_1787543207499",
+  "symbol": "AMBUJACEM.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 17,
+  "entry_price": 414.5,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.00% (0.00x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787543207.4997594
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_JINDALSAW_NS_1787543203729",
+  "symbol": "JINDALSAW.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 37,
+  "entry_price": 293.1000061035156,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.50% (0.16x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787543203.7304988
+}

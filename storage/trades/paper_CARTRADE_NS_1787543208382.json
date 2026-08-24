@@ -1,0 +1,13 @@
+{
+  "id": "paper_CARTRADE_NS_1787543208382",
+  "symbol": "CARTRADE.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 2,
+  "entry_price": 3073.199951171875,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.01% (0.00x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787543208.3826723
+}

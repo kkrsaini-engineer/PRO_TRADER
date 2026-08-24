@@ -1,0 +1,13 @@
+{
+  "id": "paper_NAM-INDIA_NS_1787543204633",
+  "symbol": "NAM-INDIA.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 7,
+  "entry_price": 1254.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.24% (0.09x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787543204.6344624
+}

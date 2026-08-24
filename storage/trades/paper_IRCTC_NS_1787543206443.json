@@ -1,0 +1,13 @@
+{
+  "id": "paper_IRCTC_NS_1787543206443",
+  "symbol": "IRCTC.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 17,
+  "entry_price": 484.20001220703125,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.00% (0.00x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787543206.4444814
+}
