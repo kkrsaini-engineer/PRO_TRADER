@@ -1,0 +1,18 @@
+{
+  "symbol": "POONAWALLA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 25,
+  "entry_price": 499.0,
+  "exit_price": 492.3,
+  "status": "CLOSED",
+  "realized_pnl": -167.49999999999972,
+  "realized_pnl_percent": -1.3426853707414805,
+  "max_profit_percent": 0.4008016032064128,
+  "max_drawdown_percent": 1.3426853707414805,
+  "regime": "BULL",
+  "confidence": 57.95,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787543248978",
+  "timestamp": 1787543248.9788005
+}

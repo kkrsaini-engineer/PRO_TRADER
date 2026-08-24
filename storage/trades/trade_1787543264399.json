@@ -1,0 +1,18 @@
+{
+  "symbol": "AMBUJACEM.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 17,
+  "entry_price": 414.5,
+  "exit_price": 414.15,
+  "status": "CLOSED",
+  "realized_pnl": 5.9500000000003865,
+  "realized_pnl_percent": 0.0844390832328161,
+  "max_profit_percent": 0.0844390832328161,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 56.3,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (72/100).",
+  "id": "trade_1787543264399",
+  "timestamp": 1787543264.3994682
+}

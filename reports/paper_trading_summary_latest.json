@@ -1,29 +1,53 @@
 {
-  "date": "2026-08-21",
-  "opening_balance": 202143.60212493897,
-  "total_capital_in_positions": 254234.97999999998,
-  "remaining_balance": 245074.16266204836,
-  "portfolio_value": 499309.14266204834,
-  "realized_pnl": -2351.638176879882,
-  "portfolio_return_percent": -0.13817146759033203,
+  "date": "2026-08-24",
+  "opening_balance": 124535.66214324953,
+  "total_capital_in_positions": 266402.88,
+  "remaining_balance": 233574.22190338135,
+  "portfolio_value": 499977.10190338135,
+  "realized_pnl": -1121.2582806396504,
+  "portfolio_return_percent": -0.004579619323730003,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "LTF.NS",
-      "pnl": -457.99999999999955
+      "symbol": "CESC.NS",
+      "pnl": -36.0799999999997
     },
     {
-      "symbol": "FIRSTCRY.NS",
-      "pnl": 307.4003540039056
+      "symbol": "MINDACORP.NS",
+      "pnl": -187.1999999999996
     },
     {
-      "symbol": "SHRIRAMFIN.NS",
-      "pnl": 121.80000000000064
+      "symbol": "POONAWALLA.NS",
+      "pnl": -167.49999999999972
     },
     {
-      "symbol": "WELSPUNLIV.NS",
-      "pnl": 483.62999999999965
+      "symbol": "HAL.NS",
+      "pnl": 105.0
+    },
+    {
+      "symbol": "ACE.NS",
+      "pnl": -50.99951171875091
+    },
+    {
+      "symbol": "KEC.NS",
+      "pnl": -223.59984130859345
+    },
+    {
+      "symbol": "NBCC.NS",
+      "pnl": 23.309898376464844
+    },
+    {
+      "symbol": "PIDILITIND.NS",
+      "pnl": -594.9996582031263
+    },
+    {
+      "symbol": "AMBUJACEM.NS",
+      "pnl": 5.9500000000003865
+    },
+    {
+      "symbol": "AUROPHARMA.NS",
+      "pnl": -87.99990234375036
     }
   ],
-  "open_positions_now": 23
+  "open_positions_now": 27
 }

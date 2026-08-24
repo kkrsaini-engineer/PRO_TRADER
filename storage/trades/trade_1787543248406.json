@@ -1,0 +1,18 @@
+{
+  "symbol": "MINDACORP.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 749.0,
+  "exit_price": 728.2,
+  "status": "CLOSED",
+  "realized_pnl": -187.1999999999996,
+  "realized_pnl_percent": -2.7770360480640797,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 2.7770360480640797,
+  "regime": "BULL",
+  "confidence": 52.61,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787543248406",
+  "timestamp": 1787543248.4066868
+}

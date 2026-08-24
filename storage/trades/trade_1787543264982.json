@@ -1,0 +1,18 @@
+{
+  "symbol": "AUROPHARMA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 1630.5999755859375,
+  "exit_price": 1608.6,
+  "status": "CLOSED",
+  "realized_pnl": -87.99990234375036,
+  "realized_pnl_percent": -1.3491951376996771,
+  "max_profit_percent": 0.7604577823942805,
+  "max_drawdown_percent": 1.3491951376996771,
+  "regime": "BULL",
+  "confidence": 53.37,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787543264982",
+  "timestamp": 1787543264.9828906
+}

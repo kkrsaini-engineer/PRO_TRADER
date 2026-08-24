@@ -1,0 +1,18 @@
+{
+  "symbol": "PIDILITIND.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 14,
+  "entry_price": 1690.0999755859375,
+  "exit_price": 1647.6,
+  "status": "CLOSED",
+  "realized_pnl": -594.9996582031263,
+  "realized_pnl_percent": -2.5146426956904344,
+  "max_profit_percent": 0.8579388570806543,
+  "max_drawdown_percent": 2.5146426956904344,
+  "regime": "BULL",
+  "confidence": 50.25,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787543262086",
+  "timestamp": 1787543262.086495
+}
