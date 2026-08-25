@@ -1,0 +1,18 @@
+{
+  "symbol": "NETWEB.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 1,
+  "entry_price": 5600.0,
+  "exit_price": 5385.0,
+  "status": "CLOSED",
+  "realized_pnl": -215.0,
+  "realized_pnl_percent": -3.8392857142857144,
+  "max_profit_percent": 2.8821428571428505,
+  "max_drawdown_percent": 3.8392857142857144,
+  "regime": "BULL",
+  "confidence": 57.32,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787629677635",
+  "timestamp": 1787629677.6352866
+}

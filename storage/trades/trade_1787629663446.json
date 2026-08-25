@@ -1,0 +1,18 @@
+{
+  "symbol": "ACMESOLAR.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 26,
+  "entry_price": 400.0,
+  "exit_price": 400.5,
+  "status": "CLOSED",
+  "realized_pnl": 13.0,
+  "realized_pnl_percent": 0.125,
+  "max_profit_percent": 0.2750000000000057,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 57.39,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787629663446",
+  "timestamp": 1787629663.4465249
+}

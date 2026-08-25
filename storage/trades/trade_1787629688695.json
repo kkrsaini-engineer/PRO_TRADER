@@ -1,0 +1,18 @@
+{
+  "symbol": "BALRAMCHIN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 12,
+  "entry_price": 686.5499877929688,
+  "exit_price": 680.0,
+  "status": "CLOSED",
+  "realized_pnl": -78.599853515625,
+  "realized_pnl_percent": -0.954043829208241,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.954043829208241,
+  "regime": "BULL",
+  "confidence": 51.05,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).",
+  "id": "trade_1787629688695",
+  "timestamp": 1787629688.69527
+}

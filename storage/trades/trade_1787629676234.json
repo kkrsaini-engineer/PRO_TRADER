@@ -1,0 +1,18 @@
+{
+  "symbol": "DATAPATTNS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 1,
+  "entry_price": 4755.0,
+  "exit_price": 4632.6,
+  "status": "CLOSED",
+  "realized_pnl": -122.39999999999964,
+  "realized_pnl_percent": -2.574132492113557,
+  "max_profit_percent": 2.4353312302839156,
+  "max_drawdown_percent": 2.574132492113557,
+  "regime": "BULL",
+  "confidence": 56.56,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787629676234",
+  "timestamp": 1787629676.234111
+}
