@@ -1,0 +1,13 @@
+{
+  "id": "paper_CHAMBLFERT_NS_1787716010255",
+  "symbol": "CHAMBLFERT.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 15,
+  "entry_price": 428.8999938964844,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.30% (0.16x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787716010.2559755
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_LT_NS_1787716008152",
+  "symbol": "LT.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 1,
+  "entry_price": 4114.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.12% (0.10x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787716008.153115
+}

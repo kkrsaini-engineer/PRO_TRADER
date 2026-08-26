@@ -1,0 +1,13 @@
+{
+  "id": "paper_PAYTM_NS_1787716006895",
+  "symbol": "PAYTM.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 4,
+  "entry_price": 1713.0999755859375,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.29% (0.09x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787716006.8959427
+}
