@@ -56,3 +56,5 @@
 {"date": "2026-08-24", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 303.85}
 {"date": "2026-08-25", "symbol": "AUBANK.NS", "direction": "BUY", "entry_price": 1114.0}
 {"date": "2026-08-25", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 279.0}
+{"date": "2026-08-26", "symbol": "AUBANK.NS", "direction": "BUY", "entry_price": 1128.6}
+{"date": "2026-08-26", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 299.4}

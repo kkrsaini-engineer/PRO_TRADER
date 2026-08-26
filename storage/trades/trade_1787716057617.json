@@ -1,0 +1,18 @@
+{
+  "symbol": "HFCL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 40,
+  "entry_price": 239.6999969482422,
+  "exit_price": 238.7,
+  "status": "CLOSED",
+  "realized_pnl": -39.999877929687955,
+  "realized_pnl_percent": -0.4171868840107351,
+  "max_profit_percent": 0.8510651137798364,
+  "max_drawdown_percent": 0.4171868840107351,
+  "regime": "BULL",
+  "confidence": 57.36,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (68/100).",
+  "id": "trade_1787716057617",
+  "timestamp": 1787716057.617852
+}

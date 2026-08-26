@@ -1,0 +1,18 @@
+{
+  "symbol": "GRASIM.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 5,
+  "entry_price": 3264.800048828125,
+  "exit_price": 3275.3,
+  "status": "CLOSED",
+  "realized_pnl": 52.49975585937591,
+  "realized_pnl_percent": 0.3216108495111074,
+  "max_profit_percent": 1.1057323766223568,
+  "max_drawdown_percent": 1.065916696509981,
+  "regime": "BULL",
+  "confidence": 56.96,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787716049901",
+  "timestamp": 1787716049.9016657
+}

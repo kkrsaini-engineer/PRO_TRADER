@@ -1,0 +1,18 @@
+{
+  "symbol": "FIRSTCRY.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 47,
+  "entry_price": 194.77000427246094,
+  "exit_price": 193.3,
+  "status": "CLOSED",
+  "realized_pnl": 69.09020080566353,
+  "realized_pnl_percent": 0.7547385327386236,
+  "max_profit_percent": 0.7547385327386236,
+  "max_drawdown_percent": 0.061608936133301394,
+  "regime": "BEAR",
+  "confidence": 57.66,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (72/100).",
+  "id": "trade_1787716055996",
+  "timestamp": 1787716055.9968827
+}

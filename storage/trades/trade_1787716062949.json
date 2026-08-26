@@ -1,0 +1,18 @@
+{
+  "symbol": "CHAMBLFERT.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 15,
+  "entry_price": 428.8999938964844,
+  "exit_price": 428.65,
+  "status": "CLOSED",
+  "realized_pnl": 3.749908447265966,
+  "realized_pnl_percent": 0.0582872231387194,
+  "max_profit_percent": 0.0582872231387194,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 67.51,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787716062949",
+  "timestamp": 1787716062.9490209
+}

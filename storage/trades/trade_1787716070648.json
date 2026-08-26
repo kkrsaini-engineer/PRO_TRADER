@@ -1,0 +1,18 @@
+{
+  "symbol": "CARTRADE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 2,
+  "entry_price": 3073.199951171875,
+  "exit_price": 3114.3,
+  "status": "CLOSED",
+  "realized_pnl": 82.20009765625036,
+  "realized_pnl_percent": 1.3373698256259856,
+  "max_profit_percent": 1.3373698256259856,
+  "max_drawdown_percent": 0.917608734216001,
+  "regime": "BULL",
+  "confidence": 68.14,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787716070648",
+  "timestamp": 1787716070.6482103
+}

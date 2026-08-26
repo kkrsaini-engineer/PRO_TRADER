@@ -1,0 +1,18 @@
+{
+  "symbol": "LICHSGFIN.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 16,
+  "entry_price": 490.0,
+  "exit_price": 507.5,
+  "status": "CLOSED",
+  "realized_pnl": -280.0,
+  "realized_pnl_percent": -3.571428571428571,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 3.571428571428571,
+  "regime": "BEAR",
+  "confidence": 46.79,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (65/100).",
+  "id": "trade_1787716051715",
+  "timestamp": 1787716051.71588
+}

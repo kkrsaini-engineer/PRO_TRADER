@@ -1,0 +1,18 @@
+{
+  "symbol": "GLENMARK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 3,
+  "entry_price": 2392.199951171875,
+  "exit_price": 2415.3,
+  "status": "CLOSED",
+  "realized_pnl": 69.30014648437555,
+  "realized_pnl_percent": 0.965640385403782,
+  "max_profit_percent": 0.965640385403782,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 71.7,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787716068127",
+  "timestamp": 1787716068.1270738
+}
