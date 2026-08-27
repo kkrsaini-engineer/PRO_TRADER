@@ -1,0 +1,24 @@
+{
+  "trade_id": "paper_GLENMARK_NS_1787802402347",
+  "symbol": "GLENMARK.NS",
+  "direction": "BUY",
+  "entry_date": "2026-08-27",
+  "entry_price": 2455.0,
+  "buy_probability": 0.0,
+  "buy_confidence": 0.0,
+  "entry_reasons": [
+    "Morning Executor: gap +2.29% (1.06x ATR, WARNING band)",
+    "No NEW overnight news since last night's scan."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1787802402.3479626,
+  "updated_at": 1787802402.3479626
+}

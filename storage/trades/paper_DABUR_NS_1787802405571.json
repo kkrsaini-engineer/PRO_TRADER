@@ -1,0 +1,13 @@
+{
+  "id": "paper_DABUR_NS_1787802405571",
+  "symbol": "DABUR.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 27,
+  "entry_price": 393.5,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.39% (0.32x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1787802405.5723276
+}
