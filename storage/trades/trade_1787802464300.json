@@ -1,0 +1,18 @@
+{
+  "symbol": "LT.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 1,
+  "entry_price": 4114.0,
+  "exit_price": 4034.6,
+  "status": "CLOSED",
+  "realized_pnl": -79.40000000000009,
+  "realized_pnl_percent": -1.9299951385512906,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.9299951385512906,
+  "regime": "BULL",
+  "confidence": 51.01,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787802464300",
+  "timestamp": 1787802464.3002632
+}

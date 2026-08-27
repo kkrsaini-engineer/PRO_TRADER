@@ -1,65 +1,53 @@
 {
-  "date": "2026-08-26",
-  "opening_balance": 129653.41137725831,
-  "total_capital_in_positions": 256815.2,
-  "remaining_balance": 244012.26046020509,
-  "portfolio_value": 500827.4604602051,
-  "realized_pnl": -1806.8480825805666,
-  "portfolio_return_percent": 0.16549209204101933,
+  "date": "2026-08-27",
+  "opening_balance": 183144.60146362305,
+  "total_capital_in_positions": 232573.78999999998,
+  "remaining_balance": 269243.89995025634,
+  "portfolio_value": 501817.6899502563,
+  "realized_pnl": 729.3309140014653,
+  "portfolio_return_percent": 0.36353799005126347,
   "opened_today": [],
   "closed_today": [
     {
+      "symbol": "MSUMI.NS",
+      "pnl": 34.83950927734398
+    },
+    {
       "symbol": "GRASIM.NS",
-      "pnl": 52.49975585937591
-    },
-    {
-      "symbol": "LICHSGFIN.NS",
-      "pnl": -280.0
-    },
-    {
-      "symbol": "BLUESTARCO.NS",
-      "pnl": 33.59999999999968
-    },
-    {
-      "symbol": "FIRSTCRY.NS",
-      "pnl": 69.09020080566353
-    },
-    {
-      "symbol": "HFCL.NS",
-      "pnl": -39.999877929687955
-    },
-    {
-      "symbol": "DABUR.NS",
-      "pnl": 21.60010986328166
+      "pnl": -3.5999999999994543
     },
     {
       "symbol": "CHAMBLFERT.NS",
-      "pnl": 3.749908447265966
+      "pnl": 23.0997314453125
     },
     {
-      "symbol": "RVNL.NS",
-      "pnl": 36.47990234374993
+      "symbol": "ADANIENT.NS",
+      "pnl": 29.999902343750364
+    },
+    {
+      "symbol": "HONASA.NS",
+      "pnl": -437.7999999999995
+    },
+    {
+      "symbol": "CHENNPETRO.NS",
+      "pnl": -277.19999999999936
     },
     {
       "symbol": "GLENMARK.NS",
-      "pnl": 69.30014648437555
+      "pnl": 82.39999999999964
     },
     {
-      "symbol": "CARTRADE.NS",
-      "pnl": 82.20009765625036
+      "symbol": "LT.NS",
+      "pnl": -79.40000000000009
     },
     {
-      "symbol": "WELCORP.NS",
-      "pnl": 1952.0002441406245
+      "symbol": "PAYTM.NS",
+      "pnl": 31.60009765625
     },
     {
-      "symbol": "MSUMI.NS",
-      "pnl": 101.48969635009698
-    },
-    {
-      "symbol": "OIL.NS",
-      "pnl": -429.2997802734377
+      "symbol": "DABUR.NS",
+      "pnl": -20.25
     }
   ],
-  "open_positions_now": 27
+  "open_positions_now": 23
 }

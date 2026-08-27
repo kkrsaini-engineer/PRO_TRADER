@@ -1,0 +1,18 @@
+{
+  "symbol": "CHENNPETRO.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 7,
+  "entry_price": 1429.0,
+  "exit_price": 1389.4,
+  "status": "CLOSED",
+  "realized_pnl": -277.19999999999936,
+  "realized_pnl_percent": -2.771168649405172,
+  "max_profit_percent": 0.32190342897130225,
+  "max_drawdown_percent": 2.771168649405172,
+  "regime": "BULL",
+  "confidence": 56.35,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787802461231",
+  "timestamp": 1787802461.2311935
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "PAYTM.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 1713.0999755859375,
+  "exit_price": 1721.0,
+  "status": "CLOSED",
+  "realized_pnl": 31.60009765625,
+  "realized_pnl_percent": 0.46115372871687926,
+  "max_profit_percent": 0.46115372871687926,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 59.0,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787802466131",
+  "timestamp": 1787802466.1310942
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "DABUR.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 27,
+  "entry_price": 393.5,
+  "exit_price": 394.25,
+  "status": "CLOSED",
+  "realized_pnl": -20.25,
+  "realized_pnl_percent": -0.1905972045743329,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.1905972045743329,
+  "regime": "BEAR",
+  "confidence": 58.34,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (62/100).",
+  "id": "trade_1787802467092",
+  "timestamp": 1787802467.092021
+}
