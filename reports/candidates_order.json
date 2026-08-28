@@ -1,18 +1,32 @@
 {
   "scan_date": "2026-08-28",
-  "scan_timestamp": "2026-08-28T06:31:43.346226+00:00",
+  "scan_timestamp": "2026-08-29T03:28:54.532278+00:00",
   "candidates": [
     {
       "symbol": "JSWSTEEL.NS",
       "direction": "BUY",
-      "prev_close": 1341.0,
-      "atr_14": 23.94,
+      "prev_close": 1337.5,
+      "atr_14": 23.91,
       "atr_percent": null,
-      "stop_loss": 1293.12,
-      "target1": 1388.88,
-      "target2": 1424.79,
-      "overall_score": 77.4,
-      "ranking": 85.67,
+      "stop_loss": 1289.68,
+      "target1": 1385.32,
+      "target2": 1421.18,
+      "overall_score": 74.9,
+      "ranking": 83.62,
+      "sector": "Basic Materials",
+      "scan_date": "2026-08-28"
+    },
+    {
+      "symbol": "SHYAMMETL.NS",
+      "direction": "BUY",
+      "prev_close": 1042.4,
+      "atr_14": 23.71,
+      "atr_percent": null,
+      "stop_loss": 994.98,
+      "target1": 1089.82,
+      "target2": 1125.38,
+      "overall_score": 73.8,
+      "ranking": 82.66,
       "sector": "Basic Materials",
       "scan_date": "2026-08-28"
     },
@@ -59,6 +73,20 @@
       "scan_date": "2026-08-28"
     },
     {
+      "symbol": "PETRONET.NS",
+      "direction": "BUY",
+      "prev_close": 290.95,
+      "atr_14": 6.08,
+      "atr_percent": null,
+      "stop_loss": 278.79,
+      "target1": 303.11,
+      "target2": 312.23,
+      "overall_score": 72.22,
+      "ranking": 81.22,
+      "sector": "Energy",
+      "scan_date": "2026-08-28"
+    },
+    {
       "symbol": "SAIL.NS",
       "direction": "BUY",
       "prev_close": 193.0,
@@ -84,20 +112,6 @@
       "overall_score": 71.88,
       "ranking": 80.9,
       "sector": "Industrials",
-      "scan_date": "2026-08-28"
-    },
-    {
-      "symbol": "BANKINDIA.NS",
-      "direction": "BUY",
-      "prev_close": 145.95,
-      "atr_14": 2.97,
-      "atr_percent": null,
-      "stop_loss": 140.01,
-      "target1": 151.89,
-      "target2": 156.34,
-      "overall_score": 71.22,
-      "ranking": 80.26,
-      "sector": "Financial Services",
       "scan_date": "2026-08-28"
     },
     {
@@ -129,20 +143,6 @@
       "scan_date": "2026-08-28"
     },
     {
-      "symbol": "ANTHEM.NS",
-      "direction": "BUY",
-      "prev_close": 923.05,
-      "atr_14": 26.05,
-      "atr_percent": null,
-      "stop_loss": 870.95,
-      "target1": 975.15,
-      "target2": 1014.22,
-      "overall_score": 71.05,
-      "ranking": 80.09,
-      "sector": "Healthcare",
-      "scan_date": "2026-08-28"
-    },
-    {
       "symbol": "LAURUSLABS.NS",
       "direction": "BUY",
       "prev_close": 1929.4,
@@ -154,20 +154,6 @@
       "overall_score": 70.8,
       "ranking": 79.84,
       "sector": "Healthcare",
-      "scan_date": "2026-08-28"
-    },
-    {
-      "symbol": "ADANIENT.NS",
-      "direction": "BUY",
-      "prev_close": 3112.0,
-      "atr_14": 63.17,
-      "atr_percent": null,
-      "stop_loss": 2985.66,
-      "target1": 3238.34,
-      "target2": 3333.09,
-      "overall_score": 70.67,
-      "ranking": 79.72,
-      "sector": "Energy",
       "scan_date": "2026-08-28"
     },
     {
@@ -199,6 +185,20 @@
       "scan_date": "2026-08-28"
     },
     {
+      "symbol": "CUB.NS",
+      "direction": "BUY",
+      "prev_close": 229.23,
+      "atr_14": 7.11,
+      "atr_percent": null,
+      "stop_loss": 215.01,
+      "target1": 243.45,
+      "target2": 254.11,
+      "overall_score": 70.4,
+      "ranking": 79.44,
+      "sector": "Financial Services",
+      "scan_date": "2026-08-28"
+    },
+    {
       "symbol": "TTML.NS",
       "direction": "SELL",
       "prev_close": 36.46,
@@ -213,48 +213,6 @@
       "scan_date": "2026-08-28"
     },
     {
-      "symbol": "GLENMARK.NS",
-      "direction": "BUY",
-      "prev_close": 2438.3,
-      "atr_14": 53.83,
-      "atr_percent": null,
-      "stop_loss": 2330.64,
-      "target1": 2545.96,
-      "target2": 2626.71,
-      "overall_score": 69.95,
-      "ranking": 78.99,
-      "sector": "Healthcare",
-      "scan_date": "2026-08-28"
-    },
-    {
-      "symbol": "JINDALSAW.NS",
-      "direction": "BUY",
-      "prev_close": 302.45,
-      "atr_14": 11.07,
-      "atr_percent": null,
-      "stop_loss": 280.31,
-      "target1": 324.59,
-      "target2": 341.19,
-      "overall_score": 69.92,
-      "ranking": 78.96,
-      "sector": "Basic Materials",
-      "scan_date": "2026-08-28"
-    },
-    {
-      "symbol": "MOTILALOFS.NS",
-      "direction": "BUY",
-      "prev_close": 1040.0,
-      "atr_14": 29.58,
-      "atr_percent": null,
-      "stop_loss": 980.84,
-      "target1": 1099.16,
-      "target2": 1143.53,
-      "overall_score": 69.85,
-      "ranking": 78.88,
-      "sector": "Financial Services",
-      "scan_date": "2026-08-28"
-    },
-    {
       "symbol": "RVNL.NS",
       "direction": "SELL",
       "prev_close": 216.0,
@@ -266,6 +224,48 @@
       "overall_score": 69.82,
       "ranking": 78.85,
       "sector": "Industrials",
+      "scan_date": "2026-08-28"
+    },
+    {
+      "symbol": "JINDALSAW.NS",
+      "direction": "BUY",
+      "prev_close": 310.25,
+      "atr_14": 11.35,
+      "atr_percent": null,
+      "stop_loss": 287.55,
+      "target1": 332.95,
+      "target2": 349.98,
+      "overall_score": 69.67,
+      "ranking": 78.7,
+      "sector": "Basic Materials",
+      "scan_date": "2026-08-28"
+    },
+    {
+      "symbol": "APLAPOLLO.NS",
+      "direction": "BUY",
+      "prev_close": 2188.0,
+      "atr_14": 45.93,
+      "atr_percent": null,
+      "stop_loss": 2096.14,
+      "target1": 2279.86,
+      "target2": 2348.76,
+      "overall_score": 69.45,
+      "ranking": 78.47,
+      "sector": "Basic Materials",
+      "scan_date": "2026-08-28"
+    },
+    {
+      "symbol": "ADANIENT.NS",
+      "direction": "BUY",
+      "prev_close": 3169.0,
+      "atr_14": 64.74,
+      "atr_percent": null,
+      "stop_loss": 3039.52,
+      "target1": 3298.48,
+      "target2": 3395.59,
+      "overall_score": 68.92,
+      "ranking": 77.91,
+      "sector": "Energy",
       "scan_date": "2026-08-28"
     },
     {
