@@ -1,0 +1,18 @@
+{
+  "symbol": "IPCALAB.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 3,
+  "entry_price": 1882.0999755859375,
+  "exit_price": 1971.2,
+  "status": "CLOSED",
+  "realized_pnl": 267.30007324218764,
+  "realized_pnl_percent": 4.734074999725975,
+  "max_profit_percent": 4.734074999725975,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 60.91,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1787888862604",
+  "timestamp": 1787888862.6045618
+}

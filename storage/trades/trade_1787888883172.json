@@ -1,0 +1,18 @@
+{
+  "symbol": "JINDALSAW.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 37,
+  "entry_price": 293.1000061035156,
+  "exit_price": 307.25,
+  "status": "CLOSED",
+  "realized_pnl": 523.5497741699219,
+  "realized_pnl_percent": 4.827701672406977,
+  "max_profit_percent": 4.827701672406977,
+  "max_drawdown_percent": 3.3606297845100856,
+  "regime": "BULL",
+  "confidence": 57.62,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).",
+  "id": "trade_1787888883172",
+  "timestamp": 1787888883.1725867
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "GICRE.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 24,
+  "entry_price": 354.0,
+  "exit_price": 353.45,
+  "status": "CLOSED",
+  "realized_pnl": 13.200000000000273,
+  "realized_pnl_percent": 0.1553672316384213,
+  "max_profit_percent": 0.1553672316384213,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 57.2,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (65/100).",
+  "id": "trade_1787888854819",
+  "timestamp": 1787888854.8195255
+}

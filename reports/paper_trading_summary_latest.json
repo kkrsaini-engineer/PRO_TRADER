@@ -1,53 +1,53 @@
 {
-  "date": "2026-08-27",
-  "opening_balance": 183144.60146362305,
-  "total_capital_in_positions": 232573.78999999998,
-  "remaining_balance": 269243.89995025634,
-  "portfolio_value": 501817.6899502563,
-  "realized_pnl": 729.3309140014653,
-  "portfolio_return_percent": 0.36353799005126347,
+  "date": "2026-08-28",
+  "opening_balance": 150574.77018188476,
+  "total_capital_in_positions": 259169.36000000004,
+  "remaining_balance": 243967.60993774416,
+  "portfolio_value": 503136.9699377442,
+  "realized_pnl": -445.6192700195302,
+  "portfolio_return_percent": 0.6273939875488402,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "MSUMI.NS",
-      "pnl": 34.83950927734398
+      "symbol": "GICRE.NS",
+      "pnl": 13.200000000000273
     },
     {
-      "symbol": "GRASIM.NS",
-      "pnl": -3.5999999999994543
+      "symbol": "LAURUSLABS.NS",
+      "pnl": -77.49975585937477
     },
     {
-      "symbol": "CHAMBLFERT.NS",
-      "pnl": 23.0997314453125
+      "symbol": "IPCALAB.NS",
+      "pnl": 267.30007324218764
+    },
+    {
+      "symbol": "JSWINFRA.NS",
+      "pnl": 17.5
+    },
+    {
+      "symbol": "MOTILALOFS.NS",
+      "pnl": 346.7999999999993
     },
     {
       "symbol": "ADANIENT.NS",
-      "pnl": 29.999902343750364
-    },
-    {
-      "symbol": "HONASA.NS",
-      "pnl": -437.7999999999995
-    },
-    {
-      "symbol": "CHENNPETRO.NS",
-      "pnl": -277.19999999999936
+      "pnl": -43.600000000000364
     },
     {
       "symbol": "GLENMARK.NS",
-      "pnl": 82.39999999999964
+      "pnl": -2.4000000000005457
     },
     {
-      "symbol": "LT.NS",
-      "pnl": -79.40000000000009
+      "symbol": "IIFL.NS",
+      "pnl": -794.75
     },
     {
-      "symbol": "PAYTM.NS",
-      "pnl": 31.60009765625
+      "symbol": "ANTHEM.NS",
+      "pnl": -26.4002685546875
     },
     {
-      "symbol": "DABUR.NS",
-      "pnl": -20.25
+      "symbol": "JINDALSAW.NS",
+      "pnl": 523.5497741699219
     }
   ],
-  "open_positions_now": 23
+  "open_positions_now": 25
 }

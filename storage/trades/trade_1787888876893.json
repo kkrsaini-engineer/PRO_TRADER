@@ -1,0 +1,18 @@
+{
+  "symbol": "IIFL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 17,
+  "entry_price": 684.75,
+  "exit_price": 638.0,
+  "status": "CLOSED",
+  "realized_pnl": -794.75,
+  "realized_pnl_percent": -6.827309236947792,
+  "max_profit_percent": 0.021905805038331838,
+  "max_drawdown_percent": 6.827309236947792,
+  "regime": "BULL",
+  "confidence": 58.29,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Drawdown from peak is significant (6.8%).",
+  "id": "trade_1787888876893",
+  "timestamp": 1787888876.8930736
+}
