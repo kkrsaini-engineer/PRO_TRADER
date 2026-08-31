@@ -1,0 +1,24 @@
+{
+  "trade_id": "paper_PETRONET_NS_1788148001367",
+  "symbol": "PETRONET.NS",
+  "direction": "BUY",
+  "entry_date": "2026-08-31",
+  "entry_price": 292.0,
+  "buy_probability": 0.0,
+  "buy_confidence": 0.0,
+  "entry_reasons": [
+    "Morning Executor: gap +0.36% (0.17x ATR, NORMAL band)",
+    "No NEW overnight news since last night's scan."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1788148001.3677647,
+  "updated_at": 1788148001.3677647
+}
