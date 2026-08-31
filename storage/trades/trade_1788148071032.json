@@ -1,0 +1,18 @@
+{
+  "symbol": "HINDZINC.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 15,
+  "entry_price": 595.9500122070312,
+  "exit_price": 594.6,
+  "status": "CLOSED",
+  "realized_pnl": -20.25018310546841,
+  "realized_pnl_percent": -0.22653111492214167,
+  "max_profit_percent": 5.21016648325566,
+  "max_drawdown_percent": 0.22653111492214167,
+  "regime": "BULL",
+  "confidence": 57.82,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788148071032",
+  "timestamp": 1788148071.032774
+}

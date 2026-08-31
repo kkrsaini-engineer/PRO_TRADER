@@ -1,0 +1,18 @@
+{
+  "symbol": "NATIONALUM.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 27,
+  "entry_price": 377.8999938964844,
+  "exit_price": 384.3,
+  "status": "CLOSED",
+  "realized_pnl": 172.80016479492218,
+  "realized_pnl_percent": 1.6935713699081847,
+  "max_profit_percent": 6.324426168173584,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 54.55,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788148064704",
+  "timestamp": 1788148064.704512
+}

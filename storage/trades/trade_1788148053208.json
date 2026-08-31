@@ -1,0 +1,18 @@
+{
+  "symbol": "NAM-INDIA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 7,
+  "entry_price": 1254.0,
+  "exit_price": 1179.8,
+  "status": "CLOSED",
+  "realized_pnl": -519.4000000000003,
+  "realized_pnl_percent": -5.917065390749605,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 5.917065390749605,
+  "regime": "BULL",
+  "confidence": 48.02,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788148053208",
+  "timestamp": 1788148053.2080617
+}

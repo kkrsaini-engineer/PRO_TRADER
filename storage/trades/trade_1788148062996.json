@@ -1,0 +1,18 @@
+{
+  "symbol": "TTML.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 227,
+  "entry_price": 36.459999084472656,
+  "exit_price": 38.31,
+  "status": "CLOSED",
+  "realized_pnl": -419.95020782470755,
+  "realized_pnl_percent": -5.074056396000329,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 5.074056396000329,
+  "regime": "BEAR",
+  "confidence": 58.17,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1788148062996",
+  "timestamp": 1788148062.996173
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "AUBANK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 11,
+  "entry_price": 1109.0,
+  "exit_price": 1067.6,
+  "status": "CLOSED",
+  "realized_pnl": -455.400000000001,
+  "realized_pnl_percent": -3.7330928764652924,
+  "max_profit_percent": 1.532912533814247,
+  "max_drawdown_percent": 3.7330928764652924,
+  "regime": "BULL",
+  "confidence": 50.52,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788148050616",
+  "timestamp": 1788148050.6167839
+}

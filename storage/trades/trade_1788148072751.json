@@ -1,0 +1,18 @@
+{
+  "symbol": "APLAPOLLO.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 2260.0,
+  "exit_price": 2244.0,
+  "status": "CLOSED",
+  "realized_pnl": -64.0,
+  "realized_pnl_percent": -0.7079646017699115,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.7079646017699115,
+  "regime": "BULL",
+  "confidence": 61.28,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788148072751",
+  "timestamp": 1788148072.7519078
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "BANKINDIA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 79,
+  "entry_price": 144.88999938964844,
+  "exit_price": 141.88,
+  "status": "CLOSED",
+  "realized_pnl": -237.78995178222692,
+  "realized_pnl_percent": -2.077437643956184,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 2.077437643956184,
+  "regime": "SIDEWAYS",
+  "confidence": 45.67,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788148062173",
+  "timestamp": 1788148062.1730459
+}
