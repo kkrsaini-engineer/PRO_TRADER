@@ -1,0 +1,13 @@
+{
+  "id": "paper_HINDUNILVR_NS_1788234413674",
+  "symbol": "HINDUNILVR.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 4,
+  "entry_price": 1987.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +1.00% (0.73x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788234413.6752796
+}

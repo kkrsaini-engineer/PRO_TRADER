@@ -1,0 +1,13 @@
+{
+  "id": "paper_ATHERENERG_NS_1788234406048",
+  "symbol": "ATHERENERG.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 7,
+  "entry_price": 1694.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.38% (0.40x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788234406.0492177
+}
