@@ -1,0 +1,18 @@
+{
+  "symbol": "LTF.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 36,
+  "entry_price": 315.25,
+  "exit_price": 312.15,
+  "status": "CLOSED",
+  "realized_pnl": -111.60000000000082,
+  "realized_pnl_percent": -0.9833465503568669,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.9833465503568669,
+  "regime": "BULL",
+  "confidence": 45.89,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Technical trend reversing against the BUY position (60/100).",
+  "id": "trade_1788234459346",
+  "timestamp": 1788234459.3467796
+}

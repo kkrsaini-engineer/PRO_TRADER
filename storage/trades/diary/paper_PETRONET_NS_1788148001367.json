@@ -22,16 +22,28 @@
       "notes": [
         "Exit score 17.8/100 (threshold 60.0) -> HOLD."
       ]
+    },
+    {
+      "date": "2026-09-01",
+      "current_price": 294.05,
+      "current_pnl": 84.05000000000047,
+      "current_buy_confidence": 61.93,
+      "current_sell_confidence": 31.25,
+      "current_exit_score": 17.76,
+      "recommendation": "HOLD",
+      "notes": [
+        "Exit score 17.8/100 (threshold 60.0) -> HOLD."
+      ]
     }
   ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 1,
+  "holding_days": 2,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1788148001.3677647,
-  "updated_at": 1788148051.4206262
+  "updated_at": 1788234470.0887253
 }

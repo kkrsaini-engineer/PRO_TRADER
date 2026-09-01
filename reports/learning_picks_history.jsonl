@@ -64,3 +64,5 @@
 {"date": "2026-08-28", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 303.8}
 {"date": "2026-08-31", "symbol": "JSWSTEEL.NS", "direction": "BUY", "entry_price": 1341.0}
 {"date": "2026-08-31", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 275.2}
+{"date": "2026-09-01", "symbol": "AUROPHARMA.NS", "direction": "BUY", "entry_price": 1717.0}
+{"date": "2026-09-01", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 270.95}

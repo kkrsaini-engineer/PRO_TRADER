@@ -1,0 +1,18 @@
+{
+  "symbol": "SUNPHARMA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 6,
+  "entry_price": 1963.0999755859375,
+  "exit_price": 1940.5,
+  "status": "CLOSED",
+  "realized_pnl": -135.599853515625,
+  "realized_pnl_percent": -1.15123915577412,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.15123915577412,
+  "regime": "BULL",
+  "confidence": 58.32,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788234467696",
+  "timestamp": 1788234467.6961749
+}

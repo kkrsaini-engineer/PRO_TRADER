@@ -1,0 +1,18 @@
+{
+  "symbol": "ATHERENERG.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 7,
+  "entry_price": 1694.0,
+  "exit_price": 1688.5,
+  "status": "CLOSED",
+  "realized_pnl": -38.5,
+  "realized_pnl_percent": -0.3246753246753247,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.3246753246753247,
+  "regime": "BULL",
+  "confidence": 56.13,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (68/100).",
+  "id": "trade_1788234458015",
+  "timestamp": 1788234458.0153973
+}

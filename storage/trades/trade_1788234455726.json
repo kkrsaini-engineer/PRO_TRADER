@@ -1,0 +1,18 @@
+{
+  "symbol": "NTPC.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 33,
+  "entry_price": 329.5,
+  "exit_price": 326.6,
+  "status": "CLOSED",
+  "realized_pnl": 95.69999999999925,
+  "realized_pnl_percent": 0.8801213960546213,
+  "max_profit_percent": 1.092564491654028,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 56.16,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (60/100).",
+  "id": "trade_1788234455726",
+  "timestamp": 1788234455.726273
+}

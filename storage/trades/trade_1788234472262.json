@@ -1,0 +1,18 @@
+{
+  "symbol": "LAURUSLABS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 5,
+  "entry_price": 1945.0,
+  "exit_price": 1871.7,
+  "status": "CLOSED",
+  "realized_pnl": -366.4999999999998,
+  "realized_pnl_percent": -3.7686375321336736,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 3.7686375321336736,
+  "regime": "BULL",
+  "confidence": 50.25,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788234472262",
+  "timestamp": 1788234472.262224
+}

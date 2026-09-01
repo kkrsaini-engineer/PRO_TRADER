@@ -1,0 +1,18 @@
+{
+  "symbol": "AARTIIND.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 19,
+  "entry_price": 543.1500244140625,
+  "exit_price": 520.45,
+  "status": "CLOSED",
+  "realized_pnl": -431.30046386718664,
+  "realized_pnl_percent": -4.179328618930048,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 4.179328618930048,
+  "regime": "BULL",
+  "confidence": 53.6,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788234454909",
+  "timestamp": 1788234454.9092336
+}

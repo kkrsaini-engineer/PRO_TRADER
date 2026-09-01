@@ -1,57 +1,49 @@
 {
-  "date": "2026-08-31",
-  "opening_balance": 175408.36009033205,
-  "total_capital_in_positions": 218685.27000000002,
-  "remaining_balance": 279583.6489596558,
-  "portfolio_value": 498268.9189596558,
-  "realized_pnl": -1750.679825439457,
-  "portfolio_return_percent": -0.34621620806884024,
+  "date": "2026-09-01",
+  "opening_balance": 155327.07879974367,
+  "total_capital_in_positions": 251462.58999999997,
+  "remaining_balance": 246710.1589776611,
+  "portfolio_value": 498172.7489776611,
+  "realized_pnl": -1874.6800952148515,
+  "portfolio_return_percent": -0.3654502044677851,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "AUBANK.NS",
-      "pnl": -455.400000000001
+      "symbol": "AARTIIND.NS",
+      "pnl": -431.30046386718664
     },
     {
-      "symbol": "NAM-INDIA.NS",
-      "pnl": -519.4000000000003
+      "symbol": "NTPC.NS",
+      "pnl": 95.69999999999925
     },
     {
-      "symbol": "JSWINFRA.NS",
-      "pnl": -97.35020141601638
+      "symbol": "ATHERENERG.NS",
+      "pnl": -38.5
     },
     {
-      "symbol": "PNBHOUSING.NS",
-      "pnl": 63.599999999999454
+      "symbol": "VOLTAS.NS",
+      "pnl": 307.7999999999997
     },
     {
-      "symbol": "BANKINDIA.NS",
-      "pnl": -237.78995178222692
+      "symbol": "LTF.NS",
+      "pnl": -111.60000000000082
     },
     {
-      "symbol": "TTML.NS",
-      "pnl": -419.95020782470755
+      "symbol": "BHEL.NS",
+      "pnl": -92.79999999999967
     },
     {
-      "symbol": "GICRE.NS",
-      "pnl": 4.349645996094409
+      "symbol": "ADANIENT.NS",
+      "pnl": -499.60000000000036
     },
     {
-      "symbol": "NATIONALUM.NS",
-      "pnl": 172.80016479492218
+      "symbol": "SUNPHARMA.NS",
+      "pnl": -135.599853515625
     },
     {
-      "symbol": "JINDALSAW.NS",
-      "pnl": -67.20000000000073
-    },
-    {
-      "symbol": "HINDZINC.NS",
-      "pnl": -20.25018310546841
-    },
-    {
-      "symbol": "APLAPOLLO.NS",
-      "pnl": -64.0
+      "symbol": "LAURUSLABS.NS",
+      "pnl": -366.4999999999998
     }
   ],
-  "open_positions_now": 21
+  "open_positions_now": 24
 }

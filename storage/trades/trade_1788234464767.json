@@ -1,0 +1,18 @@
+{
+  "symbol": "ADANIENT.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 2,
+  "entry_price": 3165.0,
+  "exit_price": 2915.2,
+  "status": "CLOSED",
+  "realized_pnl": -499.60000000000036,
+  "realized_pnl_percent": -7.892575039494476,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 7.892575039494476,
+  "regime": "SIDEWAYS",
+  "confidence": 53.9,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Technical trend reversing against the BUY position (60/100).; Fundamentals have deteriorated for this BUY position (60/100).; Drawdown from peak is significant (7.9%).",
+  "id": "trade_1788234464767",
+  "timestamp": 1788234464.767617
+}
