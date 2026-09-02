@@ -1,0 +1,13 @@
+{
+  "id": "paper_DEEPAKNTR_NS_1788320807075",
+  "symbol": "DEEPAKNTR.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 4,
+  "entry_price": 1784.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.07% (0.03x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788320807.0756688
+}

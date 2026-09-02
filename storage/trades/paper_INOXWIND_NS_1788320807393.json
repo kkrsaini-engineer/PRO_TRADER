@@ -1,0 +1,13 @@
+{
+  "id": "paper_INOXWIND_NS_1788320807393",
+  "symbol": "INOXWIND.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 110,
+  "entry_price": 69.1500015258789,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.50% (0.18x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788320807.3943326
+}

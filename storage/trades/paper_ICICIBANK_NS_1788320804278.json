@@ -1,0 +1,13 @@
+{
+  "id": "paper_ICICIBANK_NS_1788320804278",
+  "symbol": "ICICIBANK.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 8,
+  "entry_price": 1425.0999755859375,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.90% (0.64x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788320804.2788599
+}

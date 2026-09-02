@@ -1,0 +1,13 @@
+{
+  "id": "paper_DLF_NS_1788320804826",
+  "symbol": "DLF.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 16,
+  "entry_price": 666.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.36% (0.59x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788320804.8265882
+}
