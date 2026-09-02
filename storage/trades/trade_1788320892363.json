@@ -1,0 +1,18 @@
+{
+  "symbol": "FINCABLES.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 18,
+  "entry_price": 1249.300048828125,
+  "exit_price": 1219.2,
+  "status": "CLOSED",
+  "realized_pnl": -541.8008789062492,
+  "realized_pnl_percent": -2.4093530498425544,
+  "max_profit_percent": 6.403581849445771,
+  "max_drawdown_percent": 2.4093530498425544,
+  "regime": "BULL",
+  "confidence": 54.79,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788320892363",
+  "timestamp": 1788320892.363133
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "NYKAA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 36,
+  "entry_price": 335.04998779296875,
+  "exit_price": 333.4,
+  "status": "CLOSED",
+  "realized_pnl": -59.39956054687582,
+  "realized_pnl_percent": -0.4924601859673307,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.4924601859673307,
+  "regime": "BULL",
+  "confidence": 51.92,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788320898530",
+  "timestamp": 1788320898.5308585
+}

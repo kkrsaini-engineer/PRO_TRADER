@@ -1,0 +1,18 @@
+{
+  "symbol": "NIACL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 51,
+  "entry_price": 192.07000732421875,
+  "exit_price": 184.15,
+  "status": "CLOSED",
+  "realized_pnl": -403.92037353515593,
+  "realized_pnl_percent": -4.123500297914595,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 4.123500297914595,
+  "regime": "BULL",
+  "confidence": 52.87,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).",
+  "id": "trade_1788320856048",
+  "timestamp": 1788320856.0481052
+}

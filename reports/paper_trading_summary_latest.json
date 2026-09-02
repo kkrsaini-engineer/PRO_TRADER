@@ -1,49 +1,57 @@
 {
-  "date": "2026-09-01",
-  "opening_balance": 155327.07879974367,
-  "total_capital_in_positions": 251462.58999999997,
-  "remaining_balance": 246710.1589776611,
-  "portfolio_value": 498172.7489776611,
-  "realized_pnl": -1874.6800952148515,
-  "portfolio_return_percent": -0.3654502044677851,
+  "date": "2026-09-02",
+  "opening_balance": 131788.81959167478,
+  "total_capital_in_positions": 251096.39,
+  "remaining_balance": 245224.2096392822,
+  "portfolio_value": 496320.5996392822,
+  "realized_pnl": -3168.2492199707094,
+  "portfolio_return_percent": -0.7358800721435574,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "AARTIIND.NS",
-      "pnl": -431.30046386718664
-    },
-    {
-      "symbol": "NTPC.NS",
-      "pnl": 95.69999999999925
-    },
-    {
       "symbol": "ATHERENERG.NS",
-      "pnl": -38.5
+      "pnl": 32.80000000000018
     },
     {
-      "symbol": "VOLTAS.NS",
-      "pnl": 307.7999999999997
+      "symbol": "NIACL.NS",
+      "pnl": -403.92037353515593
     },
     {
-      "symbol": "LTF.NS",
-      "pnl": -111.60000000000082
+      "symbol": "DEEPAKNTR.NS",
+      "pnl": -21.199999999999818
     },
     {
-      "symbol": "BHEL.NS",
-      "pnl": -92.79999999999967
+      "symbol": "MAHABANK.NS",
+      "pnl": -45.35974365234404
     },
     {
-      "symbol": "ADANIENT.NS",
-      "pnl": -499.60000000000036
+      "symbol": "GLENMARK.NS",
+      "pnl": -2.0
     },
     {
-      "symbol": "SUNPHARMA.NS",
-      "pnl": -135.599853515625
+      "symbol": "ACMESOLAR.NS",
+      "pnl": -43.399999999999295
     },
     {
-      "symbol": "LAURUSLABS.NS",
-      "pnl": -366.4999999999998
+      "symbol": "ANTHEM.NS",
+      "pnl": -36.00000000000023
+    },
+    {
+      "symbol": "DLF.NS",
+      "pnl": -156.79999999999927
+    },
+    {
+      "symbol": "FINCABLES.NS",
+      "pnl": -541.8008789062492
+    },
+    {
+      "symbol": "UNOMINDA.NS",
+      "pnl": -73.50000000000023
+    },
+    {
+      "symbol": "NYKAA.NS",
+      "pnl": -59.39956054687582
     }
   ],
-  "open_positions_now": 24
+  "open_positions_now": 26
 }

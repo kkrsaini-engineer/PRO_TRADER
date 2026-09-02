@@ -1,0 +1,18 @@
+{
+  "symbol": "UNOMINDA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 5,
+  "entry_price": 1270.0,
+  "exit_price": 1255.3,
+  "status": "CLOSED",
+  "realized_pnl": -73.50000000000023,
+  "realized_pnl_percent": -1.1574803149606336,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.1574803149606336,
+  "regime": "BULL",
+  "confidence": 56.12,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788320896191",
+  "timestamp": 1788320896.191776
+}

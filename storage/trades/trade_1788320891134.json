@@ -1,0 +1,18 @@
+{
+  "symbol": "DLF.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 16,
+  "entry_price": 666.0,
+  "exit_price": 656.2,
+  "status": "CLOSED",
+  "realized_pnl": -156.79999999999927,
+  "realized_pnl_percent": -1.4714714714714647,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.4714714714714647,
+  "regime": "BULL",
+  "confidence": 48.22,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788320891134",
+  "timestamp": 1788320891.1342134
+}
