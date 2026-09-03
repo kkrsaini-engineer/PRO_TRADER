@@ -1,0 +1,13 @@
+{
+  "id": "paper_TATAPOWER_NS_1788407211908",
+  "symbol": "TATAPOWER.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 17,
+  "entry_price": 366.54998779296875,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.70% (0.34x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788407211.909142
+}
