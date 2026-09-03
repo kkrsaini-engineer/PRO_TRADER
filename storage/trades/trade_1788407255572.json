@@ -1,0 +1,18 @@
+{
+  "symbol": "HEG.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 19,
+  "entry_price": 704.0,
+  "exit_price": 701.2,
+  "status": "CLOSED",
+  "realized_pnl": -53.199999999999136,
+  "realized_pnl_percent": -0.39772727272726627,
+  "max_profit_percent": 5.504261363636364,
+  "max_drawdown_percent": 0.4971590909090909,
+  "regime": "BULL",
+  "confidence": 52.24,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788407255572",
+  "timestamp": 1788407255.572326
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "BAJAJHFL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 122,
+  "entry_price": 82.81999969482422,
+  "exit_price": 83.17,
+  "status": "CLOSED",
+  "realized_pnl": -42.70003723144552,
+  "realized_pnl_percent": -0.4226036059713436,
+  "max_profit_percent": 0.7244623243601829,
+  "max_drawdown_percent": 0.4226036059713436,
+  "regime": "BEAR",
+  "confidence": 53.94,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (71/100).",
+  "id": "trade_1788407269268",
+  "timestamp": 1788407269.2681391
+}

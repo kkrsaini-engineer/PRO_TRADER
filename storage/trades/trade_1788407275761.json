@@ -1,0 +1,18 @@
+{
+  "symbol": "COFORGE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 1985.300048828125,
+  "exit_price": 1937.6,
+  "status": "CLOSED",
+  "realized_pnl": -190.80019531250036,
+  "realized_pnl_percent": -2.4026619480657994,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 2.4026619480657994,
+  "regime": "BULL",
+  "confidence": 57.81,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788407275761",
+  "timestamp": 1788407275.761101
+}

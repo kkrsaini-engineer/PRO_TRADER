@@ -1,57 +1,49 @@
 {
-  "date": "2026-09-02",
-  "opening_balance": 131788.81959167478,
-  "total_capital_in_positions": 251096.39,
-  "remaining_balance": 245224.2096392822,
-  "portfolio_value": 496320.5996392822,
-  "realized_pnl": -3168.2492199707094,
-  "portfolio_return_percent": -0.7358800721435574,
+  "date": "2026-09-03",
+  "opening_balance": 122321.17969963071,
+  "total_capital_in_positions": 291871.32000000007,
+  "remaining_balance": 206030.02115837095,
+  "portfolio_value": 497901.341158371,
+  "realized_pnl": -3187.2989728546154,
+  "portfolio_return_percent": -0.4197317683257978,
   "opened_today": [],
   "closed_today": [
     {
+      "symbol": "AUROPHARMA.NS",
+      "pnl": -418.39999999999964
+    },
+    {
+      "symbol": "HEG.NS",
+      "pnl": -53.199999999999136
+    },
+    {
+      "symbol": "FIRSTCRY.NS",
+      "pnl": 298.68034790038985
+    },
+    {
+      "symbol": "ITCHOTELS.NS",
+      "pnl": -21.07008972167941
+    },
+    {
       "symbol": "ATHERENERG.NS",
-      "pnl": 32.80000000000018
+      "pnl": -72.00009765624964
     },
     {
-      "symbol": "NIACL.NS",
-      "pnl": -403.92037353515593
+      "symbol": "BAJAJHFL.NS",
+      "pnl": -42.70003723144552
     },
     {
-      "symbol": "DEEPAKNTR.NS",
-      "pnl": -21.199999999999818
+      "symbol": "ZYDUSLIFE.NS",
+      "pnl": -291.9000000000003
     },
     {
-      "symbol": "MAHABANK.NS",
-      "pnl": -45.35974365234404
+      "symbol": "COFORGE.NS",
+      "pnl": -190.80019531250036
     },
     {
-      "symbol": "GLENMARK.NS",
-      "pnl": -2.0
-    },
-    {
-      "symbol": "ACMESOLAR.NS",
-      "pnl": -43.399999999999295
-    },
-    {
-      "symbol": "ANTHEM.NS",
-      "pnl": -36.00000000000023
-    },
-    {
-      "symbol": "DLF.NS",
-      "pnl": -156.79999999999927
-    },
-    {
-      "symbol": "FINCABLES.NS",
-      "pnl": -541.8008789062492
-    },
-    {
-      "symbol": "UNOMINDA.NS",
-      "pnl": -73.50000000000023
-    },
-    {
-      "symbol": "NYKAA.NS",
-      "pnl": -59.39956054687582
+      "symbol": "TATAPOWER.NS",
+      "pnl": 4.249792480468557
     }
   ],
-  "open_positions_now": 26
+  "open_positions_now": 31
 }

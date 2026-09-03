@@ -10,15 +10,29 @@
     "Morning Executor: gap +0.93% (0.42x ATR, NORMAL band)",
     "No NEW overnight news since last night's scan."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-09-03",
+      "current_price": 1460.9,
+      "current_pnl": -16.799609375000728,
+      "current_buy_confidence": 32.45,
+      "current_sell_confidence": 59.37,
+      "current_exit_score": 25.18,
+      "recommendation": "HOLD",
+      "notes": [
+        "News sentiment now works against this SELL position (75/100).",
+        "Exit score 25.2/100 (threshold 60.0) -> HOLD."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1788407203.3534195,
-  "updated_at": 1788407203.3534198
+  "updated_at": 1788407280.7795658
 }

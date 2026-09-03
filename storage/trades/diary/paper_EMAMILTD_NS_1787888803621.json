@@ -62,16 +62,29 @@
         "News sentiment now works against this SELL position (65/100).",
         "Exit score 17.6/100 (threshold 60.0) -> HOLD."
       ]
+    },
+    {
+      "date": "2026-09-03",
+      "current_price": 367.6,
+      "current_pnl": 693.5999999999992,
+      "current_buy_confidence": 30.19,
+      "current_sell_confidence": 61.63,
+      "current_exit_score": 17.65,
+      "recommendation": "HOLD",
+      "notes": [
+        "News sentiment now works against this SELL position (65/100).",
+        "Exit score 17.6/100 (threshold 60.0) -> HOLD."
+      ]
     }
   ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 4,
+  "holding_days": 5,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1787888803.6211073,
-  "updated_at": 1788320868.5868075
+  "updated_at": 1788407266.8166566
 }

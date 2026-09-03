@@ -68,3 +68,5 @@
 {"date": "2026-09-01", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 270.95}
 {"date": "2026-09-02", "symbol": "CUB.NS", "direction": "BUY", "entry_price": 234.99}
 {"date": "2026-09-02", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 268.55}
+{"date": "2026-09-03", "symbol": "CGCL.NS", "direction": "BUY", "entry_price": 256.6}
+{"date": "2026-09-03", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 267.7}
