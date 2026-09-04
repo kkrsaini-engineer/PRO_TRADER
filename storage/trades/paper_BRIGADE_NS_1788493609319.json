@@ -1,0 +1,13 @@
+{
+  "id": "paper_BRIGADE_NS_1788493609319",
+  "symbol": "BRIGADE.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 10,
+  "entry_price": 714.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.24% (0.06x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788493609.3201869
+}

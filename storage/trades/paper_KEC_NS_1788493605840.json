@@ -1,0 +1,13 @@
+{
+  "id": "paper_KEC_NS_1788493605840",
+  "symbol": "KEC.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 23,
+  "entry_price": 406.1499938964844,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.00% (0.00x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788493605.8409612
+}

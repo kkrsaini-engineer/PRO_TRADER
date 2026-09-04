@@ -1,0 +1,13 @@
+{
+  "id": "paper_JINDALSTEL_NS_1788493606601",
+  "symbol": "JINDALSTEL.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 7,
+  "entry_price": 1147.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.17% (0.07x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788493606.6020906
+}
