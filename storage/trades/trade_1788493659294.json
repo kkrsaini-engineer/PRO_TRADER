@@ -1,0 +1,18 @@
+{
+  "symbol": "JINDALSTEL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 7,
+  "entry_price": 1147.0,
+  "exit_price": 1147.1,
+  "status": "CLOSED",
+  "realized_pnl": 0.6999999999993634,
+  "realized_pnl_percent": 0.00871839581516208,
+  "max_profit_percent": 0.00871839581516208,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 56.51,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).",
+  "id": "trade_1788493659294",
+  "timestamp": 1788493659.2945485
+}

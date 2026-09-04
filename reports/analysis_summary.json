@@ -1,108 +1,108 @@
 {
   "signal_counts": {
-    "BUY": 66,
-    "NO_TRADE": 355,
-    "SELL": 79
+    "NO_TRADE": 364,
+    "SELL": 53,
+    "BUY": 83
   },
   "total_scans": 500,
   "buy_stats": {
-    "count": 66,
-    "avg_confidence": 71.33,
-    "min_confidence": 65.56,
-    "max_confidence": 78.16
+    "count": 83,
+    "avg_confidence": 71.74,
+    "min_confidence": 65.14,
+    "max_confidence": 80.83
   },
   "sell_stats": {
-    "count": 79,
-    "avg_confidence": 70.39,
-    "min_confidence": 65.35,
-    "max_confidence": 78.65
+    "count": 53,
+    "avg_confidence": 69.91,
+    "min_confidence": 65.0,
+    "max_confidence": 77.0
   },
   "no_trade_stats": {
-    "count": 355
+    "count": 364
   },
   "sell_signal_vs_opened": {
-    "sell_signals": 79,
+    "sell_signals": 53,
     "sell_trades_opened": 0,
-    "gap": 79,
+    "gap": 53,
     "gap_reasons": {
-      "Not Attempted (ranked below daily candidate limit)": 59,
+      "Not Attempted (ranked below daily candidate limit)": 33,
       "Other / Not Recorded": 11,
       "Liquidity": 9
     }
   },
   "tier1_pass_rate": {
-    "buy": 39.2,
-    "sell": 33.0
+    "buy": 39.4,
+    "sell": 32.8
   },
   "tier_contribution": {
-    "buy_tier2_avg": 37.85,
+    "buy_tier2_avg": 41.29,
     "buy_tier2_n": 500,
-    "buy_tier3_avg": 51.23,
+    "buy_tier3_avg": 51.31,
     "buy_tier3_n": 500,
-    "sell_tier2_avg": 49.82,
+    "sell_tier2_avg": 45.99,
     "sell_tier2_n": 500,
-    "sell_tier3_avg": 48.78,
+    "sell_tier3_avg": 48.69,
     "sell_tier3_n": 500
   },
   "tier4_rejection_reasons": {
-    "Decision engine rejected trade.": 355,
-    "Average trading volume is too low.": 47,
-    "Insufficient historical candles.": 2,
+    "Decision engine rejected trade.": 364,
+    "Average trading volume is too low.": 40,
+    "Insufficient historical candles.": 4,
+    "Single-position exposure exceeds limit.": 1,
     "NaN values detected.": 1
   },
   "sector_stats": {
     "Financial Services": {
-      "BUY": 19,
-      "NO_TRADE": 66,
-      "SELL": 12
-    },
-    "Industrials": {
-      "NO_TRADE": 72,
-      "BUY": 8,
-      "SELL": 11
-    },
-    "Basic Materials": {
-      "SELL": 14,
-      "BUY": 11,
-      "NO_TRADE": 37
-    },
-    "Utilities": {
-      "NO_TRADE": 16,
+      "NO_TRADE": 69,
+      "BUY": 23,
       "SELL": 5
     },
+    "Industrials": {
+      "NO_TRADE": 69,
+      "BUY": 14,
+      "SELL": 8
+    },
+    "Basic Materials": {
+      "SELL": 9,
+      "BUY": 11,
+      "NO_TRADE": 42
+    },
+    "Utilities": {
+      "BUY": 2,
+      "NO_TRADE": 15,
+      "SELL": 4
+    },
     "Consumer Defensive": {
-      "NO_TRADE": 16,
-      "SELL": 12
+      "NO_TRADE": 17,
+      "SELL": 11
     },
     "Healthcare": {
       "SELL": 2,
-      "NO_TRADE": 39,
-      "BUY": 9
+      "NO_TRADE": 40,
+      "BUY": 8
     },
     "Energy": {
-      "NO_TRADE": 10,
-      "BUY": 4,
+      "NO_TRADE": 11,
+      "BUY": 3,
       "SELL": 1
     },
     "Consumer Cyclical": {
-      "SELL": 15,
-      "NO_TRADE": 45,
-      "BUY": 9
+      "NO_TRADE": 51,
+      "SELL": 10,
+      "BUY": 8
     },
     "Real Estate": {
-      "NO_TRADE": 8,
-      "BUY": 1,
-      "SELL": 2
+      "NO_TRADE": 5,
+      "BUY": 6
     },
     "Communication Services": {
-      "NO_TRADE": 11,
-      "SELL": 1,
+      "NO_TRADE": 12,
       "BUY": 1
     },
     "Technology": {
-      "NO_TRADE": 33,
-      "BUY": 4,
-      "SELL": 4
+      "NO_TRADE": 31,
+      "BUY": 7,
+      "SELL": 3
     },
     "UNKNOWN": {
       "NO_TRADE": 2
@@ -113,29 +113,25 @@
     "JSWDULUX.NS"
   ],
   "regime_percentages": {
-    "BULL": 33.8,
-    "SIDEWAYS": 29.8,
-    "BEAR": 36.4
+    "BULL": 35.6,
+    "SIDEWAYS": 28.2,
+    "BEAR": 36.2
   },
   "top_buy_sectors": [
     [
       "Financial Services",
-      19
+      23
+    ],
+    [
+      "Industrials",
+      14
     ],
     [
       "Basic Materials",
       11
-    ],
-    [
-      "Healthcare",
-      9
     ]
   ],
   "weakest_buy_sectors": [
-    [
-      "Utilities",
-      0
-    ],
     [
       "Consumer Defensive",
       0
@@ -143,62 +139,65 @@
     [
       "UNKNOWN",
       0
+    ],
+    [
+      "Communication Services",
+      1
     ]
   ],
   "rejection_funnel": {
-    "buy_side_scanned": 421,
-    "buy_candidates": 66,
-    "rejected_by_trend": 225,
+    "buy_side_scanned": 447,
+    "buy_candidates": 83,
+    "rejected_by_trend": 250,
     "rejected_by_risk": 0,
     "rejected_by_portfolio": 0,
     "rejected_by_liquidity": 0,
-    "rejected_by_score_threshold": 130,
+    "rejected_by_score_threshold": 114,
     "rejected_by_insufficient_history": 0,
     "rejected_by_other": 0,
     "other_reasons_breakdown": {},
     "executed": 0
   },
   "execution_summary": {
-    "buy_generated": 66,
+    "buy_generated": 83,
     "buy_executed": 0,
-    "buy_rejected": 66,
+    "buy_rejected": 83,
     "reasons": {
-      "Not Attempted (ranked below daily candidate limit)": 46,
-      "Other": 12,
-      "Liquidity": 7,
-      "Insufficient Historical Candles": 1
+      "Not Attempted (ranked below daily candidate limit)": 63,
+      "Other": 13,
+      "Liquidity": 7
     }
   },
   "regime_stats": {
     "BULL": {
-      "BUY": 66,
-      "NO_TRADE": 103
+      "NO_TRADE": 95,
+      "BUY": 83
     },
     "SIDEWAYS": {
-      "NO_TRADE": 149
+      "NO_TRADE": 141
     },
     "BEAR": {
-      "SELL": 79,
-      "NO_TRADE": 103
+      "SELL": 53,
+      "NO_TRADE": 128
     }
   },
   "top_rejection_reasons": {
-    "AI rejected the trade due to insufficient conviction.": 355,
-    "SELL engine validation failed (combined score 55.2, need 65).": 7,
-    "BUY engine validation failed (combined score 58.9, need 65).": 5,
-    "SELL engine validation failed (combined score 59.3, need 65).": 4,
-    "SELL engine validation failed (combined score 64.3, need 65).": 4,
-    "SELL engine validation failed (combined score 54.9, need 65).": 4,
-    "BUY engine validation failed (combined score 41.7, need 65).": 4,
-    "SELL engine validation failed (combined score 59.1, need 65).": 4,
-    "BUY engine validation failed (combined score 36.0, need 65).": 4,
-    "SELL engine validation failed (combined score 45.6, need 65).": 4
+    "AI rejected the trade due to insufficient conviction.": 364,
+    "SELL engine validation failed (combined score 54.9, need 65).": 5,
+    "SELL engine validation failed (combined score 60.5, need 65).": 5,
+    "BUY engine validation failed (combined score 36.9, need 65).": 5,
+    "SELL engine validation failed (combined score 59.1, need 65).": 5,
+    "SELL engine validation failed (combined score 46.4, need 65).": 4,
+    "BUY engine validation failed (combined score 37.2, need 65).": 4,
+    "SELL engine validation failed (combined score 59.2, need 65).": 4,
+    "BUY engine validation failed (combined score 61.7, need 65).": 4,
+    "SELL engine validation failed (combined score 44.8, need 65).": 4
   },
   "daily_summary": {
-    "2026-09-02": {
-      "BUY": 66,
-      "NO_TRADE": 355,
-      "SELL": 79
+    "2026-09-03": {
+      "NO_TRADE": 364,
+      "SELL": 53,
+      "BUY": 83
     }
   }
 }

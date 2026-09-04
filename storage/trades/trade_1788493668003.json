@@ -1,0 +1,18 @@
+{
+  "symbol": "RVNL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 50,
+  "entry_price": 220.8699951171875,
+  "exit_price": 212.97,
+  "status": "CLOSED",
+  "realized_pnl": 394.99975585937506,
+  "realized_pnl_percent": 3.576762481022369,
+  "max_profit_percent": 6.687189497763585,
+  "max_drawdown_percent": 0.004529760960599079,
+  "regime": "BEAR",
+  "confidence": 56.14,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (62/100).",
+  "id": "trade_1788493668003",
+  "timestamp": 1788493668.0034196
+}

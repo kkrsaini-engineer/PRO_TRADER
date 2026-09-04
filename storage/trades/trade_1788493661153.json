@@ -1,0 +1,18 @@
+{
+  "symbol": "INOXWIND.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 110,
+  "entry_price": 69.1500015258789,
+  "exit_price": 75.77,
+  "status": "CLOSED",
+  "realized_pnl": -728.1998321533199,
+  "realized_pnl_percent": -9.573388760727072,
+  "max_profit_percent": 1.4027498257044624,
+  "max_drawdown_percent": 9.573388760727072,
+  "regime": "BEAR",
+  "confidence": 47.7,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Technical trend reversing against the SELL position (80/100).; News sentiment now works against this SELL position (61/100).; Drawdown from peak is significant (9.6%).",
+  "id": "trade_1788493661153",
+  "timestamp": 1788493661.153286
+}

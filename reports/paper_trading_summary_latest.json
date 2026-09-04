@@ -1,49 +1,53 @@
 {
-  "date": "2026-09-03",
-  "opening_balance": 122321.17969963071,
-  "total_capital_in_positions": 291871.32000000007,
-  "remaining_balance": 206030.02115837095,
-  "portfolio_value": 497901.341158371,
-  "realized_pnl": -3187.2989728546154,
-  "portfolio_return_percent": -0.4197317683257978,
+  "date": "2026-09-04",
+  "opening_balance": 139582.8713780975,
+  "total_capital_in_positions": 264126.05999999994,
+  "remaining_balance": 234954.52253341675,
+  "portfolio_value": 499080.5825334167,
+  "realized_pnl": -3136.648545608521,
+  "portfolio_return_percent": -0.1838834933166625,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "AUROPHARMA.NS",
-      "pnl": -418.39999999999964
+      "symbol": "KIRLOSENG.NS",
+      "pnl": -150.39999999999964
     },
     {
-      "symbol": "HEG.NS",
-      "pnl": -53.199999999999136
+      "symbol": "GRASIM.NS",
+      "pnl": -74.7998046875
     },
     {
-      "symbol": "FIRSTCRY.NS",
-      "pnl": 298.68034790038985
+      "symbol": "BLUESTARCO.NS",
+      "pnl": -233.599609375
     },
     {
-      "symbol": "ITCHOTELS.NS",
-      "pnl": -21.07008972167941
+      "symbol": "JINDALSTEL.NS",
+      "pnl": 0.6999999999993634
     },
     {
-      "symbol": "ATHERENERG.NS",
-      "pnl": -72.00009765624964
+      "symbol": "INOXWIND.NS",
+      "pnl": -728.1998321533199
     },
     {
-      "symbol": "BAJAJHFL.NS",
-      "pnl": -42.70003723144552
+      "symbol": "NIACL.NS",
+      "pnl": -1.4398535156256003
     },
     {
-      "symbol": "ZYDUSLIFE.NS",
-      "pnl": -291.9000000000003
+      "symbol": "RVNL.NS",
+      "pnl": 394.99975585937506
     },
     {
-      "symbol": "COFORGE.NS",
-      "pnl": -190.80019531250036
+      "symbol": "OBEROIRLTY.NS",
+      "pnl": 23.999999999999773
     },
     {
-      "symbol": "TATAPOWER.NS",
-      "pnl": 4.249792480468557
+      "symbol": "VOLTAS.NS",
+      "pnl": -135.0
+    },
+    {
+      "symbol": "PETRONET.NS",
+      "pnl": -61.5
     }
   ],
-  "open_positions_now": 31
+  "open_positions_now": 29
 }

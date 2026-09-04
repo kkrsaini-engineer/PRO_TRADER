@@ -1,0 +1,18 @@
+{
+  "symbol": "OBEROIRLTY.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 5,
+  "entry_price": 1914.0,
+  "exit_price": 1918.8,
+  "status": "CLOSED",
+  "realized_pnl": 23.999999999999773,
+  "realized_pnl_percent": 0.2507836990595588,
+  "max_profit_percent": 0.2507836990595588,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 72.12,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788493668886",
+  "timestamp": 1788493668.8866963
+}
