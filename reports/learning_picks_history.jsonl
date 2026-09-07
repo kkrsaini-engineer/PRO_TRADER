@@ -72,3 +72,5 @@
 {"date": "2026-09-03", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 267.7}
 {"date": "2026-09-04", "symbol": "SOLARINDS.NS", "direction": "BUY", "entry_price": 21500.0}
 {"date": "2026-09-04", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 284.1}
+{"date": "2026-09-07", "symbol": "CRISIL.NS", "direction": "BUY", "entry_price": 4802.0}
+{"date": "2026-09-07", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 281.5}

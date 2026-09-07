@@ -1,0 +1,18 @@
+{
+  "symbol": "ANTHEM.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 8,
+  "entry_price": 940.0,
+  "exit_price": 945.4,
+  "status": "CLOSED",
+  "realized_pnl": 43.19999999999982,
+  "realized_pnl_percent": 0.5744680851063806,
+  "max_profit_percent": 1.5744680851063781,
+  "max_drawdown_percent": 0.39361702127660053,
+  "regime": "BULL",
+  "confidence": 56.58,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (78/100).",
+  "id": "trade_1788752947866",
+  "timestamp": 1788752947.8665082
+}

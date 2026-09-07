@@ -1,0 +1,18 @@
+{
+  "symbol": "BEML.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 5,
+  "entry_price": 2050.0,
+  "exit_price": 2069.9,
+  "status": "CLOSED",
+  "realized_pnl": 99.50000000000045,
+  "realized_pnl_percent": 0.9707317073170777,
+  "max_profit_percent": 2.4292682926829356,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 57.27,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1788752926107",
+  "timestamp": 1788752926.1070294
+}

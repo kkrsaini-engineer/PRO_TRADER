@@ -1,0 +1,18 @@
+{
+  "symbol": "SBILIFE.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 1775.0,
+  "exit_price": 1762.0,
+  "status": "CLOSED",
+  "realized_pnl": 52.0,
+  "realized_pnl_percent": 0.7323943661971831,
+  "max_profit_percent": 0.7323943661971831,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 57.8,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (65/100).",
+  "id": "trade_1788752919800",
+  "timestamp": 1788752919.8007195
+}

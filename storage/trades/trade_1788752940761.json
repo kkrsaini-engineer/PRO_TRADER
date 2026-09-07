@@ -1,0 +1,18 @@
+{
+  "symbol": "THELEELA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 17,
+  "entry_price": 560.5,
+  "exit_price": 554.05,
+  "status": "CLOSED",
+  "realized_pnl": -109.65000000000077,
+  "realized_pnl_percent": -1.1507582515611143,
+  "max_profit_percent": 1.8287243532560213,
+  "max_drawdown_percent": 2.943800178412132,
+  "regime": "BULL",
+  "confidence": 58.2,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788752940761",
+  "timestamp": 1788752940.7611396
+}

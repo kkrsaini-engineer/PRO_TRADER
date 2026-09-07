@@ -1,0 +1,18 @@
+{
+  "symbol": "BRIGADE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 10,
+  "entry_price": 714.0,
+  "exit_price": 696.1,
+  "status": "CLOSED",
+  "realized_pnl": -178.99999999999977,
+  "realized_pnl_percent": -2.5070028011204446,
+  "max_profit_percent": 0.8473389355742234,
+  "max_drawdown_percent": 2.5070028011204446,
+  "regime": "BULL",
+  "confidence": 55.92,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (68/100).",
+  "id": "trade_1788752925195",
+  "timestamp": 1788752925.1955163
+}

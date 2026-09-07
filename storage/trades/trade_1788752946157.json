@@ -1,0 +1,18 @@
+{
+  "symbol": "TEJASNET.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 11,
+  "entry_price": 615.0,
+  "exit_price": 598.0,
+  "status": "CLOSED",
+  "realized_pnl": -187.0,
+  "realized_pnl_percent": -2.7642276422764227,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 2.7642276422764227,
+  "regime": "BULL",
+  "confidence": 57.5,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).",
+  "id": "trade_1788752946157",
+  "timestamp": 1788752946.1576614
+}
