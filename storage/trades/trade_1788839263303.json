@@ -1,0 +1,18 @@
+{
+  "symbol": "ICICIBANK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 8,
+  "entry_price": 1425.0999755859375,
+  "exit_price": 1420.0,
+  "status": "CLOSED",
+  "realized_pnl": -40.7998046875,
+  "realized_pnl_percent": -0.35786791616781954,
+  "max_profit_percent": 1.1437811166448688,
+  "max_drawdown_percent": 0.35786791616781954,
+  "regime": "BULL",
+  "confidence": 49.96,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788839263303",
+  "timestamp": 1788839263.3031735
+}

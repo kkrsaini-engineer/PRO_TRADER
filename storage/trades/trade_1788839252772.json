@@ -1,0 +1,18 @@
+{
+  "symbol": "WOCKPHARMA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 2200.0,
+  "exit_price": 2219.5,
+  "status": "CLOSED",
+  "realized_pnl": 78.0,
+  "realized_pnl_percent": 0.8863636363636364,
+  "max_profit_percent": 0.8863636363636364,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 55.61,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (68/100).; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1788839252772",
+  "timestamp": 1788839252.772389
+}

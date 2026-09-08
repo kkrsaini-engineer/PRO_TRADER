@@ -74,3 +74,5 @@
 {"date": "2026-09-04", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 284.1}
 {"date": "2026-09-07", "symbol": "CRISIL.NS", "direction": "BUY", "entry_price": 4802.0}
 {"date": "2026-09-07", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 281.5}
+{"date": "2026-09-08", "symbol": "HOMEFIRST.NS", "direction": "BUY", "entry_price": 1233.7}
+{"date": "2026-09-08", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 278.1}

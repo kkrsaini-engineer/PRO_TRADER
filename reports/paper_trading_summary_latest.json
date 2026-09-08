@@ -1,61 +1,29 @@
 {
-  "date": "2026-09-07",
-  "opening_balance": 138289.02257919312,
-  "total_capital_in_positions": 253094.15000000002,
-  "remaining_balance": 245771.57249679568,
-  "portfolio_value": 498865.7224967957,
-  "realized_pnl": -3180.797968826293,
-  "portfolio_return_percent": -0.22685550064085983,
+  "date": "2026-09-08",
+  "opening_balance": 137042.88220443728,
+  "total_capital_in_positions": 322302.88000000006,
+  "remaining_balance": 175871.73211471556,
+  "portfolio_value": 498174.6121147156,
+  "realized_pnl": -3907.2984088897756,
+  "portfolio_return_percent": -0.36507757705687544,
   "opened_today": [],
   "closed_today": [
     {
       "symbol": "WOCKPHARMA.NS",
-      "pnl": -47.999999999999545
+      "pnl": 78.0
     },
     {
-      "symbol": "JINDALSTEL.NS",
-      "pnl": -143.10000000000082
+      "symbol": "INDGN.NS",
+      "pnl": -187.84979248046875
     },
     {
-      "symbol": "SBILIFE.NS",
-      "pnl": 52.0
+      "symbol": "ICICIBANK.NS",
+      "pnl": -40.7998046875
     },
     {
-      "symbol": "ACMESOLAR.NS",
-      "pnl": -96.799731445313
-    },
-    {
-      "symbol": "BRIGADE.NS",
-      "pnl": -178.99999999999977
-    },
-    {
-      "symbol": "BEML.NS",
-      "pnl": 99.50000000000045
-    },
-    {
-      "symbol": "RVNL.NS",
-      "pnl": 50.80007324218741
-    },
-    {
-      "symbol": "NIACL.NS",
-      "pnl": -66.68976196289071
-    },
-    {
-      "symbol": "THELEELA.NS",
-      "pnl": -109.65000000000077
-    },
-    {
-      "symbol": "AEGISVOPAK.NS",
-      "pnl": -266.0
-    },
-    {
-      "symbol": "TEJASNET.NS",
-      "pnl": -187.0
-    },
-    {
-      "symbol": "ANTHEM.NS",
-      "pnl": 43.19999999999982
+      "symbol": "ABFRL.NS",
+      "pnl": 65.31995666503914
     }
   ],
-  "open_positions_now": 28
+  "open_positions_now": 36
 }

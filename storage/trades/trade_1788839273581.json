@@ -1,0 +1,18 @@
+{
+  "symbol": "ABFRL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 142,
+  "entry_price": 53.06999969482422,
+  "exit_price": 52.61,
+  "status": "CLOSED",
+  "realized_pnl": 65.31995666503914,
+  "realized_pnl_percent": 0.866779154832145,
+  "max_profit_percent": 0.866779154832145,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 61.07,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788839273581",
+  "timestamp": 1788839273.5813968
+}
