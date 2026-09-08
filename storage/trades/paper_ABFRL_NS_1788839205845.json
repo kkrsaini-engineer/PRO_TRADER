@@ -1,0 +1,13 @@
+{
+  "id": "paper_ABFRL_NS_1788839205845",
+  "symbol": "ABFRL.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 142,
+  "entry_price": 53.06999969482422,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.26% (0.09x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788839205.8463657
+}

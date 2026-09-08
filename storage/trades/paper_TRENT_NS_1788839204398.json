@@ -1,0 +1,13 @@
+{
+  "id": "paper_TRENT_NS_1788839204398",
+  "symbol": "TRENT.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 3,
+  "entry_price": 2800.5,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.50% (0.27x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788839204.3990192
+}

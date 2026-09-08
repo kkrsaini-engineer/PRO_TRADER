@@ -1,0 +1,13 @@
+{
+  "id": "paper_CGPOWER_NS_1788839204982",
+  "symbol": "CGPOWER.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 9,
+  "entry_price": 894.9000244140625,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.01% (0.00x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788839204.9826112
+}
