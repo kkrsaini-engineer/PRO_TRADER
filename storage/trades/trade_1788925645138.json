@@ -1,0 +1,18 @@
+{
+  "symbol": "WELCORP.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 3,
+  "entry_price": 2561.60009765625,
+  "exit_price": 2630.8,
+  "status": "CLOSED",
+  "realized_pnl": 207.59970703125055,
+  "realized_pnl_percent": 2.701432686821999,
+  "max_profit_percent": 2.904430805254208,
+  "max_drawdown_percent": 0.9876677346865453,
+  "regime": "BULL",
+  "confidence": 60.74,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788925645138",
+  "timestamp": 1788925645.1385567
+}

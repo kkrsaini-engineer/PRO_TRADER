@@ -1,29 +1,49 @@
 {
-  "date": "2026-09-08",
-  "opening_balance": 137042.88220443728,
-  "total_capital_in_positions": 322302.88000000006,
-  "remaining_balance": 175871.73211471556,
-  "portfolio_value": 498174.6121147156,
-  "realized_pnl": -3907.2984088897756,
-  "portfolio_return_percent": -0.36507757705687544,
+  "date": "2026-09-09",
+  "opening_balance": 121282.83251754759,
+  "total_capital_in_positions": 299695.48,
+  "remaining_balance": 196884.71171798708,
+  "portfolio_value": 496580.19171798707,
+  "realized_pnl": -2997.0875373077406,
+  "portfolio_return_percent": -0.6839616564025869,
   "opened_today": [],
   "closed_today": [
     {
+      "symbol": "WELCORP.NS",
+      "pnl": 207.59970703125055
+    },
+    {
+      "symbol": "IIFL.NS",
+      "pnl": -460.2001464843747
+    },
+    {
+      "symbol": "TITAGARH.NS",
+      "pnl": 46.800000000000296
+    },
+    {
+      "symbol": "PNBHOUSING.NS",
+      "pnl": -9.600000000000364
+    },
+    {
+      "symbol": "KARURVYSYA.NS",
+      "pnl": -118.99975585937455
+    },
+    {
+      "symbol": "IDEA.NS",
+      "pnl": 351.899941635132
+    },
+    {
       "symbol": "WOCKPHARMA.NS",
-      "pnl": 78.0
+      "pnl": -65.70000000000027
     },
     {
-      "symbol": "INDGN.NS",
-      "pnl": -187.84979248046875
+      "symbol": "USHAMART.NS",
+      "pnl": -119.0
     },
     {
-      "symbol": "ICICIBANK.NS",
-      "pnl": -40.7998046875
-    },
-    {
-      "symbol": "ABFRL.NS",
-      "pnl": 65.31995666503914
+      "symbol": "JSWSTEEL.NS",
+      "pnl": -224.0
     }
   ],
-  "open_positions_now": 36
+  "open_positions_now": 35
 }

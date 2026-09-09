@@ -1,0 +1,18 @@
+{
+  "symbol": "JSWSTEEL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 8,
+  "entry_price": 1326.0,
+  "exit_price": 1298.0,
+  "status": "CLOSED",
+  "realized_pnl": -224.0,
+  "realized_pnl_percent": -2.1116138763197587,
+  "max_profit_percent": 1.3725490196078467,
+  "max_drawdown_percent": 2.1116138763197587,
+  "regime": "BULL",
+  "confidence": 53.0,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788925679028",
+  "timestamp": 1788925679.0281107
+}

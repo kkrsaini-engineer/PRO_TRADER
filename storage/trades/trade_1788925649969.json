@@ -1,0 +1,18 @@
+{
+  "symbol": "TITAGARH.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 13,
+  "entry_price": 878.75,
+  "exit_price": 882.35,
+  "status": "CLOSED",
+  "realized_pnl": 46.800000000000296,
+  "realized_pnl_percent": 0.4096728307254649,
+  "max_profit_percent": 1.0867709815078186,
+  "max_drawdown_percent": 1.2005689900426693,
+  "regime": "BULL",
+  "confidence": 55.35,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788925649969",
+  "timestamp": 1788925649.9690294
+}

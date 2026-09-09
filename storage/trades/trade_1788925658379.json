@@ -1,0 +1,18 @@
+{
+  "symbol": "KARURVYSYA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 20,
+  "entry_price": 347.29998779296875,
+  "exit_price": 341.35,
+  "status": "CLOSED",
+  "realized_pnl": -118.99975585937455,
+  "realized_pnl_percent": -1.7132127849413037,
+  "max_profit_percent": 2.74978765986142,
+  "max_drawdown_percent": 1.7132127849413037,
+  "regime": "BULL",
+  "confidence": 55.23,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1788925658379",
+  "timestamp": 1788925658.3791802
+}
