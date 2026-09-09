@@ -1,0 +1,13 @@
+{
+  "id": "paper_HAVELLS_NS_1788925604229",
+  "symbol": "HAVELLS.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 6,
+  "entry_price": 1136.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.35% (0.13x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788925604.2301118
+}

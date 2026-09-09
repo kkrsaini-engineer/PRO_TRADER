@@ -1,0 +1,13 @@
+{
+  "id": "paper_AUROPHARMA_NS_1788925599847",
+  "symbol": "AUROPHARMA.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 5,
+  "entry_price": 1685.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.41% (0.18x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788925599.8478103
+}

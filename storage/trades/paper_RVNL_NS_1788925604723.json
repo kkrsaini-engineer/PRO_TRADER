@@ -1,0 +1,13 @@
+{
+  "id": "paper_RVNL_NS_1788925604723",
+  "symbol": "RVNL.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 32,
+  "entry_price": 206.82000732421875,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -2.67% (1.06x ATR, WARNING band); No NEW overnight news since last night's scan.",
+  "timestamp": 1788925604.7244153
+}
