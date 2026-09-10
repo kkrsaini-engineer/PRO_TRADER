@@ -1,0 +1,13 @@
+{
+  "id": "paper_ICICIGI_NS_1789012008873",
+  "symbol": "ICICIGI.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 4,
+  "entry_price": 1473.699951171875,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.02% (0.01x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789012008.8739371
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_GRAPHITE_NS_1789012006241",
+  "symbol": "GRAPHITE.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 10,
+  "entry_price": 839.1500244140625,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.65% (0.17x ATR, NORMAL band); No news available.",
+  "timestamp": 1789012006.2418315
+}

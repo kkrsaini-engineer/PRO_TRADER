@@ -1,0 +1,13 @@
+{
+  "id": "paper_BANKBARODA_NS_1789012008622",
+  "symbol": "BANKBARODA.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 32,
+  "entry_price": 235.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.38% (0.21x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789012008.6227095
+}

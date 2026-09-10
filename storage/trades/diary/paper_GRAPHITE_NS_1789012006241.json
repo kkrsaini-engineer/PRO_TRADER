@@ -1,0 +1,24 @@
+{
+  "trade_id": "paper_GRAPHITE_NS_1789012006241",
+  "symbol": "GRAPHITE.NS",
+  "direction": "BUY",
+  "entry_date": "2026-09-10",
+  "entry_price": 839.1500244140625,
+  "buy_probability": 0.0,
+  "buy_confidence": 0.0,
+  "entry_reasons": [
+    "Morning Executor: gap -0.65% (0.17x ATR, NORMAL band)",
+    "No news available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1789012006.241324,
+  "updated_at": 1789012006.2413242
+}
