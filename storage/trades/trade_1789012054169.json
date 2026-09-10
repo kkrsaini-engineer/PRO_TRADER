@@ -1,0 +1,18 @@
+{
+  "symbol": "ANANTRAJ.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 17,
+  "entry_price": 641.0,
+  "exit_price": 612.05,
+  "status": "CLOSED",
+  "realized_pnl": -492.1500000000008,
+  "realized_pnl_percent": -4.516380655226216,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 4.516380655226216,
+  "regime": "BULL",
+  "confidence": 51.17,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Technical trend reversing against the BUY position (60/100).",
+  "id": "trade_1789012054169",
+  "timestamp": 1789012054.1690366
+}

@@ -1,49 +1,41 @@
 {
-  "date": "2026-09-09",
-  "opening_balance": 121282.83251754759,
-  "total_capital_in_positions": 299695.48,
-  "remaining_balance": 196884.71171798708,
-  "portfolio_value": 496580.19171798707,
-  "realized_pnl": -2997.0875373077406,
-  "portfolio_return_percent": -0.6839616564025869,
+  "date": "2026-09-10",
+  "opening_balance": 134195.26138248446,
+  "total_capital_in_positions": 304388.5800000001,
+  "remaining_balance": 194496.5428422165,
+  "portfolio_value": 498885.1228422166,
+  "realized_pnl": -3408.327335700993,
+  "portfolio_return_percent": -0.22297543155668534,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "WELCORP.NS",
-      "pnl": 207.59970703125055
+      "symbol": "ANANTRAJ.NS",
+      "pnl": -492.1500000000008
     },
     {
-      "symbol": "IIFL.NS",
-      "pnl": -460.2001464843747
+      "symbol": "MOTILALOFS.NS",
+      "pnl": -372.5999999999998
     },
     {
-      "symbol": "TITAGARH.NS",
-      "pnl": 46.800000000000296
+      "symbol": "LATENTVIEW.NS",
+      "pnl": 242.54959716796913
     },
     {
-      "symbol": "PNBHOUSING.NS",
-      "pnl": -9.600000000000364
+      "symbol": "BANKBARODA.NS",
+      "pnl": -24.640000000000327
     },
     {
-      "symbol": "KARURVYSYA.NS",
-      "pnl": -118.99975585937455
+      "symbol": "GODREJCP.NS",
+      "pnl": 146.00024414062545
     },
     {
-      "symbol": "IDEA.NS",
-      "pnl": 351.899941635132
+      "symbol": "RVNL.NS",
+      "pnl": -95.67976562500007
     },
     {
-      "symbol": "WOCKPHARMA.NS",
-      "pnl": -65.70000000000027
-    },
-    {
-      "symbol": "USHAMART.NS",
-      "pnl": -119.0
-    },
-    {
-      "symbol": "JSWSTEEL.NS",
-      "pnl": -224.0
+      "symbol": "ICICIPRULI.NS",
+      "pnl": 219.75009155273455
     }
   ],
-  "open_positions_now": 35
+  "open_positions_now": 36
 }

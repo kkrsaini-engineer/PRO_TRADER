@@ -1,0 +1,18 @@
+{
+  "symbol": "ICICIPRULI.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 15,
+  "entry_price": 476.8500061035156,
+  "exit_price": 462.2,
+  "status": "CLOSED",
+  "realized_pnl": 219.75009155273455,
+  "realized_pnl_percent": 3.072246181398891,
+  "max_profit_percent": 3.072246181398891,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 57.35,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (63/100).",
+  "id": "trade_1789012086096",
+  "timestamp": 1789012086.096952
+}

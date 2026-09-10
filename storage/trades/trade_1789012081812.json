@@ -1,0 +1,18 @@
+{
+  "symbol": "GODREJCP.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 10,
+  "entry_price": 878.6500244140625,
+  "exit_price": 864.05,
+  "status": "CLOSED",
+  "realized_pnl": 146.00024414062545,
+  "realized_pnl_percent": 1.6616427483512257,
+  "max_profit_percent": 1.7128576789261176,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 54.23,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789012081812",
+  "timestamp": 1789012081.8127043
+}
