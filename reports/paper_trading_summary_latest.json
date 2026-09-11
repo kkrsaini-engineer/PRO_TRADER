@@ -1,41 +1,65 @@
 {
-  "date": "2026-09-10",
-  "opening_balance": 134195.26138248446,
-  "total_capital_in_positions": 304388.5800000001,
-  "remaining_balance": 194496.5428422165,
-  "portfolio_value": 498885.1228422166,
-  "realized_pnl": -3408.327335700993,
-  "portfolio_return_percent": -0.22297543155668534,
+  "date": "2026-09-11",
+  "opening_balance": 144605.36351711274,
+  "total_capital_in_positions": 246393.91999999998,
+  "remaining_balance": 248161.34327072144,
+  "portfolio_value": 494555.2632707214,
+  "realized_pnl": -6915.198010597234,
+  "portfolio_return_percent": -1.0889473458557155,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "ANANTRAJ.NS",
-      "pnl": -492.1500000000008
+      "symbol": "MRPL.NS",
+      "pnl": -178.99978637695284
     },
     {
-      "symbol": "MOTILALOFS.NS",
-      "pnl": -372.5999999999998
+      "symbol": "CUB.NS",
+      "pnl": 133.7600000000004
     },
     {
-      "symbol": "LATENTVIEW.NS",
-      "pnl": 242.54959716796913
+      "symbol": "IDEA.NS",
+      "pnl": -345.7299143600465
     },
     {
-      "symbol": "BANKBARODA.NS",
-      "pnl": -24.640000000000327
+      "symbol": "DATAPATTNS.NS",
+      "pnl": -239.5
     },
     {
-      "symbol": "GODREJCP.NS",
-      "pnl": 146.00024414062545
+      "symbol": "PCBL.NS",
+      "pnl": -52.24988403320356
     },
     {
-      "symbol": "RVNL.NS",
-      "pnl": -95.67976562500007
+      "symbol": "CGPOWER.NS",
+      "pnl": -13.05021972656209
     },
     {
-      "symbol": "ICICIPRULI.NS",
-      "pnl": 219.75009155273455
+      "symbol": "GLAND.NS",
+      "pnl": -3.600195312499636
+    },
+    {
+      "symbol": "GRAPHITE.NS",
+      "pnl": -479.000244140625
+    },
+    {
+      "symbol": "SYRMA.NS",
+      "pnl": -341.5999999999997
+    },
+    {
+      "symbol": "SAIL.NS",
+      "pnl": -68.87982910156256
+    },
+    {
+      "symbol": "MAHABANK.NS",
+      "pnl": 16.34983367919891
+    },
+    {
+      "symbol": "PNBHOUSING.NS",
+      "pnl": -12.0
+    },
+    {
+      "symbol": "KEC.NS",
+      "pnl": -28.750140380858852
     }
   ],
-  "open_positions_now": 36
+  "open_positions_now": 29
 }

@@ -1,0 +1,18 @@
+{
+  "symbol": "MRPL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 50,
+  "entry_price": 184.97999572753906,
+  "exit_price": 181.4,
+  "status": "CLOSED",
+  "realized_pnl": -178.99978637695284,
+  "realized_pnl_percent": -1.9353420965649217,
+  "max_profit_percent": 0.6703450649265691,
+  "max_drawdown_percent": 1.9353420965649217,
+  "regime": "BULL",
+  "confidence": 56.09,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789098464883",
+  "timestamp": 1789098464.883278
+}

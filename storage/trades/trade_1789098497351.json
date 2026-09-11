@@ -1,0 +1,18 @@
+{
+  "symbol": "KEC.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 23,
+  "entry_price": 406.1499938964844,
+  "exit_price": 407.4,
+  "status": "CLOSED",
+  "realized_pnl": -28.750140380858852,
+  "realized_pnl_percent": -0.3077695733843078,
+  "max_profit_percent": 1.1325849970729696,
+  "max_drawdown_percent": 0.5662947526971568,
+  "regime": "BEAR",
+  "confidence": 57.98,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (69/100).",
+  "id": "trade_1789098497351",
+  "timestamp": 1789098497.3519826
+}

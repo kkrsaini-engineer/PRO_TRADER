@@ -80,3 +80,5 @@
 {"date": "2026-09-09", "symbol": "SWANCORP.NS", "direction": "SELL", "entry_price": 278.1}
 {"date": "2026-09-10", "symbol": "FINCABLES.NS", "direction": "BUY", "entry_price": 1353.4}
 {"date": "2026-09-10", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 267.45}
+{"date": "2026-09-11", "symbol": "FINCABLES.NS", "direction": "BUY", "entry_price": 1418.4}
+{"date": "2026-09-11", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 263.5}

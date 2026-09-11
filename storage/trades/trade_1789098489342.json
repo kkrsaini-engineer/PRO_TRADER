@@ -1,0 +1,18 @@
+{
+  "symbol": "SAIL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 56,
+  "entry_price": 180.6999969482422,
+  "exit_price": 179.47,
+  "status": "CLOSED",
+  "realized_pnl": -68.87982910156256,
+  "realized_pnl_percent": -0.6806845428970849,
+  "max_profit_percent": 9.883787135244638,
+  "max_drawdown_percent": 0.6806845428970849,
+  "regime": "SIDEWAYS",
+  "confidence": 47.22,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789098489342",
+  "timestamp": 1789098489.3420637
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "CUB.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 38,
+  "entry_price": 222.0,
+  "exit_price": 225.52,
+  "status": "CLOSED",
+  "realized_pnl": 133.7600000000004,
+  "realized_pnl_percent": 1.5855855855855903,
+  "max_profit_percent": 7.333333333333333,
+  "max_drawdown_percent": 0.05855855855855651,
+  "regime": "BULL",
+  "confidence": 54.24,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789098466487",
+  "timestamp": 1789098466.487278
+}

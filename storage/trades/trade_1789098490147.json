@@ -1,0 +1,18 @@
+{
+  "symbol": "MAHABANK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 109,
+  "entry_price": 83.1500015258789,
+  "exit_price": 83.3,
+  "status": "CLOSED",
+  "realized_pnl": 16.34983367919891,
+  "realized_pnl_percent": 0.1803950347185582,
+  "max_profit_percent": 4.161152628535109,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 57.85,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789098490147",
+  "timestamp": 1789098490.147421
+}

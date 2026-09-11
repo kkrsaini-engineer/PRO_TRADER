@@ -1,0 +1,18 @@
+{
+  "symbol": "IDEA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 449,
+  "entry_price": 15.699999809265137,
+  "exit_price": 14.93,
+  "status": "CLOSED",
+  "realized_pnl": -345.7299143600465,
+  "realized_pnl_percent": -4.904457443437243,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 4.904457443437243,
+  "regime": "BULL",
+  "confidence": 53.53,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).",
+  "id": "trade_1789098468122",
+  "timestamp": 1789098468.1225708
+}

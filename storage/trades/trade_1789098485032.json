@@ -1,0 +1,18 @@
+{
+  "symbol": "GRAPHITE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 10,
+  "entry_price": 839.1500244140625,
+  "exit_price": 791.25,
+  "status": "CLOSED",
+  "realized_pnl": -479.000244140625,
+  "realized_pnl_percent": -5.708159807003372,
+  "max_profit_percent": 0.19662462467179834,
+  "max_drawdown_percent": 5.708159807003372,
+  "regime": "BULL",
+  "confidence": 57.72,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1789098485032",
+  "timestamp": 1789098485.0325315
+}

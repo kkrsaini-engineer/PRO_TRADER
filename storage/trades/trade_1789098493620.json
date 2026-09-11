@@ -1,0 +1,18 @@
+{
+  "symbol": "PNBHOUSING.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 6,
+  "entry_price": 1172.0,
+  "exit_price": 1170.0,
+  "status": "CLOSED",
+  "realized_pnl": -12.0,
+  "realized_pnl_percent": -0.17064846416382254,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.17064846416382254,
+  "regime": "BULL",
+  "confidence": 58.08,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789098493620",
+  "timestamp": 1789098493.6207097
+}
