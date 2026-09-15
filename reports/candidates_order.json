@@ -1,6 +1,6 @@
 {
-  "scan_date": "2026-09-11",
-  "scan_timestamp": "2026-09-11T23:41:53.528078+00:00",
+  "scan_date": "2026-09-15",
+  "scan_timestamp": "2026-09-16T00:14:03.023499+00:00",
   "candidates": [
     {
       "symbol": "GRANULES.NS",
@@ -14,7 +14,7 @@
       "overall_score": 78.17,
       "ranking": 86.27,
       "sector": "Healthcare",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "FINCABLES.NS",
@@ -28,7 +28,7 @@
       "overall_score": 77.62,
       "ranking": 85.84,
       "sector": "Industrials",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "PAYTM.NS",
@@ -42,7 +42,7 @@
       "overall_score": 74.95,
       "ranking": 83.66,
       "sector": "Technology",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "FIVESTAR.NS",
@@ -56,7 +56,7 @@
       "overall_score": 74.8,
       "ranking": 83.53,
       "sector": "Financial Services",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "REDINGTON.NS",
@@ -70,7 +70,7 @@
       "overall_score": 74.67,
       "ranking": 83.43,
       "sector": "Technology",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "OIL.NS",
@@ -84,7 +84,7 @@
       "overall_score": 74.45,
       "ranking": 83.23,
       "sector": "Energy",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "MAHABANK.NS",
@@ -98,7 +98,7 @@
       "overall_score": 74.02,
       "ranking": 82.86,
       "sector": "Financial Services",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "AFCONS.NS",
@@ -112,7 +112,7 @@
       "overall_score": 73.47,
       "ranking": 82.37,
       "sector": "Industrials",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "AEGISLOG.NS",
@@ -126,7 +126,7 @@
       "overall_score": 72.75,
       "ranking": 81.72,
       "sector": "Energy",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "JSWINFRA.NS",
@@ -140,7 +140,7 @@
       "overall_score": 72.38,
       "ranking": 81.37,
       "sector": "Industrials",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "CHENNPETRO.NS",
@@ -154,7 +154,7 @@
       "overall_score": 72.15,
       "ranking": 81.16,
       "sector": "Energy",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "SAILIFE.NS",
@@ -168,21 +168,7 @@
       "overall_score": 70.7,
       "ranking": 79.75,
       "sector": "Healthcare",
-      "scan_date": "2026-09-11"
-    },
-    {
-      "symbol": "NBCC.NS",
-      "direction": "SELL",
-      "prev_close": 82.9,
-      "atr_14": 1.59,
-      "atr_percent": null,
-      "stop_loss": 86.08,
-      "target1": 79.72,
-      "target2": 77.34,
-      "overall_score": 69.9,
-      "ranking": 78.94,
-      "sector": "Industrials",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "TRENT.NS",
@@ -196,7 +182,7 @@
       "overall_score": 69.36,
       "ranking": 78.38,
       "sector": "Consumer Cyclical",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "JSWCEMENT.NS",
@@ -210,7 +196,7 @@
       "overall_score": 68.66,
       "ranking": 77.63,
       "sector": "Basic Materials",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "CGPOWER.NS",
@@ -224,7 +210,7 @@
       "overall_score": 68.65,
       "ranking": 77.62,
       "sector": "Industrials",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "AEGISVOPAK.NS",
@@ -238,7 +224,21 @@
       "overall_score": 68.5,
       "ranking": 77.45,
       "sector": "Energy",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
+    },
+    {
+      "symbol": "IEX.NS",
+      "direction": "SELL",
+      "prev_close": 113.88,
+      "atr_14": 2.23,
+      "atr_percent": null,
+      "stop_loss": 118.34,
+      "target1": 109.42,
+      "target2": 106.07,
+      "overall_score": 68.47,
+      "ranking": 77.42,
+      "sector": "Financial Services",
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "NYKAA.NS",
@@ -252,7 +252,7 @@
       "overall_score": 68.14,
       "ranking": 77.06,
       "sector": "Consumer Cyclical",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "ITCHOTELS.NS",
@@ -266,7 +266,7 @@
       "overall_score": 68.12,
       "ranking": 77.04,
       "sector": "Consumer Cyclical",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     },
     {
       "symbol": "IRCON.NS",
@@ -280,7 +280,7 @@
       "overall_score": 68.0,
       "ranking": 76.91,
       "sector": "Industrials",
-      "scan_date": "2026-09-11"
+      "scan_date": "2026-09-15"
     }
   ]
 }
