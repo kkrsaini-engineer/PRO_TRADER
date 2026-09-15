@@ -1,0 +1,18 @@
+{
+  "symbol": "NBCC.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 117,
+  "entry_price": 83.25,
+  "exit_price": 82.86,
+  "status": "CLOSED",
+  "realized_pnl": 45.63000000000007,
+  "realized_pnl_percent": 0.4684684684684691,
+  "max_profit_percent": 0.4684684684684691,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 59.96,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (65/100).",
+  "id": "trade_1789444070879",
+  "timestamp": 1789444070.879028
+}

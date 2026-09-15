@@ -1,0 +1,18 @@
+{
+  "symbol": "SWANCORP.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 39,
+  "entry_price": 304.0,
+  "exit_price": 295.95,
+  "status": "CLOSED",
+  "realized_pnl": 313.95000000000044,
+  "realized_pnl_percent": 2.6480263157894774,
+  "max_profit_percent": 9.243421052631588,
+  "max_drawdown_percent": 0.7565789473684248,
+  "regime": "BEAR",
+  "confidence": 55.89,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1789444103856",
+  "timestamp": 1789444103.8562071
+}

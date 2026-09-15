@@ -1,0 +1,18 @@
+{
+  "symbol": "CROMPTON.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 35,
+  "entry_price": 231.99000549316406,
+  "exit_price": 230.39,
+  "status": "CLOSED",
+  "realized_pnl": 56.000192260742665,
+  "realized_pnl_percent": 0.6896872517256881,
+  "max_profit_percent": 2.0431938363412527,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 56.35,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789444059076",
+  "timestamp": 1789444059.0764763
+}

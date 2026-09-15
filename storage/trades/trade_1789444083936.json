@@ -1,0 +1,18 @@
+{
+  "symbol": "EMAMILTD.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 34,
+  "entry_price": 388.0,
+  "exit_price": 377.45,
+  "status": "CLOSED",
+  "realized_pnl": 358.7000000000004,
+  "realized_pnl_percent": 2.7190721649484564,
+  "max_profit_percent": 5.811855670103096,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 57.54,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (65/100).",
+  "id": "trade_1789444083936",
+  "timestamp": 1789444083.936123
+}

@@ -62,16 +62,34 @@
         "News sentiment now works against this SELL position (70/100).",
         "Exit score 17.3/100 (threshold 60.0) -> HOLD."
       ]
+    },
+    {
+      "date": "2026-09-15",
+      "current_price": 1479.0,
+      "current_pnl": 192.0,
+      "current_buy_confidence": 31.18,
+      "current_sell_confidence": 64.73,
+      "current_exit_score": 17.32,
+      "recommendation": "EXIT",
+      "notes": [
+        "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+        "News sentiment now works against this SELL position (70/100)."
+      ]
     }
   ],
-  "status": "OPEN",
-  "exit_date": null,
-  "exit_price": null,
-  "exit_reason": null,
-  "holding_days": 4,
-  "max_profit_percent": 0.0,
-  "max_drawdown_percent": 0.0,
-  "final_pnl": null,
+  "status": "CLOSED",
+  "exit_date": "2026-09-15",
+  "exit_price": 1479.0,
+  "exit_reason": "Risk engine flagged this symbol as unsafe.",
+  "holding_days": 5,
+  "max_profit_percent": 3.1700860357379277,
+  "max_drawdown_percent": 0.8074123097286594,
+  "final_pnl": 192.0,
   "created_at": 1788839203.556515,
-  "updated_at": 1789098472.107213
+  "updated_at": 1789444088.0249057,
+  "final_pnl_percent": 2.1178027796161483,
+  "exit_score": 17.32,
+  "target1_status": "NOT REACHED",
+  "target2_status": "NOT REACHED",
+  "stop_loss_status": "NOT HIT"
 }
