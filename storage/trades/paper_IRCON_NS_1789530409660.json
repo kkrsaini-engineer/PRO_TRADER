@@ -1,0 +1,13 @@
+{
+  "id": "paper_IRCON_NS_1789530409660",
+  "symbol": "IRCON.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 94,
+  "entry_price": 109.5,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -3.32% (1.32x ATR, WARNING band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789530409.6614902
+}

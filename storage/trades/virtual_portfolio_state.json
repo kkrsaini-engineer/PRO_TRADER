@@ -1,7 +1,7 @@
 {
   "total_capital": 500000.0,
-  "available_capital": 254306.27381237032,
-  "used_capital": 239500.22899246216,
+  "available_capital": 197057.1432429123,
+  "used_capital": 296749.35956192017,
   "total_pnl": -9971.157558326733,
   "total_pnl_percent": -1.9942315116653466,
   "exposure": 0.4790004579849243,
@@ -454,6 +454,86 @@
       "max_drawdown_percent": 1.0556280029875318,
       "status": "OPEN",
       "updated_at": 1789444095.9261565
+    },
+    "MAHABANK.NS": {
+      "symbol": "MAHABANK.NS",
+      "quantity": 158,
+      "entry_price": 80.0999984741211,
+      "current_price": 80.0999984741211,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 80.0999984741211,
+      "lowest_price": 80.0999984741211,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1789530403.2009187
+    },
+    "JSWCEMENT.NS": {
+      "symbol": "JSWCEMENT.NS",
+      "quantity": 103,
+      "entry_price": 116.91000366210938,
+      "current_price": 116.91000366210938,
+      "direction": "SELL",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 116.91000366210938,
+      "lowest_price": 116.91000366210938,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1789530406.538789
+    },
+    "IEX.NS": {
+      "symbol": "IEX.NS",
+      "quantity": 102,
+      "entry_price": 112.0,
+      "current_price": 112.0,
+      "direction": "SELL",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 112.0,
+      "lowest_price": 112.0,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1789530407.5972106
+    },
+    "ITCHOTELS.NS": {
+      "symbol": "ITCHOTELS.NS",
+      "quantity": 71,
+      "entry_price": 152.60000610351562,
+      "current_price": 152.60000610351562,
+      "direction": "SELL",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 152.60000610351562,
+      "lowest_price": 152.60000610351562,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1789530409.1827376
+    },
+    "IRCON.NS": {
+      "symbol": "IRCON.NS",
+      "quantity": 94,
+      "entry_price": 109.5,
+      "current_price": 109.5,
+      "direction": "SELL",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "highest_price": 109.5,
+      "lowest_price": 109.5,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1789530409.66088
     }
   },
   "closed_positions": [
@@ -3512,5 +3592,5 @@
     "IRCON.NS": "Industrials",
     "JSWCEMENT.NS": "Basic Materials"
   },
-  "saved_at": 1789444111.1517665
+  "saved_at": 1789530409.6619449
 }

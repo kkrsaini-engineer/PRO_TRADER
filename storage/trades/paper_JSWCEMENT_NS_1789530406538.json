@@ -1,0 +1,13 @@
+{
+  "id": "paper_JSWCEMENT_NS_1789530406538",
+  "symbol": "JSWCEMENT.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 103,
+  "entry_price": 116.91000366210938,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.65% (0.84x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789530406.5394459
+}
