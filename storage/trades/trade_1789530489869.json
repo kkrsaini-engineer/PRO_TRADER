@@ -1,0 +1,18 @@
+{
+  "symbol": "CGPOWER.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 909.0,
+  "exit_price": 858.15,
+  "status": "CLOSED",
+  "realized_pnl": -457.6500000000002,
+  "realized_pnl_percent": -5.594059405940596,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 5.594059405940596,
+  "regime": "SIDEWAYS",
+  "confidence": 51.74,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789530489869",
+  "timestamp": 1789530489.869506
+}

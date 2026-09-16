@@ -1,0 +1,18 @@
+{
+  "symbol": "ITCHOTELS.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 71,
+  "entry_price": 152.60000610351562,
+  "exit_price": 152.66,
+  "status": "CLOSED",
+  "realized_pnl": -4.259566650390383,
+  "realized_pnl_percent": -0.039314478430410395,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.039314478430410395,
+  "regime": "BEAR",
+  "confidence": 59.87,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789530481123",
+  "timestamp": 1789530481.1231148
+}

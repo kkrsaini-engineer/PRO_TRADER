@@ -1,0 +1,18 @@
+{
+  "symbol": "JSWCEMENT.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 103,
+  "entry_price": 116.91000366210938,
+  "exit_price": 116.4,
+  "status": "CLOSED",
+  "realized_pnl": 52.53037719726504,
+  "realized_pnl_percent": 0.43623611849621546,
+  "max_profit_percent": 0.43623611849621546,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 55.96,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (70/100).",
+  "id": "trade_1789530472478",
+  "timestamp": 1789530472.4789822
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "IEX.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 102,
+  "entry_price": 112.0,
+  "exit_price": 112.11,
+  "status": "CLOSED",
+  "realized_pnl": -11.219999999999942,
+  "realized_pnl_percent": -0.0982142857142852,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0982142857142852,
+  "regime": "BEAR",
+  "confidence": 60.24,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789530463741",
+  "timestamp": 1789530463.741964
+}

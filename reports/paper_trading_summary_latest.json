@@ -1,61 +1,69 @@
 {
-  "date": "2026-09-15",
-  "opening_balance": 144095.03328842163,
-  "total_capital_in_positions": 241555.35000000003,
-  "remaining_balance": 254306.27381237032,
-  "portfolio_value": 495861.62381237035,
-  "realized_pnl": -9971.157558326733,
-  "portfolio_return_percent": -0.8276752375259298,
+  "date": "2026-09-16",
+  "opening_balance": 197057.1432429123,
+  "total_capital_in_positions": 165610.71999999997,
+  "remaining_balance": 320382.86450084683,
+  "portfolio_value": 485993.5845008468,
+  "realized_pnl": -12630.396506690988,
+  "portfolio_return_percent": -2.8012830998306395,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "CROMPTON.NS",
-      "pnl": 56.000192260742665
+      "symbol": "HINDUNILVR.NS",
+      "pnl": 102.39999999999964
     },
     {
-      "symbol": "ITC.NS",
-      "pnl": -139.20000000000033
+      "symbol": "SAILIFE.NS",
+      "pnl": 162.60014648437527
     },
     {
-      "symbol": "MAHABANK.NS",
-      "pnl": -81.12959411621048
+      "symbol": "AEGISVOPAK.NS",
+      "pnl": 65.8001708984375
     },
     {
-      "symbol": "NBCC.NS",
-      "pnl": 45.63000000000007
+      "symbol": "CHENNPETRO.NS",
+      "pnl": -658.5001220703123
     },
     {
-      "symbol": "ITCHOTELS.NS",
-      "pnl": -39.26968872070336
+      "symbol": "IEX.NS",
+      "pnl": -11.219999999999942
     },
     {
-      "symbol": "IRCON.NS",
-      "pnl": -5.279859008789288
-    },
-    {
-      "symbol": "JINDALSAW.NS",
-      "pnl": -91.0
-    },
-    {
-      "symbol": "EMAMILTD.NS",
-      "pnl": 358.7000000000004
-    },
-    {
-      "symbol": "DABUR.NS",
-      "pnl": 88.19999999999976
-    },
-    {
-      "symbol": "MFSL.NS",
-      "pnl": 192.0
-    },
-    {
-      "symbol": "SWANCORP.NS",
-      "pnl": 313.95000000000044
+      "symbol": "JSWINFRA.NS",
+      "pnl": -595.9500000000003
     },
     {
       "symbol": "JSWCEMENT.NS",
-      "pnl": 23.099765014648
+      "pnl": 52.53037719726504
+    },
+    {
+      "symbol": "AUROPHARMA.NS",
+      "pnl": -173.99999999999977
+    },
+    {
+      "symbol": "MAHABANK.NS",
+      "pnl": 178.54024108886782
+    },
+    {
+      "symbol": "WELCORP.NS",
+      "pnl": -1095.9000000000005
+    },
+    {
+      "symbol": "ITCHOTELS.NS",
+      "pnl": -4.259566650390383
+    },
+    {
+      "symbol": "CGPOWER.NS",
+      "pnl": -457.6500000000002
+    },
+    {
+      "symbol": "NYKAA.NS",
+      "pnl": -95.69973144531275
+    },
+    {
+      "symbol": "PARADEEP.NS",
+      "pnl": -450.79974731445276
     }
   ],
-  "open_positions_now": 28
+  "open_positions_now": 19
 }

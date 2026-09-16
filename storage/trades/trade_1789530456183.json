@@ -1,0 +1,18 @@
+{
+  "symbol": "HINDUNILVR.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 1987.0,
+  "exit_price": 1961.4,
+  "status": "CLOSED",
+  "realized_pnl": 102.39999999999964,
+  "realized_pnl_percent": 1.2883744338198242,
+  "max_profit_percent": 2.4760946149974856,
+  "max_drawdown_percent": 0.473074987418223,
+  "regime": "BEAR",
+  "confidence": 58.83,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789530456183",
+  "timestamp": 1789530456.1832654
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "PARADEEP.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 46,
+  "entry_price": 159.50999450683594,
+  "exit_price": 149.71,
+  "status": "CLOSED",
+  "realized_pnl": -450.79974731445276,
+  "realized_pnl_percent": -6.143812202573891,
+  "max_profit_percent": 0.30719422609162145,
+  "max_drawdown_percent": 6.143812202573891,
+  "regime": "BULL",
+  "confidence": 49.03,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Drawdown from peak is significant (6.1%).",
+  "id": "trade_1789530492397",
+  "timestamp": 1789530492.3971298
+}
