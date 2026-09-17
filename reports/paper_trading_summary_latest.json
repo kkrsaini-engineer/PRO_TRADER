@@ -1,68 +1,48 @@
 {
-  "date": "2026-09-16",
-  "opening_balance": 197057.1432429123,
-  "total_capital_in_positions": 165610.71999999997,
-  "remaining_balance": 320382.86450084683,
-  "portfolio_value": 485993.5845008468,
-  "realized_pnl": -12630.396506690988,
-  "portfolio_return_percent": -2.8012830998306395,
+  "date": "2026-09-17",
+  "opening_balance": 202708.47305950162,
+  "total_capital_in_positions": 191486.28999999998,
+  "remaining_balance": 295277.74307170865,
+  "portfolio_value": 486764.03307170863,
+  "realized_pnl": -13699.315565834058,
+  "portfolio_return_percent": -2.6471933856582734,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "HINDUNILVR.NS",
-      "pnl": 102.39999999999964
+      "symbol": "NBCC.NS",
+      "pnl": 19.650479736327455
     },
     {
-      "symbol": "SAILIFE.NS",
-      "pnl": 162.60014648437527
+      "symbol": "IRCON.NS",
+      "pnl": 76.14000000000021
     },
     {
-      "symbol": "AEGISVOPAK.NS",
-      "pnl": 65.8001708984375
+      "symbol": "ENGINERSIN.NS",
+      "pnl": 476.1800354003903
     },
     {
-      "symbol": "CHENNPETRO.NS",
-      "pnl": -658.5001220703123
+      "symbol": "GRANULES.NS",
+      "pnl": -349.0500000000003
     },
     {
-      "symbol": "IEX.NS",
-      "pnl": -11.219999999999942
+      "symbol": "PAYTM.NS",
+      "pnl": -133.20000000000027
     },
     {
-      "symbol": "JSWINFRA.NS",
-      "pnl": -595.9500000000003
+      "symbol": "TMPV.NS",
+      "pnl": 16.64999999999958
     },
     {
-      "symbol": "JSWCEMENT.NS",
-      "pnl": 52.53037719726504
+      "symbol": "RBLBANK.NS",
+      "pnl": 125.80020751953106
     },
     {
-      "symbol": "AUROPHARMA.NS",
-      "pnl": -173.99999999999977
+      "symbol": "OIL.NS",
+      "pnl": -296.9998779296873
     },
     {
-      "symbol": "MAHABANK.NS",
-      "pnl": 178.54024108886782
-    },
-    {
-      "symbol": "WELCORP.NS",
-      "pnl": -1095.9000000000005
-    },
-    {
-      "symbol": "ITCHOTELS.NS",
-      "pnl": -4.259566650390383
-    },
-    {
-      "symbol": "CGPOWER.NS",
-      "pnl": -457.6500000000002
-    },
-    {
-      "symbol": "NYKAA.NS",
-      "pnl": -95.69973144531275
-    },
-    {
-      "symbol": "PARADEEP.NS",
-      "pnl": -450.79974731445276
+      "symbol": "JWL.NS",
+      "pnl": -146.16011535644589
     }
   ],
   "open_positions_now": 19

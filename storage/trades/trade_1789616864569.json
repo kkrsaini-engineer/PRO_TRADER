@@ -1,0 +1,18 @@
+{
+  "symbol": "TMPV.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 37,
+  "entry_price": 301.0,
+  "exit_price": 300.55,
+  "status": "CLOSED",
+  "realized_pnl": 16.64999999999958,
+  "realized_pnl_percent": 0.14950166112956434,
+  "max_profit_percent": 0.14950166112956434,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 64.91,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789616864569",
+  "timestamp": 1789616864.569722
+}

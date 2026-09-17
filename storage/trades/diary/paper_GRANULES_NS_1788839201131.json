@@ -82,16 +82,33 @@
       "notes": [
         "Exit score 12.3/100 (threshold 60.0) -> HOLD."
       ]
+    },
+    {
+      "date": "2026-09-17",
+      "current_price": 842.15,
+      "current_pnl": -349.0500000000003,
+      "current_buy_confidence": 51.68,
+      "current_sell_confidence": 36.05,
+      "current_exit_score": 21.43,
+      "recommendation": "EXIT",
+      "notes": [
+        "HARD RISK EXIT: Risk engine flagged this symbol as unsafe."
+      ]
     }
   ],
-  "status": "OPEN",
-  "exit_date": null,
-  "exit_price": null,
-  "exit_reason": null,
-  "holding_days": 6,
-  "max_profit_percent": 0.0,
-  "max_drawdown_percent": 0.0,
-  "final_pnl": null,
+  "status": "CLOSED",
+  "exit_date": "2026-09-17",
+  "exit_price": 842.15,
+  "exit_reason": "Risk engine flagged this symbol as unsafe.",
+  "holding_days": 7,
+  "max_profit_percent": 5.080552359033369,
+  "max_drawdown_percent": 3.0897583429229027,
+  "final_pnl": -349.0500000000003,
   "created_at": 1788839201.1311753,
-  "updated_at": 1789530467.4618366
+  "updated_at": 1789616855.8621128,
+  "final_pnl_percent": -3.0897583429229027,
+  "exit_score": 21.43,
+  "target1_status": "NOT REACHED",
+  "target2_status": "NOT REACHED",
+  "stop_loss_status": "NOT HIT"
 }

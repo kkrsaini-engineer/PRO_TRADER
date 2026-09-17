@@ -1,0 +1,18 @@
+{
+  "symbol": "GRANULES.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 13,
+  "entry_price": 869.0,
+  "exit_price": 842.15,
+  "status": "CLOSED",
+  "realized_pnl": -349.0500000000003,
+  "realized_pnl_percent": -3.0897583429229027,
+  "max_profit_percent": 5.080552359033369,
+  "max_drawdown_percent": 3.0897583429229027,
+  "regime": "SIDEWAYS",
+  "confidence": 51.68,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789616855861",
+  "timestamp": 1789616855.8617814
+}

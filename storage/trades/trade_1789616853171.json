@@ -1,0 +1,18 @@
+{
+  "symbol": "IRCON.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 94,
+  "entry_price": 109.5,
+  "exit_price": 108.69,
+  "status": "CLOSED",
+  "realized_pnl": 76.14000000000021,
+  "realized_pnl_percent": 0.7397260273972623,
+  "max_profit_percent": 0.7397260273972623,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 56.78,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (65/100).",
+  "id": "trade_1789616853171",
+  "timestamp": 1789616853.171759
+}

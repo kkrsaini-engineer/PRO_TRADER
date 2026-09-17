@@ -1,0 +1,18 @@
+{
+  "symbol": "JWL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 63,
+  "entry_price": 228.6699981689453,
+  "exit_price": 230.99,
+  "status": "CLOSED",
+  "realized_pnl": -146.16011535644589,
+  "realized_pnl_percent": -1.0145632787999759,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.0145632787999759,
+  "regime": "BEAR",
+  "confidence": 55.35,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (70/100).",
+  "id": "trade_1789616869724",
+  "timestamp": 1789616869.724171
+}

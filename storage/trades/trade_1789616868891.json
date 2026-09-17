@@ -1,0 +1,18 @@
+{
+  "symbol": "OIL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 20,
+  "entry_price": 498.1499938964844,
+  "exit_price": 483.3,
+  "status": "CLOSED",
+  "realized_pnl": -296.9998779296873,
+  "realized_pnl_percent": -2.981028621586251,
+  "max_profit_percent": 3.0613281723103976,
+  "max_drawdown_percent": 2.981028621586251,
+  "regime": "BULL",
+  "confidence": 50.23,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789616868891",
+  "timestamp": 1789616868.8919952
+}
