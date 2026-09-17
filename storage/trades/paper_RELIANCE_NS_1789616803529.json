@@ -1,0 +1,13 @@
+{
+  "id": "paper_RELIANCE_NS_1789616803529",
+  "symbol": "RELIANCE.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 12,
+  "entry_price": 1244.800048828125,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.77% (0.45x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789616803.529631
+}

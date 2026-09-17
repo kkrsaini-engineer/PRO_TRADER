@@ -1,0 +1,24 @@
+{
+  "trade_id": "paper_ABFRL_NS_1789616804494",
+  "symbol": "ABFRL.NS",
+  "direction": "SELL",
+  "entry_date": "2026-09-17",
+  "entry_price": 49.540000915527344,
+  "buy_probability": 0.0,
+  "buy_confidence": 0.0,
+  "entry_reasons": [
+    "Morning Executor: gap +1.06% (0.31x ATR, NORMAL band)",
+    "No NEW overnight news since last night's scan."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1789616804.494465,
+  "updated_at": 1789616804.494465
+}

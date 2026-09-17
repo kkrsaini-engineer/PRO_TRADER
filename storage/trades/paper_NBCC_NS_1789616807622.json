@@ -1,0 +1,13 @@
+{
+  "id": "paper_NBCC_NS_1789616807622",
+  "symbol": "NBCC.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 131,
+  "entry_price": 81.41000366210938,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.89% (0.45x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789616807.6232288
+}
