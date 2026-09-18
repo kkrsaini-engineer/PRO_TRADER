@@ -1,0 +1,13 @@
+{
+  "id": "paper_LATENTVIEW_NS_1789703207222",
+  "symbol": "LATENTVIEW.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 38,
+  "entry_price": 256.04998779296875,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +1.55% (0.52x ATR, NORMAL band); No news available.",
+  "timestamp": 1789703207.2229602
+}
