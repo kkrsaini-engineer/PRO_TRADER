@@ -1,0 +1,18 @@
+{
+  "symbol": "WAAREEENER.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 2490.10009765625,
+  "exit_price": 2521.5,
+  "status": "CLOSED",
+  "realized_pnl": -125.599609375,
+  "realized_pnl_percent": -1.2609895631627197,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.2609895631627197,
+  "regime": "BEAR",
+  "confidence": 58.57,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789703255605",
+  "timestamp": 1789703255.605302
+}

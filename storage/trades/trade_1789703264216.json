@@ -1,0 +1,18 @@
+{
+  "symbol": "SUZLON.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 209,
+  "entry_price": 44.119998931884766,
+  "exit_price": 42.88,
+  "status": "CLOSED",
+  "realized_pnl": 259.1597767639155,
+  "realized_pnl_percent": 2.8105144195473613,
+  "max_profit_percent": 4.238438298178084,
+  "max_drawdown_percent": 1.5639190499086453,
+  "regime": "BEAR",
+  "confidence": 61.12,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789703264216",
+  "timestamp": 1789703264.216592
+}

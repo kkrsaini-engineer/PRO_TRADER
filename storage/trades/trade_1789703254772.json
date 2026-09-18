@@ -1,0 +1,18 @@
+{
+  "symbol": "IRFC.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 132,
+  "entry_price": 79.31999969482422,
+  "exit_price": 79.78,
+  "status": "CLOSED",
+  "realized_pnl": -60.720040283203275,
+  "realized_pnl_percent": -0.5799297868703828,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.5799297868703828,
+  "regime": "BEAR",
+  "confidence": 56.95,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (61/100).",
+  "id": "trade_1789703254772",
+  "timestamp": 1789703254.7721345
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "ICICIGI.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 1473.699951171875,
+  "exit_price": 1484.2,
+  "status": "CLOSED",
+  "realized_pnl": -42.00019531250018,
+  "realized_pnl_percent": -0.712495703061908,
+  "max_profit_percent": 2.3885426028469543,
+  "max_drawdown_percent": 0.712495703061908,
+  "regime": "BEAR",
+  "confidence": 57.19,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789703249123",
+  "timestamp": 1789703249.12363
+}

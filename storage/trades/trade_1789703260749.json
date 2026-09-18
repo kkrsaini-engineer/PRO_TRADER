@@ -1,0 +1,18 @@
+{
+  "symbol": "LATENTVIEW.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 38,
+  "entry_price": 256.04998779296875,
+  "exit_price": 255.75,
+  "status": "CLOSED",
+  "realized_pnl": 11.3995361328125,
+  "realized_pnl_percent": 0.11715985443096662,
+  "max_profit_percent": 0.11715985443096662,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 57.87,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1789703260749",
+  "timestamp": 1789703260.7491815
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "JIOFIN.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 55,
+  "entry_price": 230.0,
+  "exit_price": 230.71,
+  "status": "CLOSED",
+  "realized_pnl": -39.05000000000044,
+  "realized_pnl_percent": -0.3086956521739165,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.3086956521739165,
+  "regime": "BEAR",
+  "confidence": 57.46,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789703252868",
+  "timestamp": 1789703252.8689106
+}

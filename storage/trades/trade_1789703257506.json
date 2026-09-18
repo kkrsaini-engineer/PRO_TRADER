@@ -1,0 +1,18 @@
+{
+  "symbol": "HDFCLIFE.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 19,
+  "entry_price": 515.1500244140625,
+  "exit_price": 559.15,
+  "status": "CLOSED",
+  "realized_pnl": -835.9995361328121,
+  "realized_pnl_percent": -8.541196447769472,
+  "max_profit_percent": 0.10676975405137197,
+  "max_drawdown_percent": 8.541196447769472,
+  "regime": "SIDEWAYS",
+  "confidence": 50.08,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Technical trend reversing against the SELL position (60/100).; Drawdown from peak is significant (8.5%).",
+  "id": "trade_1789703257506",
+  "timestamp": 1789703257.506998
+}
