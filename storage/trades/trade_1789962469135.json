@@ -1,0 +1,18 @@
+{
+  "symbol": "TRENT.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 3,
+  "entry_price": 2800.5,
+  "exit_price": 2815.0,
+  "status": "CLOSED",
+  "realized_pnl": -43.5,
+  "realized_pnl_percent": -0.5177646848777003,
+  "max_profit_percent": 1.9139439385823926,
+  "max_drawdown_percent": 0.7927155865024038,
+  "regime": "BEAR",
+  "confidence": 56.12,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (67/100).",
+  "id": "trade_1789962469135",
+  "timestamp": 1789962469.1358712
+}

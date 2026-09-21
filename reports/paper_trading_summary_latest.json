@@ -1,77 +1,49 @@
 {
-  "date": "2026-09-18",
-  "opening_balance": 189205.2020103073,
-  "total_capital_in_positions": 119890.62,
-  "remaining_balance": 366441.19433086395,
-  "portfolio_value": 486331.81433086394,
-  "realized_pnl": -15468.864846229568,
-  "portfolio_return_percent": -2.733637133827212,
+  "date": "2026-09-21",
+  "opening_balance": 173697.87511699676,
+  "total_capital_in_positions": 206814.91000000003,
+  "remaining_balance": 280354.2667254257,
+  "portfolio_value": 487169.17672542576,
+  "realized_pnl": -15423.303874549887,
+  "portfolio_return_percent": -2.5661646549148482,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "ICICIGI.NS",
-      "pnl": -42.00019531250018
+      "symbol": "SYNGENE.NS",
+      "pnl": 216.30051269531202
     },
     {
-      "symbol": "UPL.NS",
-      "pnl": -67.60000000000059
-    },
-    {
-      "symbol": "JIOFIN.NS",
-      "pnl": -39.05000000000044
-    },
-    {
-      "symbol": "PAYTM.NS",
-      "pnl": -144.20017089843782
-    },
-    {
-      "symbol": "IRFC.NS",
-      "pnl": -60.720040283203275
-    },
-    {
-      "symbol": "WAAREEENER.NS",
-      "pnl": -125.599609375
-    },
-    {
-      "symbol": "FIVESTAR.NS",
-      "pnl": -625.799999999999
-    },
-    {
-      "symbol": "HDFCLIFE.NS",
-      "pnl": -835.9995361328121
-    },
-    {
-      "symbol": "LATENTVIEW.NS",
-      "pnl": 11.3995361328125
-    },
-    {
-      "symbol": "SBILIFE.NS",
-      "pnl": -125.50012207031273
-    },
-    {
-      "symbol": "IRCON.NS",
-      "pnl": -9.17984436035104
-    },
-    {
-      "symbol": "SUZLON.NS",
-      "pnl": 259.1597767639155
-    },
-    {
-      "symbol": "ABFRL.NS",
-      "pnl": -249.8497592163091
+      "symbol": "RVNL.NS",
+      "pnl": -1013.6099999999999
     },
     {
       "symbol": "MSUMI.NS",
-      "pnl": -394.9799999999988
+      "pnl": -134.94063354492266
     },
     {
-      "symbol": "TMPV.NS",
-      "pnl": 154.05023803711026
+      "symbol": "PAYTM.NS",
+      "pnl": -49.20000000000027
     },
     {
-      "symbol": "NLCINDIA.NS",
-      "pnl": -9.999389648436363
+      "symbol": "RELIANCE.NS",
+      "pnl": 22.80058593749891
+    },
+    {
+      "symbol": "IRCTC.NS",
+      "pnl": 173.40020751953125
+    },
+    {
+      "symbol": "AMBUJACEM.NS",
+      "pnl": -195.99978637695273
+    },
+    {
+      "symbol": "FIVESTAR.NS",
+      "pnl": -9.899999999999181
+    },
+    {
+      "symbol": "TRENT.NS",
+      "pnl": -43.5
     }
   ],
-  "open_positions_now": 12
+  "open_positions_now": 18
 }

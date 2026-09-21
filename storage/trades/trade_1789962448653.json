@@ -1,0 +1,18 @@
+{
+  "symbol": "SYNGENE.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 42,
+  "entry_price": 369.95001220703125,
+  "exit_price": 364.8,
+  "status": "CLOSED",
+  "realized_pnl": 216.30051269531202,
+  "realized_pnl_percent": 1.3920832645220163,
+  "max_profit_percent": 1.3920832645220163,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 71.69,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (69/100).",
+  "id": "trade_1789962448653",
+  "timestamp": 1789962448.6535432
+}

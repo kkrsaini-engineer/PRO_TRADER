@@ -1,0 +1,18 @@
+{
+  "symbol": "FIVESTAR.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 18,
+  "entry_price": 532.75,
+  "exit_price": 532.2,
+  "status": "CLOSED",
+  "realized_pnl": -9.899999999999181,
+  "realized_pnl_percent": -0.10323791647113177,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.10323791647113177,
+  "regime": "BULL",
+  "confidence": 53.78,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789962459295",
+  "timestamp": 1789962459.2953608
+}

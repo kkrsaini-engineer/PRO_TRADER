@@ -1,0 +1,18 @@
+{
+  "symbol": "IRCTC.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 17,
+  "entry_price": 484.20001220703125,
+  "exit_price": 474.0,
+  "status": "CLOSED",
+  "realized_pnl": 173.40020751953125,
+  "realized_pnl_percent": 2.1065700020408076,
+  "max_profit_percent": 6.381662831065606,
+  "max_drawdown_percent": 1.2907863765803476,
+  "regime": "BEAR",
+  "confidence": 53.19,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1789962455668",
+  "timestamp": 1789962455.6688435
+}
