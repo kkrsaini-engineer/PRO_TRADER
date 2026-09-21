@@ -1,0 +1,13 @@
+{
+  "id": "paper_ACMESOLAR_NS_1789962400416",
+  "symbol": "ACMESOLAR.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 39,
+  "entry_price": 439.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.86% (0.23x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789962400.4169452
+}

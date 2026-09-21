@@ -1,0 +1,13 @@
+{
+  "id": "paper_PVRINOX_NS_1789962400686",
+  "symbol": "PVRINOX.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 12,
+  "entry_price": 1328.699951171875,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.30% (0.08x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789962400.6874506
+}

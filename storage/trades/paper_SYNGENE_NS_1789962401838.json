@@ -1,0 +1,13 @@
+{
+  "id": "paper_SYNGENE_NS_1789962401838",
+  "symbol": "SYNGENE.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 42,
+  "entry_price": 369.95001220703125,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.24% (0.10x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789962401.838985
+}

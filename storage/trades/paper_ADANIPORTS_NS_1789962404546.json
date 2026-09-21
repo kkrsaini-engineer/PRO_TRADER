@@ -1,0 +1,13 @@
+{
+  "id": "paper_ADANIPORTS_NS_1789962404546",
+  "symbol": "ADANIPORTS.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 7,
+  "entry_price": 1793.699951171875,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.66% (0.75x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1789962404.5468822
+}
