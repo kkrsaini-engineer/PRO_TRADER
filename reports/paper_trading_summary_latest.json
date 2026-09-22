@@ -1,49 +1,37 @@
 {
-  "date": "2026-09-21",
-  "opening_balance": 173697.87511699676,
-  "total_capital_in_positions": 206814.91000000003,
-  "remaining_balance": 280354.2667254257,
-  "portfolio_value": 487169.17672542576,
-  "realized_pnl": -15423.303874549887,
-  "portfolio_return_percent": -2.5661646549148482,
+  "date": "2026-09-22",
+  "opening_balance": 197597.32679164887,
+  "total_capital_in_positions": 216464.87,
+  "remaining_balance": 274388.03711086273,
+  "portfolio_value": 490852.9071108627,
+  "realized_pnl": -13445.803159523033,
+  "portfolio_return_percent": -1.829418577827455,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "SYNGENE.NS",
-      "pnl": 216.30051269531202
-    },
-    {
-      "symbol": "RVNL.NS",
-      "pnl": -1013.6099999999999
+      "symbol": "RELIANCE.NS",
+      "pnl": 5.999755859375
     },
     {
       "symbol": "MSUMI.NS",
-      "pnl": -134.94063354492266
-    },
-    {
-      "symbol": "PAYTM.NS",
-      "pnl": -49.20000000000027
-    },
-    {
-      "symbol": "RELIANCE.NS",
-      "pnl": 22.80058593749891
-    },
-    {
-      "symbol": "IRCTC.NS",
-      "pnl": 173.40020751953125
-    },
-    {
-      "symbol": "AMBUJACEM.NS",
-      "pnl": -195.99978637695273
+      "pnl": 23.66036102294845
     },
     {
       "symbol": "FIVESTAR.NS",
-      "pnl": -9.899999999999181
+      "pnl": 114.39999999999941
     },
     {
-      "symbol": "TRENT.NS",
-      "pnl": -43.5
+      "symbol": "ADANIPORTS.NS",
+      "pnl": 10.500341796875318
+    },
+    {
+      "symbol": "KPITTECH.NS",
+      "pnl": 3.899999999999409
+    },
+    {
+      "symbol": "PAYTM.NS",
+      "pnl": 39.00029296875027
     }
   ],
-  "open_positions_now": 18
+  "open_positions_now": 19
 }

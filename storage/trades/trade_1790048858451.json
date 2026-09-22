@@ -1,0 +1,18 @@
+{
+  "symbol": "ADANIPORTS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 7,
+  "entry_price": 1793.699951171875,
+  "exit_price": 1795.2,
+  "status": "CLOSED",
+  "realized_pnl": 10.500341796875318,
+  "realized_pnl_percent": 0.08362874889666029,
+  "max_profit_percent": 0.08362874889666029,
+  "max_drawdown_percent": 0.8306824763049407,
+  "regime": "BULL",
+  "confidence": 57.83,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790048858451",
+  "timestamp": 1790048858.4514816
+}

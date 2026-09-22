@@ -1,0 +1,18 @@
+{
+  "symbol": "RELIANCE.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 10,
+  "entry_price": 1247.5999755859375,
+  "exit_price": 1247.0,
+  "status": "CLOSED",
+  "realized_pnl": 5.999755859375,
+  "realized_pnl_percent": 0.048090381346450446,
+  "max_profit_percent": 0.048090381346450446,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 55.08,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (62/100).",
+  "id": "trade_1790048851246",
+  "timestamp": 1790048851.246076
+}

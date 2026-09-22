@@ -1,104 +1,80 @@
 [
   {
     "category": "NEWS",
-    "finding": "News-present trades win 35.19% vs 42.86% without news (-7.7pp).",
+    "finding": "News-present trades win 36.94% vs 42.86% without news (-5.9pp).",
     "suggestion": "Consider decreasing the news weight in Tier 3 \u2014 it appears to carry real signal.",
     "confidence": "MEDIUM"
   },
   {
     "category": "FUNDAMENTAL",
-    "finding": "Strong-fundamental trades win 20.0% vs 36.0% for weak-fundamental trades (-16.0pp).",
+    "finding": "Strong-fundamental trades win 20.0% vs 37.66% for weak-fundamental trades (-17.7pp).",
     "suggestion": "This matches the audit finding: SELL's heavy fundamental_weakness weighting may be over/under-tuned \u2014 cross-check against the Tier-3 rebalance decision from the audit.",
     "confidence": "MEDIUM"
   },
   {
     "category": "TECHNICAL",
-    "finding": "High-Tier2-score trades win 37.96% vs 33.61% for low-Tier2-score trades (+4.4pp).",
+    "finding": "High-Tier2-score trades win 40.17% vs 34.45% for low-Tier2-score trades (+5.7pp).",
     "suggestion": "Technical score shows weak correlation with outcome \u2014 consider re-examining which of the 39 checks actually contribute vs just adding noise.",
     "confidence": "MEDIUM"
   },
   {
-    "category": "RULE (weak)",
-    "finding": "'accumulation': only +0.0pp win-rate difference between passing and failing.",
-    "suggestion": "Weak predictive value \u2014 candidate for removal or re-weighting.",
+    "category": "RULE (weak/backwards)",
+    "finding": "'accumulation': passing this rule wins 25.81% vs 27.59% when it fails (-1.8pp) \u2014 backwards.",
+    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'breakout': passing this rule wins 11.11% vs 25.9% when it fails (-14.8pp) \u2014 backwards.",
+    "finding": "'breakout': passing this rule wins 20.0% vs 26.95% when it fails (-7.0pp) \u2014 backwards.",
+    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
+    "confidence": "HIGH"
+  },
+  {
+    "category": "RULE (weak/backwards)",
+    "finding": "'confirmed_breakout': passing this rule wins 20.0% vs 26.95% when it fails (-7.0pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (weak)",
-    "finding": "'cci': only +0.9pp win-rate difference between passing and failing.",
+    "finding": "'distribution': only +1.1pp win-rate difference between passing and failing.",
     "suggestion": "Weak predictive value \u2014 candidate for removal or re-weighting.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'confirmed_breakout': passing this rule wins 11.11% vs 25.9% when it fails (-14.8pp) \u2014 backwards.",
-    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
-    "confidence": "HIGH"
-  },
-  {
-    "category": "RULE (weak)",
-    "finding": "'distribution': only +1.7pp win-rate difference between passing and failing.",
-    "suggestion": "Weak predictive value \u2014 candidate for removal or re-weighting.",
-    "confidence": "HIGH"
-  },
-  {
-    "category": "RULE (weak/backwards)",
-    "finding": "'gap_day': passing this rule wins 35.26% vs 36.84% when it fails (-1.6pp) \u2014 backwards.",
+    "finding": "'gap_day': passing this rule wins 36.99% vs 41.18% when it fails (-4.2pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'gap_filter': passing this rule wins 35.02% vs 46.15% when it fails (-11.1pp) \u2014 backwards.",
-    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
-    "confidence": "HIGH"
-  },
-  {
-    "category": "RULE (weak)",
-    "finding": "'macd_cross': only +1.4pp win-rate difference between passing and failing.",
-    "suggestion": "Weak predictive value \u2014 candidate for removal or re-weighting.",
-    "confidence": "HIGH"
-  },
-  {
-    "category": "RULE (weak)",
-    "finding": "'macd_histogram': only +1.4pp win-rate difference between passing and failing.",
-    "suggestion": "Weak predictive value \u2014 candidate for removal or re-weighting.",
-    "confidence": "HIGH"
-  },
-  {
-    "category": "RULE (weak/backwards)",
-    "finding": "'market_score': passing this rule wins 27.1% vs 43.09% when it fails (-16.0pp) \u2014 backwards.",
+    "finding": "'gap_filter': passing this rule wins 37.02% vs 100.0% when it fails (-63.0pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'news': passing this rule wins 24.39% vs 48.6% when it fails (-24.2pp) \u2014 backwards.",
+    "finding": "'market_score': passing this rule wins 29.09% vs 44.44% when it fails (-15.3pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'obv': passing this rule wins 31.32% vs 52.08% when it fails (-20.8pp) \u2014 backwards.",
+    "finding": "'news': passing this rule wins 25.6% vs 50.45% when it fails (-24.9pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'pivot': passing this rule wins 30.26% vs 46.15% when it fails (-15.9pp) \u2014 backwards.",
+    "finding": "'obv': passing this rule wins 32.43% vs 54.9% when it fails (-22.5pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "HIGH"
   },
   {
-    "category": "RULE (weak)",
-    "finding": "'price_below_ema20': only +4.1pp win-rate difference between passing and failing.",
-    "suggestion": "Weak predictive value \u2014 candidate for removal or re-weighting.",
+    "category": "RULE (weak/backwards)",
+    "finding": "'pivot': passing this rule wins 32.91% vs 46.15% when it fails (-13.2pp) \u2014 backwards.",
+    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "HIGH"
   },
   {
@@ -109,49 +85,49 @@
   },
   {
     "category": "RULE (weak/backwards)",
-    "finding": "'stochastic': passing this rule wins 29.86% vs 45.35% when it fails (-15.5pp) \u2014 backwards.",
+    "finding": "'stochastic': passing this rule wins 32.67% vs 45.35% when it fails (-12.7pp) \u2014 backwards.",
+    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
+    "confidence": "HIGH"
+  },
+  {
+    "category": "RULE (weak/backwards)",
+    "finding": "'volatility': passing this rule wins 36.79% vs 41.67% when it fails (-4.9pp) \u2014 backwards.",
     "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (weak)",
-    "finding": "'volatility': only +1.2pp win-rate difference between passing and failing.",
+    "finding": "'volume_spike': only +0.8pp win-rate difference between passing and failing.",
     "suggestion": "Weak predictive value \u2014 candidate for removal or re-weighting.",
     "confidence": "HIGH"
   },
   {
-    "category": "RULE (weak/backwards)",
-    "finding": "'volume_spike': passing this rule wins 35.06% vs 35.95% when it fails (-0.9pp) \u2014 backwards.",
-    "suggestion": "Re-examine this rule's logic/direction \u2014 it currently correlates with losses, not wins.",
-    "confidence": "HIGH"
-  },
-  {
     "category": "RULE (redundant)",
-    "finding": "'price_above_ema20' and 'keltner' agree 100.0% of the time (n=12500).",
+    "finding": "'price_above_ema20' and 'keltner' agree 100.0% of the time (n=13000).",
     "suggestion": "These two rules likely measure the same thing \u2014 consider dropping one to simplify the checklist without losing signal.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (redundant)",
-    "finding": "'price_above_vwap' and 'vwap_confirmation' agree 100.0% of the time (n=12500).",
+    "finding": "'price_above_vwap' and 'vwap_confirmation' agree 100.0% of the time (n=13000).",
     "suggestion": "These two rules likely measure the same thing \u2014 consider dropping one to simplify the checklist without losing signal.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (redundant)",
-    "finding": "'market_trend' and 'bull_market' agree 100.0% of the time (n=12500).",
+    "finding": "'market_trend' and 'bull_market' agree 100.0% of the time (n=13000).",
     "suggestion": "These two rules likely measure the same thing \u2014 consider dropping one to simplify the checklist without losing signal.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (redundant)",
-    "finding": "'market_trend' and 'market_score' agree 100.0% of the time (n=12500).",
+    "finding": "'market_trend' and 'market_score' agree 100.0% of the time (n=13000).",
     "suggestion": "These two rules likely measure the same thing \u2014 consider dropping one to simplify the checklist without losing signal.",
     "confidence": "HIGH"
   },
   {
     "category": "RULE (redundant)",
-    "finding": "'macd_cross' and 'macd_histogram' agree 100.0% of the time (n=12500).",
+    "finding": "'macd_cross' and 'macd_histogram' agree 100.0% of the time (n=13000).",
     "suggestion": "These two rules likely measure the same thing \u2014 consider dropping one to simplify the checklist without losing signal.",
     "confidence": "HIGH"
   },
@@ -169,49 +145,49 @@
   },
   {
     "category": "SECTOR",
-    "finding": "Financial Services: 30.61% win rate over 49 trades.",
+    "finding": "Financial Services: 32.0% win rate over 50 trades.",
     "suggestion": "Consider a sector-specific confidence penalty for Financial Services (this is exactly what Phase 3's Sector Templates would formalize).",
     "confidence": "HIGH"
   },
   {
     "category": "SECTOR",
-    "finding": "Energy: 21.43% win rate over 14 trades.",
+    "finding": "Energy: 26.67% win rate over 15 trades.",
     "suggestion": "Consider a sector-specific confidence penalty for Energy (this is exactly what Phase 3's Sector Templates would formalize).",
     "confidence": "MEDIUM"
   },
   {
     "category": "SECTOR",
-    "finding": "Technology: 10.0% win rate over 10 trades.",
+    "finding": "Technology: 25.0% win rate over 12 trades.",
     "suggestion": "Consider a sector-specific confidence penalty for Technology (this is exactly what Phase 3's Sector Templates would formalize).",
     "confidence": "MEDIUM"
   },
   {
     "category": "REGIME",
-    "finding": "BEAR regime: 55.56% win rate over 81 trades.",
+    "finding": "BEAR regime: 57.14% win rate over 84 trades.",
     "suggestion": "Feed this into Phase 3's Dynamic Regime Weights once sample size is HIGH confidence.",
     "confidence": "HIGH"
   },
   {
     "category": "REGIME",
-    "finding": "BULL regime: 25.9% win rate over 139 trades.",
+    "finding": "BULL regime: 26.95% win rate over 141 trades.",
     "suggestion": "Feed this into Phase 3's Dynamic Regime Weights once sample size is HIGH confidence.",
     "confidence": "HIGH"
   },
   {
     "category": "REGIME",
-    "finding": "SIDEWAYS regime: 10.0% win rate over 10 trades.",
+    "finding": "SIDEWAYS regime: 18.18% win rate over 11 trades.",
     "suggestion": "Feed this into Phase 3's Dynamic Regime Weights once sample size is HIGH confidence.",
     "confidence": "MEDIUM"
   },
   {
     "category": "BUY ACCURACY",
-    "finding": "148 trades, 25.0% win rate.",
+    "finding": "151 trades, 26.49% win rate.",
     "suggestion": "Below 45% with a decent sample would suggest the qualify threshold is too loose for this side; above 65% may mean it's too strict and missing volume.",
     "confidence": "HIGH"
   },
   {
     "category": "SELL ACCURACY",
-    "finding": "82 trades, 54.88% win rate.",
+    "finding": "85 trades, 56.47% win rate.",
     "suggestion": "Below 45% with a decent sample would suggest the qualify threshold is too loose for this side; above 65% may mean it's too strict and missing volume.",
     "confidence": "HIGH"
   }

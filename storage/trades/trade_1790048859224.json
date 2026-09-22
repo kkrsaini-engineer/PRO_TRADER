@@ -1,0 +1,18 @@
+{
+  "symbol": "KPITTECH.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 26,
+  "entry_price": 536.0,
+  "exit_price": 535.85,
+  "status": "CLOSED",
+  "realized_pnl": 3.899999999999409,
+  "realized_pnl_percent": 0.02798507462686143,
+  "max_profit_percent": 1.063432835820904,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 60.75,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790048859224",
+  "timestamp": 1790048859.2242405
+}

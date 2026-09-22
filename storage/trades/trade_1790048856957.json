@@ -1,0 +1,18 @@
+{
+  "symbol": "MSUMI.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 338,
+  "entry_price": 35.630001068115234,
+  "exit_price": 35.56,
+  "status": "CLOSED",
+  "realized_pnl": 23.66036102294845,
+  "realized_pnl_percent": 0.19646664613174833,
+  "max_profit_percent": 0.19646664613174833,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 62.79,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (62/100).",
+  "id": "trade_1790048856957",
+  "timestamp": 1790048856.9579082
+}
