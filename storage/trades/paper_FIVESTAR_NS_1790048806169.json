@@ -1,0 +1,13 @@
+{
+  "id": "paper_FIVESTAR_NS_1790048806169",
+  "symbol": "FIVESTAR.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 26,
+  "entry_price": 525.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -2.50% (0.77x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790048806.1697087
+}

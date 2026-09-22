@@ -1,0 +1,24 @@
+{
+  "trade_id": "paper_RELIANCE_NS_1790048806812",
+  "symbol": "RELIANCE.NS",
+  "direction": "SELL",
+  "entry_date": "2026-09-22",
+  "entry_price": 1247.5999755859375,
+  "buy_probability": 0.0,
+  "buy_confidence": 0.0,
+  "entry_reasons": [
+    "Morning Executor: gap +1.73% (1.03x ATR, WARNING band)",
+    "No NEW overnight news since last night's scan."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1790048806.8129845,
+  "updated_at": 1790048806.812985
+}
