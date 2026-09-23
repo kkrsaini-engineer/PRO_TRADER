@@ -1,0 +1,18 @@
+{
+  "symbol": "PCBL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 35,
+  "entry_price": 346.54998779296875,
+  "exit_price": 349.55,
+  "status": "CLOSED",
+  "realized_pnl": 105.00042724609415,
+  "realized_pnl_percent": 0.8656795015740957,
+  "max_profit_percent": 0.8656795015740957,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 60.67,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790135251678",
+  "timestamp": 1790135251.678353
+}

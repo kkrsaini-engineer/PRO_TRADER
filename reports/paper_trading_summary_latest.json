@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-22",
-  "opening_balance": 197597.32679164887,
-  "total_capital_in_positions": 216464.87,
-  "remaining_balance": 274388.03711086273,
-  "portfolio_value": 490852.9071108627,
-  "realized_pnl": -13445.803159523033,
-  "portfolio_return_percent": -1.829418577827455,
+  "date": "2026-09-23",
+  "opening_balance": 186203.25759655,
+  "total_capital_in_positions": 237350.64999999997,
+  "remaining_balance": 254606.4875355148,
+  "portfolio_value": 491957.1375355148,
+  "realized_pnl": -13082.813474311848,
+  "portfolio_return_percent": -1.6085724928970448,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "RELIANCE.NS",
-      "pnl": 5.999755859375
+      "symbol": "PCBL.NS",
+      "pnl": 105.00042724609415
     },
     {
-      "symbol": "MSUMI.NS",
-      "pnl": 23.66036102294845
+      "symbol": "INDHOTEL.NS",
+      "pnl": -151.90034179687564
     },
     {
-      "symbol": "FIVESTAR.NS",
-      "pnl": 114.39999999999941
+      "symbol": "IRB.NS",
+      "pnl": 160.44000000000065
     },
     {
-      "symbol": "ADANIPORTS.NS",
-      "pnl": 10.500341796875318
+      "symbol": "AMBUJACEM.NS",
+      "pnl": 69.70020751953086
     },
     {
-      "symbol": "KPITTECH.NS",
-      "pnl": 3.899999999999409
+      "symbol": "ANURAS.NS",
+      "pnl": 60.29978027343668
     },
     {
       "symbol": "PAYTM.NS",
-      "pnl": 39.00029296875027
+      "pnl": -12.0001220703125
     }
   ],
-  "open_positions_now": 19
+  "open_positions_now": 21
 }

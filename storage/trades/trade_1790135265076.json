@@ -1,0 +1,18 @@
+{
+  "symbol": "ANURAS.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 1200.0999755859375,
+  "exit_price": 1193.4,
+  "status": "CLOSED",
+  "realized_pnl": 60.29978027343668,
+  "realized_pnl_percent": 0.558284786454246,
+  "max_profit_percent": 0.558284786454246,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 54.94,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (72/100).",
+  "id": "trade_1790135265076",
+  "timestamp": 1790135265.076004
+}

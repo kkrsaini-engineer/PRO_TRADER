@@ -1,0 +1,18 @@
+{
+  "symbol": "IRB.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 573,
+  "entry_price": 18.5,
+  "exit_price": 18.22,
+  "status": "CLOSED",
+  "realized_pnl": 160.44000000000065,
+  "realized_pnl_percent": 1.5135135135135198,
+  "max_profit_percent": 1.9459459459459427,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 55.71,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790135256283",
+  "timestamp": 1790135256.2833128
+}

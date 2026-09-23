@@ -1,0 +1,18 @@
+{
+  "symbol": "INDHOTEL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 14,
+  "entry_price": 749.4000244140625,
+  "exit_price": 738.55,
+  "status": "CLOSED",
+  "realized_pnl": -151.90034179687564,
+  "realized_pnl_percent": -1.447828137254988,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.447828137254988,
+  "regime": "BULL",
+  "confidence": 55.54,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790135255096",
+  "timestamp": 1790135255.0962808
+}
