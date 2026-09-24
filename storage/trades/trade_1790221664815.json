@@ -1,0 +1,18 @@
+{
+  "symbol": "VOLTAS.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 1119.0999755859375,
+  "exit_price": 1114.6,
+  "status": "CLOSED",
+  "realized_pnl": 40.49978027343832,
+  "realized_pnl_percent": 0.40210666465089473,
+  "max_profit_percent": 0.40210666465089473,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 59.08,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790221664815",
+  "timestamp": 1790221664.815093
+}

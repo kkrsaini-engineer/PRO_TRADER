@@ -1,0 +1,18 @@
+{
+  "symbol": "RBLBANK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 20,
+  "entry_price": 416.5,
+  "exit_price": 420.75,
+  "status": "CLOSED",
+  "realized_pnl": 85.0,
+  "realized_pnl_percent": 1.0204081632653061,
+  "max_profit_percent": 1.0204081632653061,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 52.96,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (71/100).",
+  "id": "trade_1790221657357",
+  "timestamp": 1790221657.3578293
+}

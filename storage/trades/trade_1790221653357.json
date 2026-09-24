@@ -1,0 +1,18 @@
+{
+  "symbol": "CGCL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 33,
+  "entry_price": 235.49000549316406,
+  "exit_price": 265.65,
+  "status": "CLOSED",
+  "realized_pnl": 995.2798187255852,
+  "realized_pnl_percent": 12.807335259802105,
+  "max_profit_percent": 20.726991960706727,
+  "max_drawdown_percent": 0.14862859781717414,
+  "regime": "BULL",
+  "confidence": 59.69,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790221653357",
+  "timestamp": 1790221653.357099
+}

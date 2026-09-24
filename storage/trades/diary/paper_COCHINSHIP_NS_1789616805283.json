@@ -72,16 +72,29 @@
         "Drawdown from peak is significant (6.9%).",
         "Exit score 34.8/100 (threshold 60.0) -> HOLD."
       ]
+    },
+    {
+      "date": "2026-09-24",
+      "current_price": 1363.9,
+      "current_pnl": -467.1000000000008,
+      "current_buy_confidence": 28.33,
+      "current_sell_confidence": 66.22,
+      "current_exit_score": 34.79,
+      "recommendation": "HOLD",
+      "notes": [
+        "Drawdown from peak is significant (6.9%).",
+        "Exit score 34.8/100 (threshold 60.0) -> HOLD."
+      ]
     }
   ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 5,
+  "holding_days": 6,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1789616805.283993,
-  "updated_at": 1790135241.51893
+  "updated_at": 1790221670.0853956
 }

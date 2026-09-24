@@ -1,0 +1,18 @@
+{
+  "symbol": "UPL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 15,
+  "entry_price": 550.7000122070312,
+  "exit_price": 550.25,
+  "status": "CLOSED",
+  "realized_pnl": 6.75018310546875,
+  "realized_pnl_percent": 0.08171639677793788,
+  "max_profit_percent": 0.08171639677793788,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 57.32,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (70/100).",
+  "id": "trade_1790221652019",
+  "timestamp": 1790221652.0191903
+}

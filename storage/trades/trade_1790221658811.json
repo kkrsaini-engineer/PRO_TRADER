@@ -1,0 +1,18 @@
+{
+  "symbol": "PVRINOX.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 12,
+  "entry_price": 1328.699951171875,
+  "exit_price": 1305.2,
+  "status": "CLOSED",
+  "realized_pnl": -281.99941406249945,
+  "realized_pnl_percent": -1.7686424351222922,
+  "max_profit_percent": 0.624674428625108,
+  "max_drawdown_percent": 1.7686424351222922,
+  "regime": "BULL",
+  "confidence": 57.19,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).",
+  "id": "trade_1790221658811",
+  "timestamp": 1790221658.8117814
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "GABRIEL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 8,
+  "entry_price": 1415.0,
+  "exit_price": 1420.7,
+  "status": "CLOSED",
+  "realized_pnl": 45.600000000000364,
+  "realized_pnl_percent": 0.4028268551236781,
+  "max_profit_percent": 0.4028268551236781,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 57.44,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790221654140",
+  "timestamp": 1790221654.140604
+}

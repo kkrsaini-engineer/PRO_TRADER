@@ -1,36 +1,52 @@
 {
-  "date": "2026-09-23",
-  "opening_balance": 186203.25759655,
-  "total_capital_in_positions": 237350.64999999997,
-  "remaining_balance": 254606.4875355148,
-  "portfolio_value": 491957.1375355148,
-  "realized_pnl": -13082.813474311848,
-  "portfolio_return_percent": -1.6085724928970448,
+  "date": "2026-09-24",
+  "opening_balance": 157368.3173694992,
+  "total_capital_in_positions": 220661.56,
+  "remaining_balance": 270405.6470302963,
+  "portfolio_value": 491067.2070302963,
+  "realized_pnl": -13493.613713569659,
+  "portfolio_return_percent": -1.7865585939407351,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "PCBL.NS",
-      "pnl": 105.00042724609415
-    },
-    {
-      "symbol": "INDHOTEL.NS",
-      "pnl": -151.90034179687564
-    },
-    {
-      "symbol": "IRB.NS",
-      "pnl": 160.44000000000065
-    },
-    {
-      "symbol": "AMBUJACEM.NS",
-      "pnl": 69.70020751953086
-    },
-    {
       "symbol": "ANURAS.NS",
-      "pnl": 60.29978027343668
+      "pnl": 18.199999999999363
     },
     {
-      "symbol": "PAYTM.NS",
-      "pnl": -12.0001220703125
+      "symbol": "UPL.NS",
+      "pnl": 6.75018310546875
+    },
+    {
+      "symbol": "CGCL.NS",
+      "pnl": 995.2798187255852
+    },
+    {
+      "symbol": "GABRIEL.NS",
+      "pnl": 45.600000000000364
+    },
+    {
+      "symbol": "RBLBANK.NS",
+      "pnl": 85.0
+    },
+    {
+      "symbol": "SYRMA.NS",
+      "pnl": -100.79999999999927
+    },
+    {
+      "symbol": "PVRINOX.NS",
+      "pnl": -281.99941406249945
+    },
+    {
+      "symbol": "BELRISE.NS",
+      "pnl": 138.17999999999967
+    },
+    {
+      "symbol": "VOLTAS.NS",
+      "pnl": 40.49978027343832
+    },
+    {
+      "symbol": "ACMESOLAR.NS",
+      "pnl": 713.7000000000005
     }
   ],
   "open_positions_now": 21
