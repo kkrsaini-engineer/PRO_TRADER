@@ -1,0 +1,13 @@
+{
+  "id": "paper_RBLBANK_NS_1790221607883",
+  "symbol": "RBLBANK.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 20,
+  "entry_price": 416.5,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.58% (0.61x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790221607.8850029
+}

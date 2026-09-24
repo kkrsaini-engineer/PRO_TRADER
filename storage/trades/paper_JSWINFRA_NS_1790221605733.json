@@ -1,0 +1,13 @@
+{
+  "id": "paper_JSWINFRA_NS_1790221605733",
+  "symbol": "JSWINFRA.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 27,
+  "entry_price": 361.95001220703125,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.54% (0.49x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790221605.7347333
+}
