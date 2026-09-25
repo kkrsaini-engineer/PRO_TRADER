@@ -1,53 +1,61 @@
 {
-  "date": "2026-09-24",
-  "opening_balance": 157368.3173694992,
-  "total_capital_in_positions": 220661.56,
-  "remaining_balance": 270405.6470302963,
-  "portfolio_value": 491067.2070302963,
-  "realized_pnl": -13493.613713569659,
-  "portfolio_return_percent": -1.7865585939407351,
+  "date": "2026-09-25",
+  "opening_balance": 144800.45743984223,
+  "total_capital_in_positions": 233361.03999999998,
+  "remaining_balance": 254046.69641750335,
+  "portfolio_value": 487407.7364175033,
+  "realized_pnl": -14055.133846015953,
+  "portfolio_return_percent": -2.5184527164993344,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "ANURAS.NS",
-      "pnl": 18.199999999999363
+      "symbol": "SYNGENE.NS",
+      "pnl": -20.40020751953125
     },
     {
-      "symbol": "UPL.NS",
-      "pnl": 6.75018310546875
+      "symbol": "JYOTICNC.NS",
+      "pnl": 147.1504394531246
     },
     {
-      "symbol": "CGCL.NS",
-      "pnl": 995.2798187255852
+      "symbol": "ANANTRAJ.NS",
+      "pnl": 36.800195312500364
+    },
+    {
+      "symbol": "AEGISVOPAK.NS",
+      "pnl": -100.45025024414156
     },
     {
       "symbol": "GABRIEL.NS",
-      "pnl": 45.600000000000364
+      "pnl": -79.19985351562445
+    },
+    {
+      "symbol": "FIVESTAR.NS",
+      "pnl": -134.5494384765625
     },
     {
       "symbol": "RBLBANK.NS",
-      "pnl": 85.0
+      "pnl": 42.299890136718545
     },
     {
-      "symbol": "SYRMA.NS",
-      "pnl": -100.79999999999927
+      "symbol": "WOCKPHARMA.NS",
+      "pnl": 51.900000000000546
     },
     {
-      "symbol": "PVRINOX.NS",
-      "pnl": -281.99941406249945
+      "symbol": "SHYAMMETL.NS",
+      "pnl": -101.69956054687418
+    },
+    {
+      "symbol": "KAYNES.NS",
+      "pnl": -244.80000000000018
+    },
+    {
+      "symbol": "MOTILALOFS.NS",
+      "pnl": 44.09999999999968
     },
     {
       "symbol": "BELRISE.NS",
-      "pnl": 138.17999999999967
-    },
-    {
-      "symbol": "VOLTAS.NS",
-      "pnl": 40.49978027343832
-    },
-    {
-      "symbol": "ACMESOLAR.NS",
-      "pnl": 713.7000000000005
+      "pnl": 25.5
     }
   ],
-  "open_positions_now": 21
+  "open_positions_now": 22
 }

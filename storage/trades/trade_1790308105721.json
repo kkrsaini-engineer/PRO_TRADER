@@ -1,0 +1,18 @@
+{
+  "symbol": "KAYNES.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 2,
+  "entry_price": 3430.0,
+  "exit_price": 3552.4,
+  "status": "CLOSED",
+  "realized_pnl": -244.80000000000018,
+  "realized_pnl_percent": -3.5685131195335305,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 3.5685131195335305,
+  "regime": "BEAR",
+  "confidence": 58.58,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790308105721",
+  "timestamp": 1790308105.7214928
+}

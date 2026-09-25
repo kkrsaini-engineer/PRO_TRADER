@@ -1,0 +1,18 @@
+{
+  "symbol": "JYOTICNC.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 1058.199951171875,
+  "exit_price": 1074.55,
+  "status": "CLOSED",
+  "realized_pnl": 147.1504394531246,
+  "realized_pnl_percent": 1.5450812306330701,
+  "max_profit_percent": 4.606884433715775,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 57.73,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (68/100).",
+  "id": "trade_1790308090843",
+  "timestamp": 1790308090.8436222
+}

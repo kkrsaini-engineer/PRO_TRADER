@@ -1,0 +1,18 @@
+{
+  "symbol": "MOTILALOFS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 7,
+  "entry_price": 1020.0,
+  "exit_price": 1026.3,
+  "status": "CLOSED",
+  "realized_pnl": 44.09999999999968,
+  "realized_pnl_percent": 0.617647058823525,
+  "max_profit_percent": 0.617647058823525,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 55.1,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790308107173",
+  "timestamp": 1790308107.1730223
+}
