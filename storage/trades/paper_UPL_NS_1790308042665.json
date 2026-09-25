@@ -1,0 +1,13 @@
+{
+  "id": "paper_UPL_NS_1790308042665",
+  "symbol": "UPL.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 18,
+  "entry_price": 548.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -0.93% (0.45x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790308042.6665266
+}

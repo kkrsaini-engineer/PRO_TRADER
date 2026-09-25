@@ -1,0 +1,13 @@
+{
+  "id": "paper_MOTILALOFS_NS_1790308044158",
+  "symbol": "MOTILALOFS.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 7,
+  "entry_price": 1020.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -2.16% (0.80x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790308044.1596806
+}

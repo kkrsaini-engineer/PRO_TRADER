@@ -1,0 +1,13 @@
+{
+  "id": "paper_GABRIEL_NS_1790308042954",
+  "symbol": "GABRIEL.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 6,
+  "entry_price": 1407.5999755859375,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.44% (0.34x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790308042.9550412
+}

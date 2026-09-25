@@ -1,0 +1,13 @@
+{
+  "id": "paper_WOCKPHARMA_NS_1790308043187",
+  "symbol": "WOCKPHARMA.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 3,
+  "entry_price": 2290.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.70% (0.40x ATR, NORMAL band); No news available.",
+  "timestamp": 1790308043.1883752
+}
