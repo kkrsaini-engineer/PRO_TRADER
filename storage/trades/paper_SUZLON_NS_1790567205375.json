@@ -1,0 +1,13 @@
+{
+  "id": "paper_SUZLON_NS_1790567205375",
+  "symbol": "SUZLON.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 230,
+  "entry_price": 40.79999923706055,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.15% (0.05x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790567205.3765976
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_ABDL_NS_1790567206544",
+  "symbol": "ABDL.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 11,
+  "entry_price": 731.9500122070312,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +2.78% (0.82x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790567206.5456295
+}

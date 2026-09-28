@@ -1,0 +1,13 @@
+{
+  "id": "paper_CARBORUNIV_NS_1790567204612",
+  "symbol": "CARBORUNIV.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 8,
+  "entry_price": 1274.0999755859375,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.73% (0.42x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790567204.6132774
+}
