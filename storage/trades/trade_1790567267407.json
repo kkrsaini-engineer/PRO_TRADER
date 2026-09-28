@@ -1,0 +1,18 @@
+{
+  "symbol": "PNB.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 94,
+  "entry_price": 117.12000274658203,
+  "exit_price": 115.53,
+  "status": "CLOSED",
+  "realized_pnl": -149.46025817871083,
+  "realized_pnl_percent": -1.3575842804771723,
+  "max_profit_percent": 0.5037544736867594,
+  "max_drawdown_percent": 1.3575842804771723,
+  "regime": "BULL",
+  "confidence": 45.53,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790567267407",
+  "timestamp": 1790567267.4073446
+}
