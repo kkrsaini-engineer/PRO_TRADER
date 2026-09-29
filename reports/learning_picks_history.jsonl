@@ -102,3 +102,5 @@
 {"date": "2026-09-25", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 257.2}
 {"date": "2026-09-28", "symbol": "FINCABLES.NS", "direction": "BUY", "entry_price": 1480.0}
 {"date": "2026-09-28", "symbol": "ITI.NS", "direction": "SELL", "entry_price": 251.05}
+{"date": "2026-09-29", "symbol": "CASTROLIND.NS", "direction": "BUY", "entry_price": 201.67}
+{"date": "2026-09-29", "symbol": "TMPV.NS", "direction": "SELL", "entry_price": 290.45}

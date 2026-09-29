@@ -1,0 +1,18 @@
+{
+  "symbol": "SONACOMS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 16,
+  "entry_price": 818.0,
+  "exit_price": 804.55,
+  "status": "CLOSED",
+  "realized_pnl": -215.20000000000073,
+  "realized_pnl_percent": -1.6442542787286119,
+  "max_profit_percent": 0.5378973105134447,
+  "max_drawdown_percent": 1.6442542787286119,
+  "regime": "BULL",
+  "confidence": 56.37,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790653668494",
+  "timestamp": 1790653668.4949987
+}

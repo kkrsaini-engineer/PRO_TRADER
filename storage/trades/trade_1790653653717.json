@@ -1,0 +1,18 @@
+{
+  "symbol": "AEGISLOG.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 7,
+  "entry_price": 1308.0999755859375,
+  "exit_price": 1309.5,
+  "status": "CLOSED",
+  "realized_pnl": 9.8001708984375,
+  "realized_pnl_percent": 0.10702732514274275,
+  "max_profit_percent": 0.10702732514274275,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 49.09,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790653653717",
+  "timestamp": 1790653653.717181
+}

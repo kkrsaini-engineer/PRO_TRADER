@@ -1,0 +1,18 @@
+{
+  "symbol": "MOTHERSON.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 53,
+  "entry_price": 162.0800018310547,
+  "exit_price": 160.87,
+  "status": "CLOSED",
+  "realized_pnl": -64.1300970458982,
+  "realized_pnl_percent": -0.7465460373796994,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.7465460373796994,
+  "regime": "BULL",
+  "confidence": 46.68,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Technical trend reversing against the BUY position (60/100).",
+  "id": "trade_1790653676328",
+  "timestamp": 1790653676.328157
+}

@@ -49,16 +49,34 @@
         "Fundamentals have deteriorated for this BUY position (68/100).",
         "Exit score 19.9/100 (threshold 60.0) -> HOLD."
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "current_price": 346.05,
+      "current_pnl": -429.30032958984344,
+      "current_buy_confidence": 56.49,
+      "current_sell_confidence": 38.05,
+      "current_exit_score": 29.68,
+      "recommendation": "EXIT",
+      "notes": [
+        "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+        "Fundamentals have deteriorated for this BUY position (68/100)."
+      ]
     }
   ],
-  "status": "OPEN",
-  "exit_date": null,
-  "exit_price": null,
-  "exit_reason": null,
-  "holding_days": 3,
-  "max_profit_percent": 0.0,
-  "max_drawdown_percent": 0.0,
-  "final_pnl": null,
+  "status": "CLOSED",
+  "exit_date": "2026-09-29",
+  "exit_price": 346.05,
+  "exit_reason": "Risk engine flagged this symbol as unsafe.",
+  "holding_days": 4,
+  "max_profit_percent": 1.491915350421384,
+  "max_drawdown_percent": 4.392875168059565,
+  "final_pnl": -429.30032958984344,
   "created_at": 1790221605.7335868,
-  "updated_at": 1790567260.0788987
+  "updated_at": 1790653656.2213235,
+  "final_pnl_percent": -4.392875168059565,
+  "exit_score": 29.68,
+  "target1_status": "NOT REACHED",
+  "target2_status": "NOT REACHED",
+  "stop_loss_status": "NOT HIT"
 }

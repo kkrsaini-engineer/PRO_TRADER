@@ -1,0 +1,18 @@
+{
+  "symbol": "MFSL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 6,
+  "entry_price": 1459.9000244140625,
+  "exit_price": 1438.7,
+  "status": "CLOSED",
+  "realized_pnl": 127.20014648437473,
+  "realized_pnl_percent": 1.4521559051669433,
+  "max_profit_percent": 1.4521559051669433,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 57.02,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (70/100).",
+  "id": "trade_1790653662102",
+  "timestamp": 1790653662.1020296
+}

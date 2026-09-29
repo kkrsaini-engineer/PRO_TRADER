@@ -1,0 +1,18 @@
+{
+  "symbol": "FORTIS.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 833.0,
+  "exit_price": 836.55,
+  "status": "CLOSED",
+  "realized_pnl": -31.94999999999959,
+  "realized_pnl_percent": -0.42617046818726945,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.42617046818726945,
+  "regime": "BEAR",
+  "confidence": 56.34,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (61/100).",
+  "id": "trade_1790653658879",
+  "timestamp": 1790653658.8794112
+}
