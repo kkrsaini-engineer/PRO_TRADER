@@ -1,0 +1,18 @@
+{
+  "symbol": "BANKBARODA.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 53,
+  "entry_price": 230.39999389648438,
+  "exit_price": 233.47,
+  "status": "CLOSED",
+  "realized_pnl": -162.71032348632806,
+  "realized_pnl_percent": -1.332467962171447,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.332467962171447,
+  "regime": "BEAR",
+  "confidence": 56.46,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1790740061044",
+  "timestamp": 1790740061.04413
+}

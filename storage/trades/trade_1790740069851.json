@@ -1,0 +1,18 @@
+{
+  "symbol": "USHAMART.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 17,
+  "entry_price": 510.0,
+  "exit_price": 502.5,
+  "status": "CLOSED",
+  "realized_pnl": -127.5,
+  "realized_pnl_percent": -1.4705882352941175,
+  "max_profit_percent": 5.676470588235303,
+  "max_drawdown_percent": 1.4705882352941175,
+  "regime": "BULL",
+  "confidence": 53.93,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1790740069851",
+  "timestamp": 1790740069.8514018
+}

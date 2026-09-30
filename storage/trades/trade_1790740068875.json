@@ -1,0 +1,18 @@
+{
+  "symbol": "PETRONET.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 35,
+  "entry_price": 285.1000061035156,
+  "exit_price": 287.7,
+  "status": "CLOSED",
+  "realized_pnl": 90.99978637695273,
+  "realized_pnl_percent": 0.9119585551816313,
+  "max_profit_percent": 0.9119585551816313,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 54.37,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+  "id": "trade_1790740068875",
+  "timestamp": 1790740068.8750644
+}

@@ -1,69 +1,57 @@
 {
-  "date": "2026-09-29",
-  "opening_balance": 143017.30506877898,
-  "total_capital_in_positions": 200767.14,
-  "remaining_balance": 284864.3164844894,
-  "portfolio_value": 485631.45648448943,
-  "realized_pnl": -12694.423627357504,
-  "portfolio_return_percent": -2.873708703102113,
+  "date": "2026-09-30",
+  "opening_balance": 144136.74653820036,
+  "total_capital_in_positions": 238722.96000000002,
+  "remaining_balance": 249310.35744640348,
+  "portfolio_value": 488033.3174464035,
+  "realized_pnl": -13537.064108314538,
+  "portfolio_return_percent": -2.3933365107193008,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "ADANIPORTS.NS",
-      "pnl": -52.7998046875
+      "symbol": "WAAREEENER.NS",
+      "pnl": -26.700000000000273
     },
     {
-      "symbol": "AEGISLOG.NS",
-      "pnl": 9.8001708984375
+      "symbol": "ZYDUSLIFE.NS",
+      "pnl": -60.299560546875
     },
     {
-      "symbol": "TTML.NS",
-      "pnl": 201.2797290039059
+      "symbol": "BANKBARODA.NS",
+      "pnl": -162.71032348632806
     },
     {
-      "symbol": "JSWINFRA.NS",
-      "pnl": -429.30032958984344
+      "symbol": "PETRONET.NS",
+      "pnl": 90.99978637695273
     },
     {
-      "symbol": "FORTIS.NS",
-      "pnl": -31.94999999999959
+      "symbol": "USHAMART.NS",
+      "pnl": -127.5
     },
     {
-      "symbol": "WELCORP.NS",
-      "pnl": -66.0
+      "symbol": "TATACONSUM.NS",
+      "pnl": 33.0
     },
     {
-      "symbol": "MFSL.NS",
-      "pnl": 127.20014648437473
-    },
-    {
-      "symbol": "INDGN.NS",
-      "pnl": 26.10000000000082
-    },
-    {
-      "symbol": "AUROPHARMA.NS",
-      "pnl": -90.00048828125045
-    },
-    {
-      "symbol": "ENGINERSIN.NS",
-      "pnl": 352.60000000000093
-    },
-    {
-      "symbol": "SONACOMS.NS",
-      "pnl": -215.20000000000073
-    },
-    {
-      "symbol": "CARBORUNIV.NS",
-      "pnl": -160.7998046875
-    },
-    {
-      "symbol": "MOTHERSON.NS",
-      "pnl": -64.1300970458982
+      "symbol": "MSUMI.NS",
+      "pnl": -127.67958984375048
     },
     {
       "symbol": "IRCON.NS",
-      "pnl": -9.600000000000364
+      "pnl": -109.49977722167948
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "pnl": 242.39999999999964
+    },
+    {
+      "symbol": "FORTIS.NS",
+      "pnl": 4.050000000000409
+    },
+    {
+      "symbol": "BANKINDIA.NS",
+      "pnl": -71.82003845214851
     }
   ],
-  "open_positions_now": 19
+  "open_positions_now": 22
 }

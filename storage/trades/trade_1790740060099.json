@@ -1,0 +1,18 @@
+{
+  "symbol": "ZYDUSLIFE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 1210.699951171875,
+  "exit_price": 1204.0,
+  "status": "CLOSED",
+  "realized_pnl": -60.299560546875,
+  "realized_pnl_percent": -0.553394849433165,
+  "max_profit_percent": 1.461968244980323,
+  "max_drawdown_percent": 0.553394849433165,
+  "regime": "BULL",
+  "confidence": 56.21,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1790740060099",
+  "timestamp": 1790740060.09925
+}

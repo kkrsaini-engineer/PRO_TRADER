@@ -1,0 +1,18 @@
+{
+  "symbol": "FORTIS.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 817.0,
+  "exit_price": 816.55,
+  "status": "CLOSED",
+  "realized_pnl": 4.050000000000409,
+  "realized_pnl_percent": 0.05507955936353066,
+  "max_profit_percent": 0.05507955936353066,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 61.81,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1790740087665",
+  "timestamp": 1790740087.6656704
+}

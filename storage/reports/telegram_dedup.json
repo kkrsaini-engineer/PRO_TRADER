@@ -2,6 +2,17 @@
   "2026-09-30": [
     "macro::Energy::RELIANCE.NS",
     "mi_summary::2026-09-30 06:11:28.760046",
-    "morning_exec::2026-09-30::09:16:51.437563"
+    "morning_exec::2026-09-30::09:16:51.437563",
+    "paper_trading_started::2026-09-30::09:17:35.380699",
+    "monitoring_summary::2026-09-30::09:18:09.543704",
+    "holding_status::2026-09-30::part1::09:18:11.058107",
+    "holding_status::2026-09-30::part2::09:18:11.710223",
+    "holding_status::2026-09-30::part3::09:18:12.381036",
+    "holding_status::2026-09-30::part4::09:18:13.015952",
+    "holding_status::2026-09-30::part5::09:18:13.657048",
+    "portfolio_summary::2026-09-30::09:18:14.362657",
+    "analysis_summary::2026-09-30::09:18:16.069961",
+    "learning_summary::2026-09-30::09:18:20.120316",
+    "optimizer_recommendation::2026-09-30::09:18:21.032833"
   ]
 }
