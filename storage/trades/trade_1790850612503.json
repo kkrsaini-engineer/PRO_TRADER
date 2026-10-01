@@ -1,0 +1,18 @@
+{
+  "symbol": "KIRLOSENG.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 2310.699951171875,
+  "exit_price": 2242.7,
+  "status": "CLOSED",
+  "realized_pnl": -271.9998046875007,
+  "realized_pnl_percent": -2.9428291257542503,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 2.9428291257542503,
+  "regime": "BULL",
+  "confidence": 52.65,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (68/100).",
+  "id": "trade_1790850612503",
+  "timestamp": 1790850612.503408
+}

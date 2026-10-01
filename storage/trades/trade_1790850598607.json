@@ -1,0 +1,18 @@
+{
+  "symbol": "INDGN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 13,
+  "entry_price": 587.0,
+  "exit_price": 593.5,
+  "status": "CLOSED",
+  "realized_pnl": 84.5,
+  "realized_pnl_percent": 1.1073253833049403,
+  "max_profit_percent": 1.1073253833049403,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 53.53,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).",
+  "id": "trade_1790850598607",
+  "timestamp": 1790850598.6079698
+}

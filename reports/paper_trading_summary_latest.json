@@ -1,40 +1,32 @@
 {
   "date": "2026-10-01",
-  "opening_balance": 125064.41803905484,
-  "total_capital_in_positions": 296481.45999999996,
-  "remaining_balance": 189042.26710887905,
-  "portfolio_value": 485523.727108879,
-  "realized_pnl": -12905.574212684653,
-  "portfolio_return_percent": -2.895254578224197,
+  "opening_balance": 147756.73727794643,
+  "total_capital_in_positions": 291038.09,
+  "remaining_balance": 193307.58716197964,
+  "portfolio_value": 484345.67716197966,
+  "realized_pnl": -9953.493991127036,
+  "portfolio_return_percent": -3.130864567604067,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "AWL.NS",
-      "pnl": 60.840023803710494
-    },
-    {
-      "symbol": "JWL.NS",
-      "pnl": 228.0000000000001
-    },
-    {
-      "symbol": "KIRLOSENG.NS",
-      "pnl": -257.4997558593759
-    },
-    {
-      "symbol": "ACMESOLAR.NS",
-      "pnl": -23.100256347655773
-    },
-    {
-      "symbol": "KFINTECH.NS",
-      "pnl": -63.699999999999704
-    },
-    {
       "symbol": "INDGN.NS",
-      "pnl": 106.20000000000027
+      "pnl": 84.5
+    },
+    {
+      "symbol": "SONACOMS.NS",
+      "pnl": -253.0
     },
     {
       "symbol": "POLICYBZR.NS",
-      "pnl": -42.0
+      "pnl": 560.0
+    },
+    {
+      "symbol": "ADANIPORTS.NS",
+      "pnl": -289.2000000000003
+    },
+    {
+      "symbol": "KIRLOSENG.NS",
+      "pnl": -271.9998046875007
     }
   ],
   "open_positions_now": 29
