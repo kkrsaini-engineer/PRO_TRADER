@@ -1,0 +1,18 @@
+{
+  "symbol": "KFINTECH.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 13,
+  "entry_price": 841.75,
+  "exit_price": 846.65,
+  "status": "CLOSED",
+  "realized_pnl": -63.699999999999704,
+  "realized_pnl_percent": -0.5821205821205794,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.5821205821205794,
+  "regime": "BEAR",
+  "confidence": 70.35,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; News sentiment now works against this SELL position (70/100).",
+  "id": "trade_1790826473707",
+  "timestamp": 1790826473.707946
+}

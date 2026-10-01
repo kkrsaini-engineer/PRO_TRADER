@@ -1,57 +1,41 @@
 {
-  "date": "2026-09-30",
-  "opening_balance": 144136.74653820036,
-  "total_capital_in_positions": 238722.96000000002,
-  "remaining_balance": 249310.35744640348,
-  "portfolio_value": 488033.3174464035,
-  "realized_pnl": -13537.064108314538,
-  "portfolio_return_percent": -2.3933365107193008,
+  "date": "2026-10-01",
+  "opening_balance": 125064.41803905484,
+  "total_capital_in_positions": 296481.45999999996,
+  "remaining_balance": 189042.26710887905,
+  "portfolio_value": 485523.727108879,
+  "realized_pnl": -12905.574212684653,
+  "portfolio_return_percent": -2.895254578224197,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "WAAREEENER.NS",
-      "pnl": -26.700000000000273
+      "symbol": "AWL.NS",
+      "pnl": 60.840023803710494
     },
     {
-      "symbol": "ZYDUSLIFE.NS",
-      "pnl": -60.299560546875
+      "symbol": "JWL.NS",
+      "pnl": 228.0000000000001
     },
     {
-      "symbol": "BANKBARODA.NS",
-      "pnl": -162.71032348632806
+      "symbol": "KIRLOSENG.NS",
+      "pnl": -257.4997558593759
     },
     {
-      "symbol": "PETRONET.NS",
-      "pnl": 90.99978637695273
+      "symbol": "ACMESOLAR.NS",
+      "pnl": -23.100256347655773
     },
     {
-      "symbol": "USHAMART.NS",
-      "pnl": -127.5
+      "symbol": "KFINTECH.NS",
+      "pnl": -63.699999999999704
     },
     {
-      "symbol": "TATACONSUM.NS",
-      "pnl": 33.0
+      "symbol": "INDGN.NS",
+      "pnl": 106.20000000000027
     },
     {
-      "symbol": "MSUMI.NS",
-      "pnl": -127.67958984375048
-    },
-    {
-      "symbol": "IRCON.NS",
-      "pnl": -109.49977722167948
-    },
-    {
-      "symbol": "RELIANCE.NS",
-      "pnl": 242.39999999999964
-    },
-    {
-      "symbol": "FORTIS.NS",
-      "pnl": 4.050000000000409
-    },
-    {
-      "symbol": "BANKINDIA.NS",
-      "pnl": -71.82003845214851
+      "symbol": "POLICYBZR.NS",
+      "pnl": -42.0
     }
   ],
-  "open_positions_now": 22
+  "open_positions_now": 29
 }
