@@ -1,0 +1,13 @@
+{
+  "id": "paper_POLICYBZR_NS_1790826409733",
+  "symbol": "POLICYBZR.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 7,
+  "entry_price": 1050.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -2.87% (0.26x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790826409.7339623
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_KIRLOSENG_NS_1790826405648",
+  "symbol": "KIRLOSENG.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 5,
+  "entry_price": 2310.699951171875,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -3.80% (0.86x ATR, NORMAL band); No NEW overnight news since last night's scan.",
+  "timestamp": 1790826405.6493099
+}
