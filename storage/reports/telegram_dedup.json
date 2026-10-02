@@ -1,35 +1,5 @@
 {
-  "2026-10-01": [
-    "mi_summary::2026-10-01 06:14:07.414710",
-    "morning_exec::2026-10-01::09:16:51.152225",
-    "paper_trading_started::2026-10-01::09:17:31.100827",
-    "monitoring_summary::2026-10-01::09:17:59.416748",
-    "holding_status::2026-10-01::part1::09:18:00.100522",
-    "holding_status::2026-10-01::part2::09:18:00.764052",
-    "holding_status::2026-10-01::part3::09:18:01.486780",
-    "holding_status::2026-10-01::part4::09:18:02.200172",
-    "holding_status::2026-10-01::part5::09:18:02.867535",
-    "holding_status::2026-10-01::part6::09:18:03.573438",
-    "portfolio_summary::2026-10-01::09:18:04.273955",
-    "analysis_summary::2026-10-01::09:18:05.947026",
-    "learning_summary::2026-10-01::09:18:09.959501",
-    "optimizer_recommendation::2026-10-01::09:18:11.004448",
-    "macro::Energy::RELIANCE.NS",
-    "mi_summary::2026-10-01 15:19:24.578164",
-    "morning_exec::2026-10-01::15:59:11.386542",
-    "paper_trading_started::2026-10-01::15:59:50.705277",
-    "monitoring_summary::2026-10-01::16:00:21.629720",
-    "holding_status::2026-10-01::part1::16:00:22.299811",
-    "holding_status::2026-10-01::part2::16:00:22.954891",
-    "holding_status::2026-10-01::part3::16:00:23.664161",
-    "holding_status::2026-10-01::part4::16:00:24.311670",
-    "holding_status::2026-10-01::part5::16:00:24.985179",
-    "portfolio_summary::2026-10-01::16:00:25.720185",
-    "analysis_summary::2026-10-01::16:00:27.444452",
-    "learning_summary::2026-10-01::16:00:31.524427",
-    "optimizer_recommendation::2026-10-01::16:00:32.487689",
-    "mi_summary::2026-10-01 22:56:52.023199",
-    "scan_started::2026-10-01::01:39:24.600544",
-    "scan_completed::2026-10-01::01:50:35.976554"
+  "2026-10-02": [
+    "scan_skipped::2026-10-02::01:16:27.750250"
   ]
 }
