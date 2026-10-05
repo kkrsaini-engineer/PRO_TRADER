@@ -1,0 +1,13 @@
+{
+  "id": "paper_JWL_NS_1791172006123",
+  "symbol": "JWL.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 30,
+  "entry_price": 224.1999969482422,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -3.83% (1.26x ATR, WARNING band); No news available.",
+  "timestamp": 1791172006.1241102
+}
