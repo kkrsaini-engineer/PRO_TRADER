@@ -1,0 +1,18 @@
+{
+  "symbol": "SYRMA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 3,
+  "entry_price": 1739.699951171875,
+  "exit_price": 1743.1,
+  "status": "CLOSED",
+  "realized_pnl": 10.200146484374727,
+  "realized_pnl_percent": 0.19543880689509766,
+  "max_profit_percent": 0.19543880689509766,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 53.33,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791172086868",
+  "timestamp": 1791172086.86816
+}
