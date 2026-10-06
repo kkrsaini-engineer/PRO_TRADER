@@ -1,0 +1,18 @@
+{
+  "symbol": "TARIL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 29,
+  "entry_price": 286.25,
+  "exit_price": 279.5,
+  "status": "CLOSED",
+  "realized_pnl": 195.75,
+  "realized_pnl_percent": 2.3580786026200875,
+  "max_profit_percent": 2.3580786026200875,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 63.92,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791258467018",
+  "timestamp": 1791258467.0180686
+}

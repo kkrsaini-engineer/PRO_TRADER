@@ -23,16 +23,34 @@
         "No fresh news \u2014 news component does not contribute to the exit score.",
         "Exit score 8.6/100 (threshold 60.0) -> HOLD."
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "current_price": 977.0,
+      "current_pnl": 47.400146484375,
+      "current_buy_confidence": 28.35,
+      "current_sell_confidence": 60.74,
+      "current_exit_score": 8.6,
+      "recommendation": "EXIT",
+      "notes": [
+        "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+        "No fresh news \u2014 news component does not contribute to the exit score."
+      ]
     }
   ],
-  "status": "OPEN",
-  "exit_date": null,
-  "exit_price": null,
-  "exit_reason": null,
-  "holding_days": 1,
-  "max_profit_percent": 0.0,
+  "status": "CLOSED",
+  "exit_date": "2026-10-06",
+  "exit_price": 977.0,
+  "exit_reason": "Risk engine flagged this symbol as unsafe.",
+  "holding_days": 2,
+  "max_profit_percent": 2.568791124674201,
   "max_drawdown_percent": 0.0,
-  "final_pnl": null,
+  "final_pnl": 47.400146484375,
   "created_at": 1791172007.7974925,
-  "updated_at": 1791172093.6199434
+  "updated_at": 1791258449.965329,
+  "final_pnl_percent": 0.8021143484855114,
+  "exit_score": 8.6,
+  "target1_status": "NOT REACHED",
+  "target2_status": "NOT REACHED",
+  "stop_loss_status": "NOT HIT"
 }

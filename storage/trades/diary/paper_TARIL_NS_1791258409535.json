@@ -10,15 +10,34 @@
     "Morning Executor: gap +1.94% (0.55x ATR, NORMAL band)",
     "No news available."
   ],
-  "daily_log": [],
-  "status": "OPEN",
-  "exit_date": null,
-  "exit_price": null,
-  "exit_reason": null,
-  "holding_days": 0,
-  "max_profit_percent": 0.0,
+  "daily_log": [
+    {
+      "date": "2026-10-06",
+      "current_price": 279.5,
+      "current_pnl": 195.75,
+      "current_buy_confidence": 27.9,
+      "current_sell_confidence": 63.92,
+      "current_exit_score": 13.5,
+      "recommendation": "EXIT",
+      "notes": [
+        "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.",
+        "No fresh news \u2014 news component does not contribute to the exit score."
+      ]
+    }
+  ],
+  "status": "CLOSED",
+  "exit_date": "2026-10-06",
+  "exit_price": 279.5,
+  "exit_reason": "Risk engine flagged this symbol as unsafe.",
+  "holding_days": 1,
+  "max_profit_percent": 2.3580786026200875,
   "max_drawdown_percent": 0.0,
-  "final_pnl": null,
+  "final_pnl": 195.75,
   "created_at": 1791258409.535819,
-  "updated_at": 1791258409.5358193
+  "updated_at": 1791258467.0183065,
+  "final_pnl_percent": 2.3580786026200875,
+  "exit_score": 13.5,
+  "target1_status": "NOT REACHED",
+  "target2_status": "NOT REACHED",
+  "stop_loss_status": "NOT HIT"
 }

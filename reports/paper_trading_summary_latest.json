@@ -1,73 +1,41 @@
 {
-  "date": "2026-10-05",
-  "opening_balance": 93594.33710094448,
-  "total_capital_in_positions": 278251.45,
-  "remaining_balance": 215723.47527568816,
-  "portfolio_value": 493974.9252756882,
-  "realized_pnl": -11358.503588295001,
-  "portfolio_return_percent": -1.2050149448623648,
+  "date": "2026-10-06",
+  "opening_balance": 137601.9060465622,
+  "total_capital_in_positions": 291022.25,
+  "remaining_balance": 197062.40626430511,
+  "portfolio_value": 488084.6562643051,
+  "realized_pnl": -12462.974359169028,
+  "portfolio_return_percent": -2.383068747138977,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "FORTIS.NS",
-      "pnl": 68.40007324218777
+      "symbol": "POLICYBZR.NS",
+      "pnl": 47.400146484375
     },
     {
-      "symbol": "MAZDOCK.NS",
-      "pnl": -2.400390625
+      "symbol": "HDFCAMC.NS",
+      "pnl": -648.0
     },
     {
-      "symbol": "ADANIPORTS.NS",
-      "pnl": -104.40009765625018
-    },
-    {
-      "symbol": "RELIANCE.NS",
-      "pnl": 39.1998291015625
-    },
-    {
-      "symbol": "ZYDUSLIFE.NS",
-      "pnl": -46.899658203125
-    },
-    {
-      "symbol": "KPITTECH.NS",
-      "pnl": 668.9999999999998
-    },
-    {
-      "symbol": "ABLBL.NS",
-      "pnl": 482.47972900390675
-    },
-    {
-      "symbol": "SJVN.NS",
-      "pnl": 916.8600270080573
-    },
-    {
-      "symbol": "SONACOMS.NS",
-      "pnl": -48.99999999999977
+      "symbol": "TARIL.NS",
+      "pnl": 195.75
     },
     {
       "symbol": "IRCTC.NS",
-      "pnl": -110.40009765625018
+      "pnl": -8.000244140624773
     },
     {
-      "symbol": "SYRMA.NS",
-      "pnl": 10.200146484374727
+      "symbol": "TRENT.NS",
+      "pnl": -848.0
     },
     {
-      "symbol": "AWL.NS",
-      "pnl": -49.44997375488242
+      "symbol": "ICICIPRULI.NS",
+      "pnl": -248.40028076171927
     },
     {
-      "symbol": "TATACONSUM.NS",
-      "pnl": -11.750122070312727
-    },
-    {
-      "symbol": "KFINTECH.NS",
-      "pnl": -16.000000000000227
-    },
-    {
-      "symbol": "DLF.NS",
-      "pnl": 55.34978027343709
+      "symbol": "JWL.NS",
+      "pnl": -8.100091552734341
     }
   ],
-  "open_positions_now": 29
+  "open_positions_now": 31
 }

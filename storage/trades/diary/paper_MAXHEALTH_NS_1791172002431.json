@@ -23,16 +23,29 @@
         "No fresh news \u2014 news component does not contribute to the exit score.",
         "Exit score 8.6/100 (threshold 60.0) -> HOLD."
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "current_price": 909.15,
+      "current_pnl": 226.00019531250018,
+      "current_buy_confidence": 26.98,
+      "current_sell_confidence": 66.2,
+      "current_exit_score": 8.6,
+      "recommendation": "HOLD",
+      "notes": [
+        "No fresh news \u2014 news component does not contribute to the exit score.",
+        "Exit score 8.6/100 (threshold 60.0) -> HOLD."
+      ]
     }
   ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 1,
+  "holding_days": 2,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1791172002.4314985,
-  "updated_at": 1791172092.0422897
+  "updated_at": 1791258474.648136
 }

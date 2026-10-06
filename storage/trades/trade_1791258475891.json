@@ -1,0 +1,18 @@
+{
+  "symbol": "TRENT.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 4,
+  "entry_price": 2626.0,
+  "exit_price": 2838.0,
+  "status": "CLOSED",
+  "realized_pnl": -848.0,
+  "realized_pnl_percent": -8.073115003808073,
+  "max_profit_percent": 1.7517136329017517,
+  "max_drawdown_percent": 8.073115003808073,
+  "regime": "SIDEWAYS",
+  "confidence": 44.93,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Technical trend reversing against the SELL position (60/100).; No fresh news \u2014 news component does not contribute to the exit score.; Drawdown from peak is significant (8.1%).",
+  "id": "trade_1791258475891",
+  "timestamp": 1791258475.891548
+}
