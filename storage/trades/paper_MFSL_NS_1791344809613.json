@@ -1,0 +1,13 @@
+{
+  "id": "paper_MFSL_NS_1791344809613",
+  "symbol": "MFSL.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 5,
+  "entry_price": 1355.800048828125,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +0.58% (0.12x ATR, NORMAL band); No news available.",
+  "timestamp": 1791344809.6138906
+}

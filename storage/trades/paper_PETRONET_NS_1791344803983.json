@@ -1,0 +1,13 @@
+{
+  "id": "paper_PETRONET_NS_1791344803983",
+  "symbol": "PETRONET.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 30,
+  "entry_price": 295.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +1.72% (0.79x ATR, NORMAL band); No news available.",
+  "timestamp": 1791344803.984049
+}
