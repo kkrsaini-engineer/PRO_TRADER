@@ -1,0 +1,18 @@
+{
+  "symbol": "CANBK.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 55,
+  "entry_price": 119.44999694824219,
+  "exit_price": 116.81,
+  "status": "CLOSED",
+  "realized_pnl": 145.1998321533202,
+  "realized_pnl_percent": 2.210127263030487,
+  "max_profit_percent": 2.210127263030487,
+  "max_drawdown_percent": 0.6027652324426532,
+  "regime": "BEAR",
+  "confidence": 61.96,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791344893702",
+  "timestamp": 1791344893.7026534
+}

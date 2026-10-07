@@ -1,41 +1,57 @@
 {
-  "date": "2026-10-06",
-  "opening_balance": 137601.9060465622,
-  "total_capital_in_positions": 291022.25,
-  "remaining_balance": 197062.40626430511,
-  "portfolio_value": 488084.6562643051,
-  "realized_pnl": -12462.974359169028,
-  "portfolio_return_percent": -2.383068747138977,
+  "date": "2026-10-07",
+  "opening_balance": 123434.10595607758,
+  "total_capital_in_positions": 269664.77,
+  "remaining_balance": 218328.33537685394,
+  "portfolio_value": 487993.10537685396,
+  "realized_pnl": -11977.683367347734,
+  "portfolio_return_percent": -2.4013789246292085,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "POLICYBZR.NS",
-      "pnl": 47.400146484375
+      "symbol": "TMPV.NS",
+      "pnl": -154.0
+    },
+    {
+      "symbol": "MSUMI.NS",
+      "pnl": -26.620221557617256
+    },
+    {
+      "symbol": "GICRE.NS",
+      "pnl": 54.05000000000052
+    },
+    {
+      "symbol": "DELHIVERY.NS",
+      "pnl": 375.3001647949222
+    },
+    {
+      "symbol": "COFORGE.NS",
+      "pnl": 19.500000000000455
+    },
+    {
+      "symbol": "CYIENT.NS",
+      "pnl": 19.600341796875
+    },
+    {
+      "symbol": "CANBK.NS",
+      "pnl": 145.1998321533202
+    },
+    {
+      "symbol": "BLUESTARCO.NS",
+      "pnl": -205.19985351562445
+    },
+    {
+      "symbol": "BHARTIARTL.NS",
+      "pnl": -400.49975585937545
+    },
+    {
+      "symbol": "RECLTD.NS",
+      "pnl": -23.75030517578125
     },
     {
       "symbol": "HDFCAMC.NS",
-      "pnl": -648.0
-    },
-    {
-      "symbol": "TARIL.NS",
-      "pnl": 195.75
-    },
-    {
-      "symbol": "IRCTC.NS",
-      "pnl": -8.000244140624773
-    },
-    {
-      "symbol": "TRENT.NS",
-      "pnl": -848.0
-    },
-    {
-      "symbol": "ICICIPRULI.NS",
-      "pnl": -248.40028076171927
-    },
-    {
-      "symbol": "JWL.NS",
-      "pnl": -8.100091552734341
+      "pnl": 17.700000000000273
     }
   ],
-  "open_positions_now": 31
+  "open_positions_now": 30
 }

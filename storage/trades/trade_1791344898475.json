@@ -1,0 +1,18 @@
+{
+  "symbol": "BHARTIARTL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 5,
+  "entry_price": 1742.300048828125,
+  "exit_price": 1822.4,
+  "status": "CLOSED",
+  "realized_pnl": -400.49975585937545,
+  "realized_pnl_percent": -4.597368359471178,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 4.597368359471178,
+  "regime": "BEAR",
+  "confidence": 46.29,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791344898475",
+  "timestamp": 1791344898.475884
+}

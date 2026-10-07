@@ -1,0 +1,18 @@
+{
+  "symbol": "BLUESTARCO.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 6,
+  "entry_price": 1508.4000244140625,
+  "exit_price": 1542.6,
+  "status": "CLOSED",
+  "realized_pnl": -205.19985351562445,
+  "realized_pnl_percent": -2.267301447387763,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 2.267301447387763,
+  "regime": "SIDEWAYS",
+  "confidence": 45.97,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791344896752",
+  "timestamp": 1791344896.7523851
+}

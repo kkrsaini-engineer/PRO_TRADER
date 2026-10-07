@@ -1,0 +1,18 @@
+{
+  "symbol": "CYIENT.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 7,
+  "entry_price": 1119.199951171875,
+  "exit_price": 1122.0,
+  "status": "CLOSED",
+  "realized_pnl": 19.600341796875,
+  "realized_pnl_percent": 0.25018307275595997,
+  "max_profit_percent": 0.25018307275595997,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 51.82,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; Fundamentals have deteriorated for this BUY position (60/100).; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791344890365",
+  "timestamp": 1791344890.3657837
+}
