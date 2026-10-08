@@ -1,0 +1,13 @@
+{
+  "id": "paper_GPIL_NS_1791431204589",
+  "symbol": "GPIL.NS",
+  "direction": "SELL",
+  "action": "SELL",
+  "quantity": 35,
+  "entry_price": 215.00999450683594,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap -1.81% (0.63x ATR, NORMAL band); No news available.",
+  "timestamp": 1791431204.590061
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_HFCL_NS_1791431201731",
+  "symbol": "HFCL.NS",
+  "direction": "BUY",
+  "action": "BUY",
+  "quantity": 31,
+  "entry_price": 269.0,
+  "status": "OPEN",
+  "regime": "N/A",
+  "confidence": 0.0,
+  "reasons": "Morning Executor: gap +2.37% (0.61x ATR, NORMAL band); No news available.",
+  "timestamp": 1791431201.7323096
+}
