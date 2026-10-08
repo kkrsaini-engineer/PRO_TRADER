@@ -1,0 +1,18 @@
+{
+  "symbol": "TATAPOWER.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 19,
+  "entry_price": 347.0,
+  "exit_price": 344.4,
+  "status": "CLOSED",
+  "realized_pnl": 49.40000000000043,
+  "realized_pnl_percent": 0.7492795389049057,
+  "max_profit_percent": 0.7492795389049057,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 61.51,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791431286217",
+  "timestamp": 1791431286.217162
+}

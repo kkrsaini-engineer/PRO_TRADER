@@ -1,0 +1,18 @@
+{
+  "symbol": "ENGINERSIN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 45,
+  "entry_price": 310.75,
+  "exit_price": 296.85,
+  "status": "CLOSED",
+  "realized_pnl": -625.499999999999,
+  "realized_pnl_percent": -4.473049074818979,
+  "max_profit_percent": 1.029766693483504,
+  "max_drawdown_percent": 4.473049074818979,
+  "regime": "BULL",
+  "confidence": 55.28,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791431251484",
+  "timestamp": 1791431251.4847708
+}

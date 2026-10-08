@@ -1,0 +1,18 @@
+{
+  "symbol": "REDINGTON.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 21,
+  "entry_price": 374.3999938964844,
+  "exit_price": 399.25,
+  "status": "CLOSED",
+  "realized_pnl": 521.8501281738281,
+  "realized_pnl_percent": 6.637288063200732,
+  "max_profit_percent": 11.19124112889284,
+  "max_drawdown_percent": 0.5742505159011339,
+  "regime": "BULL",
+  "confidence": 58.02,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791431264296",
+  "timestamp": 1791431264.2963998
+}

@@ -1,57 +1,65 @@
 {
-  "date": "2026-10-07",
-  "opening_balance": 123434.10595607758,
-  "total_capital_in_positions": 269664.77,
-  "remaining_balance": 218328.33537685394,
-  "portfolio_value": 487993.10537685396,
-  "realized_pnl": -11977.683367347734,
-  "portfolio_return_percent": -2.4013789246292085,
+  "date": "2026-10-08",
+  "opening_balance": 120823.41656124115,
+  "total_capital_in_positions": 253609.53999999998,
+  "remaining_balance": 232600.44678890228,
+  "portfolio_value": 486209.98678890226,
+  "realized_pnl": -12530.253916969306,
+  "portfolio_return_percent": -2.758002642219549,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "TMPV.NS",
-      "pnl": -154.0
+      "symbol": "ENGINERSIN.NS",
+      "pnl": -625.499999999999
     },
     {
-      "symbol": "MSUMI.NS",
-      "pnl": -26.620221557617256
+      "symbol": "HINDUNILVR.NS",
+      "pnl": 15.200097656250364
+    },
+    {
+      "symbol": "BHEL.NS",
+      "pnl": -85.19970703125
+    },
+    {
+      "symbol": "WELSPUNLIV.NS",
+      "pnl": 587.6001269531257
+    },
+    {
+      "symbol": "REDINGTON.NS",
+      "pnl": 521.8501281738281
+    },
+    {
+      "symbol": "CGPOWER.NS",
+      "pnl": -77.0
+    },
+    {
+      "symbol": "HFCL.NS",
+      "pnl": 0.0
+    },
+    {
+      "symbol": "CROMPTON.NS",
+      "pnl": 32.55000000000024
+    },
+    {
+      "symbol": "RKFORGE.NS",
+      "pnl": -103.49987792968705
+    },
+    {
+      "symbol": "AUROPHARMA.NS",
+      "pnl": -12.9998779296875
+    },
+    {
+      "symbol": "ADANIPORTS.NS",
+      "pnl": -153.29999999999973
     },
     {
       "symbol": "GICRE.NS",
-      "pnl": 54.05000000000052
+      "pnl": 55.79962158203125
     },
     {
-      "symbol": "DELHIVERY.NS",
-      "pnl": 375.3001647949222
-    },
-    {
-      "symbol": "COFORGE.NS",
-      "pnl": 19.500000000000455
-    },
-    {
-      "symbol": "CYIENT.NS",
-      "pnl": 19.600341796875
-    },
-    {
-      "symbol": "CANBK.NS",
-      "pnl": 145.1998321533202
-    },
-    {
-      "symbol": "BLUESTARCO.NS",
-      "pnl": -205.19985351562445
-    },
-    {
-      "symbol": "BHARTIARTL.NS",
-      "pnl": -400.49975585937545
-    },
-    {
-      "symbol": "RECLTD.NS",
-      "pnl": -23.75030517578125
-    },
-    {
-      "symbol": "HDFCAMC.NS",
-      "pnl": 17.700000000000273
+      "symbol": "TATAPOWER.NS",
+      "pnl": 49.40000000000043
     }
   ],
-  "open_positions_now": 30
+  "open_positions_now": 29
 }

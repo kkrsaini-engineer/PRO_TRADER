@@ -1,0 +1,18 @@
+{
+  "symbol": "WELSPUNLIV.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 52,
+  "entry_price": 221.55999755859375,
+  "exit_price": 232.86,
+  "status": "CLOSED",
+  "realized_pnl": 587.6001269531257,
+  "realized_pnl_percent": 5.100199749920049,
+  "max_profit_percent": 9.721972684040031,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 57.72,
+  "reasons": "HARD RISK EXIT: Risk engine flagged this symbol as unsafe.; No fresh news \u2014 news component does not contribute to the exit score.",
+  "id": "trade_1791431260254",
+  "timestamp": 1791431260.254937
+}
