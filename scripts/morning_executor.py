@@ -1,0 +1,606 @@
+"""
+MORNING EXECUTOR — Executes last night's pending candidates at market open.
+
+Design (per user specification, NOT a re-scan):
+    1. Read reports/candidates_order.json (written by tonight's Daily Scan)
+    2. For each candidate, fetch ONLY today's opening price (one small
+       yfinance call per symbol — no re-analysis, no waiting)
+    3. Validate the gap against the candidate's OWN ATR (already
+       computed last night) using fixed bands:
+           gap <= 1.0x ATR   -> Execute (normal)
+           gap <= 1.75x ATR  -> Execute + Warning
+           gap <= 2.5x ATR   -> Reduce Size (half) + notify
+           gap >  2.5x ATR   -> Skip
+    4. Overnight news check — fetch fresh headlines, compute signed
+       bias; if it strongly contradicts the trade direction, skip
+       regardless of the gap-band result.
+    5. Risk check via the EXISTING RiskManager (capital/portfolio/
+       circuit-breaker dimensions), using CURRENT portfolio state.
+    6. Execute / Reduce / Skip — position opened via the existing
+       VirtualPortfolio, same as the night cycle does.
+    7. Detailed Telegram notification: every rejection with its reason.
+
+Explicitly NOT done here (by design, per discussion): no waiting
+window, no re-running technical indicators/RSI/EMA, no re-scoring —
+Target1/Target2/Stop-Loss/ATR are reused exactly as computed last
+night. This keeps the swing-entry intact instead of turning it into
+an intraday-confirmation system.
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import time
+from datetime import date, datetime, timezone
+from pathlib import Path
+from typing import Any
+
+import pandas as pd
+import yfinance as yf
+
+from config import CONFIG
+from core.logger import get_logger
+from core.notifications import notify
+from core.trading_calendar import IST_TZ, is_trading_day, now_ist, previous_trading_day
+from data.news_data import NewsDataProvider
+from news.sentiment_engine import SentimentEngine
+from paper_trading.virtual_portfolio import VirtualPortfolio
+from decision.validation_engine import ValidationEngine
+from risk import portfolio_limits
+from risk.entry_sizing import (
+    MAX_EXPOSURE,
+    MAX_NEW_ENTRIES_PER_DAY,
+    entry_allocation,
+    quantity_for,
+)
+from risk.risk_manager import RiskManager
+from storage.trades.trade_diary import TradeDiary
+from storage.trades.trade_store import TradeStore
+
+logger = get_logger(__name__)
+
+PENDING_ORDERS_PATH = Path("reports/candidates_order.json")
+
+# Gap-vs-ATR bands (ratio of |gap| to the candidate's own ATR — NOT a
+# flat percentage, so a normally-volatile stock isn't unfairly
+# flagged for a gap that's routine FOR THAT STOCK). Simplified to two
+# boundaries only (NORMAL / WARNING / SKIP) — the previous third
+# "REDUCE" tier (half-size execution between WARNING and SKIP) was
+# removed: there was no evidence backing the specific 50% figure, and
+# a fully-automated pipeline can't do genuine "manual review" as the
+# original spec intended for that zone, so the safer default is SKIP.
+BAND_NORMAL = 1.0
+BAND_WARNING = 1.75
+# > BAND_WARNING -> skip entirely
+
+# 2026-10-06 (BUG_AUDIT_2026-10-05_PROFITABILITY.md H6, user-approved):
+# don't chase an opening gap in the trade's OWN direction. Real data,
+# 115 BUY entries on a >= +1% gap-up: best move after entry (MFE) only
+# 0.66% on average vs 1.56% for entries with |gap| < 1%, win rate 33%
+# — the stock usually gave the gap back. Mirrored for SELL (gap-down).
+# 1.0% comes from that data bucket, not from a backtest.
+GAP_CHASE_PCT = 1.0
+
+# 2026-10-08 (user-approved "A-plan"): entry limits and sizing live in
+# risk/entry_sizing.py so the backtest uses the identical rules —
+# at most MAX_NEW_ENTRIES_PER_DAY (10) new positions per morning, best-ranked
+# first; each gets 5% of TOTAL capital (min Rs 10k); total exposure stops at
+# 85% (15% stays cash); one morning deploys at most 40%. History: on
+# 2026-10-08 the old rule opened 46 positions in one morning (median size
+# ~Rs 5.5k, ~0.6% round-trip cost), and in two top50 backtests the days with
+# >= 5 entries lost Rs 15.5k / Rs 10.9k while all other trades were ~break-even.
+
+
+def _signed_news_bias(scored_item: dict[str, Any]) -> float:
+    """Same formula as execution/scanner.py's _signed_news_bias() —
+    duplicated locally (small, pure function) to avoid a cross-module
+    import between two independently-runnable scripts."""
+    impact = float(scored_item.get("impact_score", 50.0))
+    magnitude = max(0.0, (impact - 50.0) / 50.0)
+    polarity = scored_item.get("sentiment", "NEUTRAL")
+    if polarity == "POSITIVE":
+        return magnitude
+    if polarity == "NEGATIVE":
+        return -magnitude
+    return 0.0
+
+
+def _parse_iso_utc(value: Any, naive_tz: Any) -> datetime | None:
+    """2026-10-06 (audit H12): parse an ISO-8601 timestamp (accepting a
+    trailing "Z") into an aware UTC datetime. A value with no offset is
+    interpreted in `naive_tz`. Returns None when missing/unparseable."""
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(str(value).strip().replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=naive_tz)
+    return parsed.astimezone(timezone.utc)
+
+
+def is_gap_chase(direction: str, gap_pct: float) -> bool:
+    """2026-10-06 (audit H6): True when the open has already gapped
+    GAP_CHASE_PCT or more in the trade's own direction."""
+    if direction == "BUY":
+        return gap_pct >= GAP_CHASE_PCT
+    if direction == "SELL":
+        return gap_pct <= -GAP_CHASE_PCT
+    return False
+
+
+def is_stale_scan(scan_date: str | None, today: date) -> bool:
+    """2026-10-06 (audit M8): candidates must come from the most recent
+    scan — dated on/after the previous trading day and before today.
+    Without this, a failed night scan left yesterday's (or older)
+    candidates_order.json in place and it would be executed again with
+    its old prev_close / stop / target levels."""
+    if not scan_date:
+        return True
+    try:
+        scanned = date.fromisoformat(str(scan_date))
+    except ValueError:
+        return True
+    return scanned < previous_trading_day(today) or scanned >= today
+
+
+def _check_symbol_news(symbol: str, direction: str, scan_timestamp: str | None) -> tuple[bool, str]:
+    """Company-specific overnight news check (original behavior).
+
+    Only considers headlines published AFTER scan_timestamp (last
+    night's scan time) — without this filter, the exact same
+    headlines the scanner already scored would be re-evaluated here,
+    which is redundant and can produce a DIFFERENT bias by chance
+    (rounding/model variance) than what the scanner already factored
+    into the Overall Score, causing an inconsistent decision.
+
+    LIMITATION this does NOT cover: broad macro/geopolitical shocks
+    (war, crisis) that don't specifically mention this company by name
+    won't show up in ITS news feed at all — see _check_macro_news()
+    below, which is the check that catches those."""
+    try:
+        provider = NewsDataProvider()
+        headlines = provider.fetch(symbol=symbol, limit=20)
+        if not headlines:
+            return True, "No company-specific news available."
+
+        if scan_timestamp:
+            # BUGFIX (2026-10-06, audit H12): this read h["published"], but
+            # data/news_data.py writes "published_at" — so EVERY headline
+            # was skipped and 0 of 543 real entries ever evaluated company
+            # news. Also, a naive vs aware datetime comparison raised
+            # TypeError (not caught by the ValueError handler) and the
+            # scan cutoff was mislabelled UTC. Both sides are now parsed
+            # to aware UTC before comparing.
+            cutoff = _parse_iso_utc(scan_timestamp, naive_tz=IST_TZ)
+            fresh_headlines = []
+            for h in headlines:
+                published = _parse_iso_utc(
+                    h.get("published_at") or h.get("published"), naive_tz=timezone.utc
+                )
+                if published is None or cutoff is None:
+                    continue  # no usable timestamp — can't confirm it's overnight, skip it rather than risk re-scoring old news
+                if published > cutoff:
+                    fresh_headlines.append(h)
+            headlines = fresh_headlines
+
+        if not headlines:
+            return True, "No NEW company-specific overnight news since last night's scan."
+
+        engine = SentimentEngine()
+        scored = engine.evaluate(headlines)
+        avg_bias = sum(_signed_news_bias(i) for i in scored) / len(scored)
+        if direction == "BUY" and avg_bias <= -CONFIG.news_skip_bias_threshold:
+            return False, f"{len(headlines)} NEW company headline(s), bias {avg_bias:.2f} — strongly negative against a BUY."
+        if direction == "SELL" and avg_bias >= CONFIG.news_skip_bias_threshold:
+            return False, f"{len(headlines)} NEW company headline(s), bias {avg_bias:.2f} — strongly positive against a SELL."
+        return True, f"{len(headlines)} new company headline(s), bias {avg_bias:.2f} — not a blocker."
+    except Exception as exc:
+        logger.warning("Company news check failed for %s: %s — proceeding without it.", symbol, exc)
+        return True, f"Company news check unavailable ({exc}) — proceeded without it."
+
+
+def _check_macro_news(direction: str) -> tuple[bool, str]:
+    """Broad market/macro overnight news check (war, crisis, oil shocks,
+    rate decisions, etc.) — this is the check that was MISSING here
+    before: _check_symbol_news() above only ever sees headlines tagged
+    to one specific company, so a genuine market-wide shock overnight
+    (that doesn't name this stock) previously passed through silently
+    regardless of how severe it was.
+
+    Reuses the same broad-market headline source already used by the
+    evening scan (data/news_data.py's fetch_market_news(), consumed by
+    market/macro_intelligence.py) — no new data source.
+
+    KNOWN LIMITATION: fetch_market_news() returns titles only (no
+    publish timestamps), so unlike _check_symbol_news() this cannot
+    filter to "published after last night's scan" — it scores whatever
+    macro headlines are current right now. In practice this means a
+    macro event the evening scan already saw and priced in could
+    re-trigger this check with the same bias; that's an acceptable
+    false-positive rate for a safety check (it can unnecessarily skip
+    a trade) versus the alternative it replaces (silently executing
+    into a live crisis)."""
+    try:
+        provider = NewsDataProvider()
+        headlines = provider.fetch_market_news(limit=20)
+        if not headlines:
+            return True, "No macro headlines available."
+
+        engine = SentimentEngine()
+        scored = engine.evaluate([{"title": h} for h in headlines])
+        avg_bias = sum(_signed_news_bias(i) for i in scored) / len(scored)
+        if direction == "BUY" and avg_bias <= -CONFIG.news_skip_bias_threshold:
+            return False, f"{len(headlines)} macro headline(s), bias {avg_bias:.2f} — strongly negative against a BUY."
+        if direction == "SELL" and avg_bias >= CONFIG.news_skip_bias_threshold:
+            return False, f"{len(headlines)} macro headline(s), bias {avg_bias:.2f} — strongly positive against a SELL."
+        return True, f"{len(headlines)} macro headline(s), bias {avg_bias:.2f} — not a blocker."
+    except Exception as exc:
+        logger.warning("Macro news check failed: %s — proceeding without it.", exc)
+        return True, f"Macro news check unavailable ({exc}) — proceeded without it."
+
+
+def check_overnight_news(symbol: str, direction: str, scan_timestamp: str | None) -> tuple[bool, str]:
+    """Returns (news_ok, reason). news_ok=False means overnight news —
+    either company-specific OR broad macro/geopolitical — strongly
+    contradicts the trade direction and this candidate should be
+    skipped regardless of the gap-band result. Checks both sources;
+    either one failing is enough to block."""
+    symbol_ok, symbol_reason = _check_symbol_news(symbol, direction, scan_timestamp)
+    if not symbol_ok:
+        return False, symbol_reason
+
+    macro_ok, macro_reason = _check_macro_news(direction)
+    if not macro_ok:
+        return False, macro_reason
+
+    return True, f"{symbol_reason} | {macro_reason}"
+
+
+def fetch_open_price(symbol: str, max_retries: int = 3, retry_delay_seconds: int = 30) -> tuple[float | None, str]:
+    """Returns (open_price, status_message). Retries on any failure —
+    fetch error, empty data, OR the last row's date not matching today
+    (Yahoo's daily candle for "today" may not exist yet this early,
+    which would otherwise silently return YESTERDAY's open instead of
+    failing loudly). period="5d" (not "1d") so there's a genuine
+    multi-row window to find and verify today's row in, rather than
+    trusting whatever single row comes back."""
+    today_str = date.today().isoformat()
+    last_error = "unknown error"
+    for attempt in range(1, max_retries + 1):
+        try:
+            df = yf.download(symbol, period="5d", interval="1d", progress=False, auto_adjust=False)
+            if df.empty:
+                last_error = "empty dataframe returned"
+            else:
+                # Flatten yfinance's MultiIndex columns (same fix used in
+                # run_backtest.py) — without this, df["Open"] is a nested
+                # Series/DataFrame rather than a clean per-row scalar
+                # column, and float() on it only works via a deprecated
+                # pandas fallback (confirmed via a recurring FutureWarning
+                # in production logs) that becomes a hard TypeError in a
+                # future pandas version.
+                df.columns = [str(c).lower() if not isinstance(c, tuple) else str(c[0]).lower() for c in df.columns]
+                last_row_date = pd.Timestamp(df.index[-1]).strftime("%Y-%m-%d")
+                if last_row_date != today_str:
+                    last_error = f"latest available candle is {last_row_date}, not today ({today_str}) — today's data not ready yet"
+                else:
+                    return float(df["open"].iloc[-1]), "OK"
+        except Exception as exc:
+            last_error = f"{type(exc).__name__}: {exc}"
+
+        logger.warning(
+            "Open-price fetch attempt %d/%d failed for %s: %s",
+            attempt, max_retries, symbol, last_error,
+        )
+        if attempt < max_retries:
+            time.sleep(retry_delay_seconds)
+
+    return None, f"Failed after {max_retries} attempts: {last_error}"
+
+
+def classify_gap(open_price: float, prev_close: float, atr_14: float) -> tuple[str, float]:
+    """Returns (band_label, gap_to_atr_ratio). Three bands only:
+    NORMAL (execute), WARNING (execute, flagged), SKIP (do not
+    execute) — see module-level comment for why the REDUCE tier was
+    removed."""
+    if not atr_14 or atr_14 <= 0:
+        return "UNKNOWN_ATR", 0.0
+    gap_abs = abs(open_price - prev_close)
+    ratio = gap_abs / atr_14
+    if ratio <= BAND_NORMAL:
+        return "NORMAL", ratio
+    if ratio <= BAND_WARNING:
+        return "WARNING", ratio
+    return "SKIP", ratio
+
+
+def check_capital_portfolio_risk(portfolio_snapshot: dict[str, Any]) -> tuple[bool, str]:
+    """Lightweight risk check using ONLY genuinely-available data at
+    market open (capital and portfolio exposure, from live portfolio
+    state) — deliberately does NOT call the full RiskManager, which
+    also evaluates ATR/liquidity/volatility/market/news dimensions
+    that would otherwise have to be fed FAKE placeholder values here
+    (no fresh scan has run this morning).
+
+    2026-10-08 (user-approved "A-plan"): the only blocks are
+      - available cash <= 5% of total capital, and
+      - exposure (money in positions / total capital) >= MAX_EXPOSURE (85%).
+    The old open-position-count score (5/10/15 positions -> +10/+20/+35) and
+    the 75%/85%/95% exposure bands are gone: the count points could never
+    reach RiskManager.MAX_PORTFOLIO_RISK (40) alone, so with the 75% band
+    the real limit was "15+ positions AND 75% invested" — an accident, not a
+    rule. There is deliberately no open-position-count limit: 85% exposure
+    with 5%-of-capital positions settles at ~17-25 positions by itself.
+    """
+    total_capital = float(portfolio_snapshot.get("total_capital", 1.0))
+    available_capital = float(portfolio_snapshot.get("available_capital", 0.0))
+    exposure = float(portfolio_snapshot.get("exposure", 0.0))
+
+    capital_ratio = available_capital / max(total_capital, 1.0)
+    if capital_ratio <= 0.05:
+        return False, f"Capital critically low (available capital ratio {capital_ratio:.1%})."
+
+    if exposure >= MAX_EXPOSURE:
+        open_positions_count = len(portfolio_snapshot.get("open_positions", {}))
+        return False, (
+            f"Exposure {exposure:.1%} has reached the {MAX_EXPOSURE:.0%} limit "
+            f"({open_positions_count} open positions)."
+        )
+
+    return True, "Capital/portfolio check passed."
+
+
+def check_loss_limits(portfolio_snapshot: dict[str, Any]) -> tuple[bool, str]:
+    """
+    2026-10-06 (BUG_AUDIT_2026-10-05_PROFITABILITY.md M6): portfolio
+    loss limits were only enforced in the evening scan (ValidationEngine),
+    never here — so if the limits were crossed overnight, this morning's
+    entries still went through. Same thresholds as ValidationEngine:
+    weekly loss > MAX_WEEKLY_LOSS, monthly loss > MAX_MONTHLY_LOSS,
+    drawdown in the "halt" band. The DAILY limit is deliberately not
+    checked here: at 9:16 the stored day-start equity and prices are
+    still yesterday's, so "today's loss" would really be yesterday's.
+    """
+    weekly = float(portfolio_snapshot.get("weekly_loss", 0.0) or 0.0)
+    monthly = float(portfolio_snapshot.get("monthly_loss", 0.0) or 0.0)
+    drawdown = float(portfolio_snapshot.get("max_drawdown", 0.0) or 0.0)
+    if weekly > ValidationEngine.MAX_WEEKLY_LOSS:
+        return False, f"Weekly loss {weekly:.1%} exceeds {ValidationEngine.MAX_WEEKLY_LOSS:.0%} limit."
+    if monthly > ValidationEngine.MAX_MONTHLY_LOSS:
+        return False, f"Monthly loss {monthly:.1%} exceeds {ValidationEngine.MAX_MONTHLY_LOSS:.0%} limit."
+    if portfolio_limits.drawdown_band_label(drawdown) == "halt":
+        return False, f"Portfolio drawdown {drawdown:.1%} is in the halt band."
+    return True, "Loss limits OK."
+
+
+def main() -> None:
+    today_date = date.today()
+    if not is_trading_day(today_date):
+        logger.info("Not a trading day — morning executor exiting.")
+        return
+
+    if not PENDING_ORDERS_PATH.exists():
+        logger.info("No candidates_order.json found — nothing to execute.")
+        return
+
+    with open(PENDING_ORDERS_PATH) as f:
+        payload = json.load(f)
+    candidates = payload.get("candidates", [])
+    scan_date = payload.get("scan_date")
+    scan_timestamp = payload.get("scan_timestamp")
+
+    if not candidates:
+        logger.info("candidates_order.json has no candidates — nothing to execute.")
+        return
+
+    if is_stale_scan(scan_date, today_date):
+        logger.warning(
+            "candidates_order.json is from %s — not the latest scan for %s. "
+            "Refusing to execute stale candidates.", scan_date, today_date.isoformat(),
+        )
+        notify(
+            event_type="morning_execution_stale_candidates",
+            message=(
+                f"🟠 Morning Executor — stale candidates skipped\n"
+                f"candidates_order.json is dated {scan_date}; today is "
+                f"{today_date.isoformat()}. Last night's scan probably failed. "
+                f"No new positions opened today."
+            ),
+            severity="🟠 HIGH",
+            dedup_key=f"morning_exec_stale::{today_date.isoformat()}",
+        )
+        return
+
+    portfolio = VirtualPortfolio()
+    diary = TradeDiary()
+    trade_store = TradeStore()
+
+    executed, skipped = [], []
+    cap_skipped = 0   # counted, not listed — 80+ lines would swamp the Telegram summary
+    room_skipped: dict[str, int] = {}   # same, keyed by the limit that ran out
+    deployed_this_morning = 0.0
+
+    for c in candidates:
+        symbol = c["symbol"]
+        direction = c["direction"]
+        prev_close = c.get("prev_close")
+        atr_14 = c.get("atr_14")
+        target1 = c.get("target1")
+        stop_loss = c.get("stop_loss")
+
+        if MAX_NEW_ENTRIES_PER_DAY and len(executed) >= MAX_NEW_ENTRIES_PER_DAY:
+            cap_skipped += 1
+            continue
+
+        # No room left for even a minimum-size position (85% exposure, 40%
+        # per-morning deploy, or cash): stop before spending a network call
+        # on this candidate's open price. Counted, not listed.
+        pre_snap = portfolio.snapshot()
+        allocation, no_room = entry_allocation(
+            pre_snap.get("total_capital", 0.0), pre_snap.get("available_capital", 0.0),
+            pre_snap.get("used_capital", 0.0), deployed_this_morning,
+        )
+        if no_room:
+            room_skipped[no_room] = room_skipped.get(no_room, 0) + 1
+            continue
+
+        open_price, fetch_status = fetch_open_price(symbol)
+        if open_price is None or not prev_close:
+            skipped.append((symbol, direction, f"Could not fetch today's open price — {fetch_status}"))
+            continue
+
+        band, ratio = classify_gap(open_price, prev_close, atr_14)
+        gap_pct = round((open_price - prev_close) / prev_close * 100, 2)
+
+        if band == "SKIP":
+            skipped.append((symbol, direction, f"Gap {gap_pct:+.2f}% = {ratio:.2f}x ATR (> {BAND_WARNING}x) — too large, skipped."))
+            continue
+
+        if is_gap_chase(direction, gap_pct):
+            skipped.append((symbol, direction, f"Gap {gap_pct:+.2f}% in the trade's own direction (>= {GAP_CHASE_PCT}%) — chase filter, skipped."))
+            continue
+
+        # Target/Stop sanity check (already-computed boundaries reused
+        # exactly as-is, no recompute) — chasing/invalidated-setup guard.
+        if direction == "BUY":
+            if target1 and open_price >= target1:
+                skipped.append((symbol, direction, f"Open {open_price} already at/past Target1 ({target1}) — chasing, skipped."))
+                continue
+            if stop_loss and open_price <= stop_loss:
+                skipped.append((symbol, direction, f"Open {open_price} already at/below Stop-Loss ({stop_loss}) — setup invalidated."))
+                continue
+        else:
+            if target1 and open_price <= target1:
+                skipped.append((symbol, direction, f"Open {open_price} already at/past Target1 ({target1}) — chasing, skipped."))
+                continue
+            if stop_loss and open_price >= stop_loss:
+                skipped.append((symbol, direction, f"Open {open_price} already at/above Stop-Loss ({stop_loss}) — setup invalidated."))
+                continue
+
+        news_ok, news_reason = check_overnight_news(symbol, direction, scan_timestamp)
+        if not news_ok:
+            skipped.append((symbol, direction, news_reason))
+            continue
+
+        # Risk check — lightweight, REAL-data-only version (see
+        # check_capital_portfolio_risk() docstring for why the full
+        # RiskManager isn't called here: it needs ATR/volume/spread/
+        # market-regime/VIX inputs that don't genuinely exist yet this
+        # morning without a fresh scan).
+        snap = portfolio.snapshot()
+        loss_ok, loss_reason = check_loss_limits(snap)
+        if not loss_ok:
+            skipped.append((symbol, direction, f"Loss limit: {loss_reason}"))
+            continue
+        risk_ok, risk_reason = check_capital_portfolio_risk(snap)
+        if not risk_ok:
+            skipped.append((symbol, direction, f"Risk check failed: {risk_reason}"))
+            continue
+
+        # Position sizing — fixed fraction of TOTAL capital (risk/entry_sizing.py;
+        # computed above, before the open-price fetch; nothing has been added
+        # since). A full Kelly-based size would need a fresh FinalDecision
+        # object, which would mean re-running the scan — explicitly avoided
+        # per the "no re-scan" design. No size-reduction tier — see
+        # module-level comment on why REDUCE was removed.
+        quantity = quantity_for(allocation, open_price)
+        if quantity <= 0:
+            skipped.append((symbol, direction, f"One share (Rs {open_price:,.0f}) costs more than the Rs {allocation:,.0f} position size."))
+            continue
+
+        added = portfolio.engine.add_position(
+            symbol=symbol, quantity=quantity, entry_price=open_price, direction=direction,
+        )
+        if not added:
+            skipped.append((symbol, direction, "Position already exists or insufficient capital (see engine log)."))
+            continue
+
+        # CONFIRMED ROOT CAUSE FIX: without writing a matching diary +
+        # trade_store record here, paper_trading_engine.py's monitoring
+        # loop (_find_open_trade_id) can never find this position —
+        # every single Morning-Executor-opened position was failing
+        # nightly monitoring with "MissingDiaryEntryError" (seen in
+        # production: all 20 open positions failed this way). Same
+        # trade_id pattern ("paper_{SYMBOL}_{timestamp}") the night
+        # cycle already uses, so monitoring finds it identically.
+        trade_id = f"paper_{symbol.replace('.', '_')}_{int(time.time() * 1000)}"
+        entry_reasons = [
+            f"Morning Executor: gap {gap_pct:+.2f}% ({ratio:.2f}x ATR, {band} band)",
+            news_reason,
+        ]
+        diary.open_trade(
+            trade_id=trade_id, symbol=symbol, direction=direction,
+            entry_price=open_price, entry_date=today_date.isoformat(),
+            # 2026-10-06 (audit M7): real values from last night's scan
+            # (were hardcoded 0.0 on every one of 519 trades). The diary
+            # field names say "buy_" but hold the trade's own direction.
+            buy_probability=float(c.get("probability") or 0.0),
+            buy_confidence=float(c.get("confidence") or 0.0),
+            entry_reasons=entry_reasons,
+        )
+        # BUGFIX (2026-09-18, Phase 2 — see BUG_AUDIT_2026-09-18.md item
+        # #6): "action" used to be written as the trade DIRECTION
+        # ("BUY"/"SELL", same as the "direction" field right next to
+        # it) instead of the lifecycle-event value every reader actually
+        # expects. orchestrator.py's save_trade() calls are the
+        # established schema this codebase reads elsewhere (see its
+        # "action": "OPEN" / "action": "CLOSE" calls) — "direction" is
+        # BUY/SELL, "action" is OPEN/CLOSE/PARTIAL_CLOSE, and it's
+        # "action" that analytics/analysis_engine.py's L86 and
+        # analytics/learning_engine.py's _estimate_holding_days() filter
+        # on to find this row. Writing the direction into "action"
+        # instead meant those two readers could NEVER match a single
+        # Morning-Executor-opened row: analysis_engine's daily
+        # BUY-executed count silently stayed 0 (reporting "100%
+        # rejected" even on days with real fills), and this trade's
+        # entry timestamp could never be found for holding-days
+        # estimation. Direction is already captured correctly in the
+        # separate "direction" field above -- "action" now matches the
+        # same OPEN/CLOSE convention every other writer uses.
+        trade_store.save_trade({
+            "id": trade_id, "symbol": symbol, "direction": direction, "action": "OPEN",
+            "quantity": quantity, "entry_price": open_price, "status": "OPEN",
+            "regime": c.get("market_regime") or "N/A",
+            "confidence": float(c.get("confidence") or 0.0),
+            "reasons": "; ".join(entry_reasons),
+        })
+
+        executed.append((symbol, direction, open_price, quantity, gap_pct, band, ratio))
+        deployed_this_morning += quantity * open_price
+
+    portfolio.save()
+
+    lines = [
+        "🌅 Morning Execution Complete",
+        f"Signals from: {scan_date}",
+        f"Candidates processed: {len(candidates)}",
+        f"Executed: {len(executed)} | Skipped: {len(skipped) + cap_skipped + sum(room_skipped.values())}",
+        f"Deployed this morning: Rs {deployed_this_morning:,.0f}",
+        *([f"Daily entry cap ({MAX_NEW_ENTRIES_PER_DAY}/morning, best-ranked first): {cap_skipped} lower-ranked candidate(s) not traded."]
+          if cap_skipped else []),
+        *([f"No room left ({reason}): {n} candidate(s) not traded." for reason, n in room_skipped.items()]),
+        "",
+    ]
+    if executed:
+        lines.append("✅ Executed")
+        for symbol, direction, price, qty, gap_pct, band, ratio in executed:
+            flag = " ⚠️ WARNING-zone gap" if band == "WARNING" else ""
+            lines.append(f"  {symbol} ({direction}) @ {price} x{qty} | Gap {gap_pct:+.2f}% ({ratio:.2f}x ATR){flag}")
+        lines.append("")
+    if skipped:
+        lines.append("❌ Skipped")
+        for symbol, direction, reason in skipped:
+            lines.append(f"  {symbol} ({direction}): {reason}")
+
+    notify(
+        event_type="morning_execution_complete",
+        message="\n".join(lines),
+        dedup_key=f"morning_exec::{today_date.isoformat()}::{now_ist().strftime('%H:%M:%S.%f')}",
+    )
+
+
+if __name__ == "__main__":
+    main()

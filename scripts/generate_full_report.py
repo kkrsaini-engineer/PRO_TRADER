@@ -1,0 +1,817 @@
+"""
+FULL REPORT SCAN SCRIPT
+
+Same idea as daily_scan.py, but writes the full 72-column report format
+(TradeID, Sector, EMA20/50/200, RSI, MACD, ADX, ATR, StopLoss/Targets,
+BUY/SELL score-probability-confidence breakdowns, etc.) instead of the
+lightweight summary CSV.
+
+Usage:
+    python scripts/generate_full_report.py
+
+BUGFIX (2026-09-02): the four BUY-side columns were literally named
+"BUT score 00.00" / "BUT Confidence 00.00" / "BUT Passed 0/0" /
+"BUT  probability  %" — a typo (BUT instead of BUY), cosmetic only
+(the underlying values were always the correct buy_* diagnostics; only
+the CSV column header text was wrong). Corrected to "BUY ...".
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import gzip
+import json
+import os
+import sys
+import time
+from datetime import date
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from core.logger import get_logger  # noqa: E402
+from core.notifications import notify, SEVERITY_HIGH, SEVERITY_MEDIUM  # noqa: E402
+from core.rejection_classifier import classify_tier4_block  # noqa: E402
+from core.trading_calendar import is_trading_day, now_ist, skip_reason  # noqa: E402
+from data import bhavcopy_status_log  # noqa: E402
+from data import liquidity_history  # noqa: E402
+from data.market_data import MarketDataProvider  # noqa: E402
+from data.watchlist import WatchlistManager  # noqa: E402
+from execution.scanner import MarketScanner  # noqa: E402
+from market.volatility import fetch_india_vix  # noqa: E402
+from paper_trading.virtual_portfolio import VirtualPortfolio  # noqa: E402
+from portfolio.correlation import compute_portfolio_correlation, fetch_correlation_inputs  # noqa: E402
+from storage.trades.trade_store import TradeStore  # noqa: E402
+
+logger = get_logger(__name__)
+
+WATCHLIST = WatchlistManager("storage/watchlist/nifty500.json").load()
+
+# 2026-10-06 (daily-scan runtime fix): GitHub Actions kills any job at 6
+# hours, and with 2,395 symbols x 3 network calls each this scan ran ~4h40m-
+# 5h54m through 2026-09-21 — too close to that limit. The scan now stops
+# starting new symbols after this many minutes and still writes the report
+# + candidates for everything it finished, so a slow night gives a smaller
+# scan instead of none. 300 min leaves room for setup + commit.
+#
+# CORRECTION 2026-10-07: the 6-hour limit was NOT what broke the scan from
+# 2026-09-22 on. The real Daily Scan log (2026-10-05 run) shows the scan
+# finished and committed, then `git push` was rejected by GitHub (GH001):
+# reports/full_report.csv had grown to 102.11 MB, over GitHub's 100 MB
+# per-file limit. Every run since 2026-09-22 started from the same
+# 95.3 MiB file and added one ~7 MB scan, so every push failed the same way
+# and candidates_order.json stayed at 2026-09-21. Fixed by
+# rotate_full_report() below. The time budget is kept as a safety margin.
+SCAN_TIME_BUDGET_MINUTES = float(os.getenv("SCAN_TIME_BUDGET_MINUTES", "300"))
+FUNDAMENTALS_CACHE_DIR = "storage/cache/fundamentals"
+FUNDAMENTALS_CACHE_MAX_AGE_DAYS = 7.0
+
+# 2026-10-07 (GH001 fix): full_report.csv keeps only the newest N scan
+# dates; every older scan date moves, unchanged, to its own compressed file
+# reports/archive/full_report_<date>.csv.gz (~0.7 MB per scan vs ~7 MB raw;
+# written once, so git stores each only once). Nothing is deleted. Every
+# reader in the repo (analysis/learning/email/sector reports) filters to
+# the LATEST date anyway. 5 scans ~ 36 MB, below GitHub's 50 MB warning; if
+# the file is still over FULL_REPORT_MAX_MB, fewer dates are kept.
+FULL_REPORT_KEEP_SCANS = int(os.getenv("FULL_REPORT_KEEP_SCANS", "5"))
+FULL_REPORT_MAX_MB = float(os.getenv("FULL_REPORT_MAX_MB", "90"))
+FULL_REPORT_ARCHIVE_DIR = "reports/archive"
+
+
+def next_trade_id(path: str) -> int:
+    """
+    Next unique TradeID for full_report.csv. Was "row count + 1", which
+    would re-issue old IDs once rows are archived; uses the highest
+    existing TradeID instead (rotation always keeps the NEWEST rows, so the
+    maximum survives). Falls back to the row count for non-numeric IDs.
+    """
+    if not Path(path).exists():
+        return 1
+    highest = 0
+    count = 0
+    with open(path, newline="") as f:
+        for row in csv.DictReader(f):
+            count += 1
+            try:
+                highest = max(highest, int(float(row.get("TradeID") or 0)))
+            except ValueError:
+                continue
+    return max(highest, count) + 1
+
+
+def _rotate_once(path: str, keep_scans: int, archive_dir: str) -> list[str]:
+    with open(path, newline="") as f:
+        reader = csv.reader(f)
+        header = next(reader, None)
+        if not header or "Date" not in header:
+            return []
+        date_idx = header.index("Date")
+        dates = {row[date_idx] for row in reader if len(row) > date_idx and row[date_idx]}
+    keep = set(sorted(dates)[-keep_scans:]) if keep_scans > 0 else set()
+    to_archive = sorted(dates - keep)
+    if not to_archive:
+        return []
+
+    Path(archive_dir).mkdir(parents=True, exist_ok=True)
+    archive_set = set(to_archive)
+    writers: dict[str, tuple] = {}
+    tmp_path = path + ".tmp"
+    try:
+        with open(path, newline="") as src, open(tmp_path, "w", newline="") as dst:
+            reader = csv.reader(src)
+            next(reader)
+            main_writer = csv.writer(dst)
+            main_writer.writerow(header)
+            for row in reader:
+                row_date = row[date_idx] if len(row) > date_idx else ""
+                if row_date not in archive_set:
+                    main_writer.writerow(row)
+                    continue
+                if row_date not in writers:
+                    gz_path = Path(archive_dir) / f"full_report_{row_date}.csv.gz"
+                    is_new = not gz_path.exists()
+                    handle = gzip.open(gz_path, "at", newline="")
+                    writer = csv.writer(handle)
+                    if is_new:
+                        writer.writerow(header)
+                    writers[row_date] = (handle, writer)
+                writers[row_date][1].writerow(row)
+    finally:
+        for handle, _ in writers.values():
+            handle.close()
+    os.replace(tmp_path, path)
+    return to_archive
+
+
+def rotate_full_report(
+    path: str,
+    keep_scans: int = FULL_REPORT_KEEP_SCANS,
+    max_mb: float = FULL_REPORT_MAX_MB,
+    archive_dir: str = FULL_REPORT_ARCHIVE_DIR,
+) -> list[str]:
+    """
+    Keep only the newest `keep_scans` scan dates in `path`; move every
+    older date's rows (byte-for-byte the same CSV rows, with the same
+    header) into archive_dir/full_report_<date>.csv.gz. If the file is
+    still larger than `max_mb`, keep one date fewer until it fits (never
+    fewer than the latest scan). Returns the archived dates.
+    """
+    if not Path(path).exists():
+        return []
+    archived = _rotate_once(path, keep_scans, archive_dir)
+    keep = keep_scans
+    while keep > 1 and Path(path).stat().st_size > max_mb * 1024 * 1024:
+        keep -= 1
+        archived += _rotate_once(path, keep, archive_dir)
+    return sorted(set(archived))
+
+
+def order_by_liquidity(symbols: list[str], history: dict[str, list[dict]] | None = None) -> list[str]:
+    """
+    2026-10-06: most liquid symbols first (average NSE turnover over the
+    last liquidity_history.WINDOW_DAYS sessions, from the real bhavcopy
+    history the scan already keeps), so if the time budget ever cuts the
+    scan short it drops the LEAST tradeable names, not an alphabetical
+    tail. Symbols with no history keep their original relative order, at
+    the end. Nothing is added or removed — only the order changes.
+    """
+    if history is None:
+        try:
+            history = liquidity_history.load_history()
+        except Exception:
+            history = {}
+
+    def avg_turnover(symbol: str) -> float | None:
+        entries = (history or {}).get(symbol.split(".")[0]) or []
+        values = [
+            float(e["turnover_lacs"]) for e in entries[-liquidity_history.WINDOW_DAYS:]
+            if isinstance(e, dict) and e.get("turnover_lacs") is not None
+        ]
+        return sum(values) / len(values) if values else None
+
+    ranked = [(avg_turnover(sym), idx, sym) for idx, sym in enumerate(symbols)]
+    with_data = sorted((r for r in ranked if r[0] is not None), key=lambda r: (-r[0], r[1]))
+    without = [r for r in ranked if r[0] is None]
+    return [sym for _, _, sym in with_data + without]
+
+
+# Exact column order the person asked for.
+FIELDNAMES = [
+    "TradeID", "Date", "Stock", "Sector", "Industry", "Signal", "Reason",
+    "Confidence", "EntryPrice", "CurrentPrice", "Highest", "Lowest",
+    "EMA20", "EMA50", "EMA200", "RSI", "MACD", "ADX", "ATR", "VolumeRatio",
+    "RelativeStrength", "MomentumIndicators", "VolatilityIndicator",
+    "VolumeIndicators", "BreakoutIndicators", "IchimokuIndicators",
+    "PatternIndicators", "Breakout", "Pullback", "score", "probability",
+    "confidence", "ranking", "SELL score 00.00", "SELL Confidence 00.00",
+    "SELL Passed 0/0", "SELL  probability  %", "BUY score 00.00",
+    "BUY Confidence 00.00", "BUY Passed 0/0", "BUY  probability  %",
+    "portfolio_allowed", "latest_close", "market_regime",
+    "Decision=NO_TRADE/TRADE", "Grade=ACCEPT/REJECT", "Rank=0.00",
+    "Confidence=0.00", "PositionSize", "PositionRULE", "StopLoss",
+    "Target1", "Target2", "Target1_RMultiple", "Target2_RMultiple",
+    "ExpectedHoldDays", "HoldingDays",
+    "Return", "MaxProfit", "MaxDrawdown", "TechnicalScore",
+    "FundamentalScore", "NewsScore", "OverallScore", "Status",
+    "ExitReason", "ExitDate", "AIComment", "AIVersion", "ANALYSIS REPORT",
+    "LEARNIG", "OPTIMER", "BACKTESET",
+    # Explainability (audit requirement) — full tier breakdown for both
+    # engines, present for every outcome (BUY/SELL/NO_TRADE).
+    "BuyTier1Passed", "BuyTier1Detail", "BuyTechnicalChecks", "BuyTier2Score", "BuyTier3Score",
+    "BuyOverallScore", "BuyThreshold",
+    "SellTier1Passed", "SellTier1Detail", "SellTechnicalChecks", "SellTier2Score", "SellTier3Score",
+    "SellOverallScore", "SellThreshold",
+    "Tier4Block",
+]
+
+AI_VERSION = "v1.0"
+
+
+def latest_trade_by_symbol(trade_store: TradeStore) -> dict:
+    """Most recent journal record per symbol, keyed by symbol.
+    Used to fill lifecycle fields (Status/Return/ExitDate/HoldingDays) for
+    symbols that actually have an open or closed trade on record.
+    """
+    latest: dict[str, dict] = {}
+    for t in trade_store.get_all_trades():
+        sym = t.get("symbol")
+        if not sym:
+            continue
+        prev = latest.get(sym)
+        if prev is None or float(t.get("timestamp", 0)) > float(prev.get("timestamp", 0)):
+            latest[sym] = t
+    return latest
+
+
+def build_row(trade_id: int, r, trade: dict | None = None) -> dict:
+    """Map one ScanResult (with the enriched diagnostics from scanner.py)
+    into a row matching the full report schema. `trade` is this symbol's
+    latest journal record from trades_master.csv, if one exists — used to
+    fill lifecycle fields (Status/Return/ExitDate/HoldingDays)."""
+    d = r.diagnostics
+    trade = trade or {}
+
+    return {
+        "TradeID": trade_id,
+        "Date": date.today().isoformat(),
+        "Stock": r.symbol,
+        "Sector": d.get("sector") or "",
+        "Industry": d.get("industry") or "",
+        "Signal": r.action,
+        "Reason": d.get("decision_reasons", "")[:500],  # keep rows CSV-friendly
+        "Confidence": r.confidence,
+        "EntryPrice": d.get("latest_close"),
+        "CurrentPrice": d.get("latest_close"),
+        "Highest": d.get("highest"),
+        "Lowest": d.get("lowest"),
+        "EMA20": d.get("ema_20"),
+        "EMA50": d.get("ema_50"),
+        "EMA200": d.get("ema_200"),
+        "RSI": d.get("rsi_14"),
+        "MACD": d.get("macd"),
+        "ADX": d.get("adx_14"),
+        "ATR": d.get("atr_14"),
+        "VolumeRatio": d.get("volume_ratio"),
+        # Column header "RelativeStrength" kept as-is (locked report
+        # schema, see FIELDNAMES comment above) — the underlying value is
+        # price-vs-its-own-20D-mean, NOT vs a benchmark; see the NOTE at
+        # features/indicators/breakout.py's price_vs_20d_mean.
+        "RelativeStrength": d.get("price_vs_20d_mean"),
+        "MomentumIndicators": f"RSI:{d.get('rsi_14')} STOCH:{d.get('stoch_k')} ADX:{d.get('adx_14')}",
+        "VolatilityIndicator": f"ATR:{d.get('atr_14')}",
+        "VolumeIndicators": f"CMF:{d.get('cmf_20')} MFI:{d.get('mfi_14')} VolRatio:{d.get('volume_ratio')}",
+        "BreakoutIndicators": "YES" if d.get("is_breakout") else "NO",
+        "IchimokuIndicators": d.get("cloud_trend", ""),
+        "PatternIndicators": (
+            "BULLISH_ENGULFING" if d.get("bullish_engulfing")
+            else "BEARISH_ENGULFING" if d.get("bearish_engulfing")
+            else "NONE"
+        ),
+        "Breakout": "YES" if d.get("is_breakout") else "NO",
+        "Pullback": "YES" if d.get("is_pullback") else "NO",
+        "score": r.score,
+        "probability": r.probability,
+        "confidence": r.confidence,
+        "ranking": r.ranking,
+        "SELL score 00.00": d.get("sell_score"),
+        "SELL Confidence 00.00": d.get("sell_decision_confidence"),
+        "SELL Passed 0/0": f"{d.get('sell_checks_passed', 0)} of {d.get('sell_checks_total', 0)}",
+        "SELL  probability  %": d.get("sell_probability"),
+        "BUY score 00.00": d.get("buy_score"),
+        "BUY Confidence 00.00": d.get("buy_decision_confidence"),
+        "BUY Passed 0/0": f"{d.get('buy_checks_passed', 0)} of {d.get('buy_checks_total', 0)}",
+        "BUY  probability  %": d.get("buy_probability"),
+        "portfolio_allowed": r.portfolio_allowed,
+        "latest_close": d.get("latest_close"),
+        "market_regime": d.get("market_regime"),
+        "Decision=NO_TRADE/TRADE": d.get("decision"),
+        "Grade=ACCEPT/REJECT": "ACCEPT" if r.portfolio_allowed else "REJECT",
+        "Rank=0.00": r.ranking,
+        "Confidence=0.00": r.confidence,
+        "PositionSize": d.get("quantity"),
+        "PositionRULE": d.get("portfolio_rule_reason"),
+        "StopLoss": d.get("stop_loss"),
+        "Target1": d.get("target1"),
+        "Target2": d.get("target2"),
+        # Fixed R-multiples by construction (risk/stop_target.py), NOT a
+        # per-symbol computed Risk:Reward — see PHASE20_NOTES.md. Same
+        # value on every row; kept as two columns (not one "RiskReward")
+        # so it's clear these are the model's design constants, not a
+        # discriminating per-trade metric.
+        "Target1_RMultiple": d.get("target1_r_multiple"),
+        "Target2_RMultiple": d.get("target2_r_multiple"),
+        "ExpectedHoldDays": d.get("expected_hold_days"),
+        # Trade-lifecycle fields: filled in from trades_master.csv when this
+        # symbol actually has an open/closed trade on record. MaxProfit and
+        # MaxDrawdown come from portfolio.py's running highest/lowest price
+        # tracking over the life of the position (see _track_extremes()).
+        "HoldingDays": (
+            round((time.time() - float(trade["timestamp"])) / 86400.0, 1)
+            if trade.get("status") == "OPEN" and trade.get("timestamp")
+            else ""
+        ),
+        "Return": trade.get("realized_pnl_percent", ""),
+        "MaxProfit": trade.get("max_profit_percent", ""),
+        "MaxDrawdown": trade.get("max_drawdown_percent", ""),
+        "TechnicalScore": d.get("buy_technical_score") if r.action == "BUY" else d.get("sell_technical_score"),
+        "FundamentalScore": d.get("buy_fundamental_score"),
+        "NewsScore": d.get("buy_news_score"),
+        "OverallScore": r.score,
+        "Status": trade.get("status", "WATCH" if r.action in ("BUY", "SELL") else ""),
+        "ExitReason": trade.get("reasons", "") if trade.get("status") == "CLOSED" else "",
+        "ExitDate": (
+            date.fromtimestamp(float(trade["timestamp"])).isoformat()
+            if trade.get("status") == "CLOSED" and trade.get("timestamp")
+            else ""
+        ),
+        "AIComment": (d.get("decision_reasons", "").split(" | ")[-1] if d.get("decision_reasons") else ""),
+        "AIVersion": AI_VERSION,
+        "ANALYSIS REPORT": "",
+        "LEARNIG": "",
+        "OPTIMER": "",
+        "BACKTESET": "",
+        # Explainability
+        "BuyTier1Passed": d.get("buy_tier1_passed"),
+        "BuyTier1Detail": "; ".join(
+            f"{k}={v}" for k, v in (d.get("buy_tier1_checks") or {}).items()
+        ),
+        # Full per-rule technical checklist (all ~39 rules, not just the
+        # smaller Tier1 gate above) — JSON so it round-trips cleanly for
+        # the Learning Engine's rule-level correlation analysis.
+        "BuyTechnicalChecks": json.dumps(d.get("buy_technical_checks") or {}, default=str),
+        "BuyTier2Score": d.get("buy_tier2_score"),
+        "BuyTier3Score": d.get("buy_tier3_score"),
+        "BuyOverallScore": d.get("buy_overall_score"),
+        "BuyThreshold": d.get("buy_qualify_threshold"),
+        "SellTier1Passed": d.get("sell_tier1_passed"),
+        "SellTier1Detail": "; ".join(
+            f"{k}={v}" for k, v in (d.get("sell_tier1_checks") or {}).items()
+        ),
+        "SellTechnicalChecks": json.dumps(d.get("sell_technical_checks") or {}, default=str),
+        "SellTier2Score": d.get("sell_tier2_score"),
+        "SellTier3Score": d.get("sell_tier3_score"),
+        "SellOverallScore": d.get("sell_overall_score"),
+        "SellThreshold": d.get("sell_qualify_threshold"),
+        "Tier4Block": (
+            d.get("portfolio_rule_reason")
+            if d.get("portfolio_rule_reason") not in (None, "OK")
+            else (
+                "Risk grade: " + str(d.get("risk_grade")) if not d.get("risk_safe", True)
+                else _score_threshold_reason(d, r.action)
+            )
+        ),
+    }
+
+
+def _score_threshold_reason(d: dict, action: str) -> str:
+    """Tier4Block previously had NO way to record the single most common
+    NO_TRADE cause: the candidate passed Tier1/portfolio/risk cleanly,
+    but its overall score simply didn't clear the qualifying threshold.
+    Without this, those rows had an empty Tier4Block and fell into an
+    unhelpful "Other" bucket with no text to explain why. This directly
+    checks the SAME overall-score-vs-threshold values already computed
+    and stored in BuyOverallScore/BuyThreshold (or Sell-equivalent)."""
+    score_key = "buy_overall_score" if action != "SELL" else "sell_overall_score"
+    threshold_key = "buy_qualify_threshold" if action != "SELL" else "sell_qualify_threshold"
+    score = d.get(score_key)
+    threshold = d.get(threshold_key)
+    if score is None or threshold is None:
+        return ""
+    try:
+        if float(score) < float(threshold):
+            return f"Decision engine rejected trade: score {round(float(score), 1)} below threshold {round(float(threshold), 1)}."
+    except (TypeError, ValueError):
+        pass
+    return ""
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--force", action="store_true",
+        help="Bypass the NSE-trading-day check (testing only — e.g. to verify a "
+        "fix on a market holiday). Normal scheduled runs never pass this.",
+    )
+    args = parser.parse_args()
+
+    today_date = date.today()
+    ist_now = now_ist()
+
+    if not args.force and not is_trading_day(today_date):
+        reason = skip_reason(today_date) or "Non-trading day"
+        logger.info("Not an NSE trading day — exiting before any scan begins.")
+        print("Not an NSE trading day (weekend or holiday). No scan performed.")
+        notify(
+            event_type="daily_scan_skipped",
+            message=(
+                f"⏸️ Daily Scan Skipped\n"
+                f"Reason: {reason}\n"
+                f"No market scan was executed."
+            ),
+            dedup_key=f"scan_skipped::{today_date.isoformat()}::{ist_now.strftime('%H:%M:%S.%f')}",
+        )
+        return
+
+    total_symbols = len(WATCHLIST)
+    notify(
+        event_type="daily_scan_started",
+        message=(
+            f"🚀 Daily Scan Started\n"
+            f"Date: {today_date.isoformat()}\n"
+            f"Time (IST): {ist_now.strftime('%H:%M:%S')}\n"
+            f"Status: Production Scanner Started\n"
+            f"The scan is now analyzing today's market ({total_symbols} symbols)."
+        ),
+        dedup_key=f"scan_started::{today_date.isoformat()}::{ist_now.strftime('%H:%M:%S.%f')}",
+    )
+
+    scan_started_at = time.monotonic()
+    scanner = MarketScanner()
+    # 2026-10-06: see FUNDAMENTALS_CACHE_DIR / SCAN_TIME_BUDGET_MINUTES.
+    fundamental_provider = getattr(scanner.data_engine, "fundamental_provider", None)
+    if fundamental_provider is not None and hasattr(fundamental_provider, "enable_cache"):
+        fundamental_provider.enable_cache(FUNDAMENTALS_CACHE_DIR, FUNDAMENTALS_CACHE_MAX_AGE_DAYS)
+    trade_lookup = latest_trade_by_symbol(TradeStore())
+
+    # Phase 26 (see PHASE26_NOTES.md, point 11): this used to be a
+    # completely fake, static, always-empty portfolio dict — meaning
+    # `portfolio_allowed` for EVERY candidate this scan produces (which
+    # scripts/morning_executor.py then reads straight from
+    # reports/candidates_order.json to open REAL positions) was decided
+    # against a fictional empty portfolio, never the real one, no matter
+    # how many positions were actually open or how concentrated they
+    # were. Wired to the SAME real VirtualPortfolio state paper trading
+    # itself uses — read-only here (no .save(), no mutation; this scan
+    # doesn't open positions, only proposes candidates).
+    virtual_portfolio = VirtualPortfolio()
+    portfolio = virtual_portfolio.snapshot()
+    # "sector_exposure" here is a DICT ({sector: $value}) — rename to
+    # match the contract execution/scanner.py's per-symbol
+    # _sector_exposure_ratio() expects (see that method's docstring);
+    # it computes and sets the SCALAR "sector_exposure" itself, per
+    # candidate symbol.
+    portfolio["sector_exposure_by_sector"] = portfolio.pop("sector_exposure", {})
+
+    # Real portfolio correlation — fetched/computed ONCE for this whole
+    # scan run (same "fetch once per run" reasoning as VIX below); None
+    # when it can't be computed (fewer than 2 open positions, or
+    # insufficient overlapping history) simply leaves "correlation"
+    # unset, so risk/validation/portfolio_rules fall back to their
+    # pre-existing 0.0 default — no fabrication, no regression.
+    open_symbols = set(virtual_portfolio.engine.state.open_positions.keys())
+    if len(open_symbols) >= 2:
+        market_data_provider = MarketDataProvider()
+        closes = fetch_correlation_inputs(open_symbols, market_data_provider)
+        portfolio_correlation = compute_portfolio_correlation(closes)
+        if portfolio_correlation is not None:
+            portfolio["correlation"] = portfolio_correlation
+
+    broker_status = {"status": "ONLINE", "mode": "SCAN", "connected": True, "order_allowed": True, "available_margin": 100000.0}
+    # "vix" used to be entirely absent from this dict, so
+    # risk_manager.py's market.get("vix", 20.0) always fell through to
+    # its hardcoded default — meaning the vix >= 30 / vix >= 35 risk-off
+    # checks could never fire regardless of real market conditions.
+    # fetch_india_vix() pulls a live reading once per scan run (falls
+    # back to 20.0 itself, with a logged warning, if the fetch fails).
+    market_state = {
+        "max_trade_candidates": 100,
+        "max_watchlist": 500,
+        "market_open": True,
+        "holiday": False,
+        "vix": fetch_india_vix(),
+    }
+
+    out_path = "reports/full_report.csv"
+    Path("reports").mkdir(exist_ok=True)
+
+    # TradeID must stay unique across runs since we're appending, not
+    # overwriting — continue from the highest existing ID (not the row
+    # count: older scans get archived, see rotate_full_report()).
+    next_id = next_trade_id(out_path)
+
+    total = len(WATCHLIST)
+    rows = []
+    pending_candidates = []
+    # WATCHLIST HEALTH CHECK (2026-09-02, user-requested): a symbol that
+    # comes back with a genuinely empty data response (MarketScanner.
+    # looks_like_delisted_or_renamed() — see that method's docstring for
+    # exactly what it does and does NOT claim) is worth a Telegram alert
+    # instead of the silent per-symbol skip below, since it's the one
+    # real signal available that a watchlist entry may be delisted,
+    # renamed, or simply mistyped. Collected here, notified once after
+    # the full scan (not per-symbol — 2000+ watchlist entries would make
+    # a per-symbol alert unusable spam).
+    possibly_delisted_or_renamed = []
+    scan_order = order_by_liquidity(list(WATCHLIST))
+    scanned_count = 0
+    scan_truncated = False
+    for i, symbol in enumerate(scan_order, start=0):
+        elapsed_minutes = (time.monotonic() - scan_started_at) / 60.0
+        if elapsed_minutes > SCAN_TIME_BUDGET_MINUTES:
+            scan_truncated = True
+            logger.warning(
+                "Scan time budget (%.0f min) reached after %d/%d symbols — "
+                "stopping here and writing results for what was scanned.",
+                SCAN_TIME_BUDGET_MINUTES, scanned_count, total,
+            )
+            break
+        scanned_count += 1
+        logger.info("[%d/%d] Full report scan: %s", i + 1, total, symbol)
+        r = scanner.scan_symbol(
+            symbol=symbol,
+            portfolio=portfolio,
+            broker_status=broker_status,
+            market_state=market_state,
+        )
+        if r.action == "ERROR":
+            logger.warning("Skipping %s from report: %s", symbol, r.diagnostics.get("error"))
+            if MarketScanner.looks_like_delisted_or_renamed(r.diagnostics):
+                possibly_delisted_or_renamed.append(symbol)
+            continue
+        rows.append(build_row(next_id + i, r, trade_lookup.get(symbol)))
+        if r.action in ("BUY", "SELL") and r.portfolio_allowed:
+            pending_candidates.append(r)
+
+    if scan_truncated:
+        notify(
+            event_type="daily_scan_truncated",
+            message=(
+                f"🟠 Daily Scan Cut Short (time budget)\n"
+                f"Scanned {scanned_count}/{total} symbols (most liquid first) before "
+                f"the {SCAN_TIME_BUDGET_MINUTES:.0f}-minute budget ran out. Report and "
+                f"candidates were still written for the scanned symbols."
+            ),
+            severity=SEVERITY_MEDIUM,
+            dedup_key=f"scan_truncated::{today_date.isoformat()}",
+        )
+
+    # Only fires when at least one symbol actually looks this way — a
+    # healthy scan stays silent, same convention as every other notify()
+    # call in this file.
+    if possibly_delisted_or_renamed:
+        symbol_lines = "\n".join(f"  - {s}" for s in possibly_delisted_or_renamed)
+        notify(
+            event_type="watchlist_symbol_unavailable",
+            message=(
+                "⚠️ Watchlist Symbol(s) Returned No Data\n\n"
+                f"{len(possibly_delisted_or_renamed)} symbol(s) got a completely "
+                f"empty response from the market data provider today:\n"
+                f"{symbol_lines}\n\n"
+                "This usually means one of: the stock was delisted, its ticker/"
+                "name changed on the exchange, or the symbol is simply wrong in "
+                "the watchlist file. This is NOT a confirmed diagnosis — please "
+                "verify on NSE and update storage/watchlist/nifty500.json if "
+                "needed (a transient data-provider hiccup can also look like "
+                "this for a single day; only act if it repeats)."
+            ),
+            severity=SEVERITY_MEDIUM,
+            dedup_key=f"watchlist_symbol_unavailable::{today_date.isoformat()}",
+        )
+
+    # BHAVCOPY FETCH STATUS — user-requested: know on which day
+    # delivery%/liquidity data was NOT counted, plus a trailing few-day
+    # audit trail. scanner._delivery_data/_delivery_data_as_of are set
+    # once per run (lazy-fetched on the first symbol, see
+    # execution/scanner.py's _get_delivery_data()) and reflect exactly
+    # what THIS run actually got — read them here, after the scan loop,
+    # rather than re-fetching or guessing.
+    if total > 0:
+        symbols_matched = len(scanner._delivery_data or {})
+        bhavcopy_as_of = scanner._delivery_data_as_of
+        if bhavcopy_as_of is None:
+            bhavcopy_status = bhavcopy_status_log.STATUS_FAILED
+        elif bhavcopy_as_of != today_date:
+            bhavcopy_status = bhavcopy_status_log.STATUS_STALE
+        else:
+            bhavcopy_status = bhavcopy_status_log.STATUS_OK
+
+        status_log = bhavcopy_status_log.record_status(
+            scan_date=today_date,
+            status=bhavcopy_status,
+            as_of=bhavcopy_as_of,
+            symbols_matched=symbols_matched,
+        )
+
+        # Only notify when something's actually wrong — a healthy day
+        # stays silent, same as every other notify() call in this file
+        # (e.g. "daily_scan_skipped" only fires when actually skipped).
+        if bhavcopy_status != bhavcopy_status_log.STATUS_OK:
+            recent = bhavcopy_status_log.recent_entries(status_log, days=4)
+            status_icon = {
+                bhavcopy_status_log.STATUS_OK: "✅",
+                bhavcopy_status_log.STATUS_STALE: "🟡",
+                bhavcopy_status_log.STATUS_FAILED: "❌",
+            }
+            trail_lines = [
+                f"{status_icon.get(entry['status'], '❓')} {d}: {entry['status']} "
+                f"(data as of {entry.get('as_of') or '—'}, {entry['symbols_matched']} symbols matched)"
+                for d, entry in recent
+            ]
+
+            if bhavcopy_status == bhavcopy_status_log.STATUS_FAILED:
+                header = (
+                    "❌ Bhavcopy Fetch Failed — No Delivery%/Liquidity Data Today\n"
+                    f"Date: {today_date.isoformat()}\n"
+                    "NSE bhavcopy could not be fetched (live fetch + cache both "
+                    "failed). Delivery% and liquidity (trade-size/Amihud) scoring "
+                    "fell back to volume-only for EVERY symbol in today's scan — "
+                    "not a crash, just less-informed scoring for today."
+                )
+                severity = SEVERITY_HIGH
+            else:
+                header = (
+                    "🟡 Bhavcopy Data Stale — Using an Earlier Trading Day\n"
+                    f"Date: {today_date.isoformat()}\n"
+                    f"Today's bhavcopy wasn't published yet — used "
+                    f"{bhavcopy_as_of.isoformat()}'s data instead for "
+                    "delivery%/liquidity scoring."
+                )
+                severity = SEVERITY_MEDIUM
+
+            notify(
+                event_type="bhavcopy_status_warning",
+                message=header + "\n\nLast 4 scan days:\n" + "\n".join(trail_lines),
+                severity=severity,
+                dedup_key=f"bhavcopy_status::{today_date.isoformat()}",
+            )
+
+    # APPEND mode: this is ONE running file that accumulates history
+    # (filter by the "Date" column to see any day) rather than being
+    # overwritten each run. Write the header only the first time the file
+    # is created. Since 2026-10-07 only the newest FULL_REPORT_KEEP_SCANS
+    # scan dates stay here; older ones are in reports/archive/ (see
+    # rotate_full_report()).
+    #
+    # CRITICAL: the header is written ONCE, ever. If FIELDNAMES has grown
+    # since then (adding new columns, as happens whenever a new diagnostic
+    # field is introduced), every row written after that point gets
+    # POSITIONALLY MISALIGNED when read back with csv.DictReader (which
+    # uses the file's original, shorter header) — a later column's VALUE
+    # silently lands under an EARLIER column's NAME. This was the actual
+    # cause of raw numeric scores appearing where rejection-reason TEXT
+    # was expected. Detect a mismatch and rotate to a fresh file (with a
+    # header matching the CURRENT FIELDNAMES) instead of silently
+    # continuing to misalign data.
+    file_exists = Path(out_path).exists()
+    header_matches = True
+    if file_exists:
+        with open(out_path, newline="") as f:
+            existing_header = next(csv.reader(f), [])
+        if existing_header != FIELDNAMES:
+            header_matches = False
+            archive_path = out_path.replace(
+                ".csv", f"_pre_{date.today().isoformat()}_schema_change.csv"
+            )
+            Path(out_path).rename(archive_path)
+            logger.warning(
+                "full_report.csv's header no longer matches the current "
+                "FIELDNAMES (columns were added/changed since the header "
+                "was written) — archived the old file to %s and starting "
+                "a fresh one with the correct header, to avoid silently "
+                "misaligned reads going forward.", archive_path,
+            )
+
+    with open(out_path, "a", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
+        if not file_exists or not header_matches:
+            writer.writeheader()
+        writer.writerows(rows)
+
+    logger.info("Wrote %d rows to %s", len(rows), out_path)
+
+    # 2026-10-07 (GH001): keep the file under GitHub's 100 MB push limit.
+    archived_dates = rotate_full_report(out_path)
+    if archived_dates:
+        logger.info(
+            "Archived %d older scan date(s) from %s to %s: %s",
+            len(archived_dates), out_path, FULL_REPORT_ARCHIVE_DIR, ", ".join(archived_dates),
+        )
+    print(f"\nWrote {len(rows)} rows to {out_path}")
+
+    buy_count = sum(1 for r in rows if r["Signal"] == "BUY")
+    sell_count = sum(1 for r in rows if r["Signal"] == "SELL")
+    no_trade_count = sum(1 for r in rows if r["Signal"] == "NO_TRADE")
+
+    # SIDEWAYS is already computed by MarketRegimeEngine (market_regime
+    # column) — just counting an existing classification, not a new
+    # detector. NOTE: this is a market-regime sub-classification WITHIN
+    # NO_TRADE (and occasionally within BUY/SELL), NOT a 4th mutually
+    # exclusive bucket alongside BUY/SELL/NO_TRADE — worded below to make
+    # that overlap explicit rather than implying the counts are additive.
+    sideways_count = sum(1 for r in rows if r.get("market_regime") == "SIDEWAYS")
+
+    # Rejection Summary — built ENTIRELY from fields already computed
+    # and stored in the report (BuyTier1Passed, Tier4Block). Uses the
+    # SAME shared classifier as Analysis Engine's Rejection Funnel —
+    # no duplicate categorization logic.
+    no_trade_rows = [r for r in rows if r["Signal"] == "NO_TRADE"]
+    trend_filter_count = sum(1 for r in no_trade_rows if r.get("BuyTier1Passed") == "False")
+    risk_count = liquidity_count = portfolio_rules_count = score_threshold_count = 0
+    for r in no_trade_rows:
+        category = classify_tier4_block(r.get("Tier4Block"))
+        if category == "risk":
+            risk_count += 1
+        elif category == "liquidity":
+            liquidity_count += 1
+        elif category == "portfolio":
+            portfolio_rules_count += 1
+        elif category == "score_threshold":
+            score_threshold_count += 1
+
+    summary_lines = [
+        f"Daily Scan completed — {len(rows)} symbols scanned.",
+        f"BUY: {buy_count} | SELL: {sell_count} | NO_TRADE: {no_trade_count}"
+        + (f" (of which {sideways_count} in SIDEWAYS regime)" if sideways_count else ""),
+    ]
+    if trend_filter_count or risk_count or liquidity_count or portfolio_rules_count or score_threshold_count:
+        summary_lines.append("")
+        summary_lines.append("Rejection Summary (NO_TRADE breakdown)")
+        if trend_filter_count:
+            summary_lines.append(f"Trend Filter: {trend_filter_count}")
+        if score_threshold_count:
+            summary_lines.append(f"Score Threshold: {score_threshold_count}")
+        if risk_count:
+            summary_lines.append(f"Risk: {risk_count}")
+        if liquidity_count:
+            summary_lines.append(f"Liquidity: {liquidity_count}")
+        if portfolio_rules_count:
+            summary_lines.append(f"Portfolio Rules: {portfolio_rules_count}")
+
+    notify(
+        event_type="daily_scan_completed",
+        message="\n".join(summary_lines),
+        dedup_key=f"scan_completed::{time.strftime('%Y-%m-%d')}::{now_ist().strftime('%H:%M:%S.%f')}",
+    )
+
+    # ==========================================================
+    # PENDING ORDERS FOR MORNING EXECUTION
+    # ==========================================================
+    # Writes the top max_trade_candidates (by ranking) to
+    # candidates_order.json, using ONLY fields already computed during
+    # tonight's scan (no new analysis). A separate morning-executor
+    # script (run at market open) reads this file, checks the actual
+    # opening price against the stop/target boundaries already set
+    # here, and decides execute/skip — see that script for details.
+    scan_timestamp = ist_now.isoformat()
+    pending_candidates.sort(key=lambda r: r.ranking, reverse=True)
+    top_candidates = pending_candidates[: market_state["max_trade_candidates"]]
+    pending_orders = []
+    for r in top_candidates:
+        d = r.diagnostics
+        pending_orders.append({
+            "symbol": r.symbol,
+            "direction": r.action,
+            "prev_close": d.get("latest_close"),
+            "atr_14": d.get("atr_14"),
+            "atr_percent": d.get("atr_percent"),
+            "stop_loss": d.get("stop_loss"),
+            "target1": d.get("target1"),
+            "target2": d.get("target2"),
+            "overall_score": round(r.score, 2),
+            "ranking": round(r.ranking, 2),
+            # 2026-10-06 (BUG_AUDIT_2026-10-05_PROFITABILITY.md M7): carried
+            # through so the Morning Executor can record the real entry-time
+            # values instead of hardcoded 0.0 / "N/A".
+            "probability": round(r.probability, 2),
+            "confidence": round(r.confidence, 2),
+            "market_regime": d.get("market_regime"),
+            "sector": d.get("sector"),
+            "scan_date": today_date.isoformat(),
+        })
+    pending_path = Path("reports/candidates_order.json")
+    with open(pending_path, "w") as f:
+        json.dump({
+            "scan_date": today_date.isoformat(),
+            "scan_timestamp": scan_timestamp,
+            "scanned_symbols": scanned_count,
+            "watchlist_symbols": total,
+            "scan_truncated": scan_truncated,
+            "fundamentals_cache_hits": getattr(fundamental_provider, "cache_hits", 0),
+            "candidates": pending_orders,
+        }, f, indent=2)
+    logger.info("Wrote %d pending candidates to %s", len(pending_orders), pending_path)
+
+
+if __name__ == "__main__":
+    main()
