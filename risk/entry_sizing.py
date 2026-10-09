@@ -24,11 +24,11 @@ from __future__ import annotations
 
 import os
 
-DEFAULT_MAX_NEW_ENTRIES_PER_DAY = 10
-POSITION_FRACTION = 0.05
+DEFAULT_MAX_NEW_ENTRIES_PER_DAY = 50
+POSITION_FRACTION = 0.01
 MIN_POSITION_VALUE = 10_000.0
-MAX_EXPOSURE = 0.85
-MAX_MORNING_DEPLOY = 0.40
+MAX_EXPOSURE = 0.90
+MAX_MORNING_DEPLOY = 0.50
 
 # Live executor only (env override); the backtest takes the cap as an argument.
 # 0 = no cap.
