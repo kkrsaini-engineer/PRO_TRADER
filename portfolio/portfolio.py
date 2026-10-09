@@ -1,0 +1,1070 @@
+"""
+Portfolio Engine
+
+Single Source of Truth for:
+• Capital allocation
+• Open positions
+• Realized / unrealized PnL
+• Exposure tracking
+• Risk aggregation
+
+This replaces scattered portfolio dict usage.
+"""
+
+from __future__ import annotations
+
+import math
+import time
+from dataclasses import dataclass, field
+from datetime import date
+from typing import Any
+
+from core.logger import get_logger
+from risk.portfolio_limits import is_emergency_condition
+
+logger = get_logger(__name__)
+
+
+# ==========================================================
+# POSITION RECORD
+# ==========================================================
+
+
+@dataclass(slots=True)
+class PortfolioPosition:
+
+    symbol: str
+
+    quantity: int
+
+    entry_price: float
+
+    current_price: float
+
+    direction: str  # BUY / SELL
+
+    unrealized_pnl: float = 0.0
+
+    unrealized_pnl_percent: float = 0.0
+
+    realized_pnl: float = 0.0
+
+    realized_pnl_percent: float = 0.0
+
+    highest_price: float = 0.0
+
+    lowest_price: float = 0.0
+
+    max_profit_percent: float = 0.0
+
+    max_drawdown_percent: float = 0.0
+
+    status: str = "OPEN"
+
+    updated_at: float = field(default_factory=time.time)
+
+    # BUGFIX (2026-10-06, BUG_AUDIT_2026-10-05_PROFITABILITY.md H3):
+    # set True once the partial-profit target (target1) has been booked.
+    # risk/exit_strategy.py had no memory of this, so target1 re-fired a
+    # 50% sell on EVERY later day the price stayed above it (real data:
+    # SOUTHBANK 38 -> 19 -> 10 -> 4 shares on four straight days).
+    partial_taken: bool = False
+
+    # BUGFIX (2026-10-06, audit H4/H5): the highest (BUY) / lowest (SELL)
+    # stop level this position has ever had. risk/exit_strategy.py
+    # recomputed the stop from scratch every run using TODAY'S ATR, so a
+    # volatility spike pushed the stop further away, and a break-even
+    # stop lapsed the moment price dipped back. The live stop is now
+    # floored by this value, so it can only tighten, never widen. None
+    # = no stop recorded yet (new position, or state saved before this
+    # field existed) — the first monitoring run fills it in.
+    stop_level: float | None = None
+
+
+# ==========================================================
+# PORTFOLIO STATE
+# ==========================================================
+
+
+@dataclass(slots=True)
+class PortfolioState:
+
+    total_capital: float
+
+    available_capital: float
+
+    used_capital: float = 0.0
+
+    open_positions: dict[str, PortfolioPosition] = field(default_factory=dict)
+
+    closed_positions: list[PortfolioPosition] = field(default_factory=list)
+
+    total_pnl: float = 0.0
+
+    total_pnl_percent: float = 0.0
+
+    exposure: float = 0.0
+
+    risk_score: float = 0.0
+
+    # Phase 22 (see PHASE22_NOTES.md): running peak of mark-to-market
+    # portfolio equity (for drawdown) and the equity captured at the start
+    # of the current trading day (for daily loss). Both default to 0.0
+    # meaning "not yet initialized" — see PortfolioEngine.update_equity_
+    # tracking(), which must be called at least once before max_drawdown/
+    # daily_loss in snapshot() mean anything (0.0 peak/day-start is treated
+    # as "no baseline yet", not "100% loss").
+    peak_equity: float = 0.0
+
+    day_start_equity: float = 0.0
+
+    current_trading_day: str = ""
+
+    # Phase 23 (see PHASE23_NOTES.md): same pattern as day_start_equity —
+    # equity captured at the start of the current ISO trading week/month,
+    # for weekly_loss/monthly_loss (previously always 0.0, same
+    # never-populated problem daily_loss/max_drawdown had before Phase 22).
+    week_start_equity: float = 0.0
+
+    current_trading_week: str = ""
+
+    month_start_equity: float = 0.0
+
+    current_trading_month: str = ""
+
+    updated_at: float = field(default_factory=time.time)
+
+
+# ==========================================================
+# ADD POSITION
+# ==========================================================
+
+
+class PortfolioEngine:
+
+    def __init__(self, state: PortfolioState):
+
+        self.state = state
+
+    def add_position(
+        self,
+        symbol: str,
+        quantity: int,
+        entry_price: float,
+        direction: str,
+    ) -> bool:
+
+        if symbol in self.state.open_positions:
+
+            logger.warning(
+                "Position already exists %s",
+                symbol,
+            )
+
+            return False
+
+        position_value = quantity * entry_price
+
+        if position_value > self.state.available_capital:
+
+            logger.warning(
+                "Insufficient capital for %s",
+                symbol,
+            )
+
+            return False
+
+        self.state.open_positions[symbol] = PortfolioPosition(
+            symbol=symbol,
+            quantity=quantity,
+            entry_price=entry_price,
+            current_price=entry_price,
+            direction=direction,
+            highest_price=entry_price,
+            lowest_price=entry_price,
+        )
+
+        self.state.used_capital += position_value
+
+        self.state.available_capital -= position_value
+
+        # 2026-10-06 (audit M5): exposure was never updated here, so a
+        # morning batch of entries all saw the stale pre-batch exposure.
+        self.state.exposure = self.state.used_capital / max(self.state.total_capital, 1e-9)
+
+        self.state.updated_at = time.time()
+
+        return True
+
+    def _track_extremes(self, pos: "PortfolioPosition") -> None:
+        """Update running highest/lowest price seen while a position is
+        open, and derive max favorable/adverse excursion (MaxProfit /
+        MaxDrawdown) from them. Called on every price update so these
+        reflect the full path of the trade, not just entry vs exit."""
+        pos.highest_price = max(pos.highest_price or pos.current_price, pos.current_price)
+        pos.lowest_price = min(pos.lowest_price or pos.current_price, pos.current_price)
+
+        self._derive_excursions(pos)
+
+    @staticmethod
+    def _derive_excursions(pos: "PortfolioPosition") -> None:
+        """MaxProfit / MaxDrawdown % from the running highest/lowest."""
+        entry = max(pos.entry_price, 1e-9)
+        if pos.direction == "SELL":
+            # For a short, profit comes from price falling, so the best
+            # favorable move is the lowest price seen, and the worst
+            # adverse move is the highest price seen.
+            pos.max_profit_percent = ((entry - pos.lowest_price) / entry) * 100
+            pos.max_drawdown_percent = ((pos.highest_price - entry) / entry) * 100
+        else:
+            pos.max_profit_percent = ((pos.highest_price - entry) / entry) * 100
+            pos.max_drawdown_percent = ((entry - pos.lowest_price) / entry) * 100
+
+    def observe_range(
+        self,
+        symbol: str,
+        high: float | None,
+        low: float | None,
+    ) -> None:
+        """
+        BUGFIX (2026-10-06, BUG_AUDIT_2026-10-05_PROFITABILITY.md M11):
+        fold a whole price RANGE (a session's high/low) into the
+        running highest/lowest. update_position() only ever sees the
+        single 9:20 snapshot price, so every intraday high/low between
+        two monitoring runs was invisible — understating MaxProfit /
+        MaxDrawdown and keeping the trailing stop (which trails
+        highest_price) lower than the real path justified.
+        """
+        pos = self.state.open_positions.get(symbol)
+        if pos is None:
+            return
+        if high is not None:
+            pos.highest_price = max(pos.highest_price or high, float(high))
+        if low is not None:
+            pos.lowest_price = min(pos.lowest_price or low, float(low))
+        self._derive_excursions(pos)
+
+    # ==========================================================
+    # UPDATE POSITION
+    # ==========================================================
+
+    def update_position(
+        self,
+        symbol: str,
+        current_price: float,
+    ) -> None:
+
+        if symbol not in self.state.open_positions:
+
+            return
+
+        pos = self.state.open_positions[symbol]
+
+        pos.current_price = current_price
+
+        price_diff = current_price - pos.entry_price
+
+        if pos.direction == "SELL":
+
+            price_diff *= -1
+
+        pos.unrealized_pnl = price_diff * pos.quantity
+
+        pos.unrealized_pnl_percent = (price_diff / max(pos.entry_price, 1e-9)) * 100
+
+        self._track_extremes(pos)
+
+        pos.updated_at = time.time()
+
+    # ==========================================================
+    # CLOSE POSITION
+    # ==========================================================
+
+    def close_position(
+        self,
+        symbol: str,
+        exit_price: float,
+    ) -> "PortfolioPosition | None":
+
+        if symbol not in self.state.open_positions:
+
+            return None
+
+        pos = self.state.open_positions.pop(symbol)
+
+        price_diff = exit_price - pos.entry_price
+
+        if pos.direction == "SELL":
+
+            price_diff *= -1
+
+        realized_pnl = price_diff * pos.quantity
+
+        realized_pnl_percent = (price_diff / max(pos.entry_price, 1e-9)) * 100
+
+        pos.current_price = exit_price
+
+        # BUGFIX (2026-09-18, Phase 1 critical-bug fix — see
+        # BUG_AUDIT_2026-09-18.md item #1): partial_exit() already
+        # accumulates each leg's realized P&L into pos.realized_pnl
+        # (`pos.realized_pnl += realized_pnl`) BEFORE it calls this
+        # method for the final leg. This used to be a plain `=`
+        # assignment here, which OVERWROTE that accumulated total with
+        # just this call's own leg (which is 0, since partial_exit()
+        # already zeroed pos.quantity before calling us) — silently
+        # erasing every prior partial leg's profit/loss.
+        #
+        # `+=` is correct and backward-compatible in every case:
+        #   - A position that was NEVER partial-exited always has
+        #     pos.realized_pnl == 0.0 (the dataclass default) when it
+        #     reaches this method, so 0.0 + realized_pnl == realized_pnl
+        #     -- byte-for-byte identical to the old `=` behavior.
+        #   - A position closed via partial_exit()'s final leg has
+        #     pos.quantity == 0 by the time we get here, so this leg's
+        #     own `realized_pnl` computes to 0 and the `+=` is a no-op
+        #     that correctly LEAVES the already-accumulated total intact
+        #     instead of erasing it.
+        #   - A position that was partial-exited and is LATER closed by
+        #     a caller invoking close_position() directly (not via
+        #     partial_exit()) still has its remaining, un-exited
+        #     quantity, so `realized_pnl` here correctly represents that
+        #     final leg's own P&L, and `+=` correctly adds it on top of
+        #     the earlier legs' already-accumulated P&L.
+        pos.realized_pnl += realized_pnl
+
+        pos.realized_pnl_percent = realized_pnl_percent
+
+        pos.unrealized_pnl = 0.0
+
+        pos.unrealized_pnl_percent = 0.0
+
+        pos.status = "CLOSED"
+
+        pos.updated_at = time.time()
+
+        self.state.closed_positions.append(pos)
+
+        # 2026-10-06 (audit M5): total_pnl is re-derived from the ledger
+        # (see _refresh_total_pnl()) instead of `+= realized_pnl`, which
+        # double-counted this position whenever mark_to_market() had
+        # already folded its unrealized P&L into total_pnl.
+        self._recalculate_capital()
+
+        self._refresh_total_pnl()
+
+        return pos
+
+    # ==========================================================
+    # PARTIAL EXIT
+    # ==========================================================
+
+    def partial_exit(
+        self,
+        symbol: str,
+        quantity: int,
+        exit_price: float,
+    ) -> None:
+
+        if symbol not in self.state.open_positions:
+
+            return
+
+        pos = self.state.open_positions[symbol]
+
+        quantity = min(quantity, pos.quantity)
+
+        price_diff = exit_price - pos.entry_price
+
+        if pos.direction == "SELL":
+
+            price_diff *= -1
+
+        realized_pnl = price_diff * quantity
+
+        pos.quantity -= quantity
+
+        pos.realized_pnl += realized_pnl
+
+        # BUGFIX (2026-09-19, post-Phase-5 re-audit): partial_exit() used
+        # to leave pos.realized_pnl_percent completely untouched — it
+        # only ever mutated pos.realized_pnl (the rupee total). Since
+        # PositionState.realized_pnl_percent defaults to 0.0 and nothing
+        # here ever wrote to it, a position that had a partial exit but
+        # was still open (pos.quantity > 0 after this trim) reported a
+        # real, non-zero realized P&L in rupees alongside a permanently
+        # 0.0% return -- paper_trading_engine.py's PARTIAL_CLOSE trade
+        # diary row (see its "realized_pnl_percent": remaining.
+        # realized_pnl_percent) logged every partial-exit leg as "0%
+        # return" regardless of whether it was a real profit or loss.
+        # Mirrors close_position()'s own realized_pnl_percent formula
+        # (price_diff / entry_price * 100) — this leg's own percent
+        # price move, the same convention close_position() already uses
+        # for the closing leg (it does not attempt a quantity-weighted
+        # blend across every prior leg either, it is simply overwritten
+        # each time a leg realizes P&L).
+        pos.realized_pnl_percent = (price_diff / max(pos.entry_price, 1e-9)) * 100
+
+        pos.updated_at = time.time()
+
+        if pos.quantity == 0:
+
+            self.close_position(symbol, exit_price)
+
+        # 2026-10-06 (audit M5): ledger-derived, see close_position().
+        self._recalculate_capital()
+
+        self._refresh_total_pnl()
+
+    # ==========================================================
+    # CAPITAL REBALANCE
+    # ==========================================================
+
+    def _realized_total(self) -> float:
+        """2026-10-06 (audit M5): all P&L actually booked so far — every
+        closed position plus partial-exit legs on still-open positions.
+        NaN records are skipped (same rule as mark_to_market())."""
+        legs = [p.realized_pnl for p in self.state.closed_positions]
+        legs += [p.realized_pnl for p in self.state.open_positions.values()]
+        return sum(v for v in legs if not (isinstance(v, float) and math.isnan(v)))
+
+    def _refresh_total_pnl(self) -> None:
+        """2026-10-06 (audit M5): total_pnl = booked P&L + current
+        unrealized P&L of open positions, computed from each position's
+        own current price and REMAINING quantity (its stored
+        unrealized_pnl can still reflect the pre-partial-exit size)."""
+        unrealized = 0.0
+        for pos in self.state.open_positions.values():
+            diff = pos.current_price - pos.entry_price
+            if pos.direction == "SELL":
+                diff *= -1
+            unrealized += diff * pos.quantity
+        self.state.total_pnl = self._realized_total() + unrealized
+        self.state.total_pnl_percent = (
+            self.state.total_pnl / max(self.state.total_capital, 1e-9)
+        ) * 100
+
+    def _recalculate_capital(self) -> None:
+
+        used = 0.0
+
+        for pos in self.state.open_positions.values():
+
+            used += pos.quantity * pos.entry_price
+
+        self.state.used_capital = used
+
+        # BUGFIX (2026-10-06, BUG_AUDIT_2026-10-05_PROFITABILITY.md M5):
+        # cash = starting capital + REALIZED P&L - capital tied up in open
+        # positions. This used total_pnl, which mark_to_market() sets to
+        # realized + UNREALIZED — so paper (unrealized) gains/losses were
+        # treated as spendable cash, and the next close then added that
+        # position's P&L a second time. Real state on 2026-10-06: free
+        # cash was off by ₹428 from the ledger.
+        self.state.available_capital = self.state.total_capital + self._realized_total() - used
+
+        self.state.exposure = used / max(self.state.total_capital, 1e-9)
+
+        self.state.updated_at = time.time()
+
+    # ==========================================================
+    # PORTFOLIO VALUATION
+    # ==========================================================
+
+    def mark_to_market(self) -> None:
+
+        total_unrealized = 0.0
+
+        total_unrealized_percent = 0.0
+
+        for pos in self.state.open_positions.values():
+
+            price_diff = pos.current_price - pos.entry_price
+
+            if pos.direction == "SELL":
+
+                price_diff *= -1
+
+            pos.unrealized_pnl = price_diff * pos.quantity
+
+            pos.unrealized_pnl_percent = (price_diff / max(pos.entry_price, 1e-9)) * 100
+
+            self._track_extremes(pos)
+
+            total_unrealized += pos.unrealized_pnl
+
+            total_unrealized_percent += pos.unrealized_pnl_percent
+
+        # NaN-safe: a historical closed position with an unrecoverable
+        # (NaN) realized_pnl must not poison this SUM forever — exclude
+        # it from the total rather than letting a single old corrupted
+        # record propagate NaN through every future day's total_pnl.
+        # The corrupted record itself is left untouched (not fabricated
+        # or zeroed) — it's simply excluded from this aggregate, the
+        # same way a NULL is excluded from a SQL SUM().
+        known_realized_pnl = [
+            p.realized_pnl for p in self.state.closed_positions
+            if not (isinstance(p.realized_pnl, float) and math.isnan(p.realized_pnl))
+        ]
+        # BUGFIX (2026-10-06, audit M5): also include partial-exit P&L
+        # already booked on positions that are still open — it was left
+        # out entirely (real state on 2026-10-06: total_pnl understated
+        # by ₹996.94, exactly the open positions' partial-exit P&L).
+        open_partial_realized = sum(
+            p.realized_pnl for p in self.state.open_positions.values()
+            if not (isinstance(p.realized_pnl, float) and math.isnan(p.realized_pnl))
+        )
+        self.state.total_pnl = sum(known_realized_pnl) + open_partial_realized + total_unrealized
+
+        self.state.total_pnl_percent = (
+            self.state.total_pnl / max(self.state.total_capital, 1e-9)
+        ) * 100
+
+        self.state.updated_at = time.time()
+
+    # ==========================================================
+    # RISK SCORE CALCULATION
+    # ==========================================================
+
+    def update_risk_score(self) -> None:
+
+        if not self.state.open_positions:
+
+            self.state.risk_score = 0.0
+
+            return
+
+        exposure_ratio = self.state.exposure
+
+        drawdown = 0.0
+
+        if self.state.total_capital > 0:
+
+            peak_value = self.state.total_capital + max(
+                self.state.total_pnl,
+                0.0,
+            )
+
+            current_value = self.state.total_capital + self.state.total_pnl
+
+            drawdown = max(
+                0.0,
+                (peak_value - current_value) / max(peak_value, 1e-9),
+            )
+
+        concentration_risk = max(
+            (
+                pos.quantity * pos.current_price
+                for pos in self.state.open_positions.values()
+            ),
+            default=0.0,
+        ) / max(self.state.total_capital, 1e-9)
+
+        self.state.risk_score = min(
+            100.0,
+            (exposure_ratio * 40 + drawdown * 40 + concentration_risk * 20) * 100,
+        )
+
+    # ==========================================================
+    # PORTFOLIO SUMMARY
+    # ==========================================================
+
+    def summary(self) -> str:
+
+        open_count = len(self.state.open_positions)
+
+        closed_count = len(self.state.closed_positions)
+
+        return (
+            f"Capital={self.state.total_capital:.2f} | "
+            f"Used={self.state.used_capital:.2f} | "
+            f"Avail={self.state.available_capital:.2f} | "
+            f"Exposure={self.state.exposure:.4f} | "
+            f"PnL={self.state.total_pnl:.2f} | "
+            f"Open={open_count} | "
+            f"Closed={closed_count} | "
+            f"Risk={self.state.risk_score:.2f}"
+        )
+
+    # ==========================================================
+    # PORTFOLIO HEALTH CHECK
+    # ==========================================================
+
+    def health_check(self) -> dict[str, Any]:
+
+        self.update_risk_score()
+
+        status = "HEALTHY"
+
+        if self.state.risk_score > 80:
+
+            status = "CRITICAL"
+
+        elif self.state.risk_score > 60:
+
+            status = "DEGRADED"
+
+        return {
+            "status": status,
+            "risk_score": round(self.state.risk_score, 2),
+            "exposure": round(self.state.exposure, 4),
+            "total_pnl": round(self.state.total_pnl, 2),
+            "open_positions": len(self.state.open_positions),
+        }
+
+    # ==========================================================
+    # POSITION SNAPSHOT
+    # ==========================================================
+
+    def _current_equity(self) -> float:
+        """Mark-to-market portfolio equity: available cash + current
+        market value of every open position. Same formula
+        paper_trading/virtual_portfolio.py's snapshot() independently
+        computed as `portfolio_value` — kept here too so max_drawdown/
+        daily_loss below are correct for ANY caller of this snapshot(),
+        not only ones that go through VirtualPortfolio's wrapper.
+
+        BUGFIX (2026-09-18, Phase 1 critical-bug fix — see
+        BUG_AUDIT_2026-09-18.md item #2): the old formula was
+        `available_capital + sum(qty * current_price)` for EVERY open
+        position regardless of direction. That is correct for a BUY
+        (long) position, but backwards for a SELL (short) one: as the
+        price rises AGAINST a short (a real, growing loss), `qty *
+        current_price` goes UP, so the old formula made a short position
+        that is losing money look like it was making the portfolio
+        richer. Example: 100 shares SELL @ Rs.100, price now Rs.150 (a
+        genuine Rs.5,000 loss) — the old formula added qty*current_price
+        = Rs.15,000 here instead of subtracting the loss, overstating
+        equity by Rs.10,000. max_drawdown/daily_loss/emergency_stop all
+        read this value, so this bug made every safety circuit-breaker
+        blind to real SELL-side losses.
+
+        Fix: compute each position's mark-to-market contribution as
+        `entry_price*quantity + direction_adjusted_price_diff*quantity`
+        instead of the direction-blind `quantity * current_price`. This
+        uses the SAME direction-aware price_diff sign flip that
+        update_position() already applies to unrealized_pnl (SELL
+        inverts the sign), computed fresh from `current_price` here
+        rather than reading the separately-cached `unrealized_pnl` field
+        — so equity stays correct even if a caller mutates
+        `current_price` directly without calling update_position()
+        first, exactly like the pre-existing (and still-passing)
+        test_open_position_market_value_counts_toward_equity test does.
+        It is also independent of `used_capital`, which some tests/
+        callers legitimately don't keep in sync when they poke
+        `open_positions` directly.
+
+        This is algebraically IDENTICAL to the old formula for every BUY
+        position (entry_price*qty + (current-entry)*qty ==
+        qty*current_price — no behavior change there), and now correct
+        for SELL too: 100 shares SELL @ Rs.100, price now Rs.150 ->
+        entry_price*qty + (entry-current)*qty == 10,000 + (-5,000) ==
+        Rs.5,000 contribution, i.e. available_capital + Rs.5,000 instead
+        of the old, backwards available_capital + Rs.15,000.
+        """
+
+        equity = self.state.available_capital
+
+        for pos in self.state.open_positions.values():
+
+            price_diff = pos.current_price - pos.entry_price
+
+            if pos.direction == "SELL":
+
+                price_diff *= -1
+
+            equity += pos.entry_price * pos.quantity + price_diff * pos.quantity
+
+        return equity
+
+    @staticmethod
+    def _week_key(trading_day: str) -> str:
+        """ISO year+week (e.g. "2026-W33") — resets on ISO week boundaries
+        (Monday), not plain 7-day rolling windows."""
+
+        iso_year, iso_week, _ = date.fromisoformat(trading_day).isocalendar()
+
+        return f"{iso_year}-W{iso_week:02d}"
+
+    @staticmethod
+    def _month_key(trading_day: str) -> str:
+        """Calendar month (e.g. "2026-08") — trading_day is always an ISO
+        "YYYY-MM-DD" string (see paper_trading_engine.py's `today =
+        today_date.isoformat()`), so the first 7 characters are exactly
+        "YYYY-MM"."""
+
+        return trading_day[:7]
+
+    def update_equity_tracking(self, trading_day: str) -> None:
+        """Phase 22/23 (see PHASE22_NOTES.md / PHASE23_NOTES.md): must be
+        called once at the START of each trading-day cycle (before that
+        day's monitoring/entries/exits run) and again after any
+        equity-changing operation (e.g. after mark_to_market()) so
+        peak_equity/day_start_equity/week_start_equity/month_start_equity
+        stay current. Idempotent — safe to call multiple times per day.
+
+        - peak_equity: running max, for drawdown. Never resets.
+        - day_start_equity / week_start_equity / month_start_equity: each
+          reset to the CURRENT equity only when its own period key
+          (trading day / ISO week / calendar month, derived from
+          `trading_day`) differs from the last recorded one — i.e. each
+          captures equity as of the first call in a new period, before
+          that period's activity, and holds steady for the rest of it.
+          The three periods are independent: a new week does not force a
+          new day's baseline to reset early, and vice versa — each only
+          resets on ITS OWN boundary.
+        """
+
+        current_equity = self._current_equity()
+
+        self.state.peak_equity = max(self.state.peak_equity, current_equity)
+
+        if trading_day != self.state.current_trading_day:
+
+            self.state.day_start_equity = current_equity
+
+            self.state.current_trading_day = trading_day
+
+        week_key = self._week_key(trading_day)
+
+        if week_key != self.state.current_trading_week:
+
+            self.state.week_start_equity = current_equity
+
+            self.state.current_trading_week = week_key
+
+        month_key = self._month_key(trading_day)
+
+        if month_key != self.state.current_trading_month:
+
+            self.state.month_start_equity = current_equity
+
+            self.state.current_trading_month = month_key
+
+    def snapshot(self) -> dict[str, Any]:
+
+        current_equity = self._current_equity()
+
+        max_drawdown = (
+            (self.state.peak_equity - current_equity) / self.state.peak_equity
+            if self.state.peak_equity > 0
+            else 0.0
+        )
+
+        daily_loss = (
+            max(0.0, (self.state.day_start_equity - current_equity) / self.state.day_start_equity)
+            if self.state.day_start_equity > 0
+            else 0.0
+        )
+
+        weekly_loss = (
+            max(0.0, (self.state.week_start_equity - current_equity) / self.state.week_start_equity)
+            if self.state.week_start_equity > 0
+            else 0.0
+        )
+
+        monthly_loss = (
+            max(0.0, (self.state.month_start_equity - current_equity) / self.state.month_start_equity)
+            if self.state.month_start_equity > 0
+            else 0.0
+        )
+
+        return {
+            "total_capital": self.state.total_capital,
+            "available_capital": self.state.available_capital,
+            "used_capital": self.state.used_capital,
+            "exposure": self.state.exposure,
+            "total_pnl": self.state.total_pnl,
+            "total_pnl_percent": self.state.total_pnl_percent,
+            "risk_score": self.state.risk_score,
+            # Phase 22/23: all five of these used to always fall back to
+            # their 0.0/False defaults everywhere they were read (see
+            # PHASE21_NOTES.md's "9 + 10" section for how that was found,
+            # and PHASE23_NOTES.md for weekly_loss/monthly_loss).
+            "max_drawdown": round(max(max_drawdown, 0.0), 4),
+            "daily_loss": round(daily_loss, 4),
+            "weekly_loss": round(weekly_loss, 4),
+            "monthly_loss": round(monthly_loss, 4),
+            "emergency_stop": is_emergency_condition(max_drawdown, daily_loss),
+            "open_positions": {
+                k: {
+                    "quantity": v.quantity,
+                    "entry_price": v.entry_price,
+                    "current_price": v.current_price,
+                    "unrealized_pnl": v.unrealized_pnl,
+                    "status": v.status,
+                }
+                for k, v in self.state.open_positions.items()
+            },
+            "closed_positions_count": len(self.state.closed_positions),
+        }
+
+    # ==========================================================
+    # PORTFOLIO LIMIT GUARDS
+    # ==========================================================
+
+    def check_limits(self) -> dict[str, Any]:
+
+        violations = []
+
+        if self.state.exposure > 0.95:
+
+            violations.append("EXCESS_EXPOSURE")
+
+        if self.state.risk_score > 85:
+
+            violations.append("HIGH_RISK_SCORE")
+
+        if self.state.available_capital < 0:
+
+            violations.append("NEGATIVE_CAPITAL")
+
+        if self.state.total_pnl < -0.2 * self.state.total_capital:
+
+            violations.append("MAX_DRAWDOWN_BREACH")
+
+        return {
+            "violations": violations,
+            "blocked": len(violations) > 0,
+        }
+
+    # ==========================================================
+    # STRESS TEST SIMULATION
+    # ==========================================================
+
+    def stress_test(
+        self,
+        shock_percent: float = 5.0,
+    ) -> dict[str, Any]:
+
+        shocked_pnl = 0.0
+
+        for pos in self.state.open_positions.values():
+
+            shock_move = pos.current_price * (shock_percent / 100)
+
+            if pos.direction == "BUY":
+
+                shocked_pnl += -shock_move * pos.quantity
+
+            else:
+
+                shocked_pnl += shock_move * pos.quantity
+
+        stressed_value = self.state.total_pnl + shocked_pnl
+
+        stressed_drawdown = (stressed_value / max(self.state.total_capital, 1e-9)) * 100
+
+        return {
+            "shock_percent": shock_percent,
+            "shocked_pnl": round(shocked_pnl, 2),
+            "stressed_pnl": round(stressed_value, 2),
+            "stressed_drawdown_percent": round(stressed_drawdown, 2),
+        }
+
+    # ==========================================================
+    # CAPITAL SAFETY CHECK
+    # ==========================================================
+
+    def is_tradable(self) -> bool:
+
+        limits = self.check_limits()
+
+        if limits["blocked"]:
+
+            return False
+
+        if self.state.available_capital <= 0:
+
+            return False
+
+        return True
+
+    # ==========================================================
+    # EXPORT TO DICTIONARY
+    # ==========================================================
+
+    def to_dict(self) -> dict[str, Any]:
+
+        return {
+            "total_capital": self.state.total_capital,
+            "available_capital": self.state.available_capital,
+            "used_capital": self.state.used_capital,
+            "exposure": self.state.exposure,
+            "total_pnl": self.state.total_pnl,
+            "total_pnl_percent": self.state.total_pnl_percent,
+            "risk_score": self.state.risk_score,
+            "open_positions_count": len(self.state.open_positions),
+            "closed_positions_count": len(self.state.closed_positions),
+        }
+
+    # ==========================================================
+    # EXPORT OPEN POSITIONS
+    # ==========================================================
+
+    def export_open_positions(self) -> list[dict[str, Any]]:
+
+        return [
+            {
+                "symbol": pos.symbol,
+                "quantity": pos.quantity,
+                "entry_price": pos.entry_price,
+                "current_price": pos.current_price,
+                "direction": pos.direction,
+                "unrealized_pnl": pos.unrealized_pnl,
+                "unrealized_pnl_percent": pos.unrealized_pnl_percent,
+                "status": pos.status,
+            }
+            for pos in self.state.open_positions.values()
+        ]
+
+    # ==========================================================
+    # EXPORT CLOSED POSITIONS
+    # ==========================================================
+
+    def export_closed_positions(self) -> list[dict[str, Any]]:
+
+        return [
+            {
+                "symbol": pos.symbol,
+                "quantity": pos.quantity,
+                "entry_price": pos.entry_price,
+                "exit_price": pos.current_price,
+                "direction": pos.direction,
+                "realized_pnl": pos.realized_pnl,
+                "status": pos.status,
+            }
+            for pos in self.state.closed_positions
+        ]
+
+    # ==========================================================
+    # RESET PORTFOLIO
+    # ==========================================================
+
+    def reset(self) -> None:
+
+        self.state.open_positions.clear()
+
+        self.state.closed_positions.clear()
+
+        self.state.used_capital = 0.0
+
+        self.state.available_capital = self.state.total_capital
+
+        self.state.exposure = 0.0
+
+        self.state.total_pnl = 0.0
+
+        self.state.total_pnl_percent = 0.0
+
+        self.state.risk_score = 0.0
+
+        self.state.updated_at = time.time()
+
+    # ==========================================================
+    # PORTFOLIO DEBUG REPORT
+    # ==========================================================
+
+    def debug_report(self) -> str:
+
+        lines = []
+
+        lines.append("=" * 120)
+        lines.append("PORTFOLIO DEBUG REPORT")
+        lines.append("=" * 120)
+        lines.append("")
+
+        lines.append(self.summary())
+        lines.append("")
+
+        lines.append("-" * 120)
+        lines.append("OPEN POSITIONS")
+        lines.append("-" * 120)
+
+        for pos in self.state.open_positions.values():
+
+            lines.append(
+                f"{pos.symbol:<15}"
+                f"{pos.direction:<8}"
+                f"{pos.quantity:<8}"
+                f"{pos.entry_price:<12.4f}"
+                f"{pos.current_price:<12.4f}"
+                f"{pos.unrealized_pnl:<12.2f}"
+                f"{pos.status:<10}"
+            )
+
+        lines.append("")
+        lines.append("-" * 120)
+        lines.append("CLOSED POSITIONS")
+        lines.append("-" * 120)
+
+        for pos in self.state.closed_positions:
+
+            lines.append(
+                f"{pos.symbol:<15}"
+                f"{pos.direction:<8}"
+                f"{pos.quantity:<8}"
+                f"{pos.entry_price:<12.4f}"
+                f"{pos.current_price:<12.4f}"
+                f"{pos.realized_pnl:<12.2f}"
+                f"{pos.status:<10}"
+            )
+
+        lines.append("")
+        lines.append("-" * 120)
+        lines.append("RISK SNAPSHOT")
+        lines.append("-" * 120)
+
+        lines.append(f"Risk Score        : {self.state.risk_score:.2f}")
+
+        lines.append(f"Exposure          : {self.state.exposure:.4f}")
+
+        lines.append(f"Total PnL         : {self.state.total_pnl:.2f}")
+
+        lines.append(f"PnL %             : {self.state.total_pnl_percent:.2f}")
+
+        lines.append("")
+        lines.append("=" * 120)
+        lines.append("END PORTFOLIO REPORT")
+        lines.append("=" * 120)
+
+        return "\n".join(lines)
+
+    # ==========================================================
+    # PORTFOLIO HEALTH REPORT
+    # ==========================================================
+
+    def health_report(self) -> dict[str, Any]:
+
+        limits = self.check_limits()
+
+        stress = self.stress_test()
+
+        health_score = (
+            (1 - min(self.state.exposure, 1.0)) * 40
+            + (1 - min(self.state.risk_score / 100, 1.0)) * 30
+            + (1 - max(abs(self.state.total_pnl_percent) / 100, 0.0)) * 30
+        )
+
+        health_score = max(0.0, min(100.0, health_score))
+
+        status = "HEALTHY"
+
+        if health_score < 50:
+
+            status = "CRITICAL"
+
+        elif health_score < 75:
+
+            status = "DEGRADED"
+
+        return {
+            "status": status,
+            "health_score": round(health_score, 2),
+            "limits": limits,
+            "stress_test": stress,
+        }
+
+
+# ==========================================================
+# END OF FILE
+# ==========================================================
