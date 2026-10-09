@@ -1,0 +1,78 @@
+name: Wipe Repo (keep Telegram files only)
+
+# ONE-TIME helper for starting a fresh repo. Deletes EVERY tracked file except:
+#   - core/notifications.py
+#   - output/telegram_alert.py
+#   - scripts/test_telegram_connection.py
+#   - the whole .github/ folder (GitHub's built-in token is not allowed to
+#     change workflow files, so .github/ cannot be deleted from here)
+# Secrets (bot token, chat id) are stored in Settings, not in files, so they
+# are not touched.
+#
+# SAFETY: confirm must be the repo's full name, e.g. "myname/myrepo".
+# Anything else = dry run (lists what would be deleted, deletes nothing).
+# After the wipe the bot has NO code: upload the full repo straight away
+# (do not overwrite the 3 Telegram files).
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Type this repo's full name (owner/repo) to really delete. Anything else = dry run."
+        required: true
+        default: "dry-run"
+
+concurrency:
+  group: repo-write-lock
+  cancel-in-progress: false
+
+jobs:
+  wipe:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show what would be deleted / kept
+        run: |
+          KEEP=(
+            ':(exclude)core/notifications.py'
+            ':(exclude)output/telegram_alert.py'
+            ':(exclude)scripts/test_telegram_connection.py'
+            ':(exclude).github'
+          )
+          echo "Tracked files now: $(git ls-files | wc -l)"
+          echo "--- WILL BE KEPT ---"
+          git ls-files -- core/notifications.py output/telegram_alert.py scripts/test_telegram_connection.py .github
+          echo "--- WILL BE DELETED (count) ---"
+          git rm -r -n -- . "${KEEP[@]}" | wc -l || true
+          git rm -r -n -- . "${KEEP[@]}" | head -40 || true
+
+      - name: Delete everything else and push
+        if: ${{ inputs.confirm == github.repository }}
+        run: |
+          KEEP=(
+            ':(exclude)core/notifications.py'
+            ':(exclude)output/telegram_alert.py'
+            ':(exclude)scripts/test_telegram_connection.py'
+            ':(exclude).github'
+          )
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git rm -r -q -- . "${KEEP[@]}"
+          git commit -m "Wipe repo, keep telegram files only"
+          for i in 1 2 3; do
+            if git push; then
+              echo "Done. Remaining tracked files:"
+              git ls-files
+              exit 0
+            fi
+            git pull --rebase origin main
+          done
+          echo "Push failed after 3 tries"
+          exit 1
+
+      - name: Dry run note
+        if: ${{ inputs.confirm != github.repository }}
+        run: echo "DRY RUN only - nothing deleted. To delete, run again and type exactly $GITHUB_REPOSITORY"
