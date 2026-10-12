@@ -1,0 +1,13 @@
+{
+  "id": "paper_SHYAMMETL_NS_1791776880030",
+  "symbol": "SHYAMMETL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 94,
+  "entry_price": 1058.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 66.31,
+  "reasons": "Morning Executor: gap -0.82% (0.27x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776880.0319457
+}

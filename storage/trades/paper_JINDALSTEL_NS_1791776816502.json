@@ -1,0 +1,13 @@
+{
+  "id": "paper_JINDALSTEL_NS_1791776816502",
+  "symbol": "JINDALSTEL.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 97,
+  "entry_price": 1026.0,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 71.22,
+  "reasons": "Morning Executor: gap +1.58% (0.46x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776816.5034068
+}

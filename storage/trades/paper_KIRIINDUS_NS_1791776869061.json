@@ -1,0 +1,13 @@
+{
+  "id": "paper_KIRIINDUS_NS_1791776869061",
+  "symbol": "KIRIINDUS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 182,
+  "entry_price": 547.75,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.84,
+  "reasons": "Morning Executor: gap +0.96% (0.21x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776869.062474
+}

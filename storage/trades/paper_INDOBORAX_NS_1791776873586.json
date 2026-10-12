@@ -1,0 +1,13 @@
+{
+  "id": "paper_INDOBORAX_NS_1791776873586",
+  "symbol": "INDOBORAX.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 207,
+  "entry_price": 481.45001220703125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.05,
+  "reasons": "Morning Executor: gap -0.16% (0.03x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776873.5873237
+}

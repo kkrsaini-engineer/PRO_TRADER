@@ -1,0 +1,13 @@
+{
+  "id": "paper_SBILIFE_NS_1791776824910",
+  "symbol": "SBILIFE.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 59,
+  "entry_price": 1688.9000244140625,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 70.82,
+  "reasons": "Morning Executor: gap +0.38% (0.15x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776824.911342
+}

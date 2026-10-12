@@ -1,0 +1,13 @@
+{
+  "id": "paper_GATEWAY_NS_1791776851000",
+  "symbol": "GATEWAY.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 1941,
+  "entry_price": 51.5,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 68.27,
+  "reasons": "Morning Executor: gap +2.32% (0.93x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776851.0017316
+}

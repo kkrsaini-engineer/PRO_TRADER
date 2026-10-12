@@ -1,0 +1,13 @@
+{
+  "id": "paper_ARFIN_NS_1791776834906",
+  "symbol": "ARFIN.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 930,
+  "entry_price": 107.5199966430664,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.12,
+  "reasons": "Morning Executor: gap -0.00% (0.00x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776834.9078305
+}

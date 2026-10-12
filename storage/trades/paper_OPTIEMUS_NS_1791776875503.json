@@ -1,0 +1,13 @@
+{
+  "id": "paper_OPTIEMUS_NS_1791776875503",
+  "symbol": "OPTIEMUS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 121,
+  "entry_price": 824.9500122070312,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.32,
+  "reasons": "Morning Executor: gap +0.99% (0.15x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776875.5043893
+}

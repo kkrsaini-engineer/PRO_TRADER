@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_CYIENTDLM_NS_1791776877599",
+  "symbol": "CYIENTDLM.NS",
+  "direction": "BUY",
+  "entry_date": "2026-10-12",
+  "entry_price": 955.4000244140625,
+  "buy_probability": 76.19,
+  "buy_confidence": 65.51,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -2.64% (0.56x ATR, NORMAL band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1791776877.5990705,
+  "updated_at": 1791776877.5990708
+}

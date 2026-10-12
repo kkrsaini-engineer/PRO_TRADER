@@ -1,0 +1,13 @@
+{
+  "id": "paper_DBREALTY_NS_1791776836719",
+  "symbol": "DBREALTY.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 1163,
+  "entry_price": 85.9800033569336,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 69.99,
+  "reasons": "Morning Executor: gap +1.49% (0.31x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776836.7206206
+}

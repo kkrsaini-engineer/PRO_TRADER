@@ -1,0 +1,13 @@
+{
+  "id": "paper_CHENNPETRO_NS_1791776813929",
+  "symbol": "CHENNPETRO.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 66,
+  "entry_price": 1495.0999755859375,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 74.9,
+  "reasons": "Morning Executor: gap -2.34% (0.43x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776813.9310863
+}

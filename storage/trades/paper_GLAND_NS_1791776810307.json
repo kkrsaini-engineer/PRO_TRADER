@@ -1,0 +1,13 @@
+{
+  "id": "paper_GLAND_NS_1791776810307",
+  "symbol": "GLAND.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 32,
+  "entry_price": 3070.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 76.15,
+  "reasons": "Morning Executor: gap -0.30% (0.10x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776810.3088858
+}

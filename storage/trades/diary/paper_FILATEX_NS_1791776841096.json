@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_FILATEX_NS_1791776841096",
+  "symbol": "FILATEX.NS",
+  "direction": "BUY",
+  "entry_date": "2026-10-12",
+  "entry_price": 109.05999755859375,
+  "buy_probability": 83.42,
+  "buy_confidence": 73.3,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -0.62% (0.11x ATR, NORMAL band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1791776841.0966265,
+  "updated_at": 1791776841.0966268
+}

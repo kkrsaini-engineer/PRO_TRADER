@@ -1,0 +1,13 @@
+{
+  "id": "paper_GPPL_NS_1791776856757",
+  "symbol": "GPPL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 595,
+  "entry_price": 167.89999389648438,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.45,
+  "reasons": "Morning Executor: gap +0.76% (0.26x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776856.7583537
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_CAMS_NS_1791776845131",
+  "symbol": "CAMS.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 147,
+  "entry_price": 676.4500122070312,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 69.17,
+  "reasons": "Morning Executor: gap +2.11% (0.75x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776845.1325977
+}

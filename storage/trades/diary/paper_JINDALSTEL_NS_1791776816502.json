@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_JINDALSTEL_NS_1791776816502",
+  "symbol": "JINDALSTEL.NS",
+  "direction": "SELL",
+  "entry_date": "2026-10-12",
+  "entry_price": 1026.0,
+  "buy_probability": 86.6,
+  "buy_confidence": 71.22,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +1.58% (0.46x ATR, NORMAL band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1791776816.502271,
+  "updated_at": 1791776816.5022712
+}

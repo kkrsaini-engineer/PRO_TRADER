@@ -1,0 +1,13 @@
+{
+  "id": "paper_BCLIND_NS_1791776854957",
+  "symbol": "BCLIND.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 3300,
+  "entry_price": 30.299999237060547,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 67.22,
+  "reasons": "Morning Executor: gap +1.41% (0.33x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776854.9588258
+}

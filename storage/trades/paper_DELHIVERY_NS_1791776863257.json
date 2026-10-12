@@ -1,0 +1,13 @@
+{
+  "id": "paper_DELHIVERY_NS_1791776863257",
+  "symbol": "DELHIVERY.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 249,
+  "entry_price": 400.95001220703125,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 66.76,
+  "reasons": "Morning Executor: gap +0.99% (0.34x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791776863.2587209
+}
