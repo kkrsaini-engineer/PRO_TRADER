@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-12",
+  "opening_balance": 6210863.272846222,
+  "total_capital_in_positions": 3604801.2699999996,
+  "remaining_balance": 6407077.669413021,
+  "portfolio_value": 10011878.93941302,
+  "realized_pnl": 3471.5604646570664,
+  "portfolio_return_percent": 0.11878939413020387,
+  "opened_today": [],
+  "closed_today": [
+    {
+      "symbol": "DRREDDY.NS",
+      "pnl": -1401.5274589999956
+    }
+  ],
+  "open_positions_now": 37
+}

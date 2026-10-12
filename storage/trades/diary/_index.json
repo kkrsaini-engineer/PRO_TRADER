@@ -29,7 +29,6 @@
     "paper_ICIL_NS_1791776858869",
     "paper_MRPL_NS_1791776861048",
     "paper_DELHIVERY_NS_1791776863257",
-    "paper_DRREDDY_NS_1791776865149",
     "paper_GNFC_NS_1791776867048",
     "paper_KIRIINDUS_NS_1791776869061",
     "paper_WELSPUNLIV_NS_1791776871385",
@@ -39,5 +38,7 @@
     "paper_SHYAMMETL_NS_1791776880030",
     "paper_IIFLCAPS_NS_1791776882458"
   ],
-  "closed": []
+  "closed": [
+    "paper_DRREDDY_NS_1791776865149"
+  ]
 }

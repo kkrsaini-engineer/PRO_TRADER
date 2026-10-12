@@ -1,0 +1,18 @@
+{
+  "symbol": "DRREDDY.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 83,
+  "entry_price": 1197.0,
+  "exit_price": 1210.0,
+  "status": "CLOSED",
+  "realized_pnl": -1401.5274589999956,
+  "realized_pnl_percent": -1.4106827903091015,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 1.086048454469507,
+  "regime": "SIDEWAYS",
+  "confidence": 46.19,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Trend reversal confirmed.; costs Rs 322.53 deducted",
+  "id": "trade_1791776981639",
+  "timestamp": 1791776981.6399066
+}

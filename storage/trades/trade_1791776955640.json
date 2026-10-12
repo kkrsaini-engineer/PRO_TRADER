@@ -1,0 +1,18 @@
+{
+  "symbol": "ARFIN.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 465,
+  "entry_price": 107.5199966430664,
+  "exit_price": 106.84,
+  "status": "OPEN",
+  "realized_pnl": -493.03147498939273,
+  "realized_pnl_percent": -0.9861260928350731,
+  "max_profit_percent": 0.39992872987252465,
+  "max_drawdown_percent": 1.3857856115944085,
+  "regime": "BULL",
+  "confidence": 58.57,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 176.83 deducted",
+  "id": "trade_1791776955640",
+  "timestamp": 1791776955.6403825
+}
