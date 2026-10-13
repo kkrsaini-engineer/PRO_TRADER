@@ -1,0 +1,18 @@
+{
+  "symbol": "HINDPETRO.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 303,
+  "entry_price": 329.04998779296875,
+  "exit_price": 332.0,
+  "status": "CLOSED",
+  "realized_pnl": -1217.2019458881266,
+  "realized_pnl_percent": -1.220838257794484,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.8965240287099888,
+  "regime": "BEAR",
+  "confidence": 56.18,
+  "reasons": "Below preferred risk/reward profile.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; costs Rs 323.35 deducted",
+  "id": "trade_1791863450456",
+  "timestamp": 1791863450.456341
+}

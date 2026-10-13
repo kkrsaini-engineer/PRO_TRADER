@@ -1,0 +1,18 @@
+{
+  "symbol": "OPTIEMUS.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 30,
+  "entry_price": 824.9500122070312,
+  "exit_price": 752.65,
+  "status": "OPEN",
+  "realized_pnl": -2997.324104488407,
+  "realized_pnl_percent": -9.137848355923268,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 9.024790727361928,
+  "regime": "BULL",
+  "confidence": 52.67,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 92.48 deducted",
+  "id": "trade_1791863449449",
+  "timestamp": 1791863449.4497736
+}
