@@ -1,0 +1,13 @@
+{
+  "id": "paper_MAHABANK_NS_1791863306231",
+  "symbol": "MAHABANK.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 1198,
+  "entry_price": 83.41000366210938,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.93,
+  "reasons": "Morning Executor: gap +0.30% (0.10x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863306.2324078
+}

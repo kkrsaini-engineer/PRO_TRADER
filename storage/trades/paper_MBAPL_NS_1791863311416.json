@@ -1,0 +1,13 @@
+{
+  "id": "paper_MBAPL_NS_1791863311416",
+  "symbol": "MBAPL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 600,
+  "entry_price": 166.49000549316406,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.75,
+  "reasons": "Morning Executor: gap +0.71% (0.19x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863311.4170542
+}

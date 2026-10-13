@@ -1,0 +1,13 @@
+{
+  "id": "paper_SHILPAMED_NS_1791863316208",
+  "symbol": "SHILPAMED.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 98,
+  "entry_price": 1018.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.45,
+  "reasons": "Morning Executor: gap -0.36% (0.07x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863316.2100298
+}

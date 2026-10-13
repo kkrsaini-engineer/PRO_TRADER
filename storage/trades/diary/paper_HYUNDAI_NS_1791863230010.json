@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_HYUNDAI_NS_1791863230010",
+  "symbol": "HYUNDAI.NS",
+  "direction": "SELL",
+  "entry_date": "2026-10-13",
+  "entry_price": 1941.0,
+  "buy_probability": 86.22,
+  "buy_confidence": 74.39,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.05% (0.02x ATR, NORMAL band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1791863230.0102804,
+  "updated_at": 1791863230.0102806
+}

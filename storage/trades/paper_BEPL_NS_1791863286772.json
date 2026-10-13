@@ -1,0 +1,13 @@
+{
+  "id": "paper_BEPL_NS_1791863286772",
+  "symbol": "BEPL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 797,
+  "entry_price": 125.44999694824219,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.42,
+  "reasons": "Morning Executor: gap +0.45% (0.12x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863286.7737856
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_GICRE_NS_1791863237455",
+  "symbol": "GICRE.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 314,
+  "entry_price": 317.8999938964844,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 72.08,
+  "reasons": "Morning Executor: gap +1.70% (0.61x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863237.456913
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_NRBBEARING_NS_1791863250117",
+  "symbol": "NRBBEARING.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 191,
+  "entry_price": 521.9000244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.75,
+  "reasons": "Morning Executor: gap -0.58% (0.13x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863250.1186242
+}

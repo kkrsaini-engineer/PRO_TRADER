@@ -1,0 +1,13 @@
+{
+  "id": "paper_MSUMI_NS_1791863272774",
+  "symbol": "MSUMI.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 2984,
+  "entry_price": 33.5099983215332,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 69.57,
+  "reasons": "Morning Executor: gap -0.12% (0.05x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863272.77571
+}

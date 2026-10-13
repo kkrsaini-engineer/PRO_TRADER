@@ -1,0 +1,13 @@
+{
+  "id": "paper_MOSCHIP_NS_1791863261961",
+  "symbol": "MOSCHIP.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 532,
+  "entry_price": 187.77000427246094,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 70.23,
+  "reasons": "Morning Executor: gap -0.70% (0.20x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863261.9626539
+}

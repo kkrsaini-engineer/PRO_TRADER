@@ -1,0 +1,13 @@
+{
+  "id": "paper_HYUNDAI_NS_1791863230010",
+  "symbol": "HYUNDAI.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 51,
+  "entry_price": 1941.0,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 74.39,
+  "reasons": "Morning Executor: gap +0.05% (0.02x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863230.0115614
+}

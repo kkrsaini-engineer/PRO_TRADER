@@ -1,0 +1,13 @@
+{
+  "id": "paper_CYIENT_NS_1791863225820",
+  "symbol": "CYIENT.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 87,
+  "entry_price": 1147.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.89,
+  "reasons": "Morning Executor: gap -1.02% (0.24x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791863225.8215897
+}
