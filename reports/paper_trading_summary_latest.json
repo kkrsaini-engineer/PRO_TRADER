@@ -1,17 +1,21 @@
 {
-  "date": "2026-10-13",
-  "opening_balance": 3517313.198489597,
-  "total_capital_in_positions": 6241842.059999999,
-  "remaining_balance": 3714897.3912576474,
-  "portfolio_value": 9956739.451257646,
-  "realized_pnl": -39074.679808712644,
-  "portfolio_return_percent": -0.43260548742353916,
+  "date": "2026-10-14",
+  "opening_balance": 2420479.41390932,
+  "total_capital_in_positions": 7345474.389999997,
+  "remaining_balance": 2652121.8753960636,
+  "portfolio_value": 9997596.26539606,
+  "realized_pnl": -30870.42943918025,
+  "portfolio_return_percent": -0.02403734603939578,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "HINDPETRO.NS",
-      "pnl": -1217.2019458881266
+      "symbol": "DELHIVERY.NS",
+      "pnl": -5749.660755887084
+    },
+    {
+      "symbol": "KAVDEFENCE.NS",
+      "pnl": -12456.72084175
     }
   ],
-  "open_positions_now": 65
+  "open_positions_now": 76
 }

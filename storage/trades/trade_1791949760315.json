@@ -1,0 +1,18 @@
+{
+  "symbol": "KAVDEFENCE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 1075,
+  "entry_price": 93.0,
+  "exit_price": 81.71,
+  "status": "CLOSED",
+  "realized_pnl": -12456.72084175,
+  "realized_pnl_percent": -12.459835800700175,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 10.76344086021506,
+  "regime": "BULL",
+  "confidence": 55.03,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 319.97 deducted",
+  "id": "trade_1791949760315",
+  "timestamp": 1791949760.315278
+}

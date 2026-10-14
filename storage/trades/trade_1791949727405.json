@@ -1,0 +1,18 @@
+{
+  "symbol": "DELHIVERY.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 249,
+  "entry_price": 400.95001220703125,
+  "exit_price": 422.71,
+  "status": "CLOSED",
+  "realized_pnl": -5749.660755887084,
+  "realized_pnl_percent": -5.759073786941868,
+  "max_profit_percent": 3.0445269708747534e-06,
+  "max_drawdown_percent": 5.8735470946459705,
+  "regime": "BEAR",
+  "confidence": 55.16,
+  "reasons": "Below preferred risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 331.42 deducted",
+  "id": "trade_1791949727405",
+  "timestamp": 1791949727.4058867
+}
