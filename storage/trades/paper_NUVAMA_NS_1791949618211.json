@@ -1,0 +1,13 @@
+{
+  "id": "paper_NUVAMA_NS_1791949618211",
+  "symbol": "NUVAMA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 55,
+  "entry_price": 1812.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.06,
+  "reasons": "Morning Executor: gap -3.01% (0.77x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791949618.2126362
+}

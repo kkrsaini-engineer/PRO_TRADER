@@ -1,0 +1,13 @@
+{
+  "id": "paper_DCBBANK_NS_1791949604684",
+  "symbol": "DCBBANK.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 477,
+  "entry_price": 209.39999389648438,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 80.22,
+  "reasons": "Morning Executor: gap -2.55% (0.69x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1791949604.6860447
+}

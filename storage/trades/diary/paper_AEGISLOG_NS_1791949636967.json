@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_AEGISLOG_NS_1791949636967",
+  "symbol": "AEGISLOG.NS",
+  "direction": "BUY",
+  "entry_date": "2026-10-14",
+  "entry_price": 1399.4000244140625,
+  "buy_probability": 82.84,
+  "buy_confidence": 71.97,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -3.49% (0.72x ATR, NORMAL band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1791949636.9676077,
+  "updated_at": 1791949636.9676077
+}
