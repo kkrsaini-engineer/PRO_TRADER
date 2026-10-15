@@ -1,0 +1,13 @@
+{
+  "id": "paper_KARURVYSYA_NS_1792036005166",
+  "symbol": "KARURVYSYA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 291,
+  "entry_price": 343.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 84.28,
+  "reasons": "Morning Executor: gap -1.61% (0.57x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792036005.1679108
+}

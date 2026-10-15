@@ -1,0 +1,13 @@
+{
+  "id": "paper_FINCABLES_NS_1792036013484",
+  "symbol": "FINCABLES.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 69,
+  "entry_price": 1441.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 77.12,
+  "reasons": "Morning Executor: gap -2.27% (0.56x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792036013.4852028
+}

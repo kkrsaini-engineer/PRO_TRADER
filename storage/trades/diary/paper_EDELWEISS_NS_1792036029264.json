@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_EDELWEISS_NS_1792036029264",
+  "symbol": "EDELWEISS.NS",
+  "direction": "BUY",
+  "entry_date": "2026-10-15",
+  "entry_price": 133.0,
+  "buy_probability": 80.78,
+  "buy_confidence": 71.26,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -1.00% (0.23x ATR, NORMAL band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1792036029.264093,
+  "updated_at": 1792036029.264093
+}

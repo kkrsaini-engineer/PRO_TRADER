@@ -1,0 +1,13 @@
+{
+  "id": "paper_URJA_NS_1792036043496",
+  "symbol": "URJA.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 11764,
+  "entry_price": 8.5,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 65.35,
+  "reasons": "Morning Executor: gap +1.31% (0.44x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792036043.4976053
+}

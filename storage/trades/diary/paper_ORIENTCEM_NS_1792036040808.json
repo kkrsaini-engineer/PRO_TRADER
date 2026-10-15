@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_ORIENTCEM_NS_1792036040808",
+  "symbol": "ORIENTCEM.NS",
+  "direction": "SELL",
+  "entry_date": "2026-10-15",
+  "entry_price": 112.05000305175781,
+  "buy_probability": 77.45,
+  "buy_confidence": 66.12,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -0.28% (0.09x ATR, NORMAL band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1792036040.8087835,
+  "updated_at": 1792036040.8087835
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_DWARKESH_NS_1792036034881",
+  "symbol": "DWARKESH.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 2102,
+  "entry_price": 47.560001373291016,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.37,
+  "reasons": "Morning Executor: gap -0.25% (0.05x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792036034.8833725
+}
