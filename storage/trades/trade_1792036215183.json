@@ -1,0 +1,18 @@
+{
+  "symbol": "HINDUNILVR.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 53,
+  "entry_price": 1865.0,
+  "exit_price": 1919.9,
+  "status": "CLOSED",
+  "realized_pnl": -3233.686143300007,
+  "realized_pnl_percent": -3.2714716407506774,
+  "max_profit_percent": 2.7131354201575064,
+  "max_drawdown_percent": 2.461126005361935,
+  "regime": "BEAR",
+  "confidence": 47.16,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 323.99 deducted",
+  "id": "trade_1792036215183",
+  "timestamp": 1792036215.1830764
+}

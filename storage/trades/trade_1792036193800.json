@@ -1,0 +1,18 @@
+{
+  "symbol": "CAMS.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 147,
+  "entry_price": 676.4500122070312,
+  "exit_price": 703.55,
+  "status": "CLOSED",
+  "realized_pnl": -4311.413025828036,
+  "realized_pnl_percent": -4.335773491386816,
+  "max_profit_percent": 0.08870015466088724,
+  "max_drawdown_percent": 4.139256337455789,
+  "regime": "BEAR",
+  "confidence": 43.24,
+  "reasons": "Below preferred risk/reward profile.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; costs Rs 327.71 deducted",
+  "id": "trade_1792036193800",
+  "timestamp": 1792036193.8009157
+}

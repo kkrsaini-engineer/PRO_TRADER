@@ -1,0 +1,18 @@
+{
+  "symbol": "MRPL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 286,
+  "entry_price": 175.0,
+  "exit_price": 191.12,
+  "status": "OPEN",
+  "realized_pnl": 4425.73331752,
+  "realized_pnl_percent": 8.842624011028972,
+  "max_profit_percent": 9.422857142857149,
+  "max_drawdown_percent": 2.571428571428571,
+  "regime": "BULL",
+  "confidence": 77.06,
+  "reasons": "Partial profit target reached.; Healthy risk/reward profile.; Partial target achieved.; costs Rs 184.59 deducted",
+  "id": "trade_1792036185988",
+  "timestamp": 1792036185.988905
+}

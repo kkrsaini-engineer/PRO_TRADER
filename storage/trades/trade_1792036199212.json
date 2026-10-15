@@ -1,0 +1,18 @@
+{
+  "symbol": "CYIENTDLM.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 52,
+  "entry_price": 955.4000244140625,
+  "exit_price": 1057.9,
+  "status": "OPEN",
+  "realized_pnl": 5145.496235924522,
+  "realized_pnl_percent": 10.357112011959849,
+  "max_profit_percent": 11.052959272290257,
+  "max_drawdown_percent": 0.3192431180850728,
+  "regime": "BULL",
+  "confidence": 70.59,
+  "reasons": "Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 184.50 deducted",
+  "id": "trade_1792036199212",
+  "timestamp": 1792036199.212803
+}
