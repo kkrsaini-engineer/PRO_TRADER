@@ -1,0 +1,13 @@
+{
+  "id": "paper_SAGILITY_NS_1792122398458",
+  "symbol": "SAGILITY.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 2188,
+  "entry_price": 45.70000076293945,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 75.84,
+  "reasons": "Morning Executor: gap +0.33% (0.11x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792122398.4596696
+}

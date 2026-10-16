@@ -1,0 +1,13 @@
+{
+  "id": "paper_CASTROLIND_NS_1792122402096",
+  "symbol": "CASTROLIND.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 510,
+  "entry_price": 196.02000427246094,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 75.2,
+  "reasons": "Morning Executor: gap -0.48% (0.26x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792122402.0974934
+}
