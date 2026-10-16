@@ -1,0 +1,18 @@
+{
+  "symbol": "PETRONET.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 346,
+  "entry_price": 288.6499938964844,
+  "exit_price": 291.2,
+  "status": "CLOSED",
+  "realized_pnl": 542.6245344832644,
+  "realized_pnl_percent": 0.5433150994484808,
+  "max_profit_percent": 2.2691905245270303,
+  "max_drawdown_percent": 0.15589603533674876,
+  "regime": "BULL",
+  "confidence": 66.69,
+  "reasons": "Below preferred risk/reward profile.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; costs Rs 339.68 deducted",
+  "id": "trade_1792122520611",
+  "timestamp": 1792122520.6114552
+}

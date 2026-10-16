@@ -1,0 +1,18 @@
+{
+  "symbol": "MAHABANK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 1198,
+  "entry_price": 83.41000366210938,
+  "exit_price": 78.82,
+  "status": "CLOSED",
+  "realized_pnl": -5828.850191677031,
+  "realized_pnl_percent": -5.833214346736069,
+  "max_profit_percent": 0.8152411532504823,
+  "max_drawdown_percent": 5.694760570017551,
+  "regime": "SIDEWAYS",
+  "confidence": 43.89,
+  "reasons": "Below preferred risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 330.03 deducted",
+  "id": "trade_1792122549632",
+  "timestamp": 1792122549.632776
+}

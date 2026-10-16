@@ -1,0 +1,18 @@
+{
+  "symbol": "MGEL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 3178,
+  "entry_price": 15.729999542236328,
+  "exit_price": 17.25,
+  "status": "OPEN",
+  "realized_pnl": 4645.829699070062,
+  "realized_pnl_percent": 9.293529526680398,
+  "max_profit_percent": 11.25238721724738,
+  "max_drawdown_percent": 1.3350228263439654,
+  "regime": "BULL",
+  "confidence": 61.61,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; Profit protection activated.; costs Rs 184.73 deducted",
+  "id": "trade_1792122513327",
+  "timestamp": 1792122513.327676
+}

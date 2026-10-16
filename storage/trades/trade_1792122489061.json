@@ -1,0 +1,18 @@
+{
+  "symbol": "CYIENTDLM.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 52,
+  "entry_price": 955.4000244140625,
+  "exit_price": 911.0,
+  "status": "CLOSED",
+  "realized_pnl": 2663.9485850490328,
+  "realized_pnl_percent": -4.994983147337839,
+  "max_profit_percent": 11.052959272290257,
+  "max_drawdown_percent": 8.928199940791936,
+  "regime": "BULL",
+  "confidence": 45.45,
+  "reasons": "Excellent risk/reward profile.; High market volatility.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 172.75 deducted",
+  "id": "trade_1792122489061",
+  "timestamp": 1792122489.061668
+}

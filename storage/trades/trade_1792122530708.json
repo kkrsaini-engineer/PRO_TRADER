@@ -1,0 +1,18 @@
+{
+  "symbol": "GPPL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 74,
+  "entry_price": 167.89999389648438,
+  "exit_price": 166.84,
+  "status": "OPEN",
+  "realized_pnl": 2970.8357291287166,
+  "realized_pnl_percent": -1.0813663385629364,
+  "max_profit_percent": 6.414535237625431,
+  "max_drawdown_percent": 0.6313245592718074,
+  "regime": "BULL",
+  "confidence": 61.24,
+  "reasons": "Excellent risk/reward profile.; High market volatility.; High market volatility.; costs Rs 55.92 deducted",
+  "id": "trade_1792122530708",
+  "timestamp": 1792122530.708259
+}

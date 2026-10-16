@@ -1,0 +1,18 @@
+{
+  "symbol": "SHILPAMED.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 98,
+  "entry_price": 1018.0,
+  "exit_price": 920.0,
+  "status": "CLOSED",
+  "realized_pnl": -9927.187635999995,
+  "realized_pnl_percent": -9.950671220079384,
+  "max_profit_percent": 0.5893909626719057,
+  "max_drawdown_percent": 8.153241650294696,
+  "regime": "BULL",
+  "confidence": 50.33,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 323.19 deducted",
+  "id": "trade_1792122556194",
+  "timestamp": 1792122556.1944373
+}
