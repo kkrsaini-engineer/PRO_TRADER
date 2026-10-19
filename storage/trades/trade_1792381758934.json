@@ -1,0 +1,18 @@
+{
+  "symbol": "FINCABLES.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 69,
+  "entry_price": 1441.0,
+  "exit_price": 1327.67,
+  "status": "CLOSED",
+  "realized_pnl": -8144.622185969994,
+  "realized_pnl_percent": -8.191395051715288,
+  "max_profit_percent": 0.8188791691967383,
+  "max_drawdown_percent": 8.390006939625266,
+  "regime": "SIDEWAYS",
+  "confidence": 54.5,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 324.85 deducted",
+  "id": "trade_1792381758934",
+  "timestamp": 1792381758.9348147
+}

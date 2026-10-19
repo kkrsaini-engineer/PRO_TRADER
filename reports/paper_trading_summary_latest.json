@@ -1,37 +1,29 @@
 {
-  "date": "2026-10-16",
-  "opening_balance": 1268011.9200273063,
-  "total_capital_in_positions": 8067764.41,
-  "remaining_balance": 1878062.717279097,
-  "portfolio_value": 9945827.127279097,
-  "realized_pnl": -43517.21104964605,
-  "portfolio_return_percent": -0.5417287272090279,
+  "date": "2026-10-19",
+  "opening_balance": 1283315.2374054398,
+  "total_capital_in_positions": 8165466.340000002,
+  "remaining_balance": 1785936.4307024237,
+  "portfolio_value": 9951402.770702425,
+  "realized_pnl": -55190.30341733495,
+  "portfolio_return_percent": -0.48597229297574607,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "CYIENTDLM.NS",
-      "pnl": 2663.9485850490328
+      "symbol": "PARAGMILK.NS",
+      "pnl": -9238.17590322
     },
     {
-      "symbol": "PETRONET.NS",
-      "pnl": 542.6245344832644
+      "symbol": "FINCABLES.NS",
+      "pnl": -8144.622185969994
     },
     {
-      "symbol": "KIRIINDUS.NS",
-      "pnl": -8553.28770342
+      "symbol": "GNFC.NS",
+      "pnl": -6744.596657210033
     },
     {
-      "symbol": "MSUMI.NS",
-      "pnl": -5284.591476516767
-    },
-    {
-      "symbol": "MAHABANK.NS",
-      "pnl": -5828.850191677031
-    },
-    {
-      "symbol": "SHILPAMED.NS",
-      "pnl": -9927.187635999995
+      "symbol": "SHYAMMETL.NS",
+      "pnl": 8828.976269219991
     }
   ],
-  "open_positions_now": 87
+  "open_positions_now": 89
 }

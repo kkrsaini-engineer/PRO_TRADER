@@ -1,0 +1,18 @@
+{
+  "symbol": "GOODLUCK.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 22,
+  "entry_price": 564.0,
+  "exit_price": 591.4,
+  "status": "OPEN",
+  "realized_pnl": 3423.655885600003,
+  "realized_pnl_percent": 4.3994944132817455,
+  "max_profit_percent": 9.042553191489363,
+  "max_drawdown_percent": 0.3812056737588612,
+  "regime": "BULL",
+  "confidence": 74.23,
+  "reasons": "Excellent risk/reward profile.; High market volatility.; High market volatility.; costs Rs 56.91 deducted",
+  "id": "trade_1792381705206",
+  "timestamp": 1792381705.2060416
+}

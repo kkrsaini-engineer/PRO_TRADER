@@ -1,0 +1,18 @@
+{
+  "symbol": "PNB.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 430,
+  "entry_price": 116.29000091552734,
+  "exit_price": 122.81,
+  "status": "OPEN",
+  "realized_pnl": 2621.9396936583207,
+  "realized_pnl_percent": 5.243386467704689,
+  "max_profit_percent": 6.9395468406047005,
+  "max_drawdown_percent": 1.8832250616259434,
+  "regime": "BULL",
+  "confidence": 64.83,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; High market volatility.; Partial target achieved.; costs Rs 181.66 deducted",
+  "id": "trade_1792381688280",
+  "timestamp": 1792381688.280157
+}
