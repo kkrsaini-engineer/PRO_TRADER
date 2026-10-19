@@ -1,0 +1,13 @@
+{
+  "id": "paper_PERSISTENT_NS_1792381614335",
+  "symbol": "PERSISTENT.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 17,
+  "entry_price": 5742.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.73,
+  "reasons": "Morning Executor: gap -1.68% (0.57x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792381614.3367114
+}

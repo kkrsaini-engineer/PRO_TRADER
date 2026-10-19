@@ -1,0 +1,13 @@
+{
+  "id": "paper_DMART_NS_1792381619352",
+  "symbol": "DMART.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 29,
+  "entry_price": 3355.89990234375,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 66.5,
+  "reasons": "Morning Executor: gap -0.67% (0.25x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792381619.353999
+}
