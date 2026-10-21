@@ -1,29 +1,41 @@
 {
-  "date": "2026-10-19",
-  "opening_balance": 1283315.2374054398,
-  "total_capital_in_positions": 8165466.340000002,
-  "remaining_balance": 1785936.4307024237,
-  "portfolio_value": 9951402.770702425,
-  "realized_pnl": -55190.30341733495,
-  "portfolio_return_percent": -0.48597229297574607,
+  "date": "2026-10-21",
+  "opening_balance": 1586358.1323015448,
+  "total_capital_in_positions": 7533507.619999999,
+  "remaining_balance": 2312834.042535564,
+  "portfolio_value": 9846341.662535563,
+  "realized_pnl": -97803.59158419483,
+  "portfolio_return_percent": -1.536583374644369,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "PARAGMILK.NS",
-      "pnl": -9238.17590322
+      "symbol": "NRBBEARING.NS",
+      "pnl": -8469.41708680189
     },
     {
-      "symbol": "FINCABLES.NS",
-      "pnl": -8144.622185969994
+      "symbol": "GRAPHITE.NS",
+      "pnl": -7587.52215351837
     },
     {
-      "symbol": "GNFC.NS",
-      "pnl": -6744.596657210033
+      "symbol": "AUROPHARMA.NS",
+      "pnl": -4510.868273807277
     },
     {
-      "symbol": "SHYAMMETL.NS",
-      "pnl": 8828.976269219991
+      "symbol": "NUVAMA.NS",
+      "pnl": -7720.541576200002
+    },
+    {
+      "symbol": "BEPL.NS",
+      "pnl": -6020.496983220955
+    },
+    {
+      "symbol": "ARFIN.NS",
+      "pnl": -2866.3093445687864
+    },
+    {
+      "symbol": "SOUTHBANK.NS",
+      "pnl": 9422.907144655801
     }
   ],
-  "open_positions_now": 89
+  "open_positions_now": 84
 }

@@ -1,0 +1,18 @@
+{
+  "symbol": "NUVAMA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 55,
+  "entry_price": 1812.5,
+  "exit_price": 1678.06,
+  "status": "CLOSED",
+  "realized_pnl": -7720.541576200002,
+  "realized_pnl_percent": -7.744743900890285,
+  "max_profit_percent": 0.12689924568965516,
+  "max_drawdown_percent": 8.231724137931037,
+  "regime": "SIDEWAYS",
+  "confidence": 51.6,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 326.34 deducted",
+  "id": "trade_1792554530965",
+  "timestamp": 1792554530.9651914
+}

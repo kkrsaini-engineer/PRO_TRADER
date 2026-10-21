@@ -1,0 +1,18 @@
+{
+  "symbol": "GRAPHITE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 123,
+  "entry_price": 808.0999755859375,
+  "exit_price": 749.06,
+  "status": "CLOSED",
+  "realized_pnl": -7587.52215351837,
+  "realized_pnl_percent": -7.633606464979284,
+  "max_profit_percent": 0.030939787355052813,
+  "max_drawdown_percent": 8.427172088027788,
+  "regime": "SIDEWAYS",
+  "confidence": 45.96,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 325.61 deducted",
+  "id": "trade_1792554510187",
+  "timestamp": 1792554510.1872084
+}

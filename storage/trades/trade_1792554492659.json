@@ -1,0 +1,18 @@
+{
+  "symbol": "NRBBEARING.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 191,
+  "entry_price": 521.9000244140625,
+  "exit_price": 479.26,
+  "status": "CLOSED",
+  "realized_pnl": -8469.41708680189,
+  "realized_pnl_percent": -8.496358643869092,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 10.519260748396936,
+  "regime": "SIDEWAYS",
+  "confidence": 43.71,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 325.17 deducted",
+  "id": "trade_1792554492659",
+  "timestamp": 1792554492.6599834
+}

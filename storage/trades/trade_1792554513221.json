@@ -1,0 +1,18 @@
+{
+  "symbol": "AUROPHARMA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 58,
+  "entry_price": 1706.9000244140625,
+  "exit_price": 1634.8,
+  "status": "CLOSED",
+  "realized_pnl": -4510.868273807277,
+  "realized_pnl_percent": -4.556423329738334,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 5.348880867200532,
+  "regime": "SIDEWAYS",
+  "confidence": 52.51,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 329.07 deducted",
+  "id": "trade_1792554513221",
+  "timestamp": 1792554513.2219446
+}
