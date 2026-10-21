@@ -1,10 +1,10 @@
 {
   "total_capital": 10000000.0,
-  "available_capital": 1785936.4307024237,
-  "used_capital": 8169234.123944759,
-  "total_pnl": -55190.30341733495,
-  "total_pnl_percent": -0.5519030341733495,
-  "exposure": 0.816923412394476,
+  "available_capital": 1586358.1323015448,
+  "used_capital": 8368812.422345638,
+  "total_pnl": -55190.30341733496,
+  "total_pnl_percent": -0.5519030341733496,
+  "exposure": 0.8368812422345638,
   "risk_score": 0.0,
   "peak_equity": 10003471.560464654,
   "day_start_equity": 9956482.788950356,
@@ -1704,6 +1704,44 @@
       "updated_at": 1792381739.9568388,
       "partial_taken": false,
       "stop_level": 3521.01
+    },
+    "INDHOTEL.NS": {
+      "symbol": "INDHOTEL.NS",
+      "quantity": 131,
+      "entry_price": 760.2999877929688,
+      "current_price": 760.2999877929688,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 760.2999877929688,
+      "lowest_price": 760.2999877929688,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1792554411.3369944,
+      "partial_taken": false,
+      "stop_level": null
+    },
+    "DLF.NS": {
+      "symbol": "DLF.NS",
+      "quantity": 149,
+      "entry_price": 671.0,
+      "current_price": 671.0,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 671.0,
+      "lowest_price": 671.0,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1792554414.0579624,
+      "partial_taken": false,
+      "stop_level": null
     }
   },
   "closed_positions": [
@@ -2138,5 +2176,5 @@
     "ASHOKLEY.NS": "Industrials",
     "MUFIN.NS": "Financial Services"
   },
-  "saved_at": 1792381799.3845074
+  "saved_at": 1792554414.0631235
 }
