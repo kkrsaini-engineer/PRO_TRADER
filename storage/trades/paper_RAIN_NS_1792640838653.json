@@ -1,0 +1,13 @@
+{
+  "id": "paper_RAIN_NS_1792640838653",
+  "symbol": "RAIN.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 475,
+  "entry_price": 210.3800048828125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.53,
+  "reasons": "Morning Executor: gap -6.12% (1.41x ATR, WARNING band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792640838.7128181
+}

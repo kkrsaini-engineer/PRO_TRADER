@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_TFCILTD_NS_1792640833977",
+  "symbol": "TFCILTD.NS",
+  "direction": "BUY",
+  "entry_date": "2026-10-22",
+  "entry_price": 149.89999389648438,
+  "buy_probability": 81.34,
+  "buy_confidence": 70.8,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -4.02% (1.10x ATR, WARNING band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1792640833.9772506,
+  "updated_at": 1792640833.9772506
+}

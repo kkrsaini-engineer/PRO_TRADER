@@ -1,0 +1,13 @@
+{
+  "id": "paper_RGL_NS_1792640808310",
+  "symbol": "RGL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 631,
+  "entry_price": 158.39999389648438,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 78.32,
+  "reasons": "Morning Executor: gap -4.05% (0.85x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792640808.31174
+}

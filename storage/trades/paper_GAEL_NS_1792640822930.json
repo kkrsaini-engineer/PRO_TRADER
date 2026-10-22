@@ -1,0 +1,13 @@
+{
+  "id": "paper_GAEL_NS_1792640822930",
+  "symbol": "GAEL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 621,
+  "entry_price": 160.89999389648438,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.28,
+  "reasons": "Morning Executor: gap -2.75% (0.64x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792640822.932023
+}

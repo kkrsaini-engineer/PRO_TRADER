@@ -1,0 +1,13 @@
+{
+  "id": "paper_FILATFASH_NS_1792640819161",
+  "symbol": "FILATFASH.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 555555,
+  "entry_price": 0.18000000715255737,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 72.4,
+  "reasons": "Morning Executor: gap +5.88% (1.00x ATR, WARNING band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792640819.1627274
+}

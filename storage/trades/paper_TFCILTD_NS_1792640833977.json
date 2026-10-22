@@ -1,0 +1,13 @@
+{
+  "id": "paper_TFCILTD_NS_1792640833977",
+  "symbol": "TFCILTD.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 667,
+  "entry_price": 149.89999389648438,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.8,
+  "reasons": "Morning Executor: gap -4.02% (1.10x ATR, WARNING band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792640833.9783752
+}

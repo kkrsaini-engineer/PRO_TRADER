@@ -1,0 +1,13 @@
+{
+  "id": "paper_THELEELA_NS_1792640829808",
+  "symbol": "THELEELA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 170,
+  "entry_price": 585.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.78,
+  "reasons": "Morning Executor: gap -6.06% (1.33x ATR, WARNING band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792640829.8139248
+}
