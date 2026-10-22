@@ -1,0 +1,18 @@
+{
+  "symbol": "SATIN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 448,
+  "entry_price": 223.14999389648438,
+  "exit_price": 224.2,
+  "status": "CLOSED",
+  "realized_pnl": 131.04175979335378,
+  "realized_pnl_percent": 0.1310795142776712,
+  "max_profit_percent": 0.4705382622608066,
+  "max_drawdown_percent": 0.0,
+  "regime": "SIDEWAYS",
+  "confidence": 57.24,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Trend reversal confirmed.; costs Rs 339.36 deducted",
+  "id": "trade_1792640917433",
+  "timestamp": 1792640917.4332316
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "FILATEX.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 916,
+  "entry_price": 109.05999755859375,
+  "exit_price": 97.6,
+  "status": "CLOSED",
+  "realized_pnl": -10819.60616573472,
+  "realized_pnl_percent": -10.830549595252391,
+  "max_profit_percent": 3.47515221013197,
+  "max_drawdown_percent": 9.765264805614834,
+  "regime": "BULL",
+  "confidence": 58.7,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 322.25 deducted",
+  "id": "trade_1792640987811",
+  "timestamp": 1792640987.811002
+}

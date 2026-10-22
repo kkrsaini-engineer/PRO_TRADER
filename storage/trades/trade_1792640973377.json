@@ -1,0 +1,18 @@
+{
+  "symbol": "MRPL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 285,
+  "entry_price": 175.0,
+  "exit_price": 167.33,
+  "status": "CLOSED",
+  "realized_pnl": 2066.2209945700056,
+  "realized_pnl_percent": -4.730851775338335,
+  "max_profit_percent": 9.422860281808036,
+  "max_drawdown_percent": 5.308571428571424,
+  "regime": "SIDEWAYS",
+  "confidence": 49.54,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 173.56 deducted",
+  "id": "trade_1792640973377",
+  "timestamp": 1792640973.3774164
+}

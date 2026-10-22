@@ -1,0 +1,18 @@
+{
+  "symbol": "URJA.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 5882,
+  "entry_price": 8.5,
+  "exit_price": 8.02,
+  "status": "OPEN",
+  "realized_pnl": 2666.738339040005,
+  "realized_pnl_percent": 5.333796705882363,
+  "max_profit_percent": 6.470588235294115,
+  "max_drawdown_percent": 1.17647507611443,
+  "regime": "BEAR",
+  "confidence": 55.92,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 156.62 deducted",
+  "id": "trade_1792640925552",
+  "timestamp": 1792640925.552408
+}

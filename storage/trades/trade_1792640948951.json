@@ -1,0 +1,18 @@
+{
+  "symbol": "DWARKESH.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 2102,
+  "entry_price": 47.560001373291016,
+  "exit_price": 42.99,
+  "status": "CLOSED",
+  "realized_pnl": -9929.995817433275,
+  "realized_pnl_percent": -9.93286414186966,
+  "max_profit_percent": 1.2405353441396605,
+  "max_drawdown_percent": 9.966361525651072,
+  "regime": "BULL",
+  "confidence": 51.33,
+  "reasons": "Below preferred risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 323.85 deducted",
+  "id": "trade_1792640948951",
+  "timestamp": 1792640948.9513593
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "MOSCHIP.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 266,
+  "entry_price": 187.77000427246094,
+  "exit_price": 175.09,
+  "status": "OPEN",
+  "realized_pnl": 3217.349594085573,
+  "realized_pnl_percent": 6.4415502746300755,
+  "max_profit_percent": 9.18677311602473,
+  "max_drawdown_percent": 2.050375862557946,
+  "regime": "BEAR",
+  "confidence": 61.2,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 155.53 deducted",
+  "id": "trade_1792640951245",
+  "timestamp": 1792640951.2453988
+}

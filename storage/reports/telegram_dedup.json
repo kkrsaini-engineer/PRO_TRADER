@@ -1,6 +1,26 @@
 {
   "2026-10-22": [
     "mi_summary::2026-10-22 05:38:51.601469",
-    "morning_exec::2026-10-22::09:17:19.221349"
+    "morning_exec::2026-10-22::09:17:19.221349",
+    "paper_trading_started::2026-10-22::09:18:15.493536",
+    "monitoring_summary::2026-10-22::09:19:49.571886",
+    "holding_status::2026-10-22::part1::09:19:51.706697",
+    "holding_status::2026-10-22::part2::09:19:52.356558",
+    "holding_status::2026-10-22::part3::09:19:53.109754",
+    "holding_status::2026-10-22::part4::09:19:53.813168",
+    "holding_status::2026-10-22::part5::09:19:54.468632",
+    "holding_status::2026-10-22::part6::09:19:55.130728",
+    "holding_status::2026-10-22::part7::09:19:55.977080",
+    "holding_status::2026-10-22::part8::09:19:56.625464",
+    "holding_status::2026-10-22::part9::09:19:57.318737",
+    "holding_status::2026-10-22::part10::09:19:57.971114",
+    "holding_status::2026-10-22::part11::09:19:58.681717",
+    "holding_status::2026-10-22::part12::09:19:59.385967",
+    "holding_status::2026-10-22::part13::09:20:00.073252",
+    "holding_status::2026-10-22::part14::09:20:00.718260",
+    "portfolio_summary::2026-10-22::09:20:01.370900",
+    "analysis_summary::2026-10-22::09:20:02.886208",
+    "learning_summary::2026-10-22::09:20:06.122024",
+    "optimizer_recommendation::2026-10-22::09:20:07.074934"
   ]
 }

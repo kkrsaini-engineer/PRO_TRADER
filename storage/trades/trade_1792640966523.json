@@ -1,0 +1,18 @@
+{
+  "symbol": "VMM.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 1020,
+  "entry_price": 97.98999786376953,
+  "exit_price": 87.48,
+  "status": "CLOSED",
+  "realized_pnl": 10415.666287798324,
+  "realized_pnl_percent": 10.420897805563397,
+  "max_profit_percent": 11.562398661761037,
+  "max_drawdown_percent": 0.11225853518579865,
+  "regime": "BEAR",
+  "confidence": 51.36,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Final target achieved (previous session).; costs Rs 304.53 deducted",
+  "id": "trade_1792640966523",
+  "timestamp": 1792640966.5238857
+}

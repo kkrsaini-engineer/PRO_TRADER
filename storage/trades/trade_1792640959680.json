@@ -1,0 +1,18 @@
+{
+  "symbol": "KTKBANK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 293,
+  "entry_price": 340.20001220703125,
+  "exit_price": 321.36,
+  "status": "CLOSED",
+  "realized_pnl": -5849.3206388211265,
+  "realized_pnl_percent": -5.868180761905006,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 7.260438365886911,
+  "regime": "SIDEWAYS",
+  "confidence": 56.15,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 329.20 deducted",
+  "id": "trade_1792640959680",
+  "timestamp": 1792640959.680006
+}

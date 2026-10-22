@@ -1,0 +1,18 @@
+{
+  "symbol": "CUPID.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 283,
+  "entry_price": 353.1000061035156,
+  "exit_price": 323.78,
+  "status": "CLOSED",
+  "realized_pnl": -8623.287109772331,
+  "realized_pnl_percent": -8.62956065130787,
+  "max_profit_percent": 3.0869424265285645,
+  "max_drawdown_percent": 8.807704776532423,
+  "regime": "BULL",
+  "confidence": 58.7,
+  "reasons": "Below preferred risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 325.73 deducted",
+  "id": "trade_1792640904256",
+  "timestamp": 1792640904.2561839
+}

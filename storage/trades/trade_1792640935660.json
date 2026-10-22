@@ -1,0 +1,18 @@
+{
+  "symbol": "ABDL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 141,
+  "entry_price": 705.5999755859375,
+  "exit_price": 697.5,
+  "status": "CLOSED",
+  "realized_pnl": -1477.4212887030085,
+  "realized_pnl_percent": -1.485000783823053,
+  "max_profit_percent": 6.384644329205791,
+  "max_drawdown_percent": 0.9920600663463212,
+  "regime": "BULL",
+  "confidence": 49.23,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 335.32 deducted",
+  "id": "trade_1792640935660",
+  "timestamp": 1792640935.66049
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "MCX.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 30,
+  "entry_price": 3308.0,
+  "exit_price": 3087.0,
+  "status": "CLOSED",
+  "realized_pnl": -6956.0731500000065,
+  "realized_pnl_percent": -7.009344165659015,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 7.959492140266028,
+  "regime": "SIDEWAYS",
+  "confidence": 47.83,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 326.07 deducted",
+  "id": "trade_1792640936564",
+  "timestamp": 1792640936.564656
+}

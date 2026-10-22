@@ -1,0 +1,18 @@
+{
+  "symbol": "AEGISLOG.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 71,
+  "entry_price": 1399.4000244140625,
+  "exit_price": 1293.43,
+  "status": "CLOSED",
+  "realized_pnl": -7848.948187596139,
+  "realized_pnl_percent": -7.899711597387474,
+  "max_profit_percent": 7.824781912937892,
+  "max_drawdown_percent": 7.160213138914074,
+  "regime": "SIDEWAYS",
+  "confidence": 43.48,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 325.08 deducted",
+  "id": "trade_1792640982505",
+  "timestamp": 1792640982.5054042
+}

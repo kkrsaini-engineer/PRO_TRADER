@@ -1,0 +1,18 @@
+{
+  "symbol": "IIFL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 168,
+  "entry_price": 594.7000122070312,
+  "exit_price": 583.6,
+  "status": "CLOSED",
+  "realized_pnl": -2200.3703158450126,
+  "realized_pnl_percent": -2.202361205208911,
+  "max_profit_percent": 5.683535748978941,
+  "max_drawdown_percent": 2.177570529883056,
+  "regime": "SIDEWAYS",
+  "confidence": 47.14,
+  "reasons": "Healthy risk/reward profile.; Trend reversal detected.; Trend reversal confirmed.; costs Rs 335.57 deducted",
+  "id": "trade_1792640933867",
+  "timestamp": 1792640933.8670793
+}

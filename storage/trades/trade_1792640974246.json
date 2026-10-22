@@ -1,0 +1,18 @@
+{
+  "symbol": "SAGILITY.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 2188,
+  "entry_price": 45.70000076293945,
+  "exit_price": 43.29,
+  "status": "CLOSED",
+  "realized_pnl": -5603.669286810987,
+  "realized_pnl_percent": -5.604139941015478,
+  "max_profit_percent": 0.9190331770976933,
+  "max_drawdown_percent": 6.083156559263324,
+  "regime": "BULL",
+  "confidence": 70.69,
+  "reasons": "Below preferred risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 330.59 deducted",
+  "id": "trade_1792640974246",
+  "timestamp": 1792640974.2462778
+}

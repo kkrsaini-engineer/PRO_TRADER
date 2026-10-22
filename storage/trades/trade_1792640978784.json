@@ -1,0 +1,18 @@
+{
+  "symbol": "TRITURBINE.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 96,
+  "entry_price": 520.0,
+  "exit_price": 459.76,
+  "status": "CLOSED",
+  "realized_pnl": 8493.861841919997,
+  "realized_pnl_percent": 11.2813818,
+  "max_profit_percent": 12.519230769230774,
+  "max_drawdown_percent": 1.3461538461538463,
+  "regime": "BEAR",
+  "confidence": 56.6,
+  "reasons": "Break-even stop activated.; Final profit target reached.; Excellent risk/reward profile.; Final target achieved (previous session).; Profit protection activated.; costs Rs 151.37 deducted",
+  "id": "trade_1792640978784",
+  "timestamp": 1792640978.784922
+}

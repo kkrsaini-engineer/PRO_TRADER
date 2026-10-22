@@ -1,0 +1,18 @@
+{
+  "symbol": "GLAND.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 32,
+  "entry_price": 3070.0,
+  "exit_price": 2898.2,
+  "status": "CLOSED",
+  "realized_pnl": -5822.187913600006,
+  "realized_pnl_percent": -5.926494211726391,
+  "max_profit_percent": 1.1400651465798046,
+  "max_drawdown_percent": 4.667752442996749,
+  "regime": "BULL",
+  "confidence": 57.89,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 324.59 deducted",
+  "id": "trade_1792640908046",
+  "timestamp": 1792640908.0462754
+}

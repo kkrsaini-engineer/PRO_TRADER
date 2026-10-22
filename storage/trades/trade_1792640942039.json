@@ -1,0 +1,18 @@
+{
+  "symbol": "INDOBORAX.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 207,
+  "entry_price": 481.45001220703125,
+  "exit_price": 421.1,
+  "status": "CLOSED",
+  "realized_pnl": -12810.85961477332,
+  "realized_pnl_percent": -12.854545462712567,
+  "max_profit_percent": 4.7149197453321,
+  "max_drawdown_percent": 12.555823174647001,
+  "regime": "SIDEWAYS",
+  "confidence": 45.4,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 318.41 deducted",
+  "id": "trade_1792640942039",
+  "timestamp": 1792640942.039466
+}

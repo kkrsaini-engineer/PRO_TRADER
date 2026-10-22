@@ -1,0 +1,18 @@
+{
+  "symbol": "MOREPENLAB.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 772,
+  "entry_price": 129.4499969482422,
+  "exit_price": 111.6,
+  "status": "CLOSED",
+  "realized_pnl": -14097.511383463765,
+  "realized_pnl_percent": -14.106624595298342,
+  "max_profit_percent": 0.19312476314692936,
+  "max_drawdown_percent": 13.48010611017565,
+  "regime": "BULL",
+  "confidence": 48.21,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 317.31 deducted",
+  "id": "trade_1792640969805",
+  "timestamp": 1792640969.805844
+}

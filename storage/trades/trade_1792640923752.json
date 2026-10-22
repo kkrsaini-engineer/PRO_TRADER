@@ -1,0 +1,18 @@
+{
+  "symbol": "GANDHAR.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 336,
+  "entry_price": 296.95001220703125,
+  "exit_price": 278.15,
+  "status": "CLOSED",
+  "realized_pnl": -6645.086898890039,
+  "realized_pnl_percent": -6.660058437090159,
+  "max_profit_percent": 5.573324503327592,
+  "max_drawdown_percent": 5.72486927131282,
+  "regime": "BULL",
+  "confidence": 59.51,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 328.28 deducted",
+  "id": "trade_1792640923752",
+  "timestamp": 1792640923.7529757
+}
