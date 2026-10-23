@@ -1,0 +1,13 @@
+{
+  "id": "paper_TIPSMUSIC_NS_1792727215862",
+  "symbol": "TIPSMUSIC.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 138,
+  "entry_price": 723.2999877929688,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 65.06,
+  "reasons": "Morning Executor: gap -3.30% (0.78x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792727215.863198
+}
