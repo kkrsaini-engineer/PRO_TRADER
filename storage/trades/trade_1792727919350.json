@@ -1,0 +1,18 @@
+{
+  "symbol": "PNBHOUSING.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 84,
+  "entry_price": 1187.9000244140625,
+  "exit_price": 1115.0,
+  "status": "CLOSED",
+  "realized_pnl": -6452.209294645028,
+  "realized_pnl_percent": -6.466202023215609,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 6.13688213787358,
+  "regime": "SIDEWAYS",
+  "confidence": 52.65,
+  "reasons": "Below preferred risk/reward profile.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; Active stop-loss triggered.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; costs Rs 328.61 deducted",
+  "id": "trade_1792727919350",
+  "timestamp": 1792727919.3509133
+}

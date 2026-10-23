@@ -1,0 +1,18 @@
+{
+  "symbol": "THELEELA.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 42,
+  "entry_price": 585.0,
+  "exit_price": 585.85,
+  "status": "OPEN",
+  "realized_pnl": 510.8096256999928,
+  "realized_pnl_percent": -0.24255963492063312,
+  "max_profit_percent": 3.4786324786324827,
+  "max_drawdown_percent": 0.8461538461538539,
+  "regime": "BULL",
+  "confidence": 49.08,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 95.30 deducted",
+  "id": "trade_1792727880736",
+  "timestamp": 1792727880.736582
+}

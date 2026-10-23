@@ -1,0 +1,18 @@
+{
+  "symbol": "LLOYDSENGG.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 1053,
+  "entry_price": 94.93000030517578,
+  "exit_price": 86.23,
+  "status": "CLOSED",
+  "realized_pnl": -9485.606433112855,
+  "realized_pnl_percent": -9.489279702791995,
+  "max_profit_percent": 4.634995798729613,
+  "max_drawdown_percent": 10.734225505548856,
+  "regime": "SIDEWAYS",
+  "confidence": 42.32,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 324.51 deducted",
+  "id": "trade_1792727878814",
+  "timestamp": 1792727878.8142447
+}

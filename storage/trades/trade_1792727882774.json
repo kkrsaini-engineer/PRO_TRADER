@@ -1,0 +1,18 @@
+{
+  "symbol": "EDELWEISS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 751,
+  "entry_price": 133.0,
+  "exit_price": 119.85,
+  "status": "CLOSED",
+  "realized_pnl": -10198.803698650008,
+  "realized_pnl_percent": -10.210750276473481,
+  "max_profit_percent": 1.9548918071546053,
+  "max_drawdown_percent": 11.789473684210531,
+  "regime": "SIDEWAYS",
+  "confidence": 43.67,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 323.15 deducted",
+  "id": "trade_1792727882774",
+  "timestamp": 1792727882.774319
+}

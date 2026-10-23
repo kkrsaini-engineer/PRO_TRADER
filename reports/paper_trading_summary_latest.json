@@ -1,113 +1,81 @@
 {
-  "date": "2026-10-22",
-  "opening_balance": 1314242.1574446764,
-  "total_capital_in_positions": 6030687.540000001,
-  "remaining_balance": 3658845.981923299,
-  "portfolio_value": 9689533.5219233,
-  "realized_pnl": -197164.10216422065,
-  "portfolio_return_percent": -3.104664780767001,
+  "date": "2026-10-23",
+  "opening_balance": 3162125.630772786,
+  "total_capital_in_positions": 4646853.220000001,
+  "remaining_balance": 4987089.940651087,
+  "portfolio_value": 9633943.160651088,
+  "realized_pnl": -241314.5819617472,
+  "portfolio_return_percent": -3.6605683934891227,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "CUPID.NS",
-      "pnl": -8623.287109772331
+      "symbol": "LLOYDSENGG.NS",
+      "pnl": -9485.606433112855
     },
     {
-      "symbol": "GLAND.NS",
-      "pnl": -5822.187913600006
+      "symbol": "EDELWEISS.NS",
+      "pnl": -10198.803698650008
     },
     {
-      "symbol": "EPACKPEB.NS",
-      "pnl": -10999.436485446833
+      "symbol": "OPTIEMUS.NS",
+      "pnl": -6188.868019775525
     },
     {
-      "symbol": "SATIN.NS",
-      "pnl": 131.04175979335378
+      "symbol": "ARIHANTCAP.NS",
+      "pnl": -7286.564507017474
     },
     {
-      "symbol": "JAMNAAUTO.NS",
-      "pnl": -7565.2334981614185
+      "symbol": "WELSPUNLIV.NS",
+      "pnl": -8233.776182549997
     },
     {
-      "symbol": "GANDHAR.NS",
-      "pnl": -6645.086898890039
+      "symbol": "AMBUJACEM.NS",
+      "pnl": -5509.739653225132
     },
     {
-      "symbol": "ENGINERSIN.NS",
-      "pnl": -8203.18672580292
+      "symbol": "MOTHERSON.NS",
+      "pnl": -5476.541303048735
     },
     {
-      "symbol": "IIFL.NS",
-      "pnl": -2200.3703158450126
+      "symbol": "KAJARIACER.NS",
+      "pnl": -5997.502169999998
     },
     {
-      "symbol": "ABDL.NS",
-      "pnl": -1477.4212887030085
+      "symbol": "ICIL.NS",
+      "pnl": -9136.920756540003
     },
     {
-      "symbol": "MCX.NS",
-      "pnl": -6956.0731500000065
+      "symbol": "PNBHOUSING.NS",
+      "pnl": -6452.209294645028
     },
     {
-      "symbol": "INDOBORAX.NS",
-      "pnl": -12810.85961477332
+      "symbol": "GATEWAY.NS",
+      "pnl": 6804.19125965
     },
     {
-      "symbol": "KARURVYSYA.NS",
-      "pnl": 9278.646056549998
+      "symbol": "KRISHANA.NS",
+      "pnl": 3763.669397760008
     },
     {
-      "symbol": "DWARKESH.NS",
-      "pnl": -9929.995817433275
+      "symbol": "IIFLCAPS.NS",
+      "pnl": -2585.594004399999
     },
     {
-      "symbol": "GABRIEL.NS",
-      "pnl": 2974.784646600002
+      "symbol": "ORIENTCEM.NS",
+      "pnl": -5719.41115434145
     },
     {
-      "symbol": "KTKBANK.NS",
-      "pnl": -5849.3206388211265
+      "symbol": "ESAFSFB.NS",
+      "pnl": -5743.797685167303
     },
     {
-      "symbol": "GPPL.NS",
-      "pnl": 2622.95660091555
+      "symbol": "BBOX.NS",
+      "pnl": -9314.520807810002
     },
     {
-      "symbol": "VMM.NS",
-      "pnl": 10415.666287798324
-    },
-    {
-      "symbol": "MOREPENLAB.NS",
-      "pnl": -14097.511383463765
-    },
-    {
-      "symbol": "LXCHEM.NS",
-      "pnl": -8916.949666143111
-    },
-    {
-      "symbol": "MRPL.NS",
-      "pnl": 2066.2209945700056
-    },
-    {
-      "symbol": "SAGILITY.NS",
-      "pnl": -5603.669286810987
-    },
-    {
-      "symbol": "TRITURBINE.NS",
-      "pnl": 8493.861841919997
-    },
-    {
-      "symbol": "MOTILALOFS.NS",
-      "pnl": -6451.360678502002
-    },
-    {
-      "symbol": "AEGISLOG.NS",
-      "pnl": -7848.948187596139
-    },
-    {
-      "symbol": "FILATEX.NS",
-      "pnl": -10819.60616573472
+      "symbol": "NYKAA.NS",
+      "pnl": -5265.504370506433
     }
   ],
-  "open_positions_now": 69
+  "open_positions_now": 57
 }

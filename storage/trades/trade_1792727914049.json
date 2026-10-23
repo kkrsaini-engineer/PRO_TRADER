@@ -1,0 +1,18 @@
+{
+  "symbol": "KAJARIACER.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 81,
+  "entry_price": 1225.0,
+  "exit_price": 1155.0,
+  "status": "CLOSED",
+  "realized_pnl": -5997.502169999998,
+  "realized_pnl_percent": -6.044345850340134,
+  "max_profit_percent": 2.1877590880102042,
+  "max_drawdown_percent": 7.028571428571421,
+  "regime": "SIDEWAYS",
+  "confidence": 44.98,
+  "reasons": "Healthy risk/reward profile.; Trend reversal detected.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 327.50 deducted",
+  "id": "trade_1792727914049",
+  "timestamp": 1792727914.0498211
+}

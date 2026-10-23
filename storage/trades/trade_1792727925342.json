@@ -1,0 +1,18 @@
+{
+  "symbol": "CYIENT.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 44,
+  "entry_price": 1147.0,
+  "exit_price": 1246.96,
+  "status": "OPEN",
+  "realized_pnl": 4212.630404640003,
+  "realized_pnl_percent": 8.34713165697076,
+  "max_profit_percent": 9.06713164777681,
+  "max_drawdown_percent": 2.1360069747166524,
+  "regime": "BULL",
+  "confidence": 70.44,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 185.61 deducted",
+  "id": "trade_1792727925342",
+  "timestamp": 1792727925.3428385
+}

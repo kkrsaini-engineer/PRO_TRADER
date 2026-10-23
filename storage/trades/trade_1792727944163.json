@@ -1,0 +1,18 @@
+{
+  "symbol": "ANURAS.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 43,
+  "entry_price": 1154.199951171875,
+  "exit_price": 1079.51,
+  "status": "OPEN",
+  "realized_pnl": 3056.8848374519257,
+  "realized_pnl_percent": 6.159274654694148,
+  "max_profit_percent": 6.601971443033605,
+  "max_drawdown_percent": 3.084396045945482,
+  "regime": "BEAR",
+  "confidence": 57.94,
+  "reasons": "Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 154.78 deducted",
+  "id": "trade_1792727944163",
+  "timestamp": 1792727944.1634698
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "ARIHANTCAP.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 1034,
+  "entry_price": 96.62999725341797,
+  "exit_price": 89.9,
+  "status": "CLOSED",
+  "realized_pnl": -7286.564507017474,
+  "realized_pnl_percent": -7.292732907621863,
+  "max_profit_percent": 5.557283348046545,
+  "max_drawdown_percent": 9.231086021406046,
+  "regime": "BULL",
+  "confidence": 56.41,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 327.75 deducted",
+  "id": "trade_1792727894195",
+  "timestamp": 1792727894.1956916
+}

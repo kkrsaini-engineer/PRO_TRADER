@@ -1,0 +1,18 @@
+{
+  "symbol": "DMART.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 14,
+  "entry_price": 3355.89990234375,
+  "exit_price": 3188.78,
+  "status": "OPEN",
+  "realized_pnl": 2191.9705216365983,
+  "realized_pnl_percent": 4.665494428623905,
+  "max_profit_percent": 6.153342054564293,
+  "max_drawdown_percent": 0.12217580308001752,
+  "regime": "BEAR",
+  "confidence": 56.1,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 147.71 deducted",
+  "id": "trade_1792727915079",
+  "timestamp": 1792727915.07916
+}

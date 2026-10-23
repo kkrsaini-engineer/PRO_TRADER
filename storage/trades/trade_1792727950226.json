@@ -1,0 +1,18 @@
+{
+  "symbol": "BBOX.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 107,
+  "entry_price": 930.0,
+  "exit_price": 845.97,
+  "status": "CLOSED",
+  "realized_pnl": -9314.520807810002,
+  "realized_pnl_percent": -9.360386702653003,
+  "max_profit_percent": 0.8064516129032258,
+  "max_drawdown_percent": 8.349464990759408,
+  "regime": "BULL",
+  "confidence": 47.31,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 323.31 deducted",
+  "id": "trade_1792727950226",
+  "timestamp": 1792727950.2263973
+}

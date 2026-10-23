@@ -1,0 +1,18 @@
+{
+  "symbol": "WELSPUNLIV.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 443,
+  "entry_price": 225.5,
+  "exit_price": 207.65,
+  "status": "CLOSED",
+  "realized_pnl": -8233.776182549997,
+  "realized_pnl_percent": -8.24230697026422,
+  "max_profit_percent": 3.9778275923295454,
+  "max_drawdown_percent": 8.199558977012888,
+  "regime": "BULL",
+  "confidence": 53.05,
+  "reasons": "Below preferred risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 326.23 deducted",
+  "id": "trade_1792727899211",
+  "timestamp": 1792727899.211943
+}

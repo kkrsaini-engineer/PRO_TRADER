@@ -1,0 +1,18 @@
+{
+  "symbol": "AXITA.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 1682,
+  "entry_price": 7.429999828338623,
+  "exit_price": 6.99,
+  "status": "OPEN",
+  "realized_pnl": 829.610954148084,
+  "realized_pnl_percent": 5.609138065027362,
+  "max_profit_percent": 6.3257039172333895,
+  "max_drawdown_percent": 2.1534364461088322,
+  "regime": "BEAR",
+  "confidence": 56.34,
+  "reasons": "Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 39.09 deducted",
+  "id": "trade_1792727893213",
+  "timestamp": 1792727893.213031
+}

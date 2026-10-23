@@ -1,0 +1,18 @@
+{
+  "symbol": "ESAFSFB.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 2406,
+  "entry_price": 41.54999923706055,
+  "exit_price": 39.3,
+  "status": "CLOSED",
+  "realized_pnl": -5743.797685167303,
+  "realized_pnl_percent": -5.7455616780698575,
+  "max_profit_percent": 8.303251086132928,
+  "max_drawdown_percent": 3.7545108681232002,
+  "regime": "SIDEWAYS",
+  "confidence": 52.36,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 330.30 deducted",
+  "id": "trade_1792727942054",
+  "timestamp": 1792727942.0541816
+}

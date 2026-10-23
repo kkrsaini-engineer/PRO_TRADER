@@ -24,16 +24,30 @@
         "Below preferred risk/reward profile.",
         "Continue holding position."
       ]
+    },
+    {
+      "date": "2026-10-23",
+      "current_price": 54.08,
+      "current_pnl": -952.1172061157258,
+      "current_buy_confidence": 62.73,
+      "current_sell_confidence": 24.63,
+      "current_exit_score": 78.72,
+      "recommendation": "PARTIAL_EXIT",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "High market volatility.",
+        "High market volatility."
+      ]
     }
   ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 1,
+  "holding_days": 2,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1792640815.583341,
-  "updated_at": 1792640921.9580731
+  "updated_at": 1792727933.4801602
 }

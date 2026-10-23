@@ -1,0 +1,18 @@
+{
+  "symbol": "GATEWAY.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 971,
+  "entry_price": 51.5,
+  "exit_price": 46.75,
+  "status": "CLOSED",
+  "realized_pnl": 6804.19125965,
+  "realized_pnl_percent": 8.916079126213589,
+  "max_profit_percent": 9.048543689320383,
+  "max_drawdown_percent": 0.6601941747572883,
+  "regime": "BEAR",
+  "confidence": 56.94,
+  "reasons": "Break-even stop activated.; Final profit target reached.; Excellent risk/reward profile.; Final target achieved.; costs Rs 153.63 deducted",
+  "id": "trade_1792727924351",
+  "timestamp": 1792727924.3510118
+}

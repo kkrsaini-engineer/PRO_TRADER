@@ -1,0 +1,18 @@
+{
+  "symbol": "OPTIEMUS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 31,
+  "entry_price": 824.9500122070312,
+  "exit_price": 725.02,
+  "status": "CLOSED",
+  "realized_pnl": -6188.868019775525,
+  "realized_pnl_percent": -12.479911267587639,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 14.43723988662014,
+  "regime": "BULL",
+  "confidence": 50.59,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 93.71 deducted",
+  "id": "trade_1792727891024",
+  "timestamp": 1792727891.0244565
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "ORIENTCEM.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 892,
+  "entry_price": 112.05000305175781,
+  "exit_price": 118.09,
+  "status": "CLOSED",
+  "realized_pnl": -5719.41115434145,
+  "realized_pnl_percent": -5.722352287645259,
+  "max_profit_percent": 1.7224455623479824,
+  "max_drawdown_percent": 6.113340729635645,
+  "regime": "BEAR",
+  "confidence": 55.71,
+  "reasons": "Healthy risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 331.73 deducted",
+  "id": "trade_1792727936486",
+  "timestamp": 1792727936.486956
+}

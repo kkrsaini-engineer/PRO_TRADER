@@ -1,0 +1,18 @@
+{
+  "symbol": "MOTHERSON.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 623,
+  "entry_price": 160.38999938964844,
+  "exit_price": 152.13,
+  "status": "CLOSED",
+  "realized_pnl": -5476.541303048735,
+  "realized_pnl_percent": -5.480763155748156,
+  "max_profit_percent": 0.5174897650808619,
+  "max_drawdown_percent": 5.80460092591614,
+  "regime": "SIDEWAYS",
+  "confidence": 46.33,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 330.56 deducted",
+  "id": "trade_1792727911035",
+  "timestamp": 1792727911.0355937
+}

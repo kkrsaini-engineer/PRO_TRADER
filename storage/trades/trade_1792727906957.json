@@ -1,0 +1,18 @@
+{
+  "symbol": "AMBUJACEM.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 285,
+  "entry_price": 350.6000061035156,
+  "exit_price": 368.77,
+  "status": "CLOSED",
+  "realized_pnl": -5509.739653225132,
+  "realized_pnl_percent": -5.514095692904726,
+  "max_profit_percent": 1.1409012921748178,
+  "max_drawdown_percent": 6.0182560570993795,
+  "regime": "BEAR",
+  "confidence": 54.21,
+  "reasons": "Healthy risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 331.29 deducted",
+  "id": "trade_1792727906957",
+  "timestamp": 1792727906.9572651
+}

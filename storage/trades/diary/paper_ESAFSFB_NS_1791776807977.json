@@ -115,16 +115,35 @@
         "Excellent risk/reward profile.",
         "Continue holding position."
       ]
+    },
+    {
+      "date": "2026-10-23",
+      "current_price": 39.99,
+      "current_pnl": -3753.358164367671,
+      "current_buy_confidence": 52.36,
+      "current_sell_confidence": 27.71,
+      "current_exit_score": 90.14,
+      "recommendation": "FULL_EXIT",
+      "notes": [
+        "Excellent risk/reward profile.",
+        "Active stop-loss triggered.",
+        "Stop-loss triggered."
+      ]
     }
   ],
-  "status": "OPEN",
-  "exit_date": null,
-  "exit_price": null,
-  "exit_reason": null,
-  "holding_days": 8,
-  "max_profit_percent": 0.0,
-  "max_drawdown_percent": 0.0,
-  "final_pnl": null,
+  "status": "CLOSED",
+  "exit_date": "2026-10-23",
+  "exit_price": 39.3,
+  "exit_reason": "Stop-loss triggered.",
+  "holding_days": 9,
+  "max_profit_percent": 8.303251086132928,
+  "max_drawdown_percent": 3.7545108681232002,
+  "final_pnl": -5743.797685167303,
   "created_at": 1791776807.9774659,
-  "updated_at": 1792640944.3997402
+  "updated_at": 1792727942.0545151,
+  "final_pnl_percent": -5.7455616780698575,
+  "exit_score": 90.14,
+  "target1_status": "NOT REACHED",
+  "target2_status": "NOT REACHED",
+  "stop_loss_status": "HIT"
 }

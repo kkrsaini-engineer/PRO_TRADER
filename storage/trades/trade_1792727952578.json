@@ -1,0 +1,18 @@
+{
+  "symbol": "NYKAA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 295,
+  "entry_price": 337.95001220703125,
+  "exit_price": 321.22,
+  "status": "CLOSED",
+  "realized_pnl": -5265.504370506433,
+  "realized_pnl_percent": -5.281599855872874,
+  "max_profit_percent": 3.092167868617022,
+  "max_drawdown_percent": 5.592550297789063,
+  "regime": "SIDEWAYS",
+  "confidence": 45.64,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 330.15 deducted",
+  "id": "trade_1792727952578",
+  "timestamp": 1792727952.5788972
+}
