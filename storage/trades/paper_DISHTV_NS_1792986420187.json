@@ -1,0 +1,13 @@
+{
+  "id": "paper_DISHTV_NS_1792986420187",
+  "symbol": "DISHTV.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 50251,
+  "entry_price": 1.9900000095367432,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 68.75,
+  "reasons": "Morning Executor: gap +0.00% (0.00x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792986420.1893122
+}

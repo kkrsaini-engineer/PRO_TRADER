@@ -1,0 +1,13 @@
+{
+  "id": "paper_KRISHANA_NS_1792986424662",
+  "symbol": "KRISHANA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 501,
+  "entry_price": 199.60000610351562,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 66.54,
+  "reasons": "Morning Executor: gap +0.37% (0.09x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1792986424.6641476
+}
