@@ -1,0 +1,18 @@
+{
+  "symbol": "KFINTECH.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 58,
+  "entry_price": 867.2000122070312,
+  "exit_price": 814.33,
+  "status": "OPEN",
+  "realized_pnl": 2909.2793050581854,
+  "realized_pnl_percent": 5.784131378248829,
+  "max_profit_percent": 9.173202385523016,
+  "max_drawdown_percent": 4.139758681691321,
+  "regime": "BEAR",
+  "confidence": 56.8,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 157.18 deducted",
+  "id": "trade_1792986596813",
+  "timestamp": 1792986596.8130457
+}

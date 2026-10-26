@@ -1,0 +1,18 @@
+{
+  "symbol": "JUBLFOOD.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 118,
+  "entry_price": 425.0,
+  "exit_price": 400.64,
+  "status": "OPEN",
+  "realized_pnl": 2717.4507967200043,
+  "realized_pnl_percent": 5.418645656470597,
+  "max_profit_percent": 6.400002872242647,
+  "max_drawdown_percent": 1.0235294117647111,
+  "regime": "BEAR",
+  "confidence": 50.74,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 157.03 deducted",
+  "id": "trade_1792986579869",
+  "timestamp": 1792986579.8696792
+}

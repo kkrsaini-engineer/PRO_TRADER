@@ -1,0 +1,18 @@
+{
+  "symbol": "TIPSMUSIC.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 34,
+  "entry_price": 723.2999877929688,
+  "exit_price": 715.45,
+  "status": "OPEN",
+  "realized_pnl": -721.402252502156,
+  "realized_pnl_percent": -1.4712081589529309,
+  "max_profit_percent": 0.6152374232176793,
+  "max_drawdown_percent": 2.965576188170892,
+  "regime": "BULL",
+  "confidence": 59.23,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 94.90 deducted",
+  "id": "trade_1792986557707",
+  "timestamp": 1792986557.7077498
+}

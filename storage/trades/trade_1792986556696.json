@@ -1,0 +1,18 @@
+{
+  "symbol": "BCLIND.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 1650,
+  "entry_price": 30.299999237060547,
+  "exit_price": 27.77,
+  "status": "OPEN",
+  "realized_pnl": 4020.165613587274,
+  "realized_pnl_percent": 8.041135543180552,
+  "max_profit_percent": 10.924090921737896,
+  "max_drawdown_percent": 5.148519513435981,
+  "regime": "BEAR",
+  "confidence": 54.32,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 154.33 deducted",
+  "id": "trade_1792986556696",
+  "timestamp": 1792986556.696244
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "HYUNDAI.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 26,
+  "entry_price": 1941.0,
+  "exit_price": 1834.91,
+  "status": "OPEN",
+  "realized_pnl": 2600.094588260001,
+  "realized_pnl_percent": 5.1521709433281835,
+  "max_profit_percent": 5.662029881504384,
+  "max_drawdown_percent": 3.7609479649665123,
+  "regime": "BEAR",
+  "confidence": 60.74,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 158.25 deducted",
+  "id": "trade_1792986559854",
+  "timestamp": 1792986559.8542278
+}

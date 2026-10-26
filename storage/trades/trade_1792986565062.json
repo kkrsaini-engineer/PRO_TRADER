@@ -1,0 +1,18 @@
+{
+  "symbol": "VOLTAS.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 47,
+  "entry_price": 1042.5,
+  "exit_price": 939.52,
+  "status": "CLOSED",
+  "realized_pnl": 7315.320744460003,
+  "realized_pnl_percent": 9.572061699760193,
+  "max_profit_percent": 9.908871730740408,
+  "max_drawdown_percent": 0.9208609674760192,
+  "regime": "BEAR",
+  "confidence": 47.13,
+  "reasons": "Break-even stop activated.; Excellent risk/reward profile.; Final target achieved (previous session).; costs Rs 149.99 deducted",
+  "id": "trade_1792986565062",
+  "timestamp": 1792986565.0624545
+}

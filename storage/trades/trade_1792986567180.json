@@ -1,0 +1,18 @@
+{
+  "symbol": "SSWL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 122,
+  "entry_price": 410.0,
+  "exit_price": 461.12,
+  "status": "OPEN",
+  "realized_pnl": 6049.647251040002,
+  "realized_pnl_percent": 12.094456719392248,
+  "max_profit_percent": 19.487804878048777,
+  "max_drawdown_percent": 7.768294171589177,
+  "regime": "BULL",
+  "confidence": 64.57,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; High market volatility.; Partial target achieved (previous session).; Profit protection activated.; costs Rs 186.99 deducted",
+  "id": "trade_1792986567180",
+  "timestamp": 1792986567.180433
+}

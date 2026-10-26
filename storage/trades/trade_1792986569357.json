@@ -1,0 +1,18 @@
+{
+  "symbol": "PETRONET.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 343,
+  "entry_price": 291.3500061035156,
+  "exit_price": 282.0,
+  "status": "CLOSED",
+  "realized_pnl": -3540.630332491798,
+  "realized_pnl_percent": -3.543002298357588,
+  "max_profit_percent": 2.694355908380021,
+  "max_drawdown_percent": 4.118757421867512,
+  "regime": "SIDEWAYS",
+  "confidence": 51.06,
+  "reasons": "Healthy risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 333.58 deducted",
+  "id": "trade_1792986569357",
+  "timestamp": 1792986569.3577921
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "MUTHOOTFIN.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 19,
+  "entry_price": 2610.0,
+  "exit_price": 2371.22,
+  "status": "CLOSED",
+  "realized_pnl": 6845.8098633200025,
+  "realized_pnl_percent": 8.841311088888904,
+  "max_profit_percent": 10.655176155411878,
+  "max_drawdown_percent": 0.888887018079502,
+  "regime": "BEAR",
+  "confidence": 50.26,
+  "reasons": "Break-even stop activated.; Final profit target reached.; Excellent risk/reward profile.; Final target achieved (previous session).; Profit protection activated.; costs Rs 152.41 deducted",
+  "id": "trade_1792986549102",
+  "timestamp": 1792986549.1028092
+}

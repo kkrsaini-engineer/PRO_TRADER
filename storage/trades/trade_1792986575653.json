@@ -1,0 +1,18 @@
+{
+  "symbol": "GOODLUCK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 11,
+  "entry_price": 564.0,
+  "exit_price": 533.99,
+  "status": "CLOSED",
+  "realized_pnl": 2822.0259542900044,
+  "realized_pnl_percent": -5.892302912798186,
+  "max_profit_percent": 9.042553191489363,
+  "max_drawdown_percent": 6.710988579066933,
+  "regime": "BULL",
+  "confidence": 59.24,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 35.45 deducted",
+  "id": "trade_1792986575653",
+  "timestamp": 1792986575.6530132
+}

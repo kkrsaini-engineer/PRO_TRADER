@@ -1,0 +1,18 @@
+{
+  "symbol": "DCBBANK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 477,
+  "entry_price": 209.39999389648438,
+  "exit_price": 195.98,
+  "status": "CLOSED",
+  "realized_pnl": -6729.840327845732,
+  "realized_pnl_percent": -6.73766969619167,
+  "max_profit_percent": 2.196755605346202,
+  "max_drawdown_percent": 6.8290326233502645,
+  "regime": "SIDEWAYS",
+  "confidence": 42.34,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 328.50 deducted",
+  "id": "trade_1792986548081",
+  "timestamp": 1792986548.0815964
+}

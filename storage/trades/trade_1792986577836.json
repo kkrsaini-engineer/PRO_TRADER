@@ -1,0 +1,18 @@
+{
+  "symbol": "CUB.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 432,
+  "entry_price": 231.1699981689453,
+  "exit_price": 216.01,
+  "status": "CLOSED",
+  "realized_pnl": -6877.335752288347,
+  "realized_pnl_percent": -6.886602418977425,
+  "max_profit_percent": 1.6567901809886325,
+  "max_drawdown_percent": 7.483669293582812,
+  "regime": "SIDEWAYS",
+  "confidence": 55.61,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 328.22 deducted",
+  "id": "trade_1792986577836",
+  "timestamp": 1792986577.8365712
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "GAEL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 621,
+  "entry_price": 160.89999389648438,
+  "exit_price": 146.83,
+  "status": "CLOSED",
+  "realized_pnl": -9062.487446184996,
+  "realized_pnl_percent": -9.069843432981896,
+  "max_profit_percent": 0.06215419969497594,
+  "max_drawdown_percent": 9.875695773305791,
+  "regime": "SIDEWAYS",
+  "confidence": 49.64,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 325.02 deducted",
+  "id": "trade_1792986606185",
+  "timestamp": 1792986606.1851747
+}

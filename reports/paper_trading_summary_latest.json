@@ -1,81 +1,97 @@
 {
-  "date": "2026-10-23",
-  "opening_balance": 3162125.630772786,
-  "total_capital_in_positions": 4646853.220000001,
-  "remaining_balance": 4987089.940651087,
-  "portfolio_value": 9633943.160651088,
-  "realized_pnl": -241314.5819617472,
-  "portfolio_return_percent": -3.6605683934891227,
+  "date": "2026-10-26",
+  "opening_balance": 4388441.64155045,
+  "total_capital_in_positions": 3148246.83,
+  "remaining_balance": 6486294.099868096,
+  "portfolio_value": 9634540.929868096,
+  "realized_pnl": -278203.2141149951,
+  "portfolio_return_percent": -3.6545907013190355,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "LLOYDSENGG.NS",
-      "pnl": -9485.606433112855
+      "symbol": "LOTUSDEV.NS",
+      "pnl": -9740.509040399998
     },
     {
-      "symbol": "EDELWEISS.NS",
-      "pnl": -10198.803698650008
+      "symbol": "DCBBANK.NS",
+      "pnl": -6729.840327845732
     },
     {
-      "symbol": "OPTIEMUS.NS",
-      "pnl": -6188.868019775525
+      "symbol": "MUTHOOTFIN.NS",
+      "pnl": 6845.8098633200025
     },
     {
-      "symbol": "ARIHANTCAP.NS",
-      "pnl": -7286.564507017474
+      "symbol": "MOSCHIP.NS",
+      "pnl": 9107.185406391145
     },
     {
-      "symbol": "WELSPUNLIV.NS",
-      "pnl": -8233.776182549997
+      "symbol": "FEDFINA.NS",
+      "pnl": -4174.509261807925
     },
     {
-      "symbol": "AMBUJACEM.NS",
-      "pnl": -5509.739653225132
+      "symbol": "CASTROLIND.NS",
+      "pnl": -3755.4693763353266
     },
     {
-      "symbol": "MOTHERSON.NS",
-      "pnl": -5476.541303048735
+      "symbol": "NAZARA.NS",
+      "pnl": -5295.259458659999
     },
     {
-      "symbol": "KAJARIACER.NS",
-      "pnl": -5997.502169999998
+      "symbol": "VOLTAS.NS",
+      "pnl": 7315.320744460003
     },
     {
-      "symbol": "ICIL.NS",
-      "pnl": -9136.920756540003
+      "symbol": "PETRONET.NS",
+      "pnl": -3540.630332491798
     },
     {
-      "symbol": "PNBHOUSING.NS",
-      "pnl": -6452.209294645028
+      "symbol": "SUNTV.NS",
+      "pnl": -8555.987581230002
     },
     {
-      "symbol": "GATEWAY.NS",
-      "pnl": 6804.19125965
+      "symbol": "RGL.NS",
+      "pnl": -10041.010954776764
     },
     {
-      "symbol": "KRISHANA.NS",
-      "pnl": 3763.669397760008
+      "symbol": "GOODLUCK.NS",
+      "pnl": 2822.0259542900044
     },
     {
-      "symbol": "IIFLCAPS.NS",
-      "pnl": -2585.594004399999
+      "symbol": "CUB.NS",
+      "pnl": -6877.335752288347
     },
     {
-      "symbol": "ORIENTCEM.NS",
-      "pnl": -5719.41115434145
+      "symbol": "SAMBHV.NS",
+      "pnl": -5398.085233953892
     },
     {
-      "symbol": "ESAFSFB.NS",
-      "pnl": -5743.797685167303
+      "symbol": "MUFIN.NS",
+      "pnl": -5923.301542706638
     },
     {
-      "symbol": "BBOX.NS",
-      "pnl": -9314.520807810002
+      "symbol": "KARURVYSYA.NS",
+      "pnl": -5113.9267387416985
     },
     {
-      "symbol": "NYKAA.NS",
-      "pnl": -5265.504370506433
+      "symbol": "HAL.NS",
+      "pnl": -4466.548139999995
+    },
+    {
+      "symbol": "URJA.NS",
+      "pnl": 8043.766639160009
+    },
+    {
+      "symbol": "SHYAMMETL.NS",
+      "pnl": -5184.668411210278
+    },
+    {
+      "symbol": "GAEL.NS",
+      "pnl": -9062.487446184996
+    },
+    {
+      "symbol": "LAURUSLABS.NS",
+      "pnl": -4867.8849199057
     }
   ],
-  "open_positions_now": 57
+  "open_positions_now": 42
 }

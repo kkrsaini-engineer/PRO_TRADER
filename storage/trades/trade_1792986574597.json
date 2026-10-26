@@ -1,0 +1,18 @@
+{
+  "symbol": "RGL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 631,
+  "entry_price": 158.39999389648438,
+  "exit_price": 143.0,
+  "status": "CLOSED",
+  "realized_pnl": -10041.010954776764,
+  "realized_pnl_percent": -10.045994154780754,
+  "max_profit_percent": 1.4457125209350785,
+  "max_drawdown_percent": 9.135102132743377,
+  "regime": "SIDEWAYS",
+  "confidence": 47.33,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 323.61 deducted",
+  "id": "trade_1792986574597",
+  "timestamp": 1792986574.597552
+}

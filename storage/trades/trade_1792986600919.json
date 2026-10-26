@@ -1,0 +1,18 @@
+{
+  "symbol": "DBREALTY.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 582,
+  "entry_price": 85.9800033569336,
+  "exit_price": 78.06,
+  "status": "OPEN",
+  "realized_pnl": 4455.697012808552,
+  "realized_pnl_percent": 8.904206202441244,
+  "max_profit_percent": 10.851364262224351,
+  "max_drawdown_percent": 8.187942557884414,
+  "regime": "BEAR",
+  "confidence": 54.83,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 153.74 deducted",
+  "id": "trade_1792986600919",
+  "timestamp": 1792986600.9192185
+}

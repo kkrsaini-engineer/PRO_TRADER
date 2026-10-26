@@ -1,0 +1,18 @@
+{
+  "symbol": "FEDFINA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 649,
+  "entry_price": 153.89999389648438,
+  "exit_price": 147.98,
+  "status": "CLOSED",
+  "realized_pnl": -4174.509261807925,
+  "realized_pnl_percent": -4.179478827690797,
+  "max_profit_percent": 1.5594602017253636,
+  "max_drawdown_percent": 4.191031321665003,
+  "regime": "SIDEWAYS",
+  "confidence": 46.12,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Trend reversal confirmed.; costs Rs 332.43 deducted",
+  "id": "trade_1792986551169",
+  "timestamp": 1792986551.169711
+}

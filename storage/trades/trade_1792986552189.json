@@ -1,0 +1,18 @@
+{
+  "symbol": "SOUTHBANK.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 458,
+  "entry_price": 54.599998474121094,
+  "exit_price": 52.92,
+  "status": "OPEN",
+  "realized_pnl": -1517.8665264613,
+  "realized_pnl_percent": -3.4586876624687117,
+  "max_profit_percent": 2.9853500250330782,
+  "max_drawdown_percent": 5.311351267813973,
+  "regime": "BULL",
+  "confidence": 72.6,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 95.47 deducted",
+  "id": "trade_1792986552189",
+  "timestamp": 1792986552.1898196
+}

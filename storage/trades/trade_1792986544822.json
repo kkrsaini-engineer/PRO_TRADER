@@ -1,0 +1,18 @@
+{
+  "symbol": "LOTUSDEV.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 420,
+  "entry_price": 238.0,
+  "exit_price": 215.58,
+  "status": "CLOSED",
+  "realized_pnl": -9740.509040399998,
+  "realized_pnl_percent": -9.744406803121247,
+  "max_profit_percent": 4.3697453346573,
+  "max_drawdown_percent": 7.142857142857142,
+  "regime": "BULL",
+  "confidence": 48.33,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 324.11 deducted",
+  "id": "trade_1792986544822",
+  "timestamp": 1792986544.8226104
+}
