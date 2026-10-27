@@ -1,0 +1,18 @@
+{
+  "symbol": "ASHOKLEY.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 337,
+  "entry_price": 148.32000732421875,
+  "exit_price": 140.66,
+  "status": "OPEN",
+  "realized_pnl": 2424.4346473230607,
+  "realized_pnl_percent": 4.8504367163499005,
+  "max_profit_percent": 5.602759174099565,
+  "max_drawdown_percent": 0.7281462506301245,
+  "regime": "BEAR",
+  "confidence": 49.41,
+  "reasons": "Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 156.99 deducted",
+  "id": "trade_1793072917615",
+  "timestamp": 1793072917.615968
+}

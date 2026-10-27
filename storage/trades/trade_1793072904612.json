@@ -1,0 +1,18 @@
+{
+  "symbol": "MBAPL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 600,
+  "entry_price": 166.49000549316406,
+  "exit_price": 155.73,
+  "status": "CLOSED",
+  "realized_pnl": -6784.455349465214,
+  "realized_pnl_percent": -6.7916542791550905,
+  "max_profit_percent": 4.510777980089797,
+  "max_drawdown_percent": 6.601000138482969,
+  "regime": "BULL",
+  "confidence": 51.62,
+  "reasons": "Healthy risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 328.45 deducted",
+  "id": "trade_1793072904612",
+  "timestamp": 1793072904.6122494
+}

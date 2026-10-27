@@ -1,0 +1,18 @@
+{
+  "symbol": "SKYGOLD.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 95,
+  "entry_price": 1042.0,
+  "exit_price": 950.15,
+  "status": "CLOSED",
+  "realized_pnl": -9047.790790750001,
+  "realized_pnl_percent": -9.14010585993535,
+  "max_profit_percent": 3.166986564299424,
+  "max_drawdown_percent": 15.547024952015356,
+  "regime": "BULL",
+  "confidence": 49.89,
+  "reasons": "Healthy risk/reward profile.; High market volatility.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 322.04 deducted",
+  "id": "trade_1793072919693",
+  "timestamp": 1793072919.6932178
+}

@@ -1,97 +1,29 @@
 {
-  "date": "2026-10-26",
-  "opening_balance": 4388441.64155045,
-  "total_capital_in_positions": 3148246.83,
-  "remaining_balance": 6486294.099868096,
-  "portfolio_value": 9634540.929868096,
-  "realized_pnl": -278203.2141149951,
-  "portfolio_return_percent": -3.6545907013190355,
+  "date": "2026-10-27",
+  "opening_balance": 5191775.142097749,
+  "total_capital_in_positions": 4126284.74,
+  "remaining_balance": 5560797.279935187,
+  "portfolio_value": 9687082.019935187,
+  "realized_pnl": -257018.76484998377,
+  "portfolio_return_percent": -3.1291798006481306,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "LOTUSDEV.NS",
-      "pnl": -9740.509040399998
+      "symbol": "MBAPL.NS",
+      "pnl": -6784.455349465214
     },
     {
-      "symbol": "DCBBANK.NS",
-      "pnl": -6729.840327845732
+      "symbol": "MGEL.NS",
+      "pnl": 13197.278531248665
     },
     {
-      "symbol": "MUTHOOTFIN.NS",
-      "pnl": 6845.8098633200025
+      "symbol": "SKYGOLD.NS",
+      "pnl": -9047.790790750001
     },
     {
-      "symbol": "MOSCHIP.NS",
-      "pnl": 9107.185406391145
-    },
-    {
-      "symbol": "FEDFINA.NS",
-      "pnl": -4174.509261807925
-    },
-    {
-      "symbol": "CASTROLIND.NS",
-      "pnl": -3755.4693763353266
-    },
-    {
-      "symbol": "NAZARA.NS",
-      "pnl": -5295.259458659999
-    },
-    {
-      "symbol": "VOLTAS.NS",
-      "pnl": 7315.320744460003
-    },
-    {
-      "symbol": "PETRONET.NS",
-      "pnl": -3540.630332491798
-    },
-    {
-      "symbol": "SUNTV.NS",
-      "pnl": -8555.987581230002
-    },
-    {
-      "symbol": "RGL.NS",
-      "pnl": -10041.010954776764
-    },
-    {
-      "symbol": "GOODLUCK.NS",
-      "pnl": 2822.0259542900044
-    },
-    {
-      "symbol": "CUB.NS",
-      "pnl": -6877.335752288347
-    },
-    {
-      "symbol": "SAMBHV.NS",
-      "pnl": -5398.085233953892
-    },
-    {
-      "symbol": "MUFIN.NS",
-      "pnl": -5923.301542706638
-    },
-    {
-      "symbol": "KARURVYSYA.NS",
-      "pnl": -5113.9267387416985
-    },
-    {
-      "symbol": "HAL.NS",
-      "pnl": -4466.548139999995
-    },
-    {
-      "symbol": "URJA.NS",
-      "pnl": 8043.766639160009
-    },
-    {
-      "symbol": "SHYAMMETL.NS",
-      "pnl": -5184.668411210278
-    },
-    {
-      "symbol": "GAEL.NS",
-      "pnl": -9062.487446184996
-    },
-    {
-      "symbol": "LAURUSLABS.NS",
-      "pnl": -4867.8849199057
+      "symbol": "SSWL.NS",
+      "pnl": 18480.49421839
     }
   ],
-  "open_positions_now": 42
+  "open_positions_now": 51
 }
