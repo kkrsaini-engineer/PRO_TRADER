@@ -1,0 +1,13 @@
+{
+  "id": "paper_HCC_NS_1793072822077",
+  "symbol": "HCC.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 5780,
+  "entry_price": 17.299999237060547,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 69.4,
+  "reasons": "Morning Executor: gap -0.46% (0.10x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793072822.07875
+}

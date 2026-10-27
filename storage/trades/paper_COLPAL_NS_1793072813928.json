@@ -1,0 +1,13 @@
+{
+  "id": "paper_COLPAL_NS_1793072813928",
+  "symbol": "COLPAL.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 61,
+  "entry_price": 1622.199951171875,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 70.51,
+  "reasons": "Morning Executor: gap +1.07% (0.32x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793072813.9301686
+}
