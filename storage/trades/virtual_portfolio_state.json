@@ -1,10 +1,10 @@
 {
   "total_capital": 10000000.0,
-  "available_capital": 5560797.279935187,
-  "used_capital": 4130280.662964165,
-  "total_pnl": -257018.76484998377,
-  "total_pnl_percent": -2.5701876484998376,
-  "exposure": 0.41302806629641653,
+  "available_capital": 5269147.750787085,
+  "used_capital": 4421930.192112267,
+  "total_pnl": -257018.76484998388,
+  "total_pnl_percent": -2.5701876484998385,
+  "exposure": 0.4421930192112267,
   "risk_score": 0.0,
   "peak_equity": 10003471.560464654,
   "day_start_equity": 9721796.785885002,
@@ -982,6 +982,63 @@
       "updated_at": 1793072957.7768912,
       "partial_taken": false,
       "stop_level": 1048.41
+    },
+    "360ONE.NS": {
+      "symbol": "360ONE.NS",
+      "quantity": 102,
+      "entry_price": 973.0,
+      "current_price": 973.0,
+      "direction": "SELL",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 973.0,
+      "lowest_price": 973.0,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1793159204.926119,
+      "partial_taken": false,
+      "stop_level": null
+    },
+    "MGEL.NS": {
+      "symbol": "MGEL.NS",
+      "quantity": 5583,
+      "entry_price": 17.90999984741211,
+      "current_price": 17.90999984741211,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 17.90999984741211,
+      "lowest_price": 17.90999984741211,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1793159206.5950825,
+      "partial_taken": false,
+      "stop_level": null
+    },
+    "POLYCAB.NS": {
+      "symbol": "POLYCAB.NS",
+      "quantity": 12,
+      "entry_price": 7701.0,
+      "current_price": 7701.0,
+      "direction": "SELL",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 7701.0,
+      "lowest_price": 7701.0,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1793159208.6199558,
+      "partial_taken": false,
+      "stop_level": null
     }
   },
   "closed_positions": [
@@ -2846,5 +2903,5 @@
     "CENTRALBK.NS": "Financial Services",
     "HCC.NS": "Industrials"
   },
-  "saved_at": 1793072964.7146418
+  "saved_at": 1793159208.8669667
 }

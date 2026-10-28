@@ -1,0 +1,13 @@
+{
+  "id": "paper_360ONE_NS_1793159204926",
+  "symbol": "360ONE.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 102,
+  "entry_price": 973.0,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 74.12,
+  "reasons": "Morning Executor: gap -0.21% (0.06x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793159204.9273212
+}
