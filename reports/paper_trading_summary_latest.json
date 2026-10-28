@@ -1,28 +1,24 @@
 {
-  "date": "2026-10-27",
-  "opening_balance": 5191775.142097749,
-  "total_capital_in_positions": 4126284.74,
-  "remaining_balance": 5560797.279935187,
-  "portfolio_value": 9687082.019935187,
-  "realized_pnl": -257018.76484998377,
-  "portfolio_return_percent": -3.1291798006481306,
+  "date": "2026-10-28",
+  "opening_balance": 5269147.750787085,
+  "total_capital_in_positions": 4145597.0700000003,
+  "remaining_balance": 5550145.038448522,
+  "portfolio_value": 9695742.108448522,
+  "realized_pnl": -271189.9352105499,
+  "portfolio_return_percent": -3.042578915514778,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "MBAPL.NS",
-      "pnl": -6784.455349465214
+      "symbol": "KFINTECH.NS",
+      "pnl": 2646.94537718813
     },
     {
-      "symbol": "MGEL.NS",
-      "pnl": 13197.278531248665
+      "symbol": "JUBLFOOD.NS",
+      "pnl": 2556.9384967200062
     },
     {
-      "symbol": "SKYGOLD.NS",
-      "pnl": -9047.790790750001
-    },
-    {
-      "symbol": "SSWL.NS",
-      "pnl": 18480.49421839
+      "symbol": "BCLIND.NS",
+      "pnl": 3858.7804966745443
     }
   ],
   "open_positions_now": 51

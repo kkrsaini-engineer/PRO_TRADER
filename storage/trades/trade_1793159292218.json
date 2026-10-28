@@ -1,0 +1,18 @@
+{
+  "symbol": "BCLIND.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 1650,
+  "entry_price": 30.299999237060547,
+  "exit_price": 30.3,
+  "status": "CLOSED",
+  "realized_pnl": 3858.7804966745443,
+  "realized_pnl_percent": -0.3228025222048797,
+  "max_profit_percent": 10.924090921737896,
+  "max_drawdown_percent": 5.148519513435981,
+  "regime": "BEAR",
+  "confidence": 44.84,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 161.38 deducted",
+  "id": "trade_1793159292218",
+  "timestamp": 1793159292.218171
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "TECHM.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 28,
+  "entry_price": 1784.0,
+  "exit_price": 1740.4,
+  "status": "OPEN",
+  "realized_pnl": -1396.0962447999955,
+  "realized_pnl_percent": -2.7948755701473322,
+  "max_profit_percent": 0.18497757847533378,
+  "max_drawdown_percent": 2.847533632286993,
+  "regime": "BULL",
+  "confidence": 65.66,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 175.30 deducted",
+  "id": "trade_1793159317258",
+  "timestamp": 1793159317.2589397
+}
