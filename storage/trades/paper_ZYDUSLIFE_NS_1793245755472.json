@@ -1,0 +1,13 @@
+{
+  "id": "paper_ZYDUSLIFE_NS_1793245755472",
+  "symbol": "ZYDUSLIFE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 85,
+  "entry_price": 1175.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 66.89,
+  "reasons": "Morning Executor: gap +0.22% (0.08x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793245755.474111
+}

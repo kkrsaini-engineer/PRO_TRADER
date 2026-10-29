@@ -1,0 +1,13 @@
+{
+  "id": "paper_MAHLOG_NS_1793245740586",
+  "symbol": "MAHLOG.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 234,
+  "entry_price": 427.20001220703125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.34,
+  "reasons": "Morning Executor: gap -1.61% (0.33x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793245740.5891428
+}

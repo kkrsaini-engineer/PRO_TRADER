@@ -1,0 +1,13 @@
+{
+  "id": "paper_APLAPOLLO_NS_1793245721595",
+  "symbol": "APLAPOLLO.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 46,
+  "entry_price": 2169.10009765625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.8,
+  "reasons": "Morning Executor: gap -2.02% (0.68x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793245721.755645
+}

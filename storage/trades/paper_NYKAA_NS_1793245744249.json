@@ -1,0 +1,13 @@
+{
+  "id": "paper_NYKAA_NS_1793245744249",
+  "symbol": "NYKAA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 291,
+  "entry_price": 342.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.93,
+  "reasons": "Morning Executor: gap +0.91% (0.29x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793245744.2503676
+}

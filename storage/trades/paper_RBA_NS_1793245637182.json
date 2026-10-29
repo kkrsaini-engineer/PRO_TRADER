@@ -1,0 +1,13 @@
+{
+  "id": "paper_RBA_NS_1793245637182",
+  "symbol": "RBA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 1050,
+  "entry_price": 95.2300033569336,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.59,
+  "reasons": "Morning Executor: gap -0.72% (0.17x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793245637.1833413
+}

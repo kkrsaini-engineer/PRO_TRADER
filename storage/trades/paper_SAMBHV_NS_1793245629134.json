@@ -1,0 +1,13 @@
+{
+  "id": "paper_SAMBHV_NS_1793245629134",
+  "symbol": "SAMBHV.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 597,
+  "entry_price": 167.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 77.72,
+  "reasons": "Morning Executor: gap -0.63% (0.14x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793245629.1383848
+}

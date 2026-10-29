@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_ARIHANTCAP_NS_1793245621123",
+  "symbol": "ARIHANTCAP.NS",
+  "direction": "BUY",
+  "entry_date": "2026-10-29",
+  "entry_price": 91.19000244140625,
+  "buy_probability": 88.23,
+  "buy_confidence": 75.82,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -1.43% (0.29x ATR, NORMAL band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1793245621.1232083,
+  "updated_at": 1793245621.1232083
+}

@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_SUZLON_NS_1793245633271",
+  "symbol": "SUZLON.NS",
+  "direction": "SELL",
+  "entry_date": "2026-10-29",
+  "entry_price": 37.599998474121094,
+  "buy_probability": 86.34,
+  "buy_confidence": 71.87,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +1.84% (0.54x ATR, NORMAL band)",
+    "No company-specific news available. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1793245633.2713249,
+  "updated_at": 1793245633.271325
+}

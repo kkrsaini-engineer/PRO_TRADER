@@ -1,0 +1,13 @@
+{
+  "id": "paper_ARIHANTCAP_NS_1793245621123",
+  "symbol": "ARIHANTCAP.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 1096,
+  "entry_price": 91.19000244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 75.82,
+  "reasons": "Morning Executor: gap -1.43% (0.29x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793245621.240205
+}

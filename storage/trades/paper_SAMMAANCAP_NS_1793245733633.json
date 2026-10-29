@@ -1,0 +1,13 @@
+{
+  "id": "paper_SAMMAANCAP_NS_1793245733633",
+  "symbol": "SAMMAANCAP.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 862,
+  "entry_price": 116.0,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 67.16,
+  "reasons": "Morning Executor: gap +1.78% (0.41x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793245733.634738
+}
