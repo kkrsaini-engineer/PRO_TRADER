@@ -1,0 +1,18 @@
+{
+  "symbol": "SBILIFE.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 29,
+  "entry_price": 1688.9000244140625,
+  "exit_price": 1688.9,
+  "status": "CLOSED",
+  "realized_pnl": 2094.721430112866,
+  "realized_pnl_percent": -0.32279855199849417,
+  "max_profit_percent": 4.807867373343108,
+  "max_drawdown_percent": 0.6868361311062169,
+  "regime": "BEAR",
+  "confidence": 53.36,
+  "reasons": "Excellent risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 158.10 deducted",
+  "id": "trade_1793245848863",
+  "timestamp": 1793245848.863164
+}

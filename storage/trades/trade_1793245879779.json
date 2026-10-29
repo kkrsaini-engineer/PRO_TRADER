@@ -1,0 +1,18 @@
+{
+  "symbol": "ANURAS.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 43,
+  "entry_price": 1154.199951171875,
+  "exit_price": 1154.2,
+  "status": "CLOSED",
+  "realized_pnl": 2896.6751642738523,
+  "realized_pnl_percent": -0.3228042376189316,
+  "max_profit_percent": 6.645291493384703,
+  "max_drawdown_percent": 3.084396045945482,
+  "regime": "BEAR",
+  "confidence": 44.66,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 160.21 deducted",
+  "id": "trade_1793245879779",
+  "timestamp": 1793245879.7790806
+}

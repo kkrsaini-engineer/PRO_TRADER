@@ -1,0 +1,18 @@
+{
+  "symbol": "AXITA.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 1683,
+  "entry_price": 7.429999828338623,
+  "exit_price": 7.59,
+  "status": "CLOSED",
+  "realized_pnl": 519.5107124466133,
+  "realized_pnl_percent": -2.479871543124786,
+  "max_profit_percent": 6.3257039172333895,
+  "max_drawdown_percent": 4.710637813675266,
+  "regime": "BEAR",
+  "confidence": 55.54,
+  "reasons": "Excellent risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 40.82 deducted",
+  "id": "trade_1793245908982",
+  "timestamp": 1793245908.9827387
+}

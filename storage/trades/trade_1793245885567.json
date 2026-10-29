@@ -1,0 +1,18 @@
+{
+  "symbol": "HYUNDAI.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 25,
+  "entry_price": 1941.0,
+  "exit_price": 1941.0,
+  "status": "CLOSED",
+  "realized_pnl": 2443.4558882599986,
+  "realized_pnl_percent": -0.32280000000000414,
+  "max_profit_percent": 5.873261205564142,
+  "max_drawdown_percent": 3.7609479649665123,
+  "regime": "BEAR",
+  "confidence": 55.89,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 156.64 deducted",
+  "id": "trade_1793245885567",
+  "timestamp": 1793245885.5676723
+}
