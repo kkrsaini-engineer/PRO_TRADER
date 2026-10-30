@@ -1,0 +1,18 @@
+{
+  "symbol": "GESHIP.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 32,
+  "entry_price": 1531.0999755859375,
+  "exit_price": 1626.17,
+  "status": "OPEN",
+  "realized_pnl": 2863.472269609534,
+  "realized_pnl_percent": 5.844393563591656,
+  "max_profit_percent": 7.569722830784362,
+  "max_drawdown_percent": 4.643718680664743,
+  "regime": "BULL",
+  "confidence": 78.53,
+  "reasons": "Break-even stop activated.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 178.77 deducted",
+  "id": "trade_1793332181838",
+  "timestamp": 1793332181.8387878
+}

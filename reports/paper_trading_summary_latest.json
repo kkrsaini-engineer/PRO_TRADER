@@ -1,29 +1,17 @@
 {
-  "date": "2026-10-29",
-  "opening_balance": 3256698.5220932458,
-  "total_capital_in_positions": 6149803.439999998,
-  "remaining_balance": 3576602.243791789,
-  "portfolio_value": 9726405.683791786,
-  "realized_pnl": -246134.23648736504,
-  "portfolio_return_percent": -2.7359431620821355,
+  "date": "2026-10-30",
+  "opening_balance": 3178719.29204008,
+  "total_capital_in_positions": 6140869.450000003,
+  "remaining_balance": 3602460.7974855043,
+  "portfolio_value": 9743330.247485507,
+  "realized_pnl": -229271.7750690412,
+  "portfolio_return_percent": -2.566697525144927,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "SBILIFE.NS",
-      "pnl": 2094.721430112866
-    },
-    {
-      "symbol": "ANURAS.NS",
-      "pnl": 2896.6751642738523
-    },
-    {
-      "symbol": "HYUNDAI.NS",
-      "pnl": 2443.4558882599986
-    },
-    {
-      "symbol": "AXITA.NS",
-      "pnl": 519.5107124466133
+      "symbol": "CYIENT.NS",
+      "pnl": 3951.6245706400073
     }
   ],
-  "open_positions_now": 70
+  "open_positions_now": 73
 }

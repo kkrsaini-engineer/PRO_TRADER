@@ -1,0 +1,18 @@
+{
+  "symbol": "MAHLOG.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 58,
+  "entry_price": 427.20001220703125,
+  "exit_price": 422.55,
+  "status": "OPEN",
+  "realized_pnl": 205.17524526143893,
+  "realized_pnl_percent": -1.4739027317750333,
+  "max_profit_percent": 1.9896974602260646,
+  "max_drawdown_percent": 1.287456004183311,
+  "regime": "BULL",
+  "confidence": 56.69,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 95.50 deducted",
+  "id": "trade_1793332218708",
+  "timestamp": 1793332218.7085402
+}

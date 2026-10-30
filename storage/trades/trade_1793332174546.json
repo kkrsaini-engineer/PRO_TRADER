@@ -1,0 +1,18 @@
+{
+  "symbol": "CYIENT.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 43,
+  "entry_price": 1147.0,
+  "exit_price": 1145.0,
+  "status": "CLOSED",
+  "realized_pnl": 3951.6245706400073,
+  "realized_pnl_percent": -0.5291981792745393,
+  "max_profit_percent": 11.333914559721011,
+  "max_drawdown_percent": 2.1360069747166524,
+  "regime": "BULL",
+  "confidence": 47.17,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 175.01 deducted",
+  "id": "trade_1793332174546",
+  "timestamp": 1793332174.546374
+}
