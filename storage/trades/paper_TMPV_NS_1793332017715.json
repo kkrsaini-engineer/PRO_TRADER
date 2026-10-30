@@ -1,0 +1,13 @@
+{
+  "id": "paper_TMPV_NS_1793332017715",
+  "symbol": "TMPV.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 375,
+  "entry_price": 266.0,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 66.15,
+  "reasons": "Morning Executor: gap +0.91% (0.32x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793332017.7169273
+}

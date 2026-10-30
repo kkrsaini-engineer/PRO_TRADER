@@ -1,0 +1,13 @@
+{
+  "id": "paper_SONACOMS_NS_1793332014840",
+  "symbol": "SONACOMS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 114,
+  "entry_price": 870.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.3,
+  "reasons": "Morning Executor: gap -1.07% (0.32x ATR, NORMAL band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793332014.842098
+}
