@@ -1,0 +1,13 @@
+{
+  "id": "paper_FSL_NS_1793591230183",
+  "symbol": "FSL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 341,
+  "entry_price": 292.8999938964844,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.17,
+  "reasons": "Morning Executor: gap -4.42% (1.18x ATR, WARNING band); No company-specific news available. | No macro headlines available.",
+  "timestamp": 1793591230.2621388
+}
