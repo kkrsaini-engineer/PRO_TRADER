@@ -1,0 +1,18 @@
+{
+  "symbol": "RBA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 1050,
+  "entry_price": 95.2300033569336,
+  "exit_price": 87.45,
+  "status": "CLOSED",
+  "realized_pnl": -8495.134001733632,
+  "realized_pnl_percent": -8.495855850020632,
+  "max_profit_percent": 6.059011277611489,
+  "max_drawdown_percent": 8.432223170878164,
+  "regime": "SIDEWAYS",
+  "confidence": 42.48,
+  "reasons": "Healthy risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 326.13 deducted",
+  "id": "trade_1793591388685",
+  "timestamp": 1793591388.6851282
+}

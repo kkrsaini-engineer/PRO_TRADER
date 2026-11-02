@@ -1,0 +1,18 @@
+{
+  "symbol": "INDIGO.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 21,
+  "entry_price": 4590.0,
+  "exit_price": 4814.27,
+  "status": "CLOSED",
+  "realized_pnl": -5028.771552630018,
+  "realized_pnl_percent": -5.217109194553396,
+  "max_profit_percent": 0.18954673883442266,
+  "max_drawdown_percent": 6.9411764705882435,
+  "regime": "SIDEWAYS",
+  "confidence": 51.91,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 319.10 deducted",
+  "id": "trade_1793591391925",
+  "timestamp": 1793591391.9252868
+}

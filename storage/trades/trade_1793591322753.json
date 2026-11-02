@@ -1,0 +1,18 @@
+{
+  "symbol": "KRISHANA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 251,
+  "entry_price": 199.60000610351562,
+  "exit_price": 228.7,
+  "status": "CLOSED",
+  "realized_pnl": 11680.88696827394,
+  "realized_pnl_percent": 14.202120833611575,
+  "max_profit_percent": 15.931860182405213,
+  "max_drawdown_percent": 1.2525080295934905,
+  "regime": "BULL",
+  "confidence": 62.07,
+  "reasons": "Break-even stop activated.; Final profit target reached.; Excellent risk/reward profile.; Final target achieved (previous session).; Profit protection activated.; costs Rs 188.89 deducted",
+  "id": "trade_1793591322753",
+  "timestamp": 1793591322.7536242
+}

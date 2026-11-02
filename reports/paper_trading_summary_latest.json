@@ -1,17 +1,49 @@
 {
-  "date": "2026-10-30",
-  "opening_balance": 3178719.29204008,
-  "total_capital_in_positions": 6140869.450000003,
-  "remaining_balance": 3602460.7974855043,
-  "portfolio_value": 9743330.247485507,
-  "realized_pnl": -229271.7750690412,
-  "portfolio_return_percent": -2.566697525144927,
+  "date": "2026-11-02",
+  "opening_balance": 2805808.3884736635,
+  "total_capital_in_positions": 5806636.090000002,
+  "remaining_balance": 3891012.5911136605,
+  "portfolio_value": 9697648.681113662,
+  "realized_pnl": -259069.55446731285,
+  "portfolio_return_percent": -3.023513188863378,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "CYIENT.NS",
-      "pnl": 3951.6245706400073
+      "symbol": "IREDA.NS",
+      "pnl": -541.8092779345444
+    },
+    {
+      "symbol": "KRISHANA.NS",
+      "pnl": 11680.88696827394
+    },
+    {
+      "symbol": "RAIN.NS",
+      "pnl": -6494.519272753292
+    },
+    {
+      "symbol": "360ONE.NS",
+      "pnl": -3237.3846248999944
+    },
+    {
+      "symbol": "MSUMI.NS",
+      "pnl": -9063.560133639501
+    },
+    {
+      "symbol": "SAGILITY.NS",
+      "pnl": -5472.369809503104
+    },
+    {
+      "symbol": "RBA.NS",
+      "pnl": -8495.134001733632
+    },
+    {
+      "symbol": "INDIGO.NS",
+      "pnl": -5028.771552630018
+    },
+    {
+      "symbol": "SAMBHV.NS",
+      "pnl": -9315.705058019996
     }
   ],
-  "open_positions_now": 73
+  "open_positions_now": 72
 }

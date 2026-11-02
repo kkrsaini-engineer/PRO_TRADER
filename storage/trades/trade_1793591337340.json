@@ -1,0 +1,18 @@
+{
+  "symbol": "RAIN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 475,
+  "entry_price": 210.3800048828125,
+  "exit_price": 197.4,
+  "status": "CLOSED",
+  "realized_pnl": -6494.519272753292,
+  "realized_pnl_percent": -6.4990359520054595,
+  "max_profit_percent": 2.1009592481982184,
+  "max_drawdown_percent": 8.26124369209595,
+  "regime": "SIDEWAYS",
+  "confidence": 41.91,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Trend reversal confirmed.; costs Rs 329.02 deducted",
+  "id": "trade_1793591337340",
+  "timestamp": 1793591337.3407419
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "COFORGE.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 26,
+  "entry_price": 1925.0,
+  "exit_price": 2065.0,
+  "status": "OPEN",
+  "realized_pnl": 3456.90664,
+  "realized_pnl_percent": 6.9069063736263745,
+  "max_profit_percent": 7.885714285714294,
+  "max_drawdown_percent": 5.859742796266234,
+  "regime": "BULL",
+  "confidence": 62.49,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 183.09 deducted",
+  "id": "trade_1793591359460",
+  "timestamp": 1793591359.4608567
+}
