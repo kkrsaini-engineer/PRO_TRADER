@@ -1,0 +1,13 @@
+{
+  "id": "paper_SATIN_NS_1793677628840",
+  "symbol": "SATIN.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 417,
+  "entry_price": 239.3699951171875,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 79.05,
+  "reasons": "Morning Executor: gap +0.19% (0.04x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'SATIN.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793677628.8461242
+}

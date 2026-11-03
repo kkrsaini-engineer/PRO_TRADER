@@ -1,10 +1,10 @@
 {
   "total_capital": 10000000.0,
-  "available_capital": 3891012.5911136605,
-  "used_capital": 5800715.672881663,
-  "total_pnl": -259069.55446731285,
-  "total_pnl_percent": -2.5906955446731286,
-  "exposure": 0.5800715672881663,
+  "available_capital": 3591742.3031497933,
+  "used_capital": 6099985.96084553,
+  "total_pnl": -259069.5544673129,
+  "total_pnl_percent": -2.590695544673129,
+  "exposure": 0.609998596084553,
   "risk_score": 0.0,
   "peak_equity": 10003471.560464654,
   "day_start_equity": 9770728.224930957,
@@ -1381,6 +1381,63 @@
       "updated_at": 1793591378.9594421,
       "partial_taken": false,
       "stop_level": 3004.65
+    },
+    "SATIN.NS": {
+      "symbol": "SATIN.NS",
+      "quantity": 417,
+      "entry_price": 239.3699951171875,
+      "current_price": 239.3699951171875,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 239.3699951171875,
+      "lowest_price": 239.3699951171875,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1793677628.840471,
+      "partial_taken": false,
+      "stop_level": null
+    },
+    "ICICIBANK.NS": {
+      "symbol": "ICICIBANK.NS",
+      "quantity": 71,
+      "entry_price": 1403.0,
+      "current_price": 1403.0,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 1403.0,
+      "lowest_price": 1403.0,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1793677648.9054484,
+      "partial_taken": false,
+      "stop_level": null
+    },
+    "PPLPHARMA.NS": {
+      "symbol": "PPLPHARMA.NS",
+      "quantity": 416,
+      "entry_price": 240.0,
+      "current_price": 240.0,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 240.0,
+      "lowest_price": 240.0,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1793677669.2001882,
+      "partial_taken": false,
+      "stop_level": null
     }
   },
   "closed_positions": [
@@ -3595,5 +3652,5 @@
     "FSL.NS": "Technology",
     "MARKSANS.NS": "Healthcare"
   },
-  "saved_at": 1793591407.3862126
+  "saved_at": 1793677670.0173643
 }

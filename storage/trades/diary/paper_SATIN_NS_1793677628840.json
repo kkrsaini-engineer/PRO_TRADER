@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_SATIN_NS_1793677628840",
+  "symbol": "SATIN.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-03",
+  "entry_price": 239.3699951171875,
+  "buy_probability": 90.55,
+  "buy_confidence": 79.05,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.19% (0.04x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'SATIN.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1793677628.8404925,
+  "updated_at": 1793677628.8404925
+}

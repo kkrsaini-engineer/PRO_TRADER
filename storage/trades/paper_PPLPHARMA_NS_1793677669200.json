@@ -1,0 +1,13 @@
+{
+  "id": "paper_PPLPHARMA_NS_1793677669200",
+  "symbol": "PPLPHARMA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 416,
+  "entry_price": 240.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 76.66,
+  "reasons": "Morning Executor: gap +0.46% (0.11x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'PPLPHARMA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793677669.201676
+}
