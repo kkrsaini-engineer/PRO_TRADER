@@ -1,0 +1,18 @@
+{
+  "symbol": "SYRMA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 61,
+  "entry_price": 1635.0,
+  "exit_price": 1475.6,
+  "status": "CLOSED",
+  "realized_pnl": -10046.310267400007,
+  "realized_pnl_percent": -10.07300372727729,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 8.9480122324159,
+  "regime": "SIDEWAYS",
+  "confidence": 45.69,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 322.91 deducted",
+  "id": "trade_1793677883454",
+  "timestamp": 1793677883.4545825
+}

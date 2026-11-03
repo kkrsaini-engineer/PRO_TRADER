@@ -1,0 +1,18 @@
+{
+  "symbol": "PERSISTENT.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 8,
+  "entry_price": 5742.0,
+  "exit_price": 6097.2,
+  "status": "OPEN",
+  "realized_pnl": 2673.015369599998,
+  "realized_pnl_percent": 5.818998975966558,
+  "max_profit_percent": 6.321839080459771,
+  "max_drawdown_percent": 2.4730059212817834,
+  "regime": "BULL",
+  "confidence": 55.31,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 168.58 deducted",
+  "id": "trade_1793677951397",
+  "timestamp": 1793677951.3972213
+}

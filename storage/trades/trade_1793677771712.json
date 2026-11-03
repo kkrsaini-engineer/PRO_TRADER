@@ -1,0 +1,18 @@
+{
+  "symbol": "PPLPHARMA.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 208,
+  "entry_price": 240.0,
+  "exit_price": 239.59,
+  "status": "OPEN",
+  "realized_pnl": -262.22051407999925,
+  "realized_pnl_percent": -0.5252814785256396,
+  "max_profit_percent": 0.7416666666666671,
+  "max_drawdown_percent": 0.4999999999999952,
+  "regime": "BULL",
+  "confidence": 57.48,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 176.94 deducted",
+  "id": "trade_1793677771712",
+  "timestamp": 1793677771.712375
+}

@@ -6,20 +6,35 @@
   "entry_price": 240.0,
   "buy_probability": 88.93,
   "buy_confidence": 76.66,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 57.48,
   "entry_reasons": [
     "Morning Executor: gap +0.46% (0.11x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'PPLPHARMA.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'PPLPHARMA.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-03",
+      "current_price": 239.59,
+      "current_pnl": -170.55999999999858,
+      "current_buy_confidence": 57.48,
+      "current_sell_confidence": 25.1,
+      "current_exit_score": 78.3,
+      "recommendation": "PARTIAL_EXIT",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "High market volatility.",
+        "High market volatility."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1793677669.200209,
-  "updated_at": 1793677669.200209
+  "updated_at": 1793677771.711691
 }

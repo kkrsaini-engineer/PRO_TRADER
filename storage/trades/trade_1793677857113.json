@@ -1,0 +1,18 @@
+{
+  "symbol": "JINDALSTEL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 97,
+  "entry_price": 1026.0,
+  "exit_price": 1081.13,
+  "status": "CLOSED",
+  "realized_pnl": -5677.899129290008,
+  "realized_pnl_percent": -5.705169841130613,
+  "max_profit_percent": 2.4561415406463207,
+  "max_drawdown_percent": 7.962962962962967,
+  "regime": "SIDEWAYS",
+  "confidence": 53.6,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 330.29 deducted",
+  "id": "trade_1793677857113",
+  "timestamp": 1793677857.1131334
+}

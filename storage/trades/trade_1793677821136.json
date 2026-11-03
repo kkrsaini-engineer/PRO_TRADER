@@ -1,0 +1,18 @@
+{
+  "symbol": "ASHOKLEY.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 337,
+  "entry_price": 148.32000732421875,
+  "exit_price": 148.32,
+  "status": "CLOSED",
+  "realized_pnl": 2263.0892762661283,
+  "realized_pnl_percent": -0.32279505354031607,
+  "max_profit_percent": 5.602759174099565,
+  "max_drawdown_percent": 3.627287223645353,
+  "regime": "BEAR",
+  "confidence": 55.03,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 161.35 deducted",
+  "id": "trade_1793677821136",
+  "timestamp": 1793677821.1367033
+}

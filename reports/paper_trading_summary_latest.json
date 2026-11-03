@@ -1,49 +1,41 @@
 {
-  "date": "2026-11-02",
-  "opening_balance": 2805808.3884736635,
-  "total_capital_in_positions": 5806636.090000002,
-  "remaining_balance": 3891012.5911136605,
-  "portfolio_value": 9697648.681113662,
-  "realized_pnl": -259069.55446731285,
-  "portfolio_return_percent": -3.023513188863378,
+  "date": "2026-11-03",
+  "opening_balance": 3591742.3031497933,
+  "total_capital_in_positions": 5338804.369999999,
+  "remaining_balance": 4390982.395564768,
+  "portfolio_value": 9729786.765564768,
+  "realized_pnl": -317187.09085746,
+  "portfolio_return_percent": -2.7021323443523237,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "IREDA.NS",
-      "pnl": -541.8092779345444
+      "symbol": "SHYAMMETL.NS",
+      "pnl": -337.1168606675692
     },
     {
-      "symbol": "KRISHANA.NS",
-      "pnl": 11680.88696827394
+      "symbol": "ASHOKLEY.NS",
+      "pnl": 2263.0892762661283
     },
     {
-      "symbol": "RAIN.NS",
-      "pnl": -6494.519272753292
+      "symbol": "TRIVENI.NS",
+      "pnl": -2104.957904349203
     },
     {
-      "symbol": "360ONE.NS",
-      "pnl": -3237.3846248999944
+      "symbol": "JINDALSTEL.NS",
+      "pnl": -5677.899129290008
     },
     {
-      "symbol": "MSUMI.NS",
-      "pnl": -9063.560133639501
+      "symbol": "DISHTV.NS",
+      "pnl": -8376.537705466644
     },
     {
-      "symbol": "SAGILITY.NS",
-      "pnl": -5472.369809503104
+      "symbol": "SYRMA.NS",
+      "pnl": -10046.310267400007
     },
     {
-      "symbol": "RBA.NS",
-      "pnl": -8495.134001733632
-    },
-    {
-      "symbol": "INDIGO.NS",
-      "pnl": -5028.771552630018
-    },
-    {
-      "symbol": "SAMBHV.NS",
-      "pnl": -9315.705058019996
+      "symbol": "GTLINFRA.NS",
+      "pnl": -6273.371577350258
     }
   ],
-  "open_positions_now": 72
+  "open_positions_now": 68
 }

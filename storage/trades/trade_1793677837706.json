@@ -1,0 +1,18 @@
+{
+  "symbol": "TRIVENI.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 412,
+  "entry_price": 242.1999969482422,
+  "exit_price": 246.52,
+  "status": "CLOSED",
+  "realized_pnl": -2104.957904349203,
+  "realized_pnl_percent": -2.1094637454322447,
+  "max_profit_percent": 8.249379017047948,
+  "max_drawdown_percent": 7.725023513466637,
+  "regime": "BEAR",
+  "confidence": 46.15,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 325.12 deducted",
+  "id": "trade_1793677837706",
+  "timestamp": 1793677837.7067382
+}

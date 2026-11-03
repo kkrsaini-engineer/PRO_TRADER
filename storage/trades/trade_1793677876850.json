@@ -1,0 +1,18 @@
+{
+  "symbol": "DISHTV.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 50251,
+  "entry_price": 1.9900000095367432,
+  "exit_price": 2.15,
+  "status": "CLOSED",
+  "realized_pnl": -8376.537705466644,
+  "realized_pnl_percent": -8.376580385883454,
+  "max_profit_percent": 4.522614720969393,
+  "max_drawdown_percent": 8.542717360766245,
+  "regime": "BEAR",
+  "confidence": 51.48,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 336.38 deducted",
+  "id": "trade_1793677876850",
+  "timestamp": 1793677876.8504617
+}

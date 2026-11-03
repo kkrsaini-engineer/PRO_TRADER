@@ -1,0 +1,18 @@
+{
+  "symbol": "GTLINFRA.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 99009,
+  "entry_price": 1.0099999904632568,
+  "exit_price": 1.07,
+  "status": "CLOSED",
+  "realized_pnl": -6273.371577350258,
+  "realized_pnl_percent": -6.273428724786835,
+  "max_profit_percent": 2.970296113517462,
+  "max_drawdown_percent": 5.940600253006966,
+  "regime": "BEAR",
+  "confidence": 47.61,
+  "reasons": "Healthy risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 332.83 deducted",
+  "id": "trade_1793677886932",
+  "timestamp": 1793677886.9320667
+}
