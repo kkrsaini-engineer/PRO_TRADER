@@ -1,0 +1,13 @@
+{
+  "id": "paper_SETL_NS_1793764111327",
+  "symbol": "SETL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 248,
+  "entry_price": 403.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.22,
+  "reasons": "Morning Executor: gap +0.60% (0.12x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'SETL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793764111.3296924
+}

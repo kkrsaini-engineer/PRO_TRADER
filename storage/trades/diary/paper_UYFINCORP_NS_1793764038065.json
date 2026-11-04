@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_UYFINCORP_NS_1793764038065",
+  "symbol": "UYFINCORP.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-04",
+  "entry_price": 30.200000762939453,
+  "buy_probability": 90.06,
+  "buy_confidence": 79.44,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.87% (0.19x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'UYFINCORP.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1793764038.0653548,
+  "updated_at": 1793764038.065355
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_CUPID_NS_1793764135458",
+  "symbol": "CUPID.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 294,
+  "entry_price": 339.6499938964844,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 65.87,
+  "reasons": "Morning Executor: gap -0.25% (0.05x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'CUPID.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793764135.4595222
+}

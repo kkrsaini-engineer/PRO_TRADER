@@ -1,0 +1,13 @@
+{
+  "id": "paper_CASTROLIND_NS_1793764062764",
+  "symbol": "CASTROLIND.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 517,
+  "entry_price": 193.24000549316406,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.91,
+  "reasons": "Morning Executor: gap -1.65% (0.76x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'CASTROLIND.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793764062.7664776
+}
