@@ -1,41 +1,49 @@
 {
-  "date": "2026-11-03",
-  "opening_balance": 3591742.3031497933,
-  "total_capital_in_positions": 5338804.369999999,
-  "remaining_balance": 4390982.395564768,
-  "portfolio_value": 9729786.765564768,
-  "realized_pnl": -317187.09085746,
-  "portfolio_return_percent": -2.7021323443523237,
+  "date": "2026-11-04",
+  "opening_balance": 3891884.0119931437,
+  "total_capital_in_positions": 5246474.270000001,
+  "remaining_balance": 4457202.437707463,
+  "portfolio_value": 9703676.707707465,
+  "realized_pnl": -325251.9290351993,
+  "portfolio_return_percent": -2.963232922925353,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "SHYAMMETL.NS",
-      "pnl": -337.1168606675692
+      "symbol": "GATEWAY.NS",
+      "pnl": 3649.5149825731214
     },
     {
-      "symbol": "ASHOKLEY.NS",
-      "pnl": 2263.0892762661283
+      "symbol": "GESHIP.NS",
+      "pnl": 2684.4441802343636
     },
     {
-      "symbol": "TRIVENI.NS",
-      "pnl": -2104.957904349203
+      "symbol": "DMART.NS",
+      "pnl": 2319.4653465472416
     },
     {
-      "symbol": "JINDALSTEL.NS",
-      "pnl": -5677.899129290008
+      "symbol": "PRESTIGE.NS",
+      "pnl": -6573.442354499998
     },
     {
-      "symbol": "DISHTV.NS",
-      "pnl": -8376.537705466644
+      "symbol": "GODREJPROP.NS",
+      "pnl": -6718.73761566001
     },
     {
-      "symbol": "SYRMA.NS",
-      "pnl": -10046.310267400007
+      "symbol": "INDHOTEL.NS",
+      "pnl": 3851.758846582009
     },
     {
-      "symbol": "GTLINFRA.NS",
-      "pnl": -6273.371577350258
+      "symbol": "DBREALTY.NS",
+      "pnl": 4294.446221545339
+    },
+    {
+      "symbol": "FEDERALBNK.NS",
+      "pnl": -5269.86098073762
+    },
+    {
+      "symbol": "ACUTAAS.NS",
+      "pnl": 4428.107610479998
     }
   ],
-  "open_positions_now": 68
+  "open_positions_now": 64
 }

@@ -1,0 +1,18 @@
+{
+  "symbol": "MCX.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 16,
+  "entry_price": 3205.199951171875,
+  "exit_price": 3453.75,
+  "status": "OPEN",
+  "realized_pnl": 3789.2083177695313,
+  "realized_pnl_percent": 7.388790823299754,
+  "max_profit_percent": 10.383129099526153,
+  "max_drawdown_percent": 0.8486194804143261,
+  "regime": "BULL",
+  "confidence": 63.85,
+  "reasons": "Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 187.59 deducted",
+  "id": "trade_1793764388549",
+  "timestamp": 1793764388.5499601
+}

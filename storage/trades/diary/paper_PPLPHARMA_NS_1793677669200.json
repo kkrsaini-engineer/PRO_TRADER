@@ -25,16 +25,30 @@
         "High market volatility.",
         "High market volatility."
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "current_price": 234.54,
+      "current_pnl": -1135.6800000000017,
+      "current_buy_confidence": 62.78,
+      "current_sell_confidence": 25.29,
+      "current_exit_score": 78.3,
+      "recommendation": "PARTIAL_EXIT",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "High market volatility.",
+        "High market volatility."
+      ]
     }
   ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 1,
+  "holding_days": 2,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1793677669.200209,
-  "updated_at": 1793677771.711691
+  "updated_at": 1793764298.3225138
 }

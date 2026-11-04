@@ -1,0 +1,18 @@
+{
+  "symbol": "GODREJPROP.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 63,
+  "entry_price": 1578.5,
+  "exit_price": 1679.88,
+  "status": "CLOSED",
+  "realized_pnl": -6718.73761566001,
+  "realized_pnl_percent": -6.756200748812173,
+  "max_profit_percent": 0.6651884700665188,
+  "max_drawdown_percent": 6.474501108647453,
+  "regime": "BEAR",
+  "confidence": 46.51,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 331.80 deducted",
+  "id": "trade_1793764276927",
+  "timestamp": 1793764276.9276524
+}

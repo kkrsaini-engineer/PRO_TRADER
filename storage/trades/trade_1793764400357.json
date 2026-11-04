@@ -1,0 +1,18 @@
+{
+  "symbol": "DBREALTY.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 581,
+  "entry_price": 85.9800033569336,
+  "exit_price": 85.98,
+  "status": "CLOSED",
+  "realized_pnl": 4294.446221545339,
+  "realized_pnl_percent": -0.3227960890866199,
+  "max_profit_percent": 10.851364262224351,
+  "max_drawdown_percent": 8.187942557884414,
+  "regime": "BEAR",
+  "confidence": 50.68,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 161.25 deducted",
+  "id": "trade_1793764400357",
+  "timestamp": 1793764400.357087
+}

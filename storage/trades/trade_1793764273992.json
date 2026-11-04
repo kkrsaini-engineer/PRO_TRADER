@@ -1,0 +1,18 @@
+{
+  "symbol": "PRESTIGE.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 69,
+  "entry_price": 1429.5,
+  "exit_price": 1520.0,
+  "status": "CLOSED",
+  "realized_pnl": -6573.442354499998,
+  "realized_pnl_percent": -6.664377789436863,
+  "max_profit_percent": 4.610005205600735,
+  "max_drawdown_percent": 7.1213711087792895,
+  "regime": "SIDEWAYS",
+  "confidence": 50.89,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 328.94 deducted",
+  "id": "trade_1793764273992",
+  "timestamp": 1793764273.9928057
+}
