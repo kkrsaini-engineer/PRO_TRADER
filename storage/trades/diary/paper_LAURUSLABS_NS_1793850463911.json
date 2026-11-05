@@ -6,20 +6,35 @@
   "entry_price": 2328.300048828125,
   "buy_probability": 87.05,
   "buy_confidence": 73.89,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 62.87,
   "entry_reasons": [
     "Morning Executor: gap +0.23% (0.07x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'LAURUSLABS.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'LAURUSLABS.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-05",
+      "current_price": 2298.0,
+      "current_pnl": -1272.60205078125,
+      "current_buy_confidence": 62.87,
+      "current_sell_confidence": 26.41,
+      "current_exit_score": 78.72,
+      "recommendation": "PARTIAL_EXIT",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "High market volatility.",
+        "High market volatility."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1793850463.9119487,
-  "updated_at": 1793850463.9119494
+  "updated_at": 1793850703.529664
 }

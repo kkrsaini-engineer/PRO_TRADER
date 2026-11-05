@@ -1,0 +1,18 @@
+{
+  "symbol": "URJA.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 12738,
+  "entry_price": 7.849999904632568,
+  "exit_price": 8.36,
+  "status": "CLOSED",
+  "realized_pnl": -6830.131971140786,
+  "realized_pnl_percent": -6.830589703628273,
+  "max_profit_percent": 0.891715868466564,
+  "max_drawdown_percent": 9.681529994910287,
+  "regime": "BEAR",
+  "confidence": 50.29,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 333.75 deducted",
+  "id": "trade_1793850610756",
+  "timestamp": 1793850610.7569892
+}

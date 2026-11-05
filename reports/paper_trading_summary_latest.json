@@ -1,49 +1,73 @@
 {
-  "date": "2026-11-04",
-  "opening_balance": 3891884.0119931437,
-  "total_capital_in_positions": 5246474.270000001,
-  "remaining_balance": 4457202.437707463,
-  "portfolio_value": 9703676.707707465,
-  "realized_pnl": -325251.9290351993,
-  "portfolio_return_percent": -2.963232922925353,
+  "date": "2026-11-05",
+  "opening_balance": 4160638.835656682,
+  "total_capital_in_positions": 4019055.8199999984,
+  "remaining_balance": 5674864.631755771,
+  "portfolio_value": 9693920.45175577,
+  "realized_pnl": -318597.67536920065,
+  "portfolio_return_percent": -3.0607954824423045,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "GATEWAY.NS",
-      "pnl": 3649.5149825731214
+      "symbol": "JIOFIN.NS",
+      "pnl": -2899.704984620078
     },
     {
-      "symbol": "GESHIP.NS",
-      "pnl": 2684.4441802343636
+      "symbol": "ADANIPORTS.NS",
+      "pnl": 8091.752060960003
     },
     {
-      "symbol": "DMART.NS",
-      "pnl": 2319.4653465472416
+      "symbol": "URJA.NS",
+      "pnl": -6830.131971140786
     },
     {
-      "symbol": "PRESTIGE.NS",
-      "pnl": -6573.442354499998
+      "symbol": "PVRINOX.NS",
+      "pnl": 11646.795170136747
     },
     {
-      "symbol": "GODREJPROP.NS",
-      "pnl": -6718.73761566001
+      "symbol": "SAMMAANCAP.NS",
+      "pnl": -8240.664944059998
     },
     {
-      "symbol": "INDHOTEL.NS",
-      "pnl": 3851.758846582009
+      "symbol": "ZYDUSLIFE.NS",
+      "pnl": 2409.1466658000054
     },
     {
-      "symbol": "DBREALTY.NS",
-      "pnl": 4294.446221545339
+      "symbol": "TMPV.NS",
+      "pnl": -5498.220907499998
     },
     {
-      "symbol": "FEDERALBNK.NS",
-      "pnl": -5269.86098073762
+      "symbol": "HCC.NS",
+      "pnl": -11265.436008803372
     },
     {
-      "symbol": "ACUTAAS.NS",
-      "pnl": 4428.107610479998
+      "symbol": "CENTRALBK.NS",
+      "pnl": -5330.818500399995
+    },
+    {
+      "symbol": "ATGL.NS",
+      "pnl": -6098.558586120009
+    },
+    {
+      "symbol": "DLF.NS",
+      "pnl": 6659.256836260001
+    },
+    {
+      "symbol": "ASTERDM.NS",
+      "pnl": -8904.717346799996
+    },
+    {
+      "symbol": "SUZLON.NS",
+      "pnl": 3753.669109902193
+    },
+    {
+      "symbol": "MOSCHIP.NS",
+      "pnl": 3428.1597744156797
+    },
+    {
+      "symbol": "BAJAJHFL.NS",
+      "pnl": -5967.087512146188
     }
   ],
-  "open_positions_now": 64
+  "open_positions_now": 52
 }

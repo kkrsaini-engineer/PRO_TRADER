@@ -1,6 +1,22 @@
 {
   "2026-11-05": [
     "mi_summary::2026-11-05 07:15:02.889351",
-    "morning_exec::2026-11-05::09:18:10.194504"
+    "morning_exec::2026-11-05::09:18:10.194504",
+    "paper_trading_started::2026-11-05::09:19:08.951775",
+    "monitoring_summary::2026-11-05::09:23:05.565702",
+    "holding_status::2026-11-05::part1::09:23:06.739812",
+    "holding_status::2026-11-05::part2::09:23:07.271833",
+    "holding_status::2026-11-05::part3::09:23:07.842125",
+    "holding_status::2026-11-05::part4::09:23:08.407084",
+    "holding_status::2026-11-05::part5::09:23:08.963498",
+    "holding_status::2026-11-05::part6::09:23:09.505770",
+    "holding_status::2026-11-05::part7::09:23:10.055258",
+    "holding_status::2026-11-05::part8::09:23:10.624662",
+    "holding_status::2026-11-05::part9::09:23:11.198907",
+    "holding_status::2026-11-05::part10::09:23:11.781546",
+    "portfolio_summary::2026-11-05::09:23:12.357156",
+    "analysis_summary::2026-11-05::09:23:13.645851",
+    "learning_summary::2026-11-05::09:23:17.014232",
+    "optimizer_recommendation::2026-11-05::09:23:17.801190"
   ]
 }

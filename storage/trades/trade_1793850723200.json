@@ -1,0 +1,18 @@
+{
+  "symbol": "ATGL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 187,
+  "entry_price": 533.0,
+  "exit_price": 563.84,
+  "status": "CLOSED",
+  "realized_pnl": -6098.558586120009,
+  "realized_pnl_percent": -6.11868907317074,
+  "max_profit_percent": 0.24390014877462476,
+  "max_drawdown_percent": 8.789868667917453,
+  "regime": "BEAR",
+  "confidence": 43.45,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 331.48 deducted",
+  "id": "trade_1793850723200",
+  "timestamp": 1793850723.2009604
+}

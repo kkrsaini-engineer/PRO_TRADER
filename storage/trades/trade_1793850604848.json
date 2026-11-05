@@ -1,0 +1,18 @@
+{
+  "symbol": "JIOFIN.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 473,
+  "entry_price": 211.0500030517578,
+  "exit_price": 216.49,
+  "status": "CLOSED",
+  "realized_pnl": -2899.704984620078,
+  "realized_pnl_percent": -2.904740310018107,
+  "max_profit_percent": 4.046438484451254,
+  "max_drawdown_percent": 6.69035619240403,
+  "regime": "SIDEWAYS",
+  "confidence": 53.36,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 326.59 deducted",
+  "id": "trade_1793850604848",
+  "timestamp": 1793850604.8488262
+}

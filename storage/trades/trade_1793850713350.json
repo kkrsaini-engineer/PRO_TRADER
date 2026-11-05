@@ -1,0 +1,18 @@
+{
+  "symbol": "CENTRALBK.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 3448,
+  "entry_price": 29.0,
+  "exit_price": 30.45,
+  "status": "CLOSED",
+  "realized_pnl": -5330.818500399995,
+  "realized_pnl_percent": -5.331244999999996,
+  "max_profit_percent": 1.517243220888335,
+  "max_drawdown_percent": 5.10344827586207,
+  "regime": "SIDEWAYS",
+  "confidence": 56.22,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 331.22 deducted",
+  "id": "trade_1793850713350",
+  "timestamp": 1793850713.3503685
+}

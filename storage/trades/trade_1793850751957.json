@@ -1,0 +1,18 @@
+{
+  "symbol": "ASTERDM.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 148,
+  "entry_price": 672.0,
+  "exit_price": 729.9,
+  "status": "CLOSED",
+  "realized_pnl": -8904.717346799996,
+  "realized_pnl_percent": -8.953423973214282,
+  "max_profit_percent": 0.49106961204892113,
+  "max_drawdown_percent": 6.190476190476194,
+  "regime": "BEAR",
+  "confidence": 46.53,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 335.52 deducted",
+  "id": "trade_1793850751957",
+  "timestamp": 1793850751.9572594
+}

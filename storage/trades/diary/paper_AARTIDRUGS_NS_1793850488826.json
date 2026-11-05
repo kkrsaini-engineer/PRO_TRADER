@@ -6,20 +6,35 @@
   "entry_price": 460.0,
   "buy_probability": 86.35,
   "buy_confidence": 75.69,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 65.36,
   "entry_reasons": [
     "Morning Executor: gap -1.35% (0.33x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'AARTIDRUGS.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'AARTIDRUGS.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-05",
+      "current_price": 451.35,
+      "current_pnl": -1877.0499999999952,
+      "current_buy_confidence": 65.36,
+      "current_sell_confidence": 20.82,
+      "current_exit_score": 78.72,
+      "recommendation": "PARTIAL_EXIT",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "High market volatility.",
+        "High market volatility."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1793850488.826232,
-  "updated_at": 1793850488.8262324
+  "updated_at": 1793850754.9974787
 }

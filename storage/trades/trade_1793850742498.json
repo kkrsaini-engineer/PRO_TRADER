@@ -1,0 +1,18 @@
+{
+  "symbol": "SATIN.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 208,
+  "entry_price": 239.3699951171875,
+  "exit_price": 263.02,
+  "status": "OPEN",
+  "realized_pnl": 4734.981605660381,
+  "realized_pnl_percent": 9.51010364998058,
+  "max_profit_percent": 11.258723078311748,
+  "max_drawdown_percent": 0.02088612533205379,
+  "regime": "BULL",
+  "confidence": 63.13,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 184.22 deducted",
+  "id": "trade_1793850742498",
+  "timestamp": 1793850742.4985504
+}

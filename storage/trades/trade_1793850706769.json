@@ -1,0 +1,18 @@
+{
+  "symbol": "HCC.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 5780,
+  "entry_price": 17.299999237060547,
+  "exit_price": 19.19,
+  "status": "CLOSED",
+  "realized_pnl": -11265.436008803372,
+  "realized_pnl_percent": -11.26611247236362,
+  "max_profit_percent": 1.6184901251154609,
+  "max_drawdown_percent": 10.000004851060327,
+  "regime": "BEAR",
+  "confidence": 46.49,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 341.23 deducted",
+  "id": "trade_1793850706769",
+  "timestamp": 1793850706.7691553
+}
