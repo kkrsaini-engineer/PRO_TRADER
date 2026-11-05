@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_AARTIDRUGS_NS_1793850488826",
+  "symbol": "AARTIDRUGS.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-05",
+  "entry_price": 460.0,
+  "buy_probability": 86.35,
+  "buy_confidence": 75.69,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -1.35% (0.33x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'AARTIDRUGS.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1793850488.826232,
+  "updated_at": 1793850488.8262324
+}

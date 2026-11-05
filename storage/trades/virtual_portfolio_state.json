@@ -1,10 +1,10 @@
 {
   "total_capital": 10000000.0,
-  "available_capital": 4457202.437707463,
-  "used_capital": 5193895.958371222,
-  "total_pnl": -325251.9290351993,
-  "total_pnl_percent": -3.2525192903519926,
-  "exposure": 0.5193895958371222,
+  "available_capital": 4160638.835656682,
+  "used_capital": 5490459.560422003,
+  "total_pnl": -325251.9290351994,
+  "total_pnl_percent": -3.252519290351994,
+  "exposure": 0.5490459560422003,
   "risk_score": 0.0,
   "peak_equity": 10003471.560464654,
   "day_start_equity": 9682812.90914254,
@@ -1229,6 +1229,63 @@
       "updated_at": 1793764361.3576174,
       "partial_taken": false,
       "stop_level": 309.23
+    },
+    "BSE.NS": {
+      "symbol": "BSE.NS",
+      "quantity": 27,
+      "entry_price": 3665.0,
+      "current_price": 3665.0,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 3665.0,
+      "lowest_price": 3665.0,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1793850438.9236572,
+      "partial_taken": false,
+      "stop_level": null
+    },
+    "LAURUSLABS.NS": {
+      "symbol": "LAURUSLABS.NS",
+      "quantity": 42,
+      "entry_price": 2328.300048828125,
+      "current_price": 2328.300048828125,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 2328.300048828125,
+      "lowest_price": 2328.300048828125,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1793850463.911924,
+      "partial_taken": false,
+      "stop_level": null
+    },
+    "AARTIDRUGS.NS": {
+      "symbol": "AARTIDRUGS.NS",
+      "quantity": 217,
+      "entry_price": 460.0,
+      "current_price": 460.0,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 460.0,
+      "lowest_price": 460.0,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1793850488.8262122,
+      "partial_taken": false,
+      "stop_level": null
     }
   },
   "closed_positions": [
@@ -3752,5 +3809,5 @@
     "UYFINCORP.NS": "Financial Services",
     "SETL.NS": "Industrials"
   },
-  "saved_at": 1793764465.7401152
+  "saved_at": 1793850490.187871
 }
