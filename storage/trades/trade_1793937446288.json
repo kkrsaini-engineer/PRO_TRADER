@@ -1,0 +1,18 @@
+{
+  "symbol": "SGFIN.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 72,
+  "entry_price": 692.4000244140625,
+  "exit_price": 687.95,
+  "status": "OPEN",
+  "realized_pnl": -496.7635035814401,
+  "realized_pnl_percent": -0.9964605519961405,
+  "max_profit_percent": 5.719233707342607,
+  "max_drawdown_percent": 7.062394958094306,
+  "regime": "BULL",
+  "confidence": 52.01,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 176.36 deducted",
+  "id": "trade_1793937446288",
+  "timestamp": 1793937446.2887862
+}

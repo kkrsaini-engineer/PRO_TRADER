@@ -1,0 +1,18 @@
+{
+  "symbol": "UYFINCORP.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 1656,
+  "entry_price": 30.200000762939453,
+  "exit_price": 29.55,
+  "status": "OPEN",
+  "realized_pnl": -1252.1108395616645,
+  "realized_pnl_percent": -2.503660795841171,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 7.880798039700387,
+  "regime": "BULL",
+  "confidence": 79.46,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 175.71 deducted",
+  "id": "trade_1793937464427",
+  "timestamp": 1793937464.4278831
+}

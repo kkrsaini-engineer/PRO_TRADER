@@ -1,73 +1,33 @@
 {
-  "date": "2026-11-05",
-  "opening_balance": 4160638.835656682,
-  "total_capital_in_positions": 4019055.8199999984,
-  "remaining_balance": 5674864.631755771,
-  "portfolio_value": 9693920.45175577,
-  "realized_pnl": -318597.67536920065,
-  "portfolio_return_percent": -3.0607954824423045,
+  "date": "2026-11-06",
+  "opening_balance": 3990598.068035068,
+  "total_capital_in_positions": 4966683.639999999,
+  "remaining_balance": 4673802.470969522,
+  "portfolio_value": 9640486.110969521,
+  "realized_pnl": -339429.5584430476,
+  "portfolio_return_percent": -3.5951388903047885,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "JIOFIN.NS",
-      "pnl": -2899.704984620078
+      "symbol": "NAZARA.NS",
+      "pnl": -388.65305000000205
     },
     {
-      "symbol": "ADANIPORTS.NS",
-      "pnl": 8091.752060960003
+      "symbol": "GICRE.NS",
+      "pnl": -5700.691726954399
     },
     {
-      "symbol": "URJA.NS",
-      "pnl": -6830.131971140786
+      "symbol": "THELEELA.NS",
+      "pnl": 3947.078448499994
     },
     {
-      "symbol": "PVRINOX.NS",
-      "pnl": 11646.795170136747
+      "symbol": "THOMASCOOK.NS",
+      "pnl": -6928.582629146139
     },
     {
-      "symbol": "SAMMAANCAP.NS",
-      "pnl": -8240.664944059998
-    },
-    {
-      "symbol": "ZYDUSLIFE.NS",
-      "pnl": 2409.1466658000054
-    },
-    {
-      "symbol": "TMPV.NS",
-      "pnl": -5498.220907499998
-    },
-    {
-      "symbol": "HCC.NS",
-      "pnl": -11265.436008803372
-    },
-    {
-      "symbol": "CENTRALBK.NS",
-      "pnl": -5330.818500399995
-    },
-    {
-      "symbol": "ATGL.NS",
-      "pnl": -6098.558586120009
-    },
-    {
-      "symbol": "DLF.NS",
-      "pnl": 6659.256836260001
-    },
-    {
-      "symbol": "ASTERDM.NS",
-      "pnl": -8904.717346799996
-    },
-    {
-      "symbol": "SUZLON.NS",
-      "pnl": 3753.669109902193
-    },
-    {
-      "symbol": "MOSCHIP.NS",
-      "pnl": 3428.1597744156797
-    },
-    {
-      "symbol": "BAJAJHFL.NS",
-      "pnl": -5967.087512146188
+      "symbol": "ICICIBANK.NS",
+      "pnl": 5764.659013499993
     }
   ],
-  "open_positions_now": 52
+  "open_positions_now": 64
 }

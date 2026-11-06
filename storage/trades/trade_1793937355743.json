@@ -1,0 +1,18 @@
+{
+  "symbol": "MUFIN.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 374,
+  "entry_price": 133.39999389648438,
+  "exit_price": 143.99,
+  "status": "OPEN",
+  "realized_pnl": 3777.5867460303493,
+  "realized_pnl_percent": 7.571589042781021,
+  "max_profit_percent": 7.946031925414486,
+  "max_drawdown_percent": 0.5921993497971073,
+  "regime": "BULL",
+  "confidence": 73.61,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 183.08 deducted",
+  "id": "trade_1793937355743",
+  "timestamp": 1793937355.7435262
+}

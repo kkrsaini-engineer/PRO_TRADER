@@ -1,0 +1,18 @@
+{
+  "symbol": "WELSPUNLIV.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 198,
+  "entry_price": 253.0,
+  "exit_price": 245.52,
+  "status": "OPEN",
+  "realized_pnl": -1656.394111439999,
+  "realized_pnl_percent": -3.306571867768594,
+  "max_profit_percent": 1.652173913043481,
+  "max_drawdown_percent": 3.0553359683794428,
+  "regime": "BULL",
+  "confidence": 68.49,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 175.35 deducted",
+  "id": "trade_1793937470539",
+  "timestamp": 1793937470.539217
+}

@@ -6,20 +6,34 @@
   "entry_price": 309.95001220703125,
   "buy_probability": 93.16,
   "buy_confidence": 81.15,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 63.23,
   "entry_reasons": [
     "Morning Executor: gap -0.34% (0.14x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'PETRONET.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'PETRONET.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-06",
+      "current_price": 311.0,
+      "current_pnl": 338.0960693359375,
+      "current_buy_confidence": 63.23,
+      "current_sell_confidence": 23.49,
+      "current_exit_score": 56.74,
+      "recommendation": "HOLD",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "Continue holding position."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1793936841.466326,
-  "updated_at": 1793936841.4663262
+  "updated_at": 1793937343.6774874
 }

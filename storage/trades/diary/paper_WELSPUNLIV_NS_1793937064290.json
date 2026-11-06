@@ -6,20 +6,35 @@
   "entry_price": 253.0,
   "buy_probability": 84.26,
   "buy_confidence": 71.76,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 62.44,
   "entry_reasons": [
     "Morning Executor: gap -4.37% (0.91x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'WELSPUNLIV.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'WELSPUNLIV.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-06",
+      "current_price": 245.52,
+      "current_pnl": -2954.599999999996,
+      "current_buy_confidence": 62.44,
+      "current_sell_confidence": 20.99,
+      "current_exit_score": 77.7,
+      "recommendation": "PARTIAL_EXIT",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "High market volatility.",
+        "High market volatility."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1793937064.2902505,
-  "updated_at": 1793937064.2902508
+  "updated_at": 1793937470.538392
 }

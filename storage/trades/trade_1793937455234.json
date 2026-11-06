@@ -1,0 +1,18 @@
+{
+  "symbol": "ICICIBANK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 35,
+  "entry_price": 1403.0,
+  "exit_price": 1521.5,
+  "status": "CLOSED",
+  "realized_pnl": 5764.659013499993,
+  "realized_pnl_percent": 8.077947372976269,
+  "max_profit_percent": 7.512473271560947,
+  "max_drawdown_percent": 0.534568781183179,
+  "regime": "BULL",
+  "confidence": 65.27,
+  "reasons": "Break-even stop activated.; Final profit target reached.; Excellent risk/reward profile.; Final target achieved.; costs Rs 180.82 deducted",
+  "id": "trade_1793937455234",
+  "timestamp": 1793937455.2349503
+}

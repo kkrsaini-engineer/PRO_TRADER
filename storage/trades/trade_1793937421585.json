@@ -1,0 +1,18 @@
+{
+  "symbol": "ORIENTHOT.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 310,
+  "entry_price": 161.49000549316406,
+  "exit_price": 172.0,
+  "status": "OPEN",
+  "realized_pnl": 3075.554265142975,
+  "realized_pnl_percent": 6.143502664753923,
+  "max_profit_percent": 8.229608059180176,
+  "max_drawdown_percent": 0.42727442547102973,
+  "regime": "BULL",
+  "confidence": 61.93,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 182.54 deducted",
+  "id": "trade_1793937421585",
+  "timestamp": 1793937421.5859673
+}
