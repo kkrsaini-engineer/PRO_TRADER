@@ -1,0 +1,13 @@
+{
+  "id": "paper_ACUTAAS_NS_1793937153721",
+  "symbol": "ACUTAAS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 26,
+  "entry_price": 3760.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.93,
+  "reasons": "Morning Executor: gap -0.46% (0.10x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ACUTAAS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793937153.72311
+}

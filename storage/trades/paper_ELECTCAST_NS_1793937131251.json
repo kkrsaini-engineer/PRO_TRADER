@@ -1,0 +1,13 @@
+{
+  "id": "paper_ELECTCAST_NS_1793937131251",
+  "symbol": "ELECTCAST.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 1456,
+  "entry_price": 68.6500015258789,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 70.19,
+  "reasons": "Morning Executor: gap -0.07% (0.02x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ELECTCAST.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793937131.2568984
+}

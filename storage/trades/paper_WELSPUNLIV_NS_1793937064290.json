@@ -1,0 +1,13 @@
+{
+  "id": "paper_WELSPUNLIV_NS_1793937064290",
+  "symbol": "WELSPUNLIV.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 395,
+  "entry_price": 253.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.76,
+  "reasons": "Morning Executor: gap -4.37% (0.91x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'WELSPUNLIV.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793937064.2917218
+}

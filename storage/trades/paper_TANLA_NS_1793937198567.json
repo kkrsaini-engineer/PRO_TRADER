@@ -1,0 +1,13 @@
+{
+  "id": "paper_TANLA_NS_1793937198567",
+  "symbol": "TANLA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 152,
+  "entry_price": 654.9000244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.84,
+  "reasons": "Morning Executor: gap -0.64% (0.16x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'TANLA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793937198.5687883
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_MAZDOCK_NS_1793937019446",
+  "symbol": "MAZDOCK.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 54,
+  "entry_price": 1834.9000244140625,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 72.95,
+  "reasons": "Morning Executor: gap +0.37% (0.09x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'MAZDOCK.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793937019.4502716
+}

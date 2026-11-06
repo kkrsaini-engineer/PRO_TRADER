@@ -1,0 +1,13 @@
+{
+  "id": "paper_DIVISLAB_NS_1793936975356",
+  "symbol": "DIVISLAB.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 9,
+  "entry_price": 10130.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 75.58,
+  "reasons": "Morning Executor: gap +0.92% (0.40x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'DIVISLAB.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793936975.3577428
+}

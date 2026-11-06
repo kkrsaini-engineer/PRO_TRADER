@@ -1,0 +1,13 @@
+{
+  "id": "paper_GPPL_NS_1793937176754",
+  "symbol": "GPPL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 619,
+  "entry_price": 161.3000030517578,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.28,
+  "reasons": "Morning Executor: gap -2.23% (0.80x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'GPPL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793937176.7561233
+}

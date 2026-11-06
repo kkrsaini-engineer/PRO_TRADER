@@ -1,0 +1,13 @@
+{
+  "id": "paper_ZYDUSLIFE_NS_1793937109469",
+  "symbol": "ZYDUSLIFE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 83,
+  "entry_price": 1194.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.2,
+  "reasons": "Morning Executor: gap +0.54% (0.18x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ZYDUSLIFE.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793937109.4715378
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_SMSPHARMA_NS_1793936997035",
+  "symbol": "SMSPHARMA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 194,
+  "entry_price": 514.1500244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.77,
+  "reasons": "Morning Executor: gap -2.16% (0.45x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'SMSPHARMA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1793936997.0367641
+}
