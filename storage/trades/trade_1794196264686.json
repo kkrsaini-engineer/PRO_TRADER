@@ -1,0 +1,18 @@
+{
+  "symbol": "DIVISLAB.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 10130.0,
+  "exit_price": 11222.86,
+  "status": "CLOSED",
+  "realized_pnl": 9510.37603614,
+  "realized_pnl_percent": 10.43147530562685,
+  "max_profit_percent": 14.141164856860811,
+  "max_drawdown_percent": 0.8835143139190524,
+  "regime": "BULL",
+  "confidence": 57.49,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Final profit target reached.; Healthy risk/reward profile.; High market volatility.; Final target achieved.; Profit protection activated.; costs Rs 325.36 deducted",
+  "id": "trade_1794196264686",
+  "timestamp": 1794196264.686193
+}

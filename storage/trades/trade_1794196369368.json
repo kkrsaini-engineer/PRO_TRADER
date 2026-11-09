@@ -1,0 +1,18 @@
+{
+  "symbol": "AARTIDRUGS.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 28,
+  "entry_price": 460.0,
+  "exit_price": 464.65,
+  "status": "OPEN",
+  "realized_pnl": -2335.0265801999985,
+  "realized_pnl_percent": 0.5628337127329097,
+  "max_profit_percent": 1.0543478260869614,
+  "max_drawdown_percent": 5.4130421514096465,
+  "regime": "BULL",
+  "confidence": 71.82,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 57.71 deducted",
+  "id": "trade_1794196369368",
+  "timestamp": 1794196369.3689144
+}

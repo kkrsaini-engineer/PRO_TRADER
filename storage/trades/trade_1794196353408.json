@@ -1,0 +1,18 @@
+{
+  "symbol": "MARKSANS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 325,
+  "entry_price": 306.8999938964844,
+  "exit_price": 309.25,
+  "status": "CLOSED",
+  "realized_pnl": 424.67778574294925,
+  "realized_pnl_percent": 0.4257741626576302,
+  "max_profit_percent": 6.549366732895812,
+  "max_drawdown_percent": 3.3561381550378515,
+  "regime": "BULL",
+  "confidence": 56.93,
+  "reasons": "Healthy risk/reward profile.; Trend reversal detected.; Trend reversal confirmed.; costs Rs 339.07 deducted",
+  "id": "trade_1794196353408",
+  "timestamp": 1794196353.4081776
+}

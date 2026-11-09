@@ -1,0 +1,18 @@
+{
+  "symbol": "KOTAKBANK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 113,
+  "entry_price": 443.1000061035156,
+  "exit_price": 478.78,
+  "status": "CLOSED",
+  "realized_pnl": 5770.954745269494,
+  "realized_pnl_percent": 7.685349051178431,
+  "max_profit_percent": 8.338973908263103,
+  "max_drawdown_percent": 3.4755120027885256,
+  "regime": "BULL",
+  "confidence": 61.53,
+  "reasons": "Break-even stop activated.; Final profit target reached.; Excellent risk/reward profile.; Final target achieved (previous session).; costs Rs 183.76 deducted",
+  "id": "trade_1794196312403",
+  "timestamp": 1794196312.4038105
+}

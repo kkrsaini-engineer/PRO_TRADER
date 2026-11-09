@@ -6,20 +6,34 @@
   "entry_price": 749.0,
   "buy_probability": 89.57,
   "buy_confidence": 76.62,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 57.76,
   "entry_reasons": [
     "Morning Executor: gap +0.51% (0.22x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'DLF.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'DLF.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-09",
+      "current_price": 745.85,
+      "current_pnl": -418.949999999997,
+      "current_buy_confidence": 57.76,
+      "current_sell_confidence": 24.63,
+      "current_exit_score": 58.2,
+      "recommendation": "HOLD",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "Continue holding position."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1794196079.1309378,
-  "updated_at": 1794196079.1309378
+  "updated_at": 1794196385.251111
 }

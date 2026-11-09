@@ -1,0 +1,18 @@
+{
+  "symbol": "MANKIND.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 20,
+  "entry_price": 2485.0,
+  "exit_price": 2631.17,
+  "status": "OPEN",
+  "realized_pnl": 2742.5392874000045,
+  "realized_pnl_percent": 5.518187701006045,
+  "max_profit_percent": 6.132796780684108,
+  "max_drawdown_percent": 0.3621730382293763,
+  "regime": "BULL",
+  "confidence": 59.37,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 180.86 deducted",
+  "id": "trade_1794196289468",
+  "timestamp": 1794196289.4681497
+}
