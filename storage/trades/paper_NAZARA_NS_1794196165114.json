@@ -1,0 +1,13 @@
+{
+  "id": "paper_NAZARA_NS_1794196165114",
+  "symbol": "NAZARA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 246,
+  "entry_price": 405.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.24,
+  "reasons": "Morning Executor: gap -3.02% (0.87x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'NAZARA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794196165.115431
+}

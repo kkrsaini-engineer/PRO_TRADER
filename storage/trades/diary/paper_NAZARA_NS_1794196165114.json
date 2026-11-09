@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_NAZARA_NS_1794196165114",
+  "symbol": "NAZARA.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-09",
+  "entry_price": 405.0,
+  "buy_probability": 79.28,
+  "buy_confidence": 69.24,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -3.02% (0.87x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'NAZARA.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794196165.1141562,
+  "updated_at": 1794196165.1141562
+}

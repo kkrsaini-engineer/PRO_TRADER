@@ -1,0 +1,13 @@
+{
+  "id": "paper_AFCONS_NS_1794196143622",
+  "symbol": "AFCONS.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 454,
+  "entry_price": 220.0,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 68.67,
+  "reasons": "Morning Executor: gap +0.26% (0.06x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'AFCONS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794196143.633549
+}

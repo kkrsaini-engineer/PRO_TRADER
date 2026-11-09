@@ -1,0 +1,13 @@
+{
+  "id": "paper_ARIS_NS_1794196100487",
+  "symbol": "ARIS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 668,
+  "entry_price": 149.67999267578125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 77.48,
+  "reasons": "Morning Executor: gap -0.03% (0.01x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ARIS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794196100.4886248
+}

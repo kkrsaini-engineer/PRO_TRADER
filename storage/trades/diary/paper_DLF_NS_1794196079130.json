@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_DLF_NS_1794196079130",
+  "symbol": "DLF.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-09",
+  "entry_price": 749.0,
+  "buy_probability": 89.57,
+  "buy_confidence": 76.62,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.51% (0.22x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'DLF.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794196079.1309378,
+  "updated_at": 1794196079.1309378
+}
