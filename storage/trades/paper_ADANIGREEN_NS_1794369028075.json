@@ -1,0 +1,13 @@
+{
+  "id": "paper_ADANIGREEN_NS_1794369028075",
+  "symbol": "ADANIGREEN.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 68,
+  "entry_price": 1454.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.99,
+  "reasons": "Morning Executor: gap +0.35% (0.12x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ADANIGREEN.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794369028.0772653
+}

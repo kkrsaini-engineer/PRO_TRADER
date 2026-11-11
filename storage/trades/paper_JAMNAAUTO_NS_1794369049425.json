@@ -1,0 +1,13 @@
+{
+  "id": "paper_JAMNAAUTO_NS_1794369049425",
+  "symbol": "JAMNAAUTO.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 745,
+  "entry_price": 134.11000061035156,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.73,
+  "reasons": "Morning Executor: gap +0.40% (0.09x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'JAMNAAUTO.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794369049.426442
+}

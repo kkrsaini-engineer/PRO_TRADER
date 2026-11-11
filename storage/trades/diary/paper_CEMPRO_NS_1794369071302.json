@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_CEMPRO_NS_1794369071302",
+  "symbol": "CEMPRO.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-11",
+  "entry_price": 1318.0,
+  "buy_probability": 77.17,
+  "buy_confidence": 67.71,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.80% (0.16x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'CEMPRO.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794369071.3027232,
+  "updated_at": 1794369071.3027232
+}

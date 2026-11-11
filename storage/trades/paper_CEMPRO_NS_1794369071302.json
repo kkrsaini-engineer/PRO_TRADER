@@ -1,0 +1,13 @@
+{
+  "id": "paper_CEMPRO_NS_1794369071302",
+  "symbol": "CEMPRO.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 75,
+  "entry_price": 1318.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.71,
+  "reasons": "Morning Executor: gap +0.80% (0.16x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'CEMPRO.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794369071.3040519
+}

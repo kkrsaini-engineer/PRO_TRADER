@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_THELEELA_NS_1794369006819",
+  "symbol": "THELEELA.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-11",
+  "entry_price": 660.25,
+  "buy_probability": 80.01,
+  "buy_confidence": 69.47,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.00% (0.00x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'THELEELA.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794369006.8192515,
+  "updated_at": 1794369006.8192515
+}

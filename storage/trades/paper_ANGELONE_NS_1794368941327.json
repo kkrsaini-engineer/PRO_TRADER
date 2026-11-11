@@ -1,0 +1,13 @@
+{
+  "id": "paper_ANGELONE_NS_1794368941327",
+  "symbol": "ANGELONE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 293,
+  "entry_price": 340.95001220703125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.09,
+  "reasons": "Morning Executor: gap +0.87% (0.25x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ANGELONE.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794368941.3291912
+}

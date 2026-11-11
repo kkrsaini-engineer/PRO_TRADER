@@ -1,0 +1,13 @@
+{
+  "id": "paper_PNB_NS_1794368877331",
+  "symbol": "PNB.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 756,
+  "entry_price": 132.1699981689453,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.84,
+  "reasons": "Morning Executor: gap -0.00% (0.00x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'PNB.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794368877.3331065
+}

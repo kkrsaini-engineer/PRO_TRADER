@@ -1,0 +1,13 @@
+{
+  "id": "paper_ORIENTHOT_NS_1794369092536",
+  "symbol": "ORIENTHOT.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 571,
+  "entry_price": 175.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 66.25,
+  "reasons": "Morning Executor: gap +0.22% (0.08x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ORIENTHOT.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794369092.538443
+}

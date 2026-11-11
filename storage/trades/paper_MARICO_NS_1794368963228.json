@@ -1,0 +1,13 @@
+{
+  "id": "paper_MARICO_NS_1794368963228",
+  "symbol": "MARICO.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 110,
+  "entry_price": 908.4000244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.16,
+  "reasons": "Morning Executor: gap +0.71% (0.31x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'MARICO.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794368963.2296276
+}
