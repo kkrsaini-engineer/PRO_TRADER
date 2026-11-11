@@ -1,0 +1,18 @@
+{
+  "symbol": "SONACOMS.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 57,
+  "entry_price": 870.0,
+  "exit_price": 923.72,
+  "status": "OPEN",
+  "realized_pnl": 2881.3210004399984,
+  "realized_pnl_percent": 5.8102863489413155,
+  "max_profit_percent": 6.6839080459770095,
+  "max_drawdown_percent": 0.3103462306932471,
+  "regime": "BULL",
+  "confidence": 69.5,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 180.72 deducted",
+  "id": "trade_1794369256250",
+  "timestamp": 1794369256.2504253
+}

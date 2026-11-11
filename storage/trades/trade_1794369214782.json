@@ -1,0 +1,18 @@
+{
+  "symbol": "COLPAL.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 61,
+  "entry_price": 1622.199951171875,
+  "exit_price": 1704.8,
+  "status": "CLOSED",
+  "realized_pnl": -5366.537326931692,
+  "realized_pnl_percent": -5.423253877515211,
+  "max_profit_percent": 3.5938804409220158,
+  "max_drawdown_percent": 5.560353319143223,
+  "regime": "BEAR",
+  "confidence": 46.85,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 327.93 deducted",
+  "id": "trade_1794369214782",
+  "timestamp": 1794369214.7827919
+}

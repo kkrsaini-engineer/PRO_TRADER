@@ -1,0 +1,18 @@
+{
+  "symbol": "IIFLCAPS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 147,
+  "entry_price": 339.0,
+  "exit_price": 352.62,
+  "status": "CLOSED",
+  "realized_pnl": 3063.3114477600047,
+  "realized_pnl_percent": 3.656749107097712,
+  "max_profit_percent": 4.262540474050517,
+  "max_drawdown_percent": 1.725665517261246,
+  "regime": "BULL",
+  "confidence": 68.34,
+  "reasons": "Break-even stop activated.; Excellent risk/reward profile.; Final target achieved (previous session).; costs Rs 179.87 deducted",
+  "id": "trade_1794369339672",
+  "timestamp": 1794369339.6727204
+}

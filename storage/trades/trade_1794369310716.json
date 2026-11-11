@@ -1,0 +1,18 @@
+{
+  "symbol": "TVSMOTOR.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 12,
+  "entry_price": 4276.10009765625,
+  "exit_price": 4500.46,
+  "status": "OPEN",
+  "realized_pnl": 2506.6063360657063,
+  "realized_pnl_percent": 4.884915146240357,
+  "max_profit_percent": 6.987673242437033,
+  "max_drawdown_percent": 1.6627323035590371,
+  "regime": "BULL",
+  "confidence": 58.2,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 185.71 deducted",
+  "id": "trade_1794369310716",
+  "timestamp": 1794369310.716734
+}

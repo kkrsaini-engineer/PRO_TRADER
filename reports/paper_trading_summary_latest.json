@@ -1,49 +1,29 @@
 {
-  "date": "2026-11-09",
-  "opening_balance": 3875899.934043253,
-  "total_capital_in_positions": 5123629.33,
-  "remaining_balance": 4588668.995463476,
-  "portfolio_value": 9712298.325463476,
-  "realized_pnl": -299415.2039490934,
-  "portfolio_return_percent": -2.8770167453652435,
+  "date": "2026-11-11",
+  "opening_balance": 3298222.420130834,
+  "total_capital_in_positions": 5770018.799999999,
+  "remaining_balance": 4003762.2104930356,
+  "portfolio_value": 9773781.010493034,
+  "realized_pnl": -229706.8729625034,
+  "portfolio_return_percent": -2.262189895069655,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "DIVISLAB.NS",
-      "pnl": 9510.37603614
+      "symbol": "COLPAL.NS",
+      "pnl": -5366.537326931692
     },
     {
-      "symbol": "SETL.NS",
-      "pnl": -9995.664024000005
+      "symbol": "TFCILTD.NS",
+      "pnl": 10409.556411270929
     },
     {
-      "symbol": "AUROPHARMA.NS",
-      "pnl": 6705.902064599993
+      "symbol": "RECLTD.NS",
+      "pnl": -5904.2377392
     },
     {
-      "symbol": "KOTAKBANK.NS",
-      "pnl": 5770.954745269494
-    },
-    {
-      "symbol": "ANANDRATHI.NS",
-      "pnl": 4915.48906864
-    },
-    {
-      "symbol": "MARKSANS.NS",
-      "pnl": 424.67778574294925
-    },
-    {
-      "symbol": "HAL.NS",
-      "pnl": 2271.7665399999987
-    },
-    {
-      "symbol": "PNB.NS",
-      "pnl": 6035.520583193716
-    },
-    {
-      "symbol": "ORIENTHOT.NS",
-      "pnl": 7896.640115208388
+      "symbol": "IIFLCAPS.NS",
+      "pnl": 3063.3114477600047
     }
   ],
-  "open_positions_now": 63
+  "open_positions_now": 72
 }

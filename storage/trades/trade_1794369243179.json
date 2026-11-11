@@ -1,0 +1,18 @@
+{
+  "symbol": "UNIONBANK.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 273,
+  "entry_price": 182.97999572753906,
+  "exit_price": 192.89,
+  "status": "OPEN",
+  "realized_pnl": 2524.087484461854,
+  "realized_pnl_percent": 5.052870213797888,
+  "max_profit_percent": 9.542029008711552,
+  "max_drawdown_percent": 1.1476614349983327,
+  "regime": "BULL",
+  "confidence": 58.45,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Final profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 181.34 deducted",
+  "id": "trade_1794369243179",
+  "timestamp": 1794369243.1796772
+}

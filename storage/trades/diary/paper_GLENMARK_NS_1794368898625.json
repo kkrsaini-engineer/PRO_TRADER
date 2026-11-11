@@ -6,20 +6,35 @@
   "entry_price": 2670.0,
   "buy_probability": 86.07,
   "buy_confidence": 72.74,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 49.21,
   "entry_reasons": [
     "Morning Executor: gap -0.04% (0.01x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'GLENMARK.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'GLENMARK.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-11",
+      "current_price": 2656.0,
+      "current_pnl": -518.0,
+      "current_buy_confidence": 49.21,
+      "current_sell_confidence": 34.24,
+      "current_exit_score": 78.72,
+      "recommendation": "PARTIAL_EXIT",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "High market volatility.",
+        "High market volatility."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1794368898.6254945,
-  "updated_at": 1794368898.6254945
+  "updated_at": 1794369331.7765188
 }

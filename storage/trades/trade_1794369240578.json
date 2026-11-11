@@ -1,0 +1,18 @@
+{
+  "symbol": "TFCILTD.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 333,
+  "entry_price": 149.89999389648438,
+  "exit_price": 170.71,
+  "status": "CLOSED",
+  "realized_pnl": 10409.556411270929,
+  "realized_pnl_percent": 13.506514549939205,
+  "max_profit_percent": 14.743166780098141,
+  "max_drawdown_percent": 5.650434666830079,
+  "regime": "BULL",
+  "confidence": 57.96,
+  "reasons": "Break-even stop activated.; Excellent risk/reward profile.; Final target achieved (previous session).; Profit protection activated.; costs Rs 187.73 deducted",
+  "id": "trade_1794369240578",
+  "timestamp": 1794369240.578209
+}

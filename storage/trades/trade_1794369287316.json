@@ -1,0 +1,18 @@
+{
+  "symbol": "LAURUSLABS.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 10,
+  "entry_price": 2328.300048828125,
+  "exit_price": 2477.19,
+  "status": "OPEN",
+  "realized_pnl": 586.4380079715311,
+  "realized_pnl_percent": 5.993731651968285,
+  "max_profit_percent": 6.859079492450075,
+  "max_drawdown_percent": 1.7222908051062018,
+  "regime": "BULL",
+  "confidence": 55.71,
+  "reasons": "Partial profit target reached.; Excellent risk/reward profile.; High market volatility.; Partial target achieved (previous session).; costs Rs 93.38 deducted",
+  "id": "trade_1794369287316",
+  "timestamp": 1794369287.3164158
+}

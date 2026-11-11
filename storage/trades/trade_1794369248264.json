@@ -1,0 +1,18 @@
+{
+  "symbol": "RECLTD.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 344,
+  "entry_price": 290.0,
+  "exit_price": 306.2,
+  "status": "CLOSED",
+  "realized_pnl": -5904.2377392,
+  "realized_pnl_percent": -5.918442,
+  "max_profit_percent": 2.7931055529364226,
+  "max_drawdown_percent": 6.068965517241387,
+  "regime": "SIDEWAYS",
+  "confidence": 47.44,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 331.44 deducted",
+  "id": "trade_1794369248264",
+  "timestamp": 1794369248.2645984
+}
