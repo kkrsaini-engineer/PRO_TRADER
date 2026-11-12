@@ -1,0 +1,18 @@
+{
+  "symbol": "CUPID.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 147,
+  "entry_price": 339.6499938964844,
+  "exit_price": 369.96,
+  "status": "OPEN",
+  "realized_pnl": 4271.6144171021915,
+  "realized_pnl_percent": 8.555454732539134,
+  "max_profit_percent": 11.87987835377767,
+  "max_drawdown_percent": 2.958924767721827,
+  "regime": "BULL",
+  "confidence": 58.84,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; Profit protection activated.; costs Rs 183.96 deducted",
+  "id": "trade_1794455400002",
+  "timestamp": 1794455400.0028121
+}

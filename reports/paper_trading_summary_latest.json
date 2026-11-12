@@ -1,29 +1,25 @@
 {
-  "date": "2026-11-11",
-  "opening_balance": 3298222.420130834,
-  "total_capital_in_positions": 5770018.799999999,
-  "remaining_balance": 4003762.2104930356,
-  "portfolio_value": 9773781.010493034,
-  "realized_pnl": -229706.8729625034,
-  "portfolio_return_percent": -2.262189895069655,
+  "date": "2026-11-12",
+  "opening_balance": 3803984.0095653012,
+  "total_capital_in_positions": 5490178.919999998,
+  "remaining_balance": 4311950.531990083,
+  "portfolio_value": 9802129.451990081,
+  "realized_pnl": -225137.43146545583,
+  "portfolio_return_percent": -1.97870548009919,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "COLPAL.NS",
-      "pnl": -5366.537326931692
+      "symbol": "UNIONBANK.NS",
+      "pnl": 7106.152859073707
     },
     {
-      "symbol": "TFCILTD.NS",
-      "pnl": 10409.556411270929
+      "symbol": "SOUTHBANK.NS",
+      "pnl": 848.9570564931462
     },
     {
-      "symbol": "RECLTD.NS",
-      "pnl": -5904.2377392
-    },
-    {
-      "symbol": "IIFLCAPS.NS",
-      "pnl": 3063.3114477600047
+      "symbol": "MCX.NS",
+      "pnl": 10053.513873778465
     }
   ],
-  "open_positions_now": 72
+  "open_positions_now": 71
 }

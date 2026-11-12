@@ -1,0 +1,18 @@
+{
+  "symbol": "MCX.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 15,
+  "entry_price": 3205.199951171875,
+  "exit_price": 3634.89,
+  "status": "CLOSED",
+  "realized_pnl": 10053.513873778465,
+  "realized_pnl_percent": 13.029463895003076,
+  "max_profit_percent": 13.471859959009786,
+  "max_drawdown_percent": 0.8486194804143261,
+  "regime": "BULL",
+  "confidence": 73.98,
+  "reasons": "Break-even stop activated.; Excellent risk/reward profile.; Final target achieved (previous session).; Profit protection activated.; costs Rs 181.05 deducted",
+  "id": "trade_1794455515360",
+  "timestamp": 1794455515.3606803
+}

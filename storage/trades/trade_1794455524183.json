@@ -1,0 +1,18 @@
+{
+  "symbol": "KARURVYSYA.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 71,
+  "entry_price": 351.5,
+  "exit_price": 378.38,
+  "status": "OPEN",
+  "realized_pnl": 2163.684585779999,
+  "realized_pnl_percent": 7.2488260264059505,
+  "max_profit_percent": 10.184921763869136,
+  "max_drawdown_percent": 4.381221592171942,
+  "regime": "BULL",
+  "confidence": 74.82,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 99.43 deducted",
+  "id": "trade_1794455524183",
+  "timestamp": 1794455524.1833153
+}
