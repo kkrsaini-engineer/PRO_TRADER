@@ -1,0 +1,13 @@
+{
+  "id": "paper_IIFLCAPS_NS_1794455247418",
+  "symbol": "IIFLCAPS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 284,
+  "entry_price": 351.95001220703125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.25,
+  "reasons": "Morning Executor: gap +0.46% (0.39x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'IIFLCAPS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794455247.4203649
+}

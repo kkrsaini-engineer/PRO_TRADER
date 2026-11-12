@@ -1,10 +1,10 @@
 {
   "total_capital": 10000000.0,
-  "available_capital": 4003762.2104930356,
-  "used_capital": 5651982.344476759,
-  "total_pnl": -229706.8729625034,
-  "total_pnl_percent": -2.297068729625034,
-  "exposure": 0.5651982344476759,
+  "available_capital": 3803984.0095653012,
+  "used_capital": 5851760.545404494,
+  "total_pnl": -229706.87296250358,
+  "total_pnl_percent": -2.297068729625036,
+  "exposure": 0.5851760545404494,
   "risk_score": 0.0,
   "peak_equity": 10003471.560464654,
   "day_start_equity": 9700584.796050906,
@@ -1381,6 +1381,44 @@
       "updated_at": 1794369253.463155,
       "partial_taken": false,
       "stop_level": 165.72
+    },
+    "ADANIPORTS.NS": {
+      "symbol": "ADANIPORTS.NS",
+      "quantity": 52,
+      "entry_price": 1919.699951171875,
+      "current_price": 1919.699951171875,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 1919.699951171875,
+      "lowest_price": 1919.699951171875,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1794455223.1559753,
+      "partial_taken": false,
+      "stop_level": null
+    },
+    "IIFLCAPS.NS": {
+      "symbol": "IIFLCAPS.NS",
+      "quantity": 284,
+      "entry_price": 351.95001220703125,
+      "current_price": 351.95001220703125,
+      "direction": "BUY",
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_percent": 0.0,
+      "realized_pnl": 0.0,
+      "realized_pnl_percent": 0.0,
+      "highest_price": 351.95001220703125,
+      "lowest_price": 351.95001220703125,
+      "max_profit_percent": 0.0,
+      "max_drawdown_percent": 0.0,
+      "status": "OPEN",
+      "updated_at": 1794455247.4184167,
+      "partial_taken": false,
+      "stop_level": null
     }
   },
   "closed_positions": [
@@ -4553,5 +4591,5 @@
     "INDIANB.NS": "Financial Services",
     "GLENMARK.NS": "Healthcare"
   },
-  "saved_at": 1794369384.664311
+  "saved_at": 1794455247.745949
 }
