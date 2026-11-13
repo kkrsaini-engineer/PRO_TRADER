@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_GHCLTEXTIL_NS_1794541687974",
+  "symbol": "GHCLTEXTIL.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-13",
+  "entry_price": 129.8800048828125,
+  "buy_probability": 82.84,
+  "buy_confidence": 71.99,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -3.09% (0.65x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'GHCLTEXTIL.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794541687.974086,
+  "updated_at": 1794541687.974086
+}

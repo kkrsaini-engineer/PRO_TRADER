@@ -1,0 +1,13 @@
+{
+  "id": "paper_ETERNAL_NS_1794541790046",
+  "symbol": "ETERNAL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 274,
+  "entry_price": 364.3500061035156,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.39,
+  "reasons": "Morning Executor: gap +0.90% (0.32x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ETERNAL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541790.0480132
+}

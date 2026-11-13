@@ -1,0 +1,13 @@
+{
+  "id": "paper_GHCLTEXTIL_NS_1794541687974",
+  "symbol": "GHCLTEXTIL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 769,
+  "entry_price": 129.8800048828125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.99,
+  "reasons": "Morning Executor: gap -3.09% (0.65x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'GHCLTEXTIL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541687.9753633
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_SHYAMMETL_NS_1794541728525",
+  "symbol": "SHYAMMETL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 76,
+  "entry_price": 1314.699951171875,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.97,
+  "reasons": "Morning Executor: gap -1.32% (0.38x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'SHYAMMETL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541728.5271354
+}

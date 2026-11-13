@@ -1,0 +1,13 @@
+{
+  "id": "paper_TFCILTD_NS_1794541851111",
+  "symbol": "TFCILTD.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 598,
+  "entry_price": 167.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 66.46,
+  "reasons": "Morning Executor: gap +0.41% (0.11x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'TFCILTD.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541851.1124988
+}

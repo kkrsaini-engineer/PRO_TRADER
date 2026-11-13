@@ -1,0 +1,13 @@
+{
+  "id": "paper_DIACABS_NS_1794541810212",
+  "symbol": "DIACABS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 264,
+  "entry_price": 377.70001220703125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.61,
+  "reasons": "Morning Executor: gap +0.08% (0.02x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'DIACABS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541810.2141833
+}

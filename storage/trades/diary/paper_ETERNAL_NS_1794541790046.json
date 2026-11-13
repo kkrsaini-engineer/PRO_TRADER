@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_ETERNAL_NS_1794541790046",
+  "symbol": "ETERNAL.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-13",
+  "entry_price": 364.3500061035156,
+  "buy_probability": 78.01,
+  "buy_confidence": 67.39,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.90% (0.32x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'ETERNAL.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794541790.0466986,
+  "updated_at": 1794541790.0466988
+}

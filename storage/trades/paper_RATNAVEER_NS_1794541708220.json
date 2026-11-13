@@ -1,0 +1,13 @@
+{
+  "id": "paper_RATNAVEER_NS_1794541708220",
+  "symbol": "RATNAVEER.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 268,
+  "entry_price": 373.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.12,
+  "reasons": "Morning Executor: gap +0.66% (0.14x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'RATNAVEER.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541708.2213778
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_BLKASHYAP_NS_1794541749009",
+  "symbol": "BLKASHYAP.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 1843,
+  "entry_price": 54.25,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.73,
+  "reasons": "Morning Executor: gap -3.78% (0.85x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'BLKASHYAP.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541749.010332
+}

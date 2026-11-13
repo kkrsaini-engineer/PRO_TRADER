@@ -1,0 +1,13 @@
+{
+  "id": "paper_RALLIS_NS_1794541667442",
+  "symbol": "RALLIS.NS",
+  "direction": "SELL",
+  "action": "OPEN",
+  "quantity": 526,
+  "entry_price": 189.80999755859375,
+  "status": "OPEN",
+  "regime": "BEAR",
+  "confidence": 71.45,
+  "reasons": "Morning Executor: gap +0.31% (0.11x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'RALLIS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541667.4441237
+}

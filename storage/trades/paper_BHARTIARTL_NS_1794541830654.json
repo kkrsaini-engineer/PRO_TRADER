@@ -1,0 +1,13 @@
+{
+  "id": "paper_BHARTIARTL_NS_1794541830654",
+  "symbol": "BHARTIARTL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 48,
+  "entry_price": 2082.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 66.26,
+  "reasons": "Morning Executor: gap -1.28% (0.58x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'BHARTIARTL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541830.6557963
+}

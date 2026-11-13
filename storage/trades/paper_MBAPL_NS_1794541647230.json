@@ -1,0 +1,13 @@
+{
+  "id": "paper_MBAPL_NS_1794541647230",
+  "symbol": "MBAPL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 516,
+  "entry_price": 193.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.2,
+  "reasons": "Morning Executor: gap +0.71% (0.19x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'MBAPL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794541647.2458625
+}

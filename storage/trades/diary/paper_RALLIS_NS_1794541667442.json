@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_RALLIS_NS_1794541667442",
+  "symbol": "RALLIS.NS",
+  "direction": "SELL",
+  "entry_date": "2026-11-13",
+  "entry_price": 189.80999755859375,
+  "buy_probability": 84.37,
+  "buy_confidence": 71.45,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.31% (0.11x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'RALLIS.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794541667.4429853,
+  "updated_at": 1794541667.4429855
+}
