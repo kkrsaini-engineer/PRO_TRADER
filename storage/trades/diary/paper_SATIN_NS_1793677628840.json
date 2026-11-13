@@ -111,16 +111,31 @@
         "Continue holding position.",
         "Profit protection activated."
       ]
+    },
+    {
+      "date": "2026-11-13",
+      "current_price": 271.61,
+      "current_pnl": 6738.161020507815,
+      "current_buy_confidence": 60.27,
+      "current_sell_confidence": 25.42,
+      "current_exit_score": 56.7,
+      "recommendation": "HOLD",
+      "notes": [
+        "Break-even stop activated.",
+        "Excellent risk/reward profile.",
+        "Continue holding position.",
+        "Profit protection activated."
+      ]
     }
   ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 7,
+  "holding_days": 8,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1793677628.8404925,
-  "updated_at": 1794455487.4979055
+  "updated_at": 1794542159.8767734
 }

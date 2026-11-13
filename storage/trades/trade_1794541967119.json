@@ -1,0 +1,18 @@
+{
+  "symbol": "POLYCAB.NS",
+  "direction": "SELL",
+  "action": "CLOSE",
+  "quantity": 12,
+  "entry_price": 7701.0,
+  "exit_price": 8155.1,
+  "status": "CLOSED",
+  "realized_pnl": -5756.709634800005,
+  "realized_pnl_percent": -6.229396219971438,
+  "max_profit_percent": 2.265939488378133,
+  "max_drawdown_percent": 7.479548110634983,
+  "regime": "BEAR",
+  "confidence": 43.72,
+  "reasons": "Below preferred risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 307.51 deducted",
+  "id": "trade_1794541967119",
+  "timestamp": 1794541967.1190846
+}

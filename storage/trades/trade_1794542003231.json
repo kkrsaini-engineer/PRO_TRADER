@@ -1,0 +1,18 @@
+{
+  "symbol": "AARTIPHARM.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 54,
+  "entry_price": 920.0,
+  "exit_price": 1007.65,
+  "status": "OPEN",
+  "realized_pnl": 4549.518719099999,
+  "realized_pnl_percent": 9.157646374999997,
+  "max_profit_percent": 10.760869565217392,
+  "max_drawdown_percent": 2.1739130434782608,
+  "regime": "BULL",
+  "confidence": 75.24,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 183.58 deducted",
+  "id": "trade_1794542003231",
+  "timestamp": 1794542003.2310915
+}

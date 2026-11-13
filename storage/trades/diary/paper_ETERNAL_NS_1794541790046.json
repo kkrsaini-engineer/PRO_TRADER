@@ -6,20 +6,34 @@
   "entry_price": 364.3500061035156,
   "buy_probability": 78.01,
   "buy_confidence": 67.39,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 60.22,
   "entry_reasons": [
     "Morning Executor: gap +0.90% (0.32x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'ETERNAL.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'ETERNAL.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-13",
+      "current_price": 363.0,
+      "current_pnl": -369.90167236328125,
+      "current_buy_confidence": 60.22,
+      "current_sell_confidence": 26.0,
+      "current_exit_score": 58.2,
+      "recommendation": "HOLD",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "Continue holding position."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1794541790.0466986,
-  "updated_at": 1794541790.0466988
+  "updated_at": 1794542140.7224054
 }

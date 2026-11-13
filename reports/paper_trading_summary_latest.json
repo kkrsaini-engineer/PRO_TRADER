@@ -1,25 +1,21 @@
 {
-  "date": "2026-11-12",
-  "opening_balance": 3803984.0095653012,
-  "total_capital_in_positions": 5490178.919999998,
-  "remaining_balance": 4311950.531990083,
-  "portfolio_value": 9802129.451990081,
-  "realized_pnl": -225137.43146545583,
-  "portfolio_return_percent": -1.97870548009919,
+  "date": "2026-11-13",
+  "opening_balance": 3113732.098335298,
+  "total_capital_in_positions": 6279320.119999997,
+  "remaining_balance": 3516982.6276229173,
+  "portfolio_value": 9796302.747622915,
+  "realized_pnl": -213844.15840097982,
+  "portfolio_return_percent": -2.036972523770854,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "UNIONBANK.NS",
-      "pnl": 7106.152859073707
+      "symbol": "POLYCAB.NS",
+      "pnl": -5756.709634800005
     },
     {
-      "symbol": "SOUTHBANK.NS",
-      "pnl": 848.9570564931462
-    },
-    {
-      "symbol": "MCX.NS",
-      "pnl": 10053.513873778465
+      "symbol": "HAL.NS",
+      "pnl": -5287.4375403999875
     }
   ],
-  "open_positions_now": 71
+  "open_positions_now": 81
 }

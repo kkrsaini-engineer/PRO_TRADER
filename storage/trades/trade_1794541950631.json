@@ -1,0 +1,18 @@
+{
+  "symbol": "TANLA.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 38,
+  "entry_price": 654.9000244140625,
+  "exit_price": 714.27,
+  "status": "OPEN",
+  "realized_pnl": 5235.109419356046,
+  "realized_pnl_percent": 8.664738933115222,
+  "max_profit_percent": 12.834018118745389,
+  "max_drawdown_percent": 1.6643799065078255,
+  "regime": "BULL",
+  "confidence": 67.9,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 99.73 deducted",
+  "id": "trade_1794541950631",
+  "timestamp": 1794541950.6315806
+}
