@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_MAHABANK_NS_1794801107482",
+  "symbol": "MAHABANK.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-16",
+  "entry_price": 91.91000366210938,
+  "buy_probability": 82.62,
+  "buy_confidence": 70.64,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.13% (0.04x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'MAHABANK.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794801107.4824731,
+  "updated_at": 1794801107.4824734
+}

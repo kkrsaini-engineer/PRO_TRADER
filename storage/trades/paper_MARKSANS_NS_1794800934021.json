@@ -1,0 +1,13 @@
+{
+  "id": "paper_MARKSANS_NS_1794800934021",
+  "symbol": "MARKSANS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 313,
+  "entry_price": 318.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.65,
+  "reasons": "Morning Executor: gap -0.47% (0.12x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'MARKSANS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794800934.022527
+}

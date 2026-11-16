@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_ADANIENSOL_NS_1794801256503",
+  "symbol": "ADANIENSOL.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-16",
+  "entry_price": 1438.5,
+  "buy_probability": 77.9,
+  "buy_confidence": 67.47,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap +0.31% (0.09x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'ADANIENSOL.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794801256.503283,
+  "updated_at": 1794801256.503283
+}

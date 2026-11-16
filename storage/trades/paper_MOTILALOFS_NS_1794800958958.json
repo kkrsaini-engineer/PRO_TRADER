@@ -1,0 +1,13 @@
+{
+  "id": "paper_MOTILALOFS_NS_1794800958958",
+  "symbol": "MOTILALOFS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 81,
+  "entry_price": 1223.300048828125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.98,
+  "reasons": "Morning Executor: gap +0.53% (0.14x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'MOTILALOFS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794800958.9597087
+}

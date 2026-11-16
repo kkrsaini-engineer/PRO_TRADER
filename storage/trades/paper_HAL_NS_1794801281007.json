@@ -1,0 +1,13 @@
+{
+  "id": "paper_HAL_NS_1794801281007",
+  "symbol": "HAL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 20,
+  "entry_price": 4814.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 66.4,
+  "reasons": "Morning Executor: gap -0.61% (0.21x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'HAL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801281.008904
+}

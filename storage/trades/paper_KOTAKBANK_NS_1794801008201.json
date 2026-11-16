@@ -1,0 +1,13 @@
+{
+  "id": "paper_KOTAKBANK_NS_1794801008201",
+  "symbol": "KOTAKBANK.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 203,
+  "entry_price": 490.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.37,
+  "reasons": "Morning Executor: gap +0.02% (0.01x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'KOTAKBANK.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801008.2032447
+}

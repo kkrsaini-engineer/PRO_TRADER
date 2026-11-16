@@ -1,0 +1,13 @@
+{
+  "id": "paper_GABRIEL_NS_1794801181598",
+  "symbol": "GABRIEL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 64,
+  "entry_price": 1552.699951171875,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.69,
+  "reasons": "Morning Executor: gap -5.39% (1.25x ATR, WARNING band); Company news check unavailable (Unable to fetch news for 'GABRIEL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801181.5995984
+}

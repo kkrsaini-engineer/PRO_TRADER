@@ -1,0 +1,13 @@
+{
+  "id": "paper_ORIENTELEC_NS_1794801231606",
+  "symbol": "ORIENTELEC.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 498,
+  "entry_price": 200.42999267578125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.66,
+  "reasons": "Morning Executor: gap -0.94% (0.24x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ORIENTELEC.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801231.6082864
+}

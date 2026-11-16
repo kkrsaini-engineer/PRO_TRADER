@@ -1,0 +1,13 @@
+{
+  "id": "paper_ABDL_NS_1794801132297",
+  "symbol": "ABDL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 131,
+  "entry_price": 757.7000122070312,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.6,
+  "reasons": "Morning Executor: gap -0.04% (0.01x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ABDL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801132.2986643
+}

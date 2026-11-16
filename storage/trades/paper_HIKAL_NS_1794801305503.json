@@ -1,0 +1,13 @@
+{
+  "id": "paper_HIKAL_NS_1794801305503",
+  "symbol": "HIKAL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 452,
+  "entry_price": 221.1999969482422,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.49,
+  "reasons": "Morning Executor: gap -1.07% (0.24x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'HIKAL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801305.5050092
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_MAHABANK_NS_1794801107482",
+  "symbol": "MAHABANK.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 1088,
+  "entry_price": 91.91000366210938,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.64,
+  "reasons": "Morning Executor: gap +0.13% (0.04x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'MAHABANK.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801107.4838057
+}

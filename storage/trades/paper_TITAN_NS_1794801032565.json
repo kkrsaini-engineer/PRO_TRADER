@@ -1,0 +1,13 @@
+{
+  "id": "paper_TITAN_NS_1794801032565",
+  "symbol": "TITAN.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 20,
+  "entry_price": 4857.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.68,
+  "reasons": "Morning Executor: gap -1.32% (0.54x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'TITAN.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801032.5673203
+}

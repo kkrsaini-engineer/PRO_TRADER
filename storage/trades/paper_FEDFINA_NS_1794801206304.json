@@ -1,0 +1,13 @@
+{
+  "id": "paper_FEDFINA_NS_1794801206304",
+  "symbol": "FEDFINA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 624,
+  "entry_price": 160.10000610351562,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.92,
+  "reasons": "Morning Executor: gap -2.41% (0.67x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'FEDFINA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801206.3055031
+}

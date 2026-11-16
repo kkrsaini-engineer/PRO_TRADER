@@ -1,0 +1,13 @@
+{
+  "id": "paper_GRAPHITE_NS_1794801058164",
+  "symbol": "GRAPHITE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 125,
+  "entry_price": 799.9500122070312,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.43,
+  "reasons": "Morning Executor: gap +0.16% (0.04x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'GRAPHITE.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801058.1654491
+}

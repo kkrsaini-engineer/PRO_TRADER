@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_KTKBANK_NS_1794800884764",
+  "symbol": "KTKBANK.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-16",
+  "entry_price": 363.0,
+  "buy_probability": 89.45,
+  "buy_confidence": 76.74,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -0.82% (0.24x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'KTKBANK.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794800884.7645764,
+  "updated_at": 1794800884.7645764
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_WESTLIFE_NS_1794801329989",
+  "symbol": "WESTLIFE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 151,
+  "entry_price": 659.0499877929688,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 65.58,
+  "reasons": "Morning Executor: gap +0.76% (0.17x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'WESTLIFE.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801329.9908547
+}

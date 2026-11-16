@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_HIKAL_NS_1794801305503",
+  "symbol": "HIKAL.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-16",
+  "entry_price": 221.1999969482422,
+  "buy_probability": 77.19,
+  "buy_confidence": 67.49,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -1.07% (0.24x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'HIKAL.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794801305.5035734,
+  "updated_at": 1794801305.5035737
+}

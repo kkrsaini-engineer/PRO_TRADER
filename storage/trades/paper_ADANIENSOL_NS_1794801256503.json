@@ -1,0 +1,13 @@
+{
+  "id": "paper_ADANIENSOL_NS_1794801256503",
+  "symbol": "ADANIENSOL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 69,
+  "entry_price": 1438.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 67.47,
+  "reasons": "Morning Executor: gap +0.31% (0.09x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ADANIENSOL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801256.5046926
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_LENSKART_NS_1794801083049",
+  "symbol": "LENSKART.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 136,
+  "entry_price": 734.2999877929688,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.73,
+  "reasons": "Morning Executor: gap +0.94% (0.27x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'LENSKART.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794801083.0511296
+}
