@@ -1,0 +1,18 @@
+{
+  "symbol": "MBAPL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 258,
+  "entry_price": 193.5,
+  "exit_price": 209.0,
+  "status": "OPEN",
+  "realized_pnl": 3815.7640949999973,
+  "realized_pnl_percent": 7.643298870260196,
+  "max_profit_percent": 8.010335917312661,
+  "max_drawdown_percent": 0.3204109132751938,
+  "regime": "BULL",
+  "confidence": 59.77,
+  "reasons": "Partial profit target reached.; Below preferred risk/reward profile.; Partial target achieved.; costs Rs 183.24 deducted",
+  "id": "trade_1794801650979",
+  "timestamp": 1794801650.9792335
+}

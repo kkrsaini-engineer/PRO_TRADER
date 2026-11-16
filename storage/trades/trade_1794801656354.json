@@ -1,0 +1,18 @@
+{
+  "symbol": "ADANIENSOL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 69,
+  "entry_price": 1438.5,
+  "exit_price": 1435.0,
+  "status": "CLOSED",
+  "realized_pnl": -577.4583135000069,
+  "realized_pnl_percent": -0.5817838766226966,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.24330900243309003,
+  "regime": "BULL",
+  "confidence": 67.04,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Trend reversal confirmed.; costs Rs 335.96 deducted",
+  "id": "trade_1794801656354",
+  "timestamp": 1794801656.3547635
+}

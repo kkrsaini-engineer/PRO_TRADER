@@ -1,0 +1,18 @@
+{
+  "symbol": "IIFLCAPS.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 142,
+  "entry_price": 351.95001220703125,
+  "exit_price": 360.57,
+  "status": "OPEN",
+  "realized_pnl": 1044.899032913849,
+  "realized_pnl_percent": 2.0907639262791005,
+  "max_profit_percent": 2.557181329121772,
+  "max_drawdown_percent": 0.2699281642508977,
+  "regime": "BULL",
+  "confidence": 70.74,
+  "reasons": "Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 179.14 deducted",
+  "id": "trade_1794801442804",
+  "timestamp": 1794801442.8047552
+}

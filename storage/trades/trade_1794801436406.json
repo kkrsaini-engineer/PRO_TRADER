@@ -1,0 +1,18 @@
+{
+  "symbol": "NYKAA.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 146,
+  "entry_price": 342.5,
+  "exit_price": 363.1,
+  "status": "OPEN",
+  "realized_pnl": 2825.6251636000047,
+  "realized_pnl_percent": 5.650685258674142,
+  "max_profit_percent": 7.53284671532847,
+  "max_drawdown_percent": 0.145985401459854,
+  "regime": "BULL",
+  "confidence": 71.71,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 181.97 deducted",
+  "id": "trade_1794801436406",
+  "timestamp": 1794801436.4069436
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "VRLLOG.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 6,
+  "entry_price": 309.0,
+  "exit_price": 334.85,
+  "status": "OPEN",
+  "realized_pnl": 5986.666351299993,
+  "realized_pnl_percent": 7.170797686084154,
+  "max_profit_percent": 12.702265372168284,
+  "max_drawdown_percent": 0.3236245954692557,
+  "regime": "BULL",
+  "confidence": 68.17,
+  "reasons": "Break-even stop activated.; Excellent risk/reward profile.; High market volatility.; High market volatility.; costs Rs 22.15 deducted",
+  "id": "trade_1794801558947",
+  "timestamp": 1794801558.9475555
+}

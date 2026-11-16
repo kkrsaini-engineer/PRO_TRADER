@@ -1,0 +1,18 @@
+{
+  "symbol": "REGAAL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 562,
+  "entry_price": 89.0,
+  "exit_price": 98.0,
+  "status": "OPEN",
+  "realized_pnl": 4872.827633999999,
+  "realized_pnl_percent": 9.742148094685911,
+  "max_profit_percent": 14.606741573033707,
+  "max_drawdown_percent": 6.08988558308462,
+  "regime": "BULL",
+  "confidence": 77.05,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; Profit protection activated.; costs Rs 185.17 deducted",
+  "id": "trade_1794801700160",
+  "timestamp": 1794801700.1604154
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "APLAPOLLO.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 23,
+  "entry_price": 2169.10009765625,
+  "exit_price": 2281.09,
+  "status": "OPEN",
+  "realized_pnl": 2394.8309796826024,
+  "realized_pnl_percent": 4.800289584868094,
+  "max_profit_percent": 5.5737355078442175,
+  "max_drawdown_percent": 1.6504585332383894,
+  "regime": "BULL",
+  "confidence": 60.96,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 180.94 deducted",
+  "id": "trade_1794801539399",
+  "timestamp": 1794801539.3991416
+}

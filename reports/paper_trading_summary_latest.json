@@ -1,21 +1,29 @@
 {
-  "date": "2026-11-13",
-  "opening_balance": 3113732.098335298,
-  "total_capital_in_positions": 6279320.119999997,
-  "remaining_balance": 3516982.6276229173,
-  "portfolio_value": 9796302.747622915,
-  "realized_pnl": -213844.15840097982,
-  "portfolio_return_percent": -2.036972523770854,
+  "date": "2026-11-16",
+  "opening_balance": 1429772.051756218,
+  "total_capital_in_positions": 7739127.119999997,
+  "remaining_balance": 2022953.0957915,
+  "portfolio_value": 9762080.215791497,
+  "realized_pnl": -216894.41023239773,
+  "portfolio_return_percent": -2.379197842085026,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "POLYCAB.NS",
-      "pnl": -5756.709634800005
+      "symbol": "PNB.NS",
+      "pnl": 7193.963108055386
     },
     {
-      "symbol": "HAL.NS",
-      "pnl": -5287.4375403999875
+      "symbol": "MAHLOG.NS",
+      "pnl": -1968.6658353198497
+    },
+    {
+      "symbol": "BLKASHYAP.NS",
+      "pnl": -3742.977019549999
+    },
+    {
+      "symbol": "ADANIENSOL.NS",
+      "pnl": -577.4583135000069
     }
   ],
-  "open_positions_now": 81
+  "open_positions_now": 98
 }

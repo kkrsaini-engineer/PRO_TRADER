@@ -1,0 +1,18 @@
+{
+  "symbol": "BLKASHYAP.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 1843,
+  "entry_price": 54.25,
+  "exit_price": 52.4,
+  "status": "CLOSED",
+  "realized_pnl": -3742.977019549999,
+  "realized_pnl_percent": -3.7436227944820475,
+  "max_profit_percent": 3.963136453233007,
+  "max_drawdown_percent": 3.686635944700461,
+  "regime": "BEAR",
+  "confidence": 47.74,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Trend reversal confirmed.; costs Rs 333.43 deducted",
+  "id": "trade_1794801612028",
+  "timestamp": 1794801612.0282662
+}

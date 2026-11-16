@@ -6,20 +6,34 @@
   "entry_price": 4814.0,
   "buy_probability": 77.52,
   "buy_confidence": 66.4,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 45.97,
   "entry_reasons": [
     "Morning Executor: gap -0.61% (0.21x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'HAL.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'HAL.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-16",
+      "current_price": 4788.0,
+      "current_pnl": -520.0,
+      "current_buy_confidence": 45.97,
+      "current_sell_confidence": 40.93,
+      "current_exit_score": 57.33,
+      "recommendation": "HOLD",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "Continue holding position."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1794801281.0074925,
-  "updated_at": 1794801281.0074928
+  "updated_at": 1794801533.9780414
 }

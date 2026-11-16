@@ -1,0 +1,18 @@
+{
+  "symbol": "MAHLOG.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 59,
+  "entry_price": 427.20001220703125,
+  "exit_price": 391.95,
+  "status": "CLOSED",
+  "realized_pnl": -1968.6658353198497,
+  "realized_pnl_percent": -8.624710445886672,
+  "max_profit_percent": 3.909171632083175,
+  "max_drawdown_percent": 12.031837719639759,
+  "regime": "SIDEWAYS",
+  "confidence": 43.44,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 94.09 deducted",
+  "id": "trade_1794801503639",
+  "timestamp": 1794801503.6397793
+}
