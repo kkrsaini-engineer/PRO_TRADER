@@ -1,0 +1,13 @@
+{
+  "id": "paper_DCBBANK_NS_1794887427049",
+  "symbol": "DCBBANK.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 436,
+  "entry_price": 228.85000610351562,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.92,
+  "reasons": "Morning Executor: gap -1.79% (0.47x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'DCBBANK.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887427.0512958
+}

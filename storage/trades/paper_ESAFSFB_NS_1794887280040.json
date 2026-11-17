@@ -1,0 +1,13 @@
+{
+  "id": "paper_ESAFSFB_NS_1794887280040",
+  "symbol": "ESAFSFB.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 2159,
+  "entry_price": 46.29999923706055,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 76.57,
+  "reasons": "Morning Executor: gap -0.30% (0.07x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ESAFSFB.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887280.042629
+}

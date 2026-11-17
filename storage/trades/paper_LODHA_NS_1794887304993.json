@@ -1,0 +1,13 @@
+{
+  "id": "paper_LODHA_NS_1794887304993",
+  "symbol": "LODHA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 84,
+  "entry_price": 1180.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 77.76,
+  "reasons": "Morning Executor: gap -3.28% (0.90x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'LODHA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887304.9945912
+}

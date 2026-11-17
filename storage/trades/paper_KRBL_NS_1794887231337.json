@@ -1,0 +1,13 @@
+{
+  "id": "paper_KRBL_NS_1794887231337",
+  "symbol": "KRBL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 238,
+  "entry_price": 418.79998779296875,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 83.58,
+  "reasons": "Morning Executor: gap -3.07% (0.80x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'KRBL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887231.3436
+}

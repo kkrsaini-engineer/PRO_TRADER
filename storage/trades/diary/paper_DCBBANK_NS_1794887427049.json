@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_DCBBANK_NS_1794887427049",
+  "symbol": "DCBBANK.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-17",
+  "entry_price": 228.85000610351562,
+  "buy_probability": 83.17,
+  "buy_confidence": 70.92,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -1.79% (0.47x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'DCBBANK.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794887427.049768,
+  "updated_at": 1794887427.049768
+}

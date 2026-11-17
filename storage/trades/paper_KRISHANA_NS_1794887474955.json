@@ -1,0 +1,13 @@
+{
+  "id": "paper_KRISHANA_NS_1794887474955",
+  "symbol": "KRISHANA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 411,
+  "entry_price": 243.02999877929688,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.03,
+  "reasons": "Morning Executor: gap -1.89% (0.50x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'KRISHANA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887474.9564192
+}

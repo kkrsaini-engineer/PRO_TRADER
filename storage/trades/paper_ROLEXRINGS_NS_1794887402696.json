@@ -1,0 +1,13 @@
+{
+  "id": "paper_ROLEXRINGS_NS_1794887402696",
+  "symbol": "ROLEXRINGS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 476,
+  "entry_price": 209.8000030517578,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.82,
+  "reasons": "Morning Executor: gap -1.66% (0.36x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ROLEXRINGS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887402.6978295
+}

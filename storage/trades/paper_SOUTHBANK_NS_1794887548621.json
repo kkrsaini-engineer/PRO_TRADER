@@ -1,0 +1,13 @@
+{
+  "id": "paper_SOUTHBANK_NS_1794887548621",
+  "symbol": "SOUTHBANK.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 206,
+  "entry_price": 62.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.88,
+  "reasons": "Morning Executor: gap +0.23% (0.07x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'SOUTHBANK.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887548.623216
+}

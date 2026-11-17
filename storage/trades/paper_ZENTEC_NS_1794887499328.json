@@ -1,0 +1,13 @@
+{
+  "id": "paper_ZENTEC_NS_1794887499328",
+  "symbol": "ZENTEC.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 57,
+  "entry_price": 1730.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 69.52,
+  "reasons": "Morning Executor: gap -0.79% (0.20x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ZENTEC.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887499.329441
+}

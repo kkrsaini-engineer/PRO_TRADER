@@ -1,0 +1,13 @@
+{
+  "id": "paper_GESHIP_NS_1794887450909",
+  "symbol": "GESHIP.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 65,
+  "entry_price": 1521.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.3,
+  "reasons": "Morning Executor: gap +0.20% (0.05x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'GESHIP.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887450.9105906
+}

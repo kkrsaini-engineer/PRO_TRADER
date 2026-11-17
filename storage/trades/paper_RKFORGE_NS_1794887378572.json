@@ -1,0 +1,13 @@
+{
+  "id": "paper_RKFORGE_NS_1794887378572",
+  "symbol": "RKFORGE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 126,
+  "entry_price": 790.4000244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.79,
+  "reasons": "Morning Executor: gap +0.73% (0.18x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'RKFORGE.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887378.5736825
+}

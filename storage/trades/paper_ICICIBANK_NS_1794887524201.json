@@ -1,0 +1,13 @@
+{
+  "id": "paper_ICICIBANK_NS_1794887524201",
+  "symbol": "ICICIBANK.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 63,
+  "entry_price": 1585.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.09,
+  "reasons": "Morning Executor: gap +0.09% (0.04x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ICICIBANK.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887524.2024121
+}

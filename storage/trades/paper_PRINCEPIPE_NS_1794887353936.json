@@ -1,0 +1,13 @@
+{
+  "id": "paper_PRINCEPIPE_NS_1794887353936",
+  "symbol": "PRINCEPIPE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 319,
+  "entry_price": 312.6499938964844,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.89,
+  "reasons": "Morning Executor: gap -0.95% (0.21x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'PRINCEPIPE.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887353.9378889
+}

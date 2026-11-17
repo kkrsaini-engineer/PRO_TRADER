@@ -1,0 +1,13 @@
+{
+  "id": "paper_HONASA_NS_1794887329000",
+  "symbol": "HONASA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 199,
+  "entry_price": 502.29998779296875,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.65,
+  "reasons": "Morning Executor: gap +0.07% (0.02x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'HONASA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1794887329.0018463
+}

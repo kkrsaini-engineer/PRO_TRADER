@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_PRINCEPIPE_NS_1794887353936",
+  "symbol": "PRINCEPIPE.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-17",
+  "entry_price": 312.6499938964844,
+  "buy_probability": 84.42,
+  "buy_confidence": 73.89,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -0.95% (0.21x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'PRINCEPIPE.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1794887353.9364278,
+  "updated_at": 1794887353.9364278
+}
