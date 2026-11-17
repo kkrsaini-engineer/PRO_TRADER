@@ -1,0 +1,18 @@
+{
+  "symbol": "GABRIEL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 32,
+  "entry_price": 1552.699951171875,
+  "exit_price": 1515.6,
+  "status": "OPEN",
+  "realized_pnl": -1361.68903326094,
+  "realized_pnl_percent": -2.740566988315312,
+  "max_profit_percent": 3.144723808912501e-06,
+  "max_drawdown_percent": 4.340822650313477,
+  "regime": "BULL",
+  "confidence": 54.88,
+  "reasons": "Below preferred risk/reward profile.; High market volatility.; High market volatility.; costs Rs 174.49 deducted",
+  "id": "trade_1794887789937",
+  "timestamp": 1794887789.9371164
+}

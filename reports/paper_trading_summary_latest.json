@@ -1,29 +1,25 @@
 {
-  "date": "2026-11-16",
-  "opening_balance": 1429772.051756218,
-  "total_capital_in_positions": 7739127.119999997,
-  "remaining_balance": 2022953.0957915,
-  "portfolio_value": 9762080.215791497,
-  "realized_pnl": -216894.41023239773,
-  "portfolio_return_percent": -2.379197842085026,
+  "date": "2026-11-17",
+  "opening_balance": 715329.8180319481,
+  "total_capital_in_positions": 8833985.28,
+  "remaining_balance": 994483.9672866724,
+  "portfolio_value": 9828469.247286672,
+  "realized_pnl": -185871.5187372254,
+  "portfolio_return_percent": -1.715307527133282,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "PNB.NS",
-      "pnl": 7193.963108055386
+      "symbol": "CASTROLIND.NS",
+      "pnl": -2067.7109719525324
     },
     {
-      "symbol": "MAHLOG.NS",
-      "pnl": -1968.6658353198497
+      "symbol": "AARTIDRUGS.NS",
+      "pnl": -1212.2335487499988
     },
     {
-      "symbol": "BLKASHYAP.NS",
-      "pnl": -3742.977019549999
-    },
-    {
-      "symbol": "ADANIENSOL.NS",
-      "pnl": -577.4583135000069
+      "symbol": "LAURUSLABS.NS",
+      "pnl": -30.017604095021852
     }
   ],
-  "open_positions_now": 98
+  "open_positions_now": 109
 }

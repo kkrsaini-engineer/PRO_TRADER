@@ -1,0 +1,18 @@
+{
+  "symbol": "ABDL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 66,
+  "entry_price": 757.7000122070312,
+  "exit_price": 820.92,
+  "status": "OPEN",
+  "realized_pnl": 3988.7412150951677,
+  "realized_pnl_percent": 7.976174209097706,
+  "max_profit_percent": 11.851654526360509,
+  "max_drawdown_percent": 0.9436484491053239,
+  "regime": "BULL",
+  "confidence": 56.19,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; Profit protection activated.; costs Rs 183.78 deducted",
+  "id": "trade_1794887674384",
+  "timestamp": 1794887674.3840635
+}

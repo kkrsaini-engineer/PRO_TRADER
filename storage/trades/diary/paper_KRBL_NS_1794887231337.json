@@ -6,20 +6,34 @@
   "entry_price": 418.79998779296875,
   "buy_probability": 94.49,
   "buy_confidence": 83.58,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 69.22,
   "entry_reasons": [
     "Morning Executor: gap -3.07% (0.80x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'KRBL.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'KRBL.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-17",
+      "current_price": 423.15,
+      "current_pnl": 1035.302905273432,
+      "current_buy_confidence": 69.22,
+      "current_sell_confidence": 19.38,
+      "current_exit_score": 54.26,
+      "recommendation": "HOLD",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "Continue holding position."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1794887231.3375583,
-  "updated_at": 1794887231.3375583
+  "updated_at": 1794887766.4557693
 }
