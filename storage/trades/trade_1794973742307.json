@@ -1,0 +1,18 @@
+{
+  "symbol": "TITAN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 20,
+  "entry_price": 4857.0,
+  "exit_price": 4842.4,
+  "status": "CLOSED",
+  "realized_pnl": -621.0485320000043,
+  "realized_pnl_percent": -0.6393334692196874,
+  "max_profit_percent": 1.68828494955734,
+  "max_drawdown_percent": 0.30059707638460703,
+  "regime": "BULL",
+  "confidence": 69.72,
+  "reasons": "Below preferred risk/reward profile.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; Risk engine flagged this symbol as unsafe (grade: REJECT, total_risk: 100/100). ValidationEngine rejected this HELD position during monitoring (upstream of RiskManager, which then forces an all-100 REJECT with no per-factor breakdown): 'Circuit breaker active.'. Raw components (0-100 each): atr=100 gap=100 overnight=100 news=100 liquidity=100 volatility=100 portfolio=100 sector=100 correlation=100 capital=100.; costs Rs 329.05 deducted",
+  "id": "trade_1794973742307",
+  "timestamp": 1794973742.3075247
+}

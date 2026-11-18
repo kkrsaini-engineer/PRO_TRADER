@@ -1,25 +1,37 @@
 {
-  "date": "2026-11-17",
-  "opening_balance": 715329.8180319481,
-  "total_capital_in_positions": 8833985.28,
-  "remaining_balance": 994483.9672866724,
-  "portfolio_value": 9828469.247286672,
-  "realized_pnl": -185871.5187372254,
-  "portfolio_return_percent": -1.715307527133282,
+  "date": "2026-11-18",
+  "opening_balance": 994483.9672866724,
+  "total_capital_in_positions": 8374532.34,
+  "remaining_balance": 1419668.7117595132,
+  "portfolio_value": 9794201.051759513,
+  "realized_pnl": -191543.59426438413,
+  "portfolio_return_percent": -2.057989482404869,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "CASTROLIND.NS",
-      "pnl": -2067.7109719525324
+      "symbol": "KARURVYSYA.NS",
+      "pnl": 5193.476240880002
     },
     {
-      "symbol": "AARTIDRUGS.NS",
-      "pnl": -1212.2335487499988
+      "symbol": "TITAN.NS",
+      "pnl": -621.0485320000043
     },
     {
-      "symbol": "LAURUSLABS.NS",
-      "pnl": -30.017604095021852
+      "symbol": "IIFLCAPS.NS",
+      "pnl": 310.44071772769973
+    },
+    {
+      "symbol": "SGFIN.NS",
+      "pnl": -673.6201027628831
+    },
+    {
+      "symbol": "FEDERALBNK.NS",
+      "pnl": 6621.024560028265
+    },
+    {
+      "symbol": "HCLTECH.NS",
+      "pnl": -5394.443556960001
     }
   ],
-  "open_positions_now": 109
+  "open_positions_now": 103
 }

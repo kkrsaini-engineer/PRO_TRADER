@@ -1,0 +1,18 @@
+{
+  "symbol": "HCLTECH.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 69,
+  "entry_price": 1432.0,
+  "exit_price": 1358.56,
+  "status": "CLOSED",
+  "realized_pnl": -5394.443556960001,
+  "realized_pnl_percent": -5.4595210478503775,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 6.033519553072632,
+  "regime": "BULL",
+  "confidence": 52.2,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 327.08 deducted",
+  "id": "trade_1794973911073",
+  "timestamp": 1794973911.0737395
+}

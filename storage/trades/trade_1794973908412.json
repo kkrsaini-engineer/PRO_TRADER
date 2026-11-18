@@ -1,0 +1,18 @@
+{
+  "symbol": "FEDERALBNK.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 149,
+  "entry_price": 336.70001220703125,
+  "exit_price": 365.66,
+  "status": "CLOSED",
+  "realized_pnl": 6621.024560028265,
+  "realized_pnl_percent": 8.233334415095788,
+  "max_profit_percent": 8.880306745608124,
+  "max_drawdown_percent": 1.0246546129941614,
+  "regime": "BULL",
+  "confidence": 75.32,
+  "reasons": "Break-even stop activated.; Final profit target reached.; Excellent risk/reward profile.; Final target achieved (previous session).; costs Rs 184.51 deducted",
+  "id": "trade_1794973908412",
+  "timestamp": 1794973908.4124365
+}

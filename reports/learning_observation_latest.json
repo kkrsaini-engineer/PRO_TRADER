@@ -1,6 +1,6 @@
 {
-  "timestamp": 1794887933.250142,
-  "closed_trades_observed": 169,
+  "timestamp": 1794974014.3927796,
+  "closed_trades_observed": 175,
   "sector_performance": {
     "Healthcare": {
       "trades": 15,
@@ -18,14 +18,14 @@
       "win_rate": 40.74
     },
     "Technology": {
-      "trades": 11,
+      "trades": 12,
       "wins": 4,
-      "win_rate": 36.36
+      "win_rate": 33.33
     },
     "Financial Services": {
-      "trades": 41,
-      "wins": 16,
-      "win_rate": 39.02
+      "trades": 45,
+      "wins": 19,
+      "win_rate": 42.22
     },
     "Consumer Defensive": {
       "trades": 11,
@@ -38,9 +38,9 @@
       "win_rate": 28.57
     },
     "Consumer Cyclical": {
-      "trades": 24,
+      "trades": 25,
       "wins": 10,
-      "win_rate": 41.67
+      "win_rate": 40.0
     },
     "Communication Services": {
       "trades": 5,
@@ -70,61 +70,61 @@
       "win_rate": 46.51
     },
     "BULL": {
-      "trades": 66,
-      "wins": 36,
-      "win_rate": 54.55
+      "trades": 72,
+      "wins": 39,
+      "win_rate": 54.17
     }
   },
   "news_effectiveness": {
     "with_news_win_rate": null,
-    "without_news_win_rate": 34.91,
+    "without_news_win_rate": 35.43,
     "with_news_trades": 0,
-    "without_news_trades": 169
+    "without_news_trades": 175
   },
   "fundamental_effectiveness": {
-    "strong_fundamentals_win_rate": 39.76,
-    "weak_fundamentals_win_rate": 30.23
+    "strong_fundamentals_win_rate": 41.38,
+    "weak_fundamentals_win_rate": 29.55
   },
   "technical_effectiveness": {
-    "high_technical_win_rate": 37.5,
-    "low_technical_win_rate": 34.78,
-    "high_technical_trades": 8,
-    "low_technical_trades": 161
+    "high_technical_win_rate": 41.67,
+    "low_technical_win_rate": 34.97,
+    "high_technical_trades": 12,
+    "low_technical_trades": 163
   },
   "rule_effectiveness": {
     "accumulation": {
-      "win_rate_when_passed": 45.31,
-      "win_rate_when_failed": 18.87,
-      "sample_passed": 64,
-      "sample_failed": 53,
-      "differential": 26.44
+      "win_rate_when_passed": 48.48,
+      "win_rate_when_failed": 17.54,
+      "sample_passed": 66,
+      "sample_failed": 57,
+      "differential": 30.94
     },
     "adx": {
-      "win_rate_when_passed": 45.74,
-      "win_rate_when_failed": 21.33,
-      "sample_passed": 94,
-      "sample_failed": 75,
-      "differential": 24.41
+      "win_rate_when_passed": 44.12,
+      "win_rate_when_failed": 23.29,
+      "sample_passed": 102,
+      "sample_failed": 73,
+      "differential": 20.83
     },
     "atr_filter": {
-      "win_rate_when_passed": 38.78,
-      "win_rate_when_failed": 9.09,
-      "sample_passed": 147,
-      "sample_failed": 22,
-      "differential": 29.69
+      "win_rate_when_passed": 39.74,
+      "win_rate_when_failed": 8.33,
+      "sample_passed": 151,
+      "sample_failed": 24,
+      "differential": 31.41
     },
     "bollinger": {
-      "win_rate_when_passed": 40.0,
-      "win_rate_when_failed": 28.38,
-      "sample_passed": 95,
+      "win_rate_when_passed": 44.55,
+      "win_rate_when_failed": 22.97,
+      "sample_passed": 101,
       "sample_failed": 74,
-      "differential": 11.62
+      "differential": 21.58
     },
     "breadth": {
       "win_rate_when_passed": null,
-      "win_rate_when_failed": 34.91,
+      "win_rate_when_failed": 35.43,
       "sample_passed": 0,
-      "sample_failed": 169,
+      "sample_failed": 175,
       "differential": null
     },
     "breakdown": {
@@ -135,25 +135,25 @@
       "differential": null
     },
     "breakout": {
-      "win_rate_when_passed": 33.33,
-      "win_rate_when_failed": 33.33,
-      "sample_passed": 6,
-      "sample_failed": 111,
-      "differential": 0.0
+      "win_rate_when_passed": 40.0,
+      "win_rate_when_failed": 33.9,
+      "sample_passed": 5,
+      "sample_failed": 118,
+      "differential": 6.1
     },
     "cci": {
-      "win_rate_when_passed": 42.86,
-      "win_rate_when_failed": 30.97,
-      "sample_passed": 56,
-      "sample_failed": 113,
-      "differential": 11.89
+      "win_rate_when_passed": 45.28,
+      "win_rate_when_failed": 31.15,
+      "sample_passed": 53,
+      "sample_failed": 122,
+      "differential": 14.13
     },
     "cmf": {
-      "win_rate_when_passed": 40.4,
-      "win_rate_when_failed": 27.14,
-      "sample_passed": 99,
-      "sample_failed": 70,
-      "differential": 13.26
+      "win_rate_when_passed": 43.0,
+      "win_rate_when_failed": 25.33,
+      "sample_passed": 100,
+      "sample_failed": 75,
+      "differential": 17.67
     },
     "confirmed_breakdown": {
       "win_rate_when_passed": null,
@@ -163,39 +163,39 @@
       "differential": null
     },
     "confirmed_breakout": {
-      "win_rate_when_passed": 33.33,
-      "win_rate_when_failed": 33.33,
-      "sample_passed": 3,
-      "sample_failed": 114,
-      "differential": 0.0
+      "win_rate_when_passed": 0.0,
+      "win_rate_when_failed": 34.43,
+      "sample_passed": 1,
+      "sample_failed": 122,
+      "differential": -34.43
     },
     "distribution": {
-      "win_rate_when_passed": 54.55,
-      "win_rate_when_failed": 34.15,
-      "sample_passed": 11,
-      "sample_failed": 41,
-      "differential": 20.4
+      "win_rate_when_passed": 46.67,
+      "win_rate_when_failed": 35.14,
+      "sample_passed": 15,
+      "sample_failed": 37,
+      "differential": 11.53
     },
     "donchian": {
-      "win_rate_when_passed": 40.66,
-      "win_rate_when_failed": 28.21,
-      "sample_passed": 91,
-      "sample_failed": 78,
-      "differential": 12.45
+      "win_rate_when_passed": 43.43,
+      "win_rate_when_failed": 25.0,
+      "sample_passed": 99,
+      "sample_failed": 76,
+      "differential": 18.43
     },
     "ema_alignment": {
-      "win_rate_when_passed": 41.18,
-      "win_rate_when_failed": 9.09,
-      "sample_passed": 136,
-      "sample_failed": 33,
-      "differential": 32.09
+      "win_rate_when_passed": 41.01,
+      "win_rate_when_failed": 13.89,
+      "sample_passed": 139,
+      "sample_failed": 36,
+      "differential": 27.12
     },
     "ema_fresh_cross": {
-      "win_rate_when_passed": 10.0,
-      "win_rate_when_failed": 36.48,
-      "sample_passed": 10,
-      "sample_failed": 159,
-      "differential": -26.48
+      "win_rate_when_passed": 14.29,
+      "win_rate_when_failed": 36.31,
+      "sample_passed": 7,
+      "sample_failed": 168,
+      "differential": -22.02
     },
     "failed_breakout": {
       "win_rate_when_passed": null,
@@ -205,207 +205,207 @@
       "differential": null
     },
     "fundamental": {
-      "win_rate_when_passed": 36.89,
-      "win_rate_when_failed": 31.82,
-      "sample_passed": 103,
-      "sample_failed": 66,
-      "differential": 5.07
+      "win_rate_when_passed": 37.96,
+      "win_rate_when_failed": 31.34,
+      "sample_passed": 108,
+      "sample_failed": 67,
+      "differential": 6.62
     },
     "gap_day": {
-      "win_rate_when_passed": 34.59,
-      "win_rate_when_failed": 40.0,
-      "sample_passed": 159,
-      "sample_failed": 10,
-      "differential": -5.41
+      "win_rate_when_passed": 35.58,
+      "win_rate_when_failed": 33.33,
+      "sample_passed": 163,
+      "sample_failed": 12,
+      "differential": 2.25
     },
     "macd_cross": {
-      "win_rate_when_passed": 36.17,
-      "win_rate_when_failed": 33.33,
+      "win_rate_when_passed": 38.3,
+      "win_rate_when_failed": 32.1,
       "sample_passed": 94,
-      "sample_failed": 75,
-      "differential": 2.84
+      "sample_failed": 81,
+      "differential": 6.2
     },
     "market_score": {
-      "win_rate_when_passed": 43.22,
-      "win_rate_when_failed": 15.69,
-      "sample_passed": 118,
-      "sample_failed": 51,
-      "differential": 27.53
+      "win_rate_when_passed": 45.3,
+      "win_rate_when_failed": 15.52,
+      "sample_passed": 117,
+      "sample_failed": 58,
+      "differential": 29.78
     },
     "market_trend": {
-      "win_rate_when_passed": 43.22,
-      "win_rate_when_failed": 15.69,
-      "sample_passed": 118,
-      "sample_failed": 51,
-      "differential": 27.53
+      "win_rate_when_passed": 45.3,
+      "win_rate_when_failed": 15.52,
+      "sample_passed": 117,
+      "sample_failed": 58,
+      "differential": 29.78
     },
     "mfi": {
-      "win_rate_when_passed": 32.84,
-      "win_rate_when_failed": 36.27,
-      "sample_passed": 67,
-      "sample_failed": 102,
-      "differential": -3.43
+      "win_rate_when_passed": 32.89,
+      "win_rate_when_failed": 37.37,
+      "sample_passed": 76,
+      "sample_failed": 99,
+      "differential": -4.48
     },
     "news": {
       "win_rate_when_passed": null,
-      "win_rate_when_failed": 34.91,
+      "win_rate_when_failed": 35.43,
       "sample_passed": 0,
-      "sample_failed": 169,
+      "sample_failed": 175,
       "differential": null
     },
     "not_overextended": {
-      "win_rate_when_passed": 34.13,
+      "win_rate_when_passed": 34.68,
       "win_rate_when_failed": 100.0,
-      "sample_passed": 167,
+      "sample_passed": 173,
       "sample_failed": 2,
-      "differential": -65.87
+      "differential": -65.32
     },
     "not_stale_entry": {
-      "win_rate_when_passed": 34.94,
-      "win_rate_when_failed": 33.33,
-      "sample_passed": 166,
-      "sample_failed": 3,
-      "differential": 1.61
+      "win_rate_when_passed": 35.09,
+      "win_rate_when_failed": 50.0,
+      "sample_passed": 171,
+      "sample_failed": 4,
+      "differential": -14.91
     },
     "obv": {
-      "win_rate_when_passed": 43.56,
-      "win_rate_when_failed": 22.06,
-      "sample_passed": 101,
-      "sample_failed": 68,
-      "differential": 21.5
+      "win_rate_when_passed": 42.86,
+      "win_rate_when_failed": 22.22,
+      "sample_passed": 112,
+      "sample_failed": 63,
+      "differential": 20.64
     },
     "pivot": {
-      "win_rate_when_passed": 37.86,
-      "win_rate_when_failed": 30.3,
-      "sample_passed": 103,
-      "sample_failed": 66,
-      "differential": 7.56
+      "win_rate_when_passed": 38.89,
+      "win_rate_when_failed": 31.76,
+      "sample_passed": 90,
+      "sample_failed": 85,
+      "differential": 7.13
     },
     "price_above_ema20": {
-      "win_rate_when_passed": 40.66,
-      "win_rate_when_failed": 7.69,
-      "sample_passed": 91,
-      "sample_failed": 26,
-      "differential": 32.97
+      "win_rate_when_passed": 43.68,
+      "win_rate_when_failed": 11.11,
+      "sample_passed": 87,
+      "sample_failed": 36,
+      "differential": 32.57
     },
     "price_above_vwap": {
-      "win_rate_when_passed": 37.5,
+      "win_rate_when_passed": 38.53,
       "win_rate_when_failed": 0.0,
-      "sample_passed": 104,
-      "sample_failed": 13,
-      "differential": 37.5
+      "sample_passed": 109,
+      "sample_failed": 14,
+      "differential": 38.53
     },
     "price_below_ema20": {
-      "win_rate_when_passed": 66.67,
-      "win_rate_when_failed": 32.56,
-      "sample_passed": 9,
-      "sample_failed": 43,
-      "differential": 34.11
+      "win_rate_when_passed": 64.71,
+      "win_rate_when_failed": 25.71,
+      "sample_passed": 17,
+      "sample_failed": 35,
+      "differential": 39.0
     },
     "price_below_vwap": {
-      "win_rate_when_passed": 40.48,
-      "win_rate_when_failed": 30.0,
-      "sample_passed": 42,
-      "sample_failed": 10,
-      "differential": 10.48
+      "win_rate_when_passed": 41.46,
+      "win_rate_when_failed": 27.27,
+      "sample_passed": 41,
+      "sample_failed": 11,
+      "differential": 14.19
     },
     "pullback": {
-      "win_rate_when_passed": 50.0,
-      "win_rate_when_failed": 32.11,
-      "sample_passed": 8,
-      "sample_failed": 109,
-      "differential": 17.89
+      "win_rate_when_passed": 27.27,
+      "win_rate_when_failed": 34.82,
+      "sample_passed": 11,
+      "sample_failed": 112,
+      "differential": -7.55
     },
     "pullback_entry": {
-      "win_rate_when_passed": 36.36,
-      "win_rate_when_failed": 34.81,
-      "sample_passed": 11,
+      "win_rate_when_passed": 64.71,
+      "win_rate_when_failed": 32.28,
+      "sample_passed": 17,
       "sample_failed": 158,
-      "differential": 1.55
+      "differential": 32.43
     },
     "roc": {
-      "win_rate_when_passed": 39.18,
-      "win_rate_when_failed": 29.17,
-      "sample_passed": 97,
-      "sample_failed": 72,
-      "differential": 10.01
+      "win_rate_when_passed": 40.95,
+      "win_rate_when_failed": 27.14,
+      "sample_passed": 105,
+      "sample_failed": 70,
+      "differential": 13.81
     },
     "rsi": {
-      "win_rate_when_passed": 28.57,
-      "win_rate_when_failed": 38.05,
-      "sample_passed": 56,
-      "sample_failed": 113,
-      "differential": -9.48
+      "win_rate_when_passed": 44.26,
+      "win_rate_when_failed": 30.7,
+      "sample_passed": 61,
+      "sample_failed": 114,
+      "differential": 13.56
     },
     "rsi_fresh_cross": {
-      "win_rate_when_passed": 66.67,
-      "win_rate_when_failed": 33.74,
-      "sample_passed": 6,
-      "sample_failed": 163,
-      "differential": 32.93
+      "win_rate_when_passed": 27.27,
+      "win_rate_when_failed": 35.98,
+      "sample_passed": 11,
+      "sample_failed": 164,
+      "differential": -8.71
     },
     "sector": {
       "win_rate_when_passed": null,
-      "win_rate_when_failed": 34.91,
+      "win_rate_when_failed": 35.43,
       "sample_passed": 0,
-      "sample_failed": 169,
+      "sample_failed": 175,
       "differential": null
     },
     "sma_alignment": {
-      "win_rate_when_passed": 45.08,
-      "win_rate_when_failed": 8.51,
-      "sample_passed": 122,
-      "sample_failed": 47,
-      "differential": 36.57
+      "win_rate_when_passed": 45.67,
+      "win_rate_when_failed": 8.33,
+      "sample_passed": 127,
+      "sample_failed": 48,
+      "differential": 37.34
     },
     "squeeze_breakout": {
       "win_rate_when_passed": null,
-      "win_rate_when_failed": 34.91,
+      "win_rate_when_failed": 35.43,
       "sample_passed": 0,
-      "sample_failed": 169,
+      "sample_failed": 175,
       "differential": null
     },
     "stochastic": {
-      "win_rate_when_passed": 40.66,
-      "win_rate_when_failed": 28.21,
-      "sample_passed": 91,
-      "sample_failed": 78,
-      "differential": 12.45
+      "win_rate_when_passed": 36.0,
+      "win_rate_when_failed": 35.0,
+      "sample_passed": 75,
+      "sample_failed": 100,
+      "differential": 1.0
     },
     "supertrend": {
-      "win_rate_when_passed": 45.56,
+      "win_rate_when_passed": 45.83,
       "win_rate_when_failed": 22.78,
-      "sample_passed": 90,
+      "sample_passed": 96,
       "sample_failed": 79,
-      "differential": 22.78
+      "differential": 23.05
     },
     "volatility": {
-      "win_rate_when_passed": 34.34,
-      "win_rate_when_failed": 66.67,
-      "sample_passed": 166,
-      "sample_failed": 3,
-      "differential": -32.33
+      "win_rate_when_passed": 35.29,
+      "win_rate_when_failed": 40.0,
+      "sample_passed": 170,
+      "sample_failed": 5,
+      "differential": -4.71
     },
     "volume": {
-      "win_rate_when_passed": 32.56,
-      "win_rate_when_failed": 35.71,
-      "sample_passed": 43,
-      "sample_failed": 126,
-      "differential": -3.15
+      "win_rate_when_passed": 36.84,
+      "win_rate_when_failed": 35.04,
+      "sample_passed": 38,
+      "sample_failed": 137,
+      "differential": 1.8
     },
     "volume_spike": {
-      "win_rate_when_passed": 40.0,
-      "win_rate_when_failed": 34.23,
-      "sample_passed": 20,
-      "sample_failed": 149,
-      "differential": 5.77
+      "win_rate_when_passed": 21.05,
+      "win_rate_when_failed": 37.18,
+      "sample_passed": 19,
+      "sample_failed": 156,
+      "differential": -16.13
     },
     "williams_r": {
-      "win_rate_when_passed": 39.13,
-      "win_rate_when_failed": 29.87,
-      "sample_passed": 92,
-      "sample_failed": 77,
-      "differential": 9.26
+      "win_rate_when_passed": 40.59,
+      "win_rate_when_failed": 28.38,
+      "sample_passed": 101,
+      "sample_failed": 74,
+      "differential": 12.21
     }
   },
   "redundant_rule_pairs": [
@@ -436,244 +436,250 @@
     {
       "rule_a": "squeeze_breakout",
       "rule_b": "breadth",
-      "agreement_rate": 99.97,
+      "agreement_rate": 99.98,
       "sample_size": 9572
     },
     {
       "rule_a": "squeeze_breakout",
       "rule_b": "sector",
-      "agreement_rate": 99.97,
+      "agreement_rate": 99.98,
       "sample_size": 9572
     },
     {
       "rule_a": "squeeze_breakout",
       "rule_b": "news",
-      "agreement_rate": 99.97,
+      "agreement_rate": 99.98,
       "sample_size": 9572
     },
     {
       "rule_a": "breakout",
       "rule_b": "confirmed_breakout",
-      "agreement_rate": 97.28,
+      "agreement_rate": 97.91,
       "sample_size": 9572
     },
     {
       "rule_a": "not_overextended",
       "rule_b": "not_stale_entry",
-      "agreement_rate": 96.93,
-      "sample_size": 9572
-    },
-    {
-      "rule_a": "pullback_entry",
-      "rule_b": "breadth",
-      "agreement_rate": 96.22,
-      "sample_size": 9572
-    },
-    {
-      "rule_a": "pullback_entry",
-      "rule_b": "sector",
-      "agreement_rate": 96.22,
-      "sample_size": 9572
-    },
-    {
-      "rule_a": "pullback_entry",
-      "rule_b": "news",
-      "agreement_rate": 96.22,
+      "agreement_rate": 97.52,
       "sample_size": 9572
     },
     {
       "rule_a": "squeeze_breakout",
       "rule_b": "pullback_entry",
-      "agreement_rate": 96.21,
+      "agreement_rate": 96.56,
+      "sample_size": 9572
+    },
+    {
+      "rule_a": "pullback_entry",
+      "rule_b": "breadth",
+      "agreement_rate": 96.56,
+      "sample_size": 9572
+    },
+    {
+      "rule_a": "pullback_entry",
+      "rule_b": "sector",
+      "agreement_rate": 96.56,
+      "sample_size": 9572
+    },
+    {
+      "rule_a": "pullback_entry",
+      "rule_b": "news",
+      "agreement_rate": 96.56,
       "sample_size": 9572
     },
     {
       "rule_a": "confirmed_breakout",
       "rule_b": "breadth",
-      "agreement_rate": 96.18,
+      "agreement_rate": 96.44,
       "sample_size": 9572
     },
     {
       "rule_a": "confirmed_breakout",
       "rule_b": "sector",
-      "agreement_rate": 96.18,
+      "agreement_rate": 96.44,
       "sample_size": 9572
     },
     {
       "rule_a": "confirmed_breakout",
       "rule_b": "news",
-      "agreement_rate": 96.18,
+      "agreement_rate": 96.44,
       "sample_size": 9572
     },
     {
       "rule_a": "confirmed_breakout",
       "rule_b": "squeeze_breakout",
-      "agreement_rate": 96.15,
+      "agreement_rate": 96.42,
       "sample_size": 9572
     },
     {
       "rule_a": "ema_fresh_cross",
       "rule_b": "breadth",
-      "agreement_rate": 95.22,
+      "agreement_rate": 94.72,
       "sample_size": 9572
     },
     {
       "rule_a": "ema_fresh_cross",
       "rule_b": "sector",
-      "agreement_rate": 95.22,
+      "agreement_rate": 94.72,
       "sample_size": 9572
     },
     {
       "rule_a": "ema_fresh_cross",
       "rule_b": "news",
-      "agreement_rate": 95.22,
+      "agreement_rate": 94.72,
       "sample_size": 9572
     },
     {
       "rule_a": "ema_fresh_cross",
       "rule_b": "squeeze_breakout",
-      "agreement_rate": 95.18,
+      "agreement_rate": 94.7,
+      "sample_size": 9572
+    },
+    {
+      "rule_a": "breakout",
+      "rule_b": "breadth",
+      "agreement_rate": 94.35,
+      "sample_size": 9572
+    },
+    {
+      "rule_a": "breakout",
+      "rule_b": "sector",
+      "agreement_rate": 94.35,
+      "sample_size": 9572
+    },
+    {
+      "rule_a": "breakout",
+      "rule_b": "news",
+      "agreement_rate": 94.35,
+      "sample_size": 9572
+    },
+    {
+      "rule_a": "breakout",
+      "rule_b": "squeeze_breakout",
+      "agreement_rate": 94.33,
       "sample_size": 9572
     },
     {
       "rule_a": "not_overextended",
       "rule_b": "volatility",
-      "agreement_rate": 93.82,
+      "agreement_rate": 94.08,
       "sample_size": 9572
     },
     {
-      "rule_a": "breakout",
+      "rule_a": "rsi_fresh_cross",
       "rule_b": "breadth",
-      "agreement_rate": 93.46,
+      "agreement_rate": 93.71,
       "sample_size": 9572
     },
     {
-      "rule_a": "breakout",
+      "rule_a": "rsi_fresh_cross",
       "rule_b": "sector",
-      "agreement_rate": 93.46,
+      "agreement_rate": 93.71,
       "sample_size": 9572
     },
     {
-      "rule_a": "breakout",
+      "rule_a": "rsi_fresh_cross",
       "rule_b": "news",
-      "agreement_rate": 93.46,
+      "agreement_rate": 93.71,
       "sample_size": 9572
     },
     {
-      "rule_a": "breakout",
+      "rule_a": "rsi_fresh_cross",
       "rule_b": "squeeze_breakout",
-      "agreement_rate": 93.43,
-      "sample_size": 9572
-    },
-    {
-      "rule_a": "price_above_ema20",
-      "rule_b": "bollinger",
-      "agreement_rate": 93.18,
+      "agreement_rate": 93.69,
       "sample_size": 9572
     },
     {
       "rule_a": "confirmed_breakout",
       "rule_b": "pullback_entry",
-      "agreement_rate": 92.88,
+      "agreement_rate": 93.44,
       "sample_size": 9572
     },
     {
-      "rule_a": "confirmed_breakout",
-      "rule_b": "ema_fresh_cross",
-      "agreement_rate": 92.5,
-      "sample_size": 9572
-    },
-    {
-      "rule_a": "ema_fresh_cross",
+      "rule_a": "rsi_fresh_cross",
       "rule_b": "pullback_entry",
-      "agreement_rate": 91.66,
-      "sample_size": 9572
-    },
-    {
-      "rule_a": "cmf",
-      "rule_b": "accumulation",
-      "agreement_rate": 91.64,
+      "agreement_rate": 92.91,
       "sample_size": 9572
     },
     {
       "rule_a": "not_stale_entry",
       "rule_b": "volatility",
-      "agreement_rate": 91.52,
+      "agreement_rate": 92.29,
       "sample_size": 9572
     },
     {
-      "rule_a": "rsi_fresh_cross",
-      "rule_b": "breadth",
-      "agreement_rate": 91.5,
+      "rule_a": "confirmed_breakout",
+      "rule_b": "ema_fresh_cross",
+      "agreement_rate": 92.25,
       "sample_size": 9572
     },
     {
-      "rule_a": "rsi_fresh_cross",
-      "rule_b": "sector",
-      "agreement_rate": 91.5,
-      "sample_size": 9572
-    },
-    {
-      "rule_a": "rsi_fresh_cross",
-      "rule_b": "news",
-      "agreement_rate": 91.5,
-      "sample_size": 9572
-    },
-    {
-      "rule_a": "rsi_fresh_cross",
-      "rule_b": "squeeze_breakout",
-      "agreement_rate": 91.46,
+      "rule_a": "cmf",
+      "rule_b": "accumulation",
+      "agreement_rate": 91.85,
       "sample_size": 9572
     },
     {
       "rule_a": "ema_alignment",
       "rule_b": "market_trend",
-      "agreement_rate": 91.26,
+      "agreement_rate": 91.7,
       "sample_size": 9572
     },
     {
       "rule_a": "ema_alignment",
       "rule_b": "market_score",
-      "agreement_rate": 91.26,
+      "agreement_rate": 91.7,
       "sample_size": 9572
     },
     {
-      "rule_a": "rsi_fresh_cross",
+      "rule_a": "price_above_ema20",
+      "rule_b": "bollinger",
+      "agreement_rate": 91.69,
+      "sample_size": 9572
+    },
+    {
+      "rule_a": "ema_fresh_cross",
       "rule_b": "pullback_entry",
-      "agreement_rate": 90.85,
+      "agreement_rate": 91.41,
       "sample_size": 9572
     },
     {
-      "rule_a": "ema_alignment",
-      "rule_b": "sma_alignment",
-      "agreement_rate": 90.78,
+      "rule_a": "breakout",
+      "rule_b": "pullback_entry",
+      "agreement_rate": 91.39,
       "sample_size": 9572
     },
     {
       "rule_a": "breakout",
       "rule_b": "ema_fresh_cross",
-      "agreement_rate": 90.56,
+      "agreement_rate": 90.79,
       "sample_size": 9572
     },
     {
-      "rule_a": "breakout",
-      "rule_b": "pullback_entry",
-      "agreement_rate": 90.2,
+      "rule_a": "confirmed_breakout",
+      "rule_b": "rsi_fresh_cross",
+      "agreement_rate": 90.48,
+      "sample_size": 9572
+    },
+    {
+      "rule_a": "ema_alignment",
+      "rule_b": "sma_alignment",
+      "agreement_rate": 90.23,
       "sample_size": 9572
     }
   ],
   "threshold_sensitivity": {
     "0-5": {
-      "trades": 34,
-      "win_rate": 50.0
+      "trades": 27,
+      "win_rate": 37.04
     },
     "5-10": {
-      "trades": 34,
-      "win_rate": 44.12
+      "trades": 46,
+      "win_rate": 52.17
     },
     "10-20": {
-      "trades": 4,
-      "win_rate": 25.0
+      "trades": 6,
+      "win_rate": 33.33
     },
     "20+": {
       "trades": 0,
@@ -681,21 +687,21 @@
     }
   },
   "buy_accuracy": {
-    "trades": 117,
-    "win_rate": 33.33,
-    "wins": 39,
-    "losses": 78,
+    "trades": 123,
+    "win_rate": 34.15,
+    "wins": 42,
+    "losses": 81,
     "data_quality_issues": 0,
-    "avg_winner_pct": 7.76,
-    "avg_loser_pct": -7.03,
+    "avg_winner_pct": 7.72,
+    "avg_loser_pct": -6.85,
     "largest_winner_pct": 25.06,
     "largest_loser_pct": -14.11,
     "avg_holding_days": 9.1,
     "avg_winner_holding_days": 11.4,
     "avg_loser_holding_days": 7.9,
-    "gross_profit": 224395.81,
-    "gross_loss": 515516.85,
-    "profit_factor": 0.44
+    "gross_profit": 236520.75,
+    "gross_loss": 522205.96,
+    "profit_factor": 0.45
   },
   "sell_accuracy": {
     "trades": 52,
@@ -727,8 +733,8 @@
     }
   },
   "exit_reason_breakdown": {
-    "Trailing/Stop": 122,
-    "Target Hit": 31,
-    "Risk Exit": 16
+    "Trailing/Stop": 124,
+    "Target Hit": 34,
+    "Risk Exit": 17
   }
 }

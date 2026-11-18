@@ -1,0 +1,18 @@
+{
+  "symbol": "ANGELONE.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 146,
+  "entry_price": 340.95001220703125,
+  "exit_price": 366.9,
+  "status": "OPEN",
+  "realized_pnl": 3606.2517618632546,
+  "realized_pnl_percent": 7.244567722235905,
+  "max_profit_percent": 11.203983083085323,
+  "max_drawdown_percent": 1.173196088522906,
+  "regime": "BULL",
+  "confidence": 58.32,
+  "reasons": "Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 182.45 deducted",
+  "id": "trade_1794973924880",
+  "timestamp": 1794973924.8803952
+}

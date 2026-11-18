@@ -1,0 +1,18 @@
+{
+  "symbol": "SGFIN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 72,
+  "entry_price": 692.4000244140625,
+  "exit_price": 692.4,
+  "status": "CLOSED",
+  "realized_pnl": -673.6201027628831,
+  "realized_pnl_percent": -0.35475759224250136,
+  "max_profit_percent": 14.955224138469061,
+  "max_drawdown_percent": 7.062394958094306,
+  "regime": "BULL",
+  "confidence": 58.35,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; Profit protection activated.; costs Rs 176.85 deducted",
+  "id": "trade_1794973833937",
+  "timestamp": 1794973833.9377725
+}
