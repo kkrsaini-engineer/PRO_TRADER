@@ -1,32 +1,6 @@
 {
-  "2026-11-17": [
-    "watchlist_symbol_unavailable::2026-11-16",
-    "scan_completed::2026-11-17::07:14:25.612389",
-    "morning_exec::2026-11-17::09:22:28.633032",
-    "paper_trading_started::2026-11-17::09:23:27.088443",
-    "monitoring_summary::2026-11-17::09:28:41.446374",
-    "holding_status::2026-11-17::part1::09:28:42.035852",
-    "holding_status::2026-11-17::part2::09:28:42.578750",
-    "holding_status::2026-11-17::part3::09:28:43.112655",
-    "holding_status::2026-11-17::part4::09:28:43.653429",
-    "holding_status::2026-11-17::part5::09:28:44.216078",
-    "holding_status::2026-11-17::part6::09:28:44.771775",
-    "holding_status::2026-11-17::part7::09:28:45.327711",
-    "holding_status::2026-11-17::part8::09:28:45.894939",
-    "holding_status::2026-11-17::part9::09:28:46.459741",
-    "holding_status::2026-11-17::part10::09:28:47.011072",
-    "holding_status::2026-11-17::part11::09:28:47.542872",
-    "holding_status::2026-11-17::part12::09:28:48.122889",
-    "holding_status::2026-11-17::part13::09:28:48.657125",
-    "holding_status::2026-11-17::part14::09:28:49.241217",
-    "holding_status::2026-11-17::part15::09:28:49.801264",
-    "holding_status::2026-11-17::part16::09:28:50.358757",
-    "portfolio_summary::2026-11-17::09:28:50.943943",
-    "analysis_summary::2026-11-17::09:28:52.074589",
-    "learning_summary::2026-11-17::09:28:54.379187",
-    "optimizer_recommendation::2026-11-17::09:28:55.178450",
-    "mi_summary::2026-11-17 09:39:44.521358",
-    "mi_summary::2026-11-17 17:04:43.123453",
-    "mi_summary::2026-11-18 01:31:21.589236"
+  "2026-11-18": [
+    "watchlist_symbol_unavailable::2026-11-17",
+    "scan_completed::2026-11-18::06:12:33.702607"
   ]
 }
