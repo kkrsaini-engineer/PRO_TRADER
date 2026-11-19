@@ -1,9 +1,9 @@
 {
-  "scan_date": "2026-11-17",
-  "scan_timestamp": "2026-11-18T04:17:32.970491+05:30",
+  "scan_date": "2026-11-18",
+  "scan_timestamp": "2026-11-19T03:59:10.787144+05:30",
   "scanned_symbols": 2395,
   "watchlist_symbols": 2395,
   "scan_truncated": false,
-  "fundamentals_cache_hits": 2390,
+  "fundamentals_cache_hits": 17,
   "candidates": []
 }
