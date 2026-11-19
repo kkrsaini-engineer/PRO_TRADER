@@ -1,0 +1,18 @@
+{
+  "symbol": "SUNTV.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 80,
+  "entry_price": 624.0499877929688,
+  "exit_price": 680.3,
+  "status": "OPEN",
+  "realized_pnl": 4315.990806211912,
+  "realized_pnl_percent": 8.645122367272123,
+  "max_profit_percent": 12.811475646331557,
+  "max_drawdown_percent": 6.577996730381678,
+  "regime": "BULL",
+  "confidence": 72.55,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; Profit protection activated.; costs Rs 184.01 deducted",
+  "id": "trade_1795060206641",
+  "timestamp": 1795060206.6410184
+}

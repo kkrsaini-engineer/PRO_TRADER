@@ -1,0 +1,18 @@
+{
+  "symbol": "MAHABANK.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 544,
+  "entry_price": 91.91000366210938,
+  "exit_price": 97.02,
+  "status": "OPEN",
+  "realized_pnl": 2598.2329295676914,
+  "realized_pnl_percent": 5.196565426140911,
+  "max_profit_percent": 5.592423167326698,
+  "max_drawdown_percent": 0.6963409787207056,
+  "regime": "BULL",
+  "confidence": 67.63,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 181.61 deducted",
+  "id": "trade_1795060328804",
+  "timestamp": 1795060328.8044908
+}

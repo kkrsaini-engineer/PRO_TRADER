@@ -1,0 +1,18 @@
+{
+  "symbol": "JAMNAAUTO.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 373,
+  "entry_price": 134.11000061035156,
+  "exit_price": 136.53,
+  "status": "CLOSED",
+  "realized_pnl": 5390.309071860087,
+  "realized_pnl_percent": 1.4470659495835143,
+  "max_profit_percent": 16.32242136307828,
+  "max_drawdown_percent": 0.08947924077653827,
+  "regime": "BULL",
+  "confidence": 57.77,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 178.79 deducted",
+  "id": "trade_1795060128875",
+  "timestamp": 1795060128.8754783
+}

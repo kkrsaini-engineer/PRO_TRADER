@@ -1,37 +1,53 @@
 {
-  "date": "2026-11-18",
-  "opening_balance": 994483.9672866724,
-  "total_capital_in_positions": 8374532.34,
-  "remaining_balance": 1419668.7117595132,
-  "portfolio_value": 9794201.051759513,
-  "realized_pnl": -191543.59426438413,
-  "portfolio_return_percent": -2.057989482404869,
+  "date": "2026-11-19",
+  "opening_balance": 1419668.7117595132,
+  "total_capital_in_positions": 7551614.92,
+  "remaining_balance": 2160474.482466014,
+  "portfolio_value": 9712089.402466014,
+  "realized_pnl": -262470.30753153056,
+  "portfolio_return_percent": -2.8791059753398596,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "KARURVYSYA.NS",
-      "pnl": 5193.476240880002
+      "symbol": "FEDFINA.NS",
+      "pnl": -9123.278024626461
     },
     {
-      "symbol": "TITAN.NS",
-      "pnl": -621.0485320000043
+      "symbol": "JAMNAAUTO.NS",
+      "pnl": 5390.309071860087
     },
     {
-      "symbol": "IIFLCAPS.NS",
-      "pnl": 310.44071772769973
+      "symbol": "VRLLOG.NS",
+      "pnl": 6096.288772949993
     },
     {
-      "symbol": "SGFIN.NS",
-      "pnl": -673.6201027628831
+      "symbol": "MARKSANS.NS",
+      "pnl": -8072.558685749999
     },
     {
-      "symbol": "FEDERALBNK.NS",
-      "pnl": 6621.024560028265
+      "symbol": "TIPSMUSIC.NS",
+      "pnl": 62.44736338555663
     },
     {
-      "symbol": "HCLTECH.NS",
-      "pnl": -5394.443556960001
+      "symbol": "APLAPOLLO.NS",
+      "pnl": 2217.8560693951986
+    },
+    {
+      "symbol": "ANGELONE.NS",
+      "pnl": 3322.856621958864
+    },
+    {
+      "symbol": "FSL.NS",
+      "pnl": -6286.438765855858
+    },
+    {
+      "symbol": "MOTHERSON.NS",
+      "pnl": -338.7299999999982
+    },
+    {
+      "symbol": "TECHM.NS",
+      "pnl": -3189.1805831999945
     }
   ],
-  "open_positions_now": 103
+  "open_positions_now": 93
 }

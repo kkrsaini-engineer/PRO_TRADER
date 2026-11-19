@@ -1,0 +1,18 @@
+{
+  "symbol": "FILATFASH.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 277778,
+  "entry_price": 0.18000000715255737,
+  "exit_price": 0.16,
+  "status": "OPEN",
+  "realized_pnl": 5403.545195485356,
+  "realized_pnl_percent": 10.807081315870489,
+  "max_profit_percent": 11.111114643238066,
+  "max_drawdown_percent": 0.0,
+  "regime": "BEAR",
+  "confidence": 54.29,
+  "reasons": "Partial profit target reached.; Healthy risk/reward profile.; Partial target achieved.; costs Rs 152.02 deducted",
+  "id": "trade_1795060126227",
+  "timestamp": 1795060126.2272034
+}

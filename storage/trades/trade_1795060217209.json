@@ -1,0 +1,18 @@
+{
+  "symbol": "ANGELONE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 147,
+  "entry_price": 340.95001220703125,
+  "exit_price": 340.23,
+  "status": "CLOSED",
+  "realized_pnl": 3322.856621958864,
+  "realized_pnl_percent": -0.5654371683720778,
+  "max_profit_percent": 11.203983083085323,
+  "max_drawdown_percent": 2.2730604846830316,
+  "regime": "BULL",
+  "confidence": 68.45,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 177.55 deducted",
+  "id": "trade_1795060217209",
+  "timestamp": 1795060217.2099326
+}

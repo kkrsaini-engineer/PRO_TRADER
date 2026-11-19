@@ -1,0 +1,18 @@
+{
+  "symbol": "FSL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 341,
+  "entry_price": 292.8999938964844,
+  "exit_price": 275.43,
+  "status": "CLOSED",
+  "realized_pnl": -6286.438765855858,
+  "realized_pnl_percent": -6.294061004730805,
+  "max_profit_percent": 4.984638582367299,
+  "max_drawdown_percent": 7.05018584048944,
+  "regime": "SIDEWAYS",
+  "confidence": 48.52,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 329.17 deducted",
+  "id": "trade_1795060258729",
+  "timestamp": 1795060258.7299755
+}
