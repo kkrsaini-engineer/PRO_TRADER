@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_INDIGO_NS_1795146726432",
+  "symbol": "INDIGO.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-20",
+  "entry_price": 5450.0,
+  "buy_probability": 80.17,
+  "buy_confidence": 70.21,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -0.90% (0.35x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'INDIGO.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1795146726.432421,
+  "updated_at": 1795146726.432421
+}

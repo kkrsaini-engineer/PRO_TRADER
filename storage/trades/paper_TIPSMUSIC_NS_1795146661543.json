@@ -1,0 +1,13 @@
+{
+  "id": "paper_TIPSMUSIC_NS_1795146661543",
+  "symbol": "TIPSMUSIC.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 123,
+  "entry_price": 809.0999755859375,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.01,
+  "reasons": "Morning Executor: gap -0.27% (0.07x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'TIPSMUSIC.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146661.5445864
+}

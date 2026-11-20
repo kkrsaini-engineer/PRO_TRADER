@@ -1,0 +1,13 @@
+{
+  "id": "paper_UNOMINDA_NS_1795146640177",
+  "symbol": "UNOMINDA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 72,
+  "entry_price": 1382.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.83,
+  "reasons": "Morning Executor: gap +0.88% (0.27x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'UNOMINDA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146640.1781437
+}

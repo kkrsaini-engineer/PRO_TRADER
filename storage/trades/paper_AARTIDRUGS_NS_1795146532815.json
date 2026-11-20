@@ -1,0 +1,13 @@
+{
+  "id": "paper_AARTIDRUGS_NS_1795146532815",
+  "symbol": "AARTIDRUGS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 200,
+  "entry_price": 500.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 74.91,
+  "reasons": "Morning Executor: gap -1.14% (0.26x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'AARTIDRUGS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146532.8168044
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_ALEMBICLTD_NS_1795146554290",
+  "symbol": "ALEMBICLTD.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 898,
+  "entry_price": 111.25,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.58,
+  "reasons": "Morning Executor: gap -1.03% (0.23x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ALEMBICLTD.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146554.2918093
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_APOLLOHOSP_NS_1795146469018",
+  "symbol": "APOLLOHOSP.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 11,
+  "entry_price": 8820.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 76.13,
+  "reasons": "Morning Executor: gap -0.01% (0.00x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'APOLLOHOSP.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146469.0192475
+}

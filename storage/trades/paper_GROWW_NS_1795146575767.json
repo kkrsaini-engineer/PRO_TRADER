@@ -1,0 +1,13 @@
+{
+  "id": "paper_GROWW_NS_1795146575767",
+  "symbol": "GROWW.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 457,
+  "entry_price": 218.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.68,
+  "reasons": "Morning Executor: gap -2.25% (0.64x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'GROWW.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146575.7686625
+}

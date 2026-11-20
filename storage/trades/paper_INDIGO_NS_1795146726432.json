@@ -1,0 +1,13 @@
+{
+  "id": "paper_INDIGO_NS_1795146726432",
+  "symbol": "INDIGO.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 11,
+  "entry_price": 5450.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.21,
+  "reasons": "Morning Executor: gap -0.90% (0.35x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'INDIGO.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146726.433545
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_KARURVYSYA_NS_1795146597115",
+  "symbol": "KARURVYSYA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 261,
+  "entry_price": 382.6000061035156,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.11,
+  "reasons": "Morning Executor: gap -1.14% (0.33x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'KARURVYSYA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146597.1170058
+}

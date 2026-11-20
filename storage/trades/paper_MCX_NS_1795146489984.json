@@ -1,0 +1,13 @@
+{
+  "id": "paper_MCX_NS_1795146489984",
+  "symbol": "MCX.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 27,
+  "entry_price": 3599.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 75.13,
+  "reasons": "Morning Executor: gap -0.55% (0.16x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'MCX.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146489.98602
+}

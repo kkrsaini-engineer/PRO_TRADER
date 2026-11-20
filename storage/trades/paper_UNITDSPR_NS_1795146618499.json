@@ -1,0 +1,13 @@
+{
+  "id": "paper_UNITDSPR_NS_1795146618499",
+  "symbol": "UNITDSPR.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 68,
+  "entry_price": 1455.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.11,
+  "reasons": "Morning Executor: gap +0.97% (0.41x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'UNITDSPR.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795146618.5003955
+}
