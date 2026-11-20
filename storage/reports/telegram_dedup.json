@@ -26,6 +26,9 @@
     "analysis_summary::2026-11-20::09:28:05.692591",
     "learning_summary::2026-11-20::09:28:08.690755",
     "optimizer_recommendation::2026-11-20::09:28:09.613705",
-    "mi_summary::2026-11-20 16:31:44.097867"
+    "mi_summary::2026-11-20 16:31:44.097867",
+    "scan_started::2026-11-20::03:38:12.681062",
+    "watchlist_symbol_unavailable::2026-11-20",
+    "scan_completed::2026-11-20::05:15:11.356093"
   ]
 }
