@@ -1,0 +1,18 @@
+{
+  "symbol": "GPPL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 309,
+  "entry_price": 161.3000030517578,
+  "exit_price": 180.2,
+  "status": "CLOSED",
+  "realized_pnl": 8473.133271071323,
+  "realized_pnl_percent": 11.344500743225549,
+  "max_profit_percent": 12.765031586071157,
+  "max_drawdown_percent": 0.49597212437814286,
+  "regime": "BULL",
+  "confidence": 62.89,
+  "reasons": "Break-even stop activated.; Excellent risk/reward profile.; Final target achieved (previous session).; costs Rs 185.81 deducted",
+  "id": "trade_1795147028710",
+  "timestamp": 1795147028.7106137
+}

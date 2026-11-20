@@ -1,0 +1,18 @@
+{
+  "symbol": "JSWSTEEL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 74,
+  "entry_price": 1351.0999755859375,
+  "exit_price": 1294.36,
+  "status": "CLOSED",
+  "realized_pnl": -4530.966257867973,
+  "realized_pnl_percent": -4.531809256263145,
+  "max_profit_percent": 1.1546129722319172,
+  "max_drawdown_percent": 4.2483884703679715,
+  "regime": "BULL",
+  "confidence": 56.68,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 332.21 deducted",
+  "id": "trade_1795146962059",
+  "timestamp": 1795146962.0593355
+}

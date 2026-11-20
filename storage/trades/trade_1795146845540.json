@@ -1,0 +1,18 @@
+{
+  "symbol": "WESTLIFE.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 76,
+  "entry_price": 659.0499877929688,
+  "exit_price": 716.03,
+  "status": "OPEN",
+  "realized_pnl": 4146.202902181316,
+  "realized_pnl_percent": 8.277870018203958,
+  "max_profit_percent": 9.794399360985379,
+  "max_drawdown_percent": 1.358017202458817,
+  "regime": "BULL",
+  "confidence": 59.09,
+  "reasons": "Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 184.28 deducted",
+  "id": "trade_1795146845540",
+  "timestamp": 1795146845.540472
+}

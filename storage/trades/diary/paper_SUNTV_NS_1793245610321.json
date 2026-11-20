@@ -209,16 +209,31 @@
         "Partial target achieved (previous session).",
         "Profit protection activated."
       ]
+    },
+    {
+      "date": "2026-11-20",
+      "current_price": 688.45,
+      "current_pnl": 5152.000976562504,
+      "current_buy_confidence": 67.31,
+      "current_sell_confidence": 20.82,
+      "current_exit_score": 54.71,
+      "recommendation": "HOLD",
+      "notes": [
+        "Break-even stop activated.",
+        "Excellent risk/reward profile.",
+        "Continue holding position.",
+        "Profit protection activated."
+      ]
     }
   ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 15,
+  "holding_days": 16,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1793245610.321595,
-  "updated_at": 1795060206.6389716
+  "updated_at": 1795147031.108256
 }

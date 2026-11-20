@@ -1,0 +1,18 @@
+{
+  "symbol": "GHCLTEXTIL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 384,
+  "entry_price": 129.8800048828125,
+  "exit_price": 142.47,
+  "status": "OPEN",
+  "realized_pnl": 4650.194720233121,
+  "realized_pnl_percent": 9.323900237659265,
+  "max_profit_percent": 10.863870177644824,
+  "max_drawdown_percent": 1.8632627866955769,
+  "regime": "BULL",
+  "confidence": 64.82,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 184.36 deducted",
+  "id": "trade_1795146899911",
+  "timestamp": 1795146899.9113953
+}

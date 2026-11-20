@@ -1,0 +1,18 @@
+{
+  "symbol": "PERSISTENT.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 9,
+  "entry_price": 5742.0,
+  "exit_price": 5788.08,
+  "status": "CLOSED",
+  "realized_pnl": 2904.3505315199936,
+  "realized_pnl_percent": 0.4476472810867211,
+  "max_profit_percent": 8.672936259143157,
+  "max_drawdown_percent": 2.4730059212817834,
+  "regime": "BULL",
+  "confidence": 54.71,
+  "reasons": "Break-even stop activated.; Excellent risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 183.38 deducted",
+  "id": "trade_1795146838502",
+  "timestamp": 1795146838.5027475
+}

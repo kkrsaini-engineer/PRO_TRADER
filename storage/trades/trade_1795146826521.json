@@ -1,0 +1,18 @@
+{
+  "symbol": "PRINCEPIPE.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 319,
+  "entry_price": 312.6499938964844,
+  "exit_price": 286.89,
+  "status": "CLOSED",
+  "realized_pnl": -8542.667119330008,
+  "realized_pnl_percent": -8.565335446357714,
+  "max_profit_percent": 0.5597332920770866,
+  "max_drawdown_percent": 8.172073658004972,
+  "regime": "BULL",
+  "confidence": 57.26,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 325.23 deducted",
+  "id": "trade_1795146826521",
+  "timestamp": 1795146826.5214348
+}

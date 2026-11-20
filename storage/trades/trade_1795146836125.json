@@ -1,0 +1,18 @@
+{
+  "symbol": "MGEL.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 5583,
+  "entry_price": 17.90999984741211,
+  "exit_price": 16.41,
+  "status": "CLOSED",
+  "realized_pnl": -8700.31345000295,
+  "realized_pnl_percent": -8.701050503104655,
+  "max_profit_percent": 2.3450590724300473,
+  "max_drawdown_percent": 9.994411074421954,
+  "regime": "BULL",
+  "confidence": 57.27,
+  "reasons": "Below preferred risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 325.81 deducted",
+  "id": "trade_1795146836125",
+  "timestamp": 1795146836.1255145
+}

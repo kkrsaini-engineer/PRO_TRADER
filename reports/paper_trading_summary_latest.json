@@ -1,53 +1,45 @@
 {
-  "date": "2026-11-19",
-  "opening_balance": 1419668.7117595132,
-  "total_capital_in_positions": 7551614.92,
-  "remaining_balance": 2160474.482466014,
-  "portfolio_value": 9712089.402466014,
-  "realized_pnl": -262470.30753153056,
-  "portfolio_return_percent": -2.8791059753398596,
+  "date": "2026-11-20",
+  "opening_balance": 710210.38221577,
+  "total_capital_in_positions": 8330191.02,
+  "remaining_balance": 1404640.4167750552,
+  "portfolio_value": 9734831.436775055,
+  "realized_pnl": -233694.33322248864,
+  "portfolio_return_percent": -2.6516856322494524,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "FEDFINA.NS",
-      "pnl": -9123.278024626461
+      "symbol": "PRINCEPIPE.NS",
+      "pnl": -8542.667119330008
     },
     {
-      "symbol": "JAMNAAUTO.NS",
-      "pnl": 5390.309071860087
+      "symbol": "MGEL.NS",
+      "pnl": -8700.31345000295
     },
     {
-      "symbol": "VRLLOG.NS",
-      "pnl": 6096.288772949993
+      "symbol": "PERSISTENT.NS",
+      "pnl": 2904.3505315199936
     },
     {
-      "symbol": "MARKSANS.NS",
-      "pnl": -8072.558685749999
+      "symbol": "KTKBANK.NS",
+      "pnl": -6840.143131999995
     },
     {
-      "symbol": "TIPSMUSIC.NS",
-      "pnl": 62.44736338555663
+      "symbol": "SOUTHBANK.NS",
+      "pnl": -799.6735232600005
     },
     {
-      "symbol": "APLAPOLLO.NS",
-      "pnl": 2217.8560693951986
+      "symbol": "JSWSTEEL.NS",
+      "pnl": -4530.966257867973
     },
     {
-      "symbol": "ANGELONE.NS",
-      "pnl": 3322.856621958864
+      "symbol": "GPPL.NS",
+      "pnl": 8473.133271071323
     },
     {
-      "symbol": "FSL.NS",
-      "pnl": -6286.438765855858
-    },
-    {
-      "symbol": "MOTHERSON.NS",
-      "pnl": -338.7299999999982
-    },
-    {
-      "symbol": "TECHM.NS",
-      "pnl": -3189.1805831999945
+      "symbol": "KIRIINDUS.NS",
+      "pnl": -4388.924161199997
     }
   ],
-  "open_positions_now": 93
+  "open_positions_now": 100
 }
