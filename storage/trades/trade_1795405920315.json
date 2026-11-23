@@ -1,0 +1,18 @@
+{
+  "symbol": "BHARTIARTL.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 24,
+  "entry_price": 2082.0,
+  "exit_price": 2164.09,
+  "status": "OPEN",
+  "realized_pnl": 1789.901219760006,
+  "realized_pnl_percent": 3.5820949803074082,
+  "max_profit_percent": 4.365994236311243,
+  "max_drawdown_percent": 0.0,
+  "regime": "BULL",
+  "confidence": 67.61,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 180.26 deducted",
+  "id": "trade_1795405920315",
+  "timestamp": 1795405920.3154428
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "CEMPRO.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 38,
+  "entry_price": 1318.0,
+  "exit_price": 1440.0,
+  "status": "OPEN",
+  "realized_pnl": 4451.264044000001,
+  "realized_pnl_percent": 8.887596925165724,
+  "max_profit_percent": 9.324734446130508,
+  "max_drawdown_percent": 2.731411229135053,
+  "regime": "BULL",
+  "confidence": 60.82,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved.; costs Rs 184.74 deducted",
+  "id": "trade_1795405944556",
+  "timestamp": 1795405944.5565886
+}

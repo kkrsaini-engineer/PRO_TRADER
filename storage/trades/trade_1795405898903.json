@@ -1,0 +1,18 @@
+{
+  "symbol": "SMSPHARMA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 194,
+  "entry_price": 514.1500244140625,
+  "exit_price": 470.93,
+  "status": "CLOSED",
+  "realized_pnl": -8709.68790460778,
+  "realized_pnl_percent": -8.73194521939845,
+  "max_profit_percent": 4.055231857607831,
+  "max_drawdown_percent": 9.102406338966313,
+  "regime": "BULL",
+  "confidence": 53.19,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 325.00 deducted",
+  "id": "trade_1795405898903",
+  "timestamp": 1795405898.9034684
+}

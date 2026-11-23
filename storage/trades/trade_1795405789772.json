@@ -1,0 +1,18 @@
+{
+  "symbol": "POONAWALLA.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 102,
+  "entry_price": 486.20001220703125,
+  "exit_price": 521.27,
+  "status": "OPEN",
+  "realized_pnl": 3395.619267119808,
+  "realized_pnl_percent": 6.847055560662403,
+  "max_profit_percent": 7.47634448381921,
+  "max_drawdown_percent": 0.7918564390895644,
+  "regime": "BULL",
+  "confidence": 60.05,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 181.52 deducted",
+  "id": "trade_1795405789772",
+  "timestamp": 1795405789.7723303
+}

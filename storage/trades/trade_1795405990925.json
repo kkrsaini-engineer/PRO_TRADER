@@ -1,0 +1,18 @@
+{
+  "symbol": "APOLLOHOSP.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 6,
+  "entry_price": 8820.0,
+  "exit_price": 9258.88,
+  "status": "OPEN",
+  "realized_pnl": 2442.47162208,
+  "realized_pnl_percent": 4.61540366984127,
+  "max_profit_percent": 6.6893424036281175,
+  "max_drawdown_percent": 0.22675736961451248,
+  "regime": "BULL",
+  "confidence": 59.88,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 190.81 deducted",
+  "id": "trade_1795405990925",
+  "timestamp": 1795405990.9251866
+}

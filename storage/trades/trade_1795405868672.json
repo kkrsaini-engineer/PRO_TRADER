@@ -1,0 +1,18 @@
+{
+  "symbol": "AEROENTER.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 735,
+  "entry_price": 136.0,
+  "exit_price": 123.68,
+  "status": "CLOSED",
+  "realized_pnl": -9379.8649272,
+  "realized_pnl_percent": -9.383618374549819,
+  "max_profit_percent": 1.1029411764705883,
+  "max_drawdown_percent": 8.46323529411765,
+  "regime": "SIDEWAYS",
+  "confidence": 45.26,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 324.66 deducted",
+  "id": "trade_1795405868672",
+  "timestamp": 1795405868.6723316
+}
