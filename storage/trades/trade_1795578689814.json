@@ -1,0 +1,18 @@
+{
+  "symbol": "PPLPHARMA.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 104,
+  "entry_price": 240.0,
+  "exit_price": 228.0,
+  "status": "CLOSED",
+  "realized_pnl": -2268.2676963200006,
+  "realized_pnl_percent": -5.378927115384613,
+  "max_profit_percent": 5.791664123535156,
+  "max_drawdown_percent": 5.320833333333338,
+  "regime": "BULL",
+  "confidence": 52.23,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 94.58 deducted",
+  "id": "trade_1795578689814",
+  "timestamp": 1795578689.8140767
+}

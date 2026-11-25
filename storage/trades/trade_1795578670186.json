@@ -1,0 +1,18 @@
+{
+  "symbol": "HONASA.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 100,
+  "entry_price": 502.29998779296875,
+  "exit_price": 537.91,
+  "status": "OPEN",
+  "realized_pnl": 3377.4484037648904,
+  "realized_pnl_percent": 6.723966724755251,
+  "max_profit_percent": 10.372290159900444,
+  "max_drawdown_percent": 0.17917458060049213,
+  "regime": "BULL",
+  "confidence": 60.83,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 183.55 deducted",
+  "id": "trade_1795578670186",
+  "timestamp": 1795578670.1868718
+}

@@ -1,0 +1,18 @@
+{
+  "symbol": "ACUTAAS.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 13,
+  "entry_price": 3760.0,
+  "exit_price": 3760.0,
+  "status": "CLOSED",
+  "realized_pnl": 3929.7380133599995,
+  "realized_pnl_percent": -0.35539001636661705,
+  "max_profit_percent": 9.840425531914894,
+  "max_drawdown_percent": 1.465428129155585,
+  "regime": "BULL",
+  "confidence": 66.22,
+  "reasons": "Excellent risk/reward profile.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 173.71 deducted",
+  "id": "trade_1795578767006",
+  "timestamp": 1795578767.0060055
+}

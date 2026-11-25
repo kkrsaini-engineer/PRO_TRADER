@@ -1,0 +1,18 @@
+{
+  "symbol": "AXISBANK.NS",
+  "direction": "BUY",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 18,
+  "entry_price": 1373.0,
+  "exit_price": 1422.2,
+  "status": "OPEN",
+  "realized_pnl": 2809.2615011999987,
+  "realized_pnl_percent": 3.1906217916970245,
+  "max_profit_percent": 6.256374684199745,
+  "max_drawdown_percent": 0.3058994901675197,
+  "regime": "BULL",
+  "confidence": 72.95,
+  "reasons": "Excellent risk/reward profile.; High market volatility.; High market volatility.; costs Rs 97.07 deducted",
+  "id": "trade_1795578548257",
+  "timestamp": 1795578548.2578385
+}

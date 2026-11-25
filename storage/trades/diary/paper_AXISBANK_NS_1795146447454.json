@@ -39,16 +39,30 @@
         "Excellent risk/reward profile.",
         "Partial target achieved (previous session)."
       ]
+    },
+    {
+      "date": "2026-11-25",
+      "current_price": 1422.2,
+      "current_pnl": 1771.2000000000016,
+      "current_buy_confidence": 66.33,
+      "current_sell_confidence": 22.2,
+      "current_exit_score": 78.5,
+      "recommendation": "PARTIAL_EXIT",
+      "notes": [
+        "Excellent risk/reward profile.",
+        "High market volatility.",
+        "High market volatility."
+      ]
     }
   ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 2,
+  "holding_days": 3,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1795146447.4549844,
-  "updated_at": 1795405747.2709615
+  "updated_at": 1795578548.2562387
 }

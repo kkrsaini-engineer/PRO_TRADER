@@ -1,37 +1,25 @@
 {
-  "date": "2026-11-23",
-  "opening_balance": 1404640.4167750552,
-  "total_capital_in_positions": 7427323.050000001,
-  "remaining_balance": 2330228.162113268,
-  "portfolio_value": 9757551.212113269,
-  "realized_pnl": -215081.1178842766,
-  "portfolio_return_percent": -2.424487878867313,
+  "date": "2026-11-25",
+  "opening_balance": 2330228.162113268,
+  "total_capital_in_positions": 7125166.099999998,
+  "remaining_balance": 2627170.171768276,
+  "portfolio_value": 9752336.271768274,
+  "realized_pnl": -219376.45822926826,
+  "portfolio_return_percent": -2.476637282317262,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "ICIL.NS",
-      "pnl": 11700.435825029792
+      "symbol": "PPLPHARMA.NS",
+      "pnl": -2268.2676963200006
     },
     {
-      "symbol": "AEROENTER.NS",
-      "pnl": -9379.8649272
+      "symbol": "ROLEXRINGS.NS",
+      "pnl": -8645.969810770228
     },
     {
-      "symbol": "GOODLUCK.NS",
-      "pnl": -8129.207422720014
-    },
-    {
-      "symbol": "SMSPHARMA.NS",
-      "pnl": -8709.68790460778
-    },
-    {
-      "symbol": "COFORGE.NS",
-      "pnl": 9330.062418750003
-    },
-    {
-      "symbol": "ESAFSFB.NS",
-      "pnl": -8012.815902071612
+      "symbol": "ACUTAAS.NS",
+      "pnl": 3929.7380133599995
     }
   ],
-  "open_positions_now": 94
+  "open_positions_now": 91
 }
