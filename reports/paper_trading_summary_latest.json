@@ -1,25 +1,61 @@
 {
-  "date": "2026-11-25",
-  "opening_balance": 2330228.162113268,
-  "total_capital_in_positions": 7125166.099999998,
-  "remaining_balance": 2627170.171768276,
-  "portfolio_value": 9752336.271768274,
-  "realized_pnl": -219376.45822926826,
-  "portfolio_return_percent": -2.476637282317262,
+  "date": "2026-11-26",
+  "opening_balance": 690897.4020157736,
+  "total_capital_in_positions": 8109942.370000001,
+  "remaining_balance": 1640802.2355650682,
+  "portfolio_value": 9750744.60556507,
+  "realized_pnl": -232455.26665415638,
+  "portfolio_return_percent": -2.4925539443493077,
   "opened_today": [],
   "closed_today": [
     {
-      "symbol": "PPLPHARMA.NS",
-      "pnl": -2268.2676963200006
+      "symbol": "CHENNPETRO.NS",
+      "pnl": -5280.133322050338
     },
     {
-      "symbol": "ROLEXRINGS.NS",
-      "pnl": -8645.969810770228
+      "symbol": "MUFIN.NS",
+      "pnl": 3675.0629137145243
     },
     {
-      "symbol": "ACUTAAS.NS",
-      "pnl": 3929.7380133599995
+      "symbol": "SUNTV.NS",
+      "pnl": 2213.8743044238254
+    },
+    {
+      "symbol": "TIPSMUSIC.NS",
+      "pnl": -7490.89874214836
+    },
+    {
+      "symbol": "ENGINERSIN.NS",
+      "pnl": 4506.776036799996
+    },
+    {
+      "symbol": "TANLA.NS",
+      "pnl": 5138.845836454727
+    },
+    {
+      "symbol": "ARIS.NS",
+      "pnl": 15956.188306461678
+    },
+    {
+      "symbol": "NAZARA.NS",
+      "pnl": -342.4126767300045
+    },
+    {
+      "symbol": "ARIHANTCAP.NS",
+      "pnl": -5416.166194860651
+    },
+    {
+      "symbol": "EDELWEISS.NS",
+      "pnl": -4467.673811060006
+    },
+    {
+      "symbol": "ADANIGREEN.NS",
+      "pnl": -5778.937818640007
+    },
+    {
+      "symbol": "IKIO.NS",
+      "pnl": 1061.0638877699998
     }
   ],
-  "open_positions_now": 91
+  "open_positions_now": 99
 }

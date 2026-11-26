@@ -6,20 +6,34 @@
   "entry_price": 127.5999984741211,
   "buy_probability": 85.64,
   "buy_confidence": 75.42,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 61.01,
   "entry_reasons": [
     "Morning Executor: gap -1.67% (0.37x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'TVSSCS.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'TVSSCS.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-26",
+      "current_price": 127.31,
+      "current_pnl": -227.06880523681463,
+      "current_buy_confidence": 61.01,
+      "current_sell_confidence": 21.95,
+      "current_exit_score": 56.17,
+      "recommendation": "HOLD",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "Continue holding position."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1795664977.734248,
-  "updated_at": 1795664977.7342482
+  "updated_at": 1795665606.9308395
 }

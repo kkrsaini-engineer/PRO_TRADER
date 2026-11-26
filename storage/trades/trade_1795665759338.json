@@ -1,0 +1,18 @@
+{
+  "symbol": "ELECTCAST.NS",
+  "direction": "SELL",
+  "action": "PARTIAL_CLOSE",
+  "quantity": 728,
+  "entry_price": 68.6500015258789,
+  "exit_price": 63.66,
+  "status": "OPEN",
+  "realized_pnl": 3477.530371610266,
+  "realized_pnl_percent": 6.958233543126536,
+  "max_profit_percent": 8.14275313669241,
+  "max_drawdown_percent": 6.627819916953519,
+  "regime": "BEAR",
+  "confidence": 54.41,
+  "reasons": "Break-even stop activated.; Partial profit target reached.; Excellent risk/reward profile.; Partial target achieved (previous session).; costs Rs 155.19 deducted",
+  "id": "trade_1795665759338",
+  "timestamp": 1795665759.3388476
+}

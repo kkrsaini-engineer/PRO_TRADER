@@ -1,0 +1,18 @@
+{
+  "symbol": "ADANIGREEN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 68,
+  "entry_price": 1454.0,
+  "exit_price": 1373.82,
+  "status": "CLOSED",
+  "realized_pnl": -5778.937818640007,
+  "realized_pnl_percent": -5.844867928877749,
+  "max_profit_percent": 1.71939477303989,
+  "max_drawdown_percent": 6.815680880330118,
+  "regime": "BULL",
+  "confidence": 50.42,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 326.70 deducted",
+  "id": "trade_1795665719818",
+  "timestamp": 1795665719.8185954
+}

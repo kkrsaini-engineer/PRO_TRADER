@@ -1,0 +1,18 @@
+{
+  "symbol": "TIPSMUSIC.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 123,
+  "entry_price": 809.0999755859375,
+  "exit_price": 750.85,
+  "status": "CLOSED",
+  "realized_pnl": -7490.89874214836,
+  "realized_pnl_percent": -7.5270816496713,
+  "max_profit_percent": 1.3471789325131143,
+  "max_drawdown_percent": 5.067355929191067,
+  "regime": "BULL",
+  "confidence": 56.43,
+  "reasons": "Below preferred risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 326.15 deducted",
+  "id": "trade_1795665512602",
+  "timestamp": 1795665512.602793
+}

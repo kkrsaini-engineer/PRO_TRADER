@@ -6,20 +6,34 @@
   "entry_price": 2079.300048828125,
   "buy_probability": 80.78,
   "buy_confidence": 70.82,
-  "entry_thesis_confidence": null,
+  "entry_thesis_confidence": 58.47,
   "entry_reasons": [
     "Morning Executor: gap -3.39% (0.89x ATR, NORMAL band)",
-    "Company news check unavailable (Unable to fetch news for 'WOCKPHARMA.NS'.) \u2014 proceeded without it. | No macro headlines available."
+    "Company news check unavailable (Unable to fetch news for 'WOCKPHARMA.NS'.) — proceeded without it. | No macro headlines available."
   ],
-  "daily_log": [],
+  "daily_log": [
+    {
+      "date": "2026-11-26",
+      "current_price": 2060.3,
+      "current_pnl": -912.0023437499913,
+      "current_buy_confidence": 58.47,
+      "current_sell_confidence": 27.71,
+      "current_exit_score": 55.73,
+      "recommendation": "HOLD",
+      "notes": [
+        "Below preferred risk/reward profile.",
+        "Continue holding position."
+      ]
+    }
+  ],
   "status": "OPEN",
   "exit_date": null,
   "exit_price": null,
   "exit_reason": null,
-  "holding_days": 0,
+  "holding_days": 1,
   "max_profit_percent": 0.0,
   "max_drawdown_percent": 0.0,
   "final_pnl": null,
   "created_at": 1795665246.8283458,
-  "updated_at": 1795665246.8283458
+  "updated_at": 1795665458.0994358
 }

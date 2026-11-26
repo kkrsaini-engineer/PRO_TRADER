@@ -1,0 +1,18 @@
+{
+  "symbol": "IKIO.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 537,
+  "entry_price": 186.0,
+  "exit_price": 188.61,
+  "status": "CLOSED",
+  "realized_pnl": 1061.0638877699998,
+  "realized_pnl_percent": 1.0623174223283474,
+  "max_profit_percent": 1.40322580645162,
+  "max_drawdown_percent": 0.0,
+  "regime": "SIDEWAYS",
+  "confidence": 54.53,
+  "reasons": "Below preferred risk/reward profile.; Trend reversal detected.; Trend reversal confirmed.; costs Rs 340.51 deducted",
+  "id": "trade_1795665728173",
+  "timestamp": 1795665728.173224
+}

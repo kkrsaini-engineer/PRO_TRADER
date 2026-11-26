@@ -1,0 +1,18 @@
+{
+  "symbol": "CHENNPETRO.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 66,
+  "entry_price": 1495.0999755859375,
+  "exit_price": 1420.05,
+  "status": "CLOSED",
+  "realized_pnl": -5280.133322050338,
+  "realized_pnl_percent": -5.350947852146979,
+  "max_profit_percent": 6.7754699004944445,
+  "max_drawdown_percent": 10.574542048532727,
+  "regime": "SIDEWAYS",
+  "confidence": 49.11,
+  "reasons": "Healthy risk/reward profile.; Active stop-loss triggered.; Stop-loss was touched in the previous session.; Stop-loss triggered (previous session).; costs Rs 326.83 deducted",
+  "id": "trade_1795665473266",
+  "timestamp": 1795665473.266575
+}

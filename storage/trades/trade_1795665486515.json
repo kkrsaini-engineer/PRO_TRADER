@@ -1,0 +1,18 @@
+{
+  "symbol": "MUFIN.NS",
+  "direction": "BUY",
+  "action": "CLOSE",
+  "quantity": 375,
+  "entry_price": 133.39999389648438,
+  "exit_price": 133.6,
+  "status": "CLOSED",
+  "realized_pnl": 3675.0629137145243,
+  "realized_pnl_percent": -0.2049452014125902,
+  "max_profit_percent": 7.946031925414486,
+  "max_drawdown_percent": 0.5921993497971073,
+  "regime": "SIDEWAYS",
+  "confidence": 45.92,
+  "reasons": "Excellent risk/reward profile.; Active stop-loss triggered.; Stop-loss triggered.; costs Rs 177.53 deducted",
+  "id": "trade_1795665486515",
+  "timestamp": 1795665486.5151224
+}
