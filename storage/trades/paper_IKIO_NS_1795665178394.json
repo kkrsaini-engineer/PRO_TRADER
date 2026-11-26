@@ -1,0 +1,13 @@
+{
+  "id": "paper_IKIO_NS_1795665178394",
+  "symbol": "IKIO.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 537,
+  "entry_price": 186.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.57,
+  "reasons": "Morning Executor: gap -2.88% (0.59x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'IKIO.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665178.3962042
+}

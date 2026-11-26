@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_SAREGAMA_NS_1795665154199",
+  "symbol": "SAREGAMA.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-26",
+  "entry_price": 619.0,
+  "buy_probability": 82.46,
+  "buy_confidence": 72.39,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -5.87% (1.62x ATR, WARNING band)",
+    "Company news check unavailable (Unable to fetch news for 'SAREGAMA.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1795665154.200007,
+  "updated_at": 1795665154.200007
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paper_INDHOTEL_NS_1795665028129",
+  "symbol": "INDHOTEL.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 110,
+  "entry_price": 903.8499755859375,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 74.21,
+  "reasons": "Morning Executor: gap -0.24% (0.10x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'INDHOTEL.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665028.1308355
+}

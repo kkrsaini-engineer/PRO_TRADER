@@ -1,0 +1,13 @@
+{
+  "id": "paper_LGEINDIA_NS_1795664929133",
+  "symbol": "LGEINDIA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 56,
+  "entry_price": 1771.9000244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.22,
+  "reasons": "Morning Executor: gap -0.32% (0.10x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'LGEINDIA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795664929.1347466
+}

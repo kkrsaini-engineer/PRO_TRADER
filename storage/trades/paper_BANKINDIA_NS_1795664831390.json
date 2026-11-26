@@ -1,0 +1,13 @@
+{
+  "id": "paper_BANKINDIA_NS_1795664831390",
+  "symbol": "BANKINDIA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 623,
+  "entry_price": 160.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 76.87,
+  "reasons": "Morning Executor: gap +0.94% (0.30x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'BANKINDIA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795664831.4261146
+}

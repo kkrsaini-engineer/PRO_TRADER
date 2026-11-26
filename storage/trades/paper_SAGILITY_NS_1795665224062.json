@@ -1,0 +1,13 @@
+{
+  "id": "paper_SAGILITY_NS_1795665224062",
+  "symbol": "SAGILITY.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 2180,
+  "entry_price": 45.869998931884766,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 71.55,
+  "reasons": "Morning Executor: gap -0.48% (0.16x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'SAGILITY.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665224.0638268
+}

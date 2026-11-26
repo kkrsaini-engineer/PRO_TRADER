@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_GPPL_NS_1795665272951",
+  "symbol": "GPPL.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-26",
+  "entry_price": 174.6300048828125,
+  "buy_probability": 79.25,
+  "buy_confidence": 69.96,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -0.14% (0.05x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'GPPL.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1795665272.9513707,
+  "updated_at": 1795665272.9513707
+}

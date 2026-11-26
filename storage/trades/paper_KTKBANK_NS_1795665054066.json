@@ -1,0 +1,13 @@
+{
+  "id": "paper_KTKBANK_NS_1795665054066",
+  "symbol": "KTKBANK.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 296,
+  "entry_price": 337.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.83,
+  "reasons": "Morning Executor: gap -1.10% (0.29x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'KTKBANK.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665054.0734196
+}

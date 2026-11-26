@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_LGEINDIA_NS_1795664929133",
+  "symbol": "LGEINDIA.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-26",
+  "entry_price": 1771.9000244140625,
+  "buy_probability": 86.29,
+  "buy_confidence": 73.22,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -0.32% (0.10x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'LGEINDIA.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1795664929.1335406,
+  "updated_at": 1795664929.1335406
+}

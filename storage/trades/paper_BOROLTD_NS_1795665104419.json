@@ -1,0 +1,13 @@
+{
+  "id": "paper_BOROLTD_NS_1795665104419",
+  "symbol": "BOROLTD.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 314,
+  "entry_price": 318.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.07,
+  "reasons": "Morning Executor: gap -1.70% (0.36x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'BOROLTD.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665104.4211373
+}

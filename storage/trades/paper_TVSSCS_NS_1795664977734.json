@@ -1,0 +1,13 @@
+{
+  "id": "paper_TVSSCS_NS_1795664977734",
+  "symbol": "TVSSCS.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 783,
+  "entry_price": 127.5999984741211,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 75.42,
+  "reasons": "Morning Executor: gap -1.67% (0.37x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'TVSSCS.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795664977.7355778
+}

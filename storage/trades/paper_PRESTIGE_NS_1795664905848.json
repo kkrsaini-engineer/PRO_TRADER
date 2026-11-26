@@ -1,0 +1,13 @@
+{
+  "id": "paper_PRESTIGE_NS_1795664905848",
+  "symbol": "PRESTIGE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 59,
+  "entry_price": 1689.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 73.97,
+  "reasons": "Morning Executor: gap +0.12% (0.04x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'PRESTIGE.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795664905.8501205
+}

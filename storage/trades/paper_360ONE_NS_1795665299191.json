@@ -1,0 +1,13 @@
+{
+  "id": "paper_360ONE_NS_1795665299191",
+  "symbol": "360ONE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 37,
+  "entry_price": 1172.1500244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 68.04,
+  "reasons": "Morning Executor: gap -2.41% (0.84x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for '360ONE.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665299.1923192
+}

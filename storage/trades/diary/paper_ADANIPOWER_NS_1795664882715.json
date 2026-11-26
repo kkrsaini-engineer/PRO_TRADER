@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_ADANIPOWER_NS_1795664882715",
+  "symbol": "ADANIPOWER.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-26",
+  "entry_price": 205.85000610351562,
+  "buy_probability": 87.94,
+  "buy_confidence": 75.29,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -0.99% (0.36x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'ADANIPOWER.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1795664882.7159693,
+  "updated_at": 1795664882.7159693
+}

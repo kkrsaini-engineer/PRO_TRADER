@@ -1,0 +1,13 @@
+{
+  "id": "paper_TMCV_NS_1795665003026",
+  "symbol": "TMCV.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 225,
+  "entry_price": 442.5,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 75.53,
+  "reasons": "Morning Executor: gap -2.49% (0.73x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'TMCV.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665003.0274699
+}

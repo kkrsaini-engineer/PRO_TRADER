@@ -1,0 +1,13 @@
+{
+  "id": "paper_PVRINOX_NS_1795665201462",
+  "symbol": "PVRINOX.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 58,
+  "entry_price": 1710.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.55,
+  "reasons": "Morning Executor: gap +0.61% (0.17x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'PVRINOX.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665201.46419
+}

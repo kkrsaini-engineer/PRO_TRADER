@@ -1,0 +1,25 @@
+{
+  "trade_id": "paper_TMCV_NS_1795665003026",
+  "symbol": "TMCV.NS",
+  "direction": "BUY",
+  "entry_date": "2026-11-26",
+  "entry_price": 442.5,
+  "buy_probability": 85.3,
+  "buy_confidence": 75.53,
+  "entry_thesis_confidence": null,
+  "entry_reasons": [
+    "Morning Executor: gap -2.49% (0.73x ATR, NORMAL band)",
+    "Company news check unavailable (Unable to fetch news for 'TMCV.NS'.) \u2014 proceeded without it. | No macro headlines available."
+  ],
+  "daily_log": [],
+  "status": "OPEN",
+  "exit_date": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "holding_days": 0,
+  "max_profit_percent": 0.0,
+  "max_drawdown_percent": 0.0,
+  "final_pnl": null,
+  "created_at": 1795665003.0260255,
+  "updated_at": 1795665003.0260258
+}

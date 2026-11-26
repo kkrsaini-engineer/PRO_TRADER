@@ -1,0 +1,13 @@
+{
+  "id": "paper_ADANIPOWER_NS_1795664882715",
+  "symbol": "ADANIPOWER.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 485,
+  "entry_price": 205.85000610351562,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 75.29,
+  "reasons": "Morning Executor: gap -0.99% (0.36x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'ADANIPOWER.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795664882.717122
+}

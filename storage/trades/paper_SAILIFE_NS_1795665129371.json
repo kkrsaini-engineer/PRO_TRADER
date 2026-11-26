@@ -1,0 +1,13 @@
+{
+  "id": "paper_SAILIFE_NS_1795665129371",
+  "symbol": "SAILIFE.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 54,
+  "entry_price": 1819.9000244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.61,
+  "reasons": "Morning Executor: gap +0.60% (0.15x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'SAILIFE.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665129.3726602
+}

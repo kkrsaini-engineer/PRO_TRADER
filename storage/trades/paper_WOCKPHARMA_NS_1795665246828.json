@@ -1,0 +1,13 @@
+{
+  "id": "paper_WOCKPHARMA_NS_1795665246828",
+  "symbol": "WOCKPHARMA.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 48,
+  "entry_price": 2079.300048828125,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 70.82,
+  "reasons": "Morning Executor: gap -3.39% (0.89x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'WOCKPHARMA.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665246.8295534
+}

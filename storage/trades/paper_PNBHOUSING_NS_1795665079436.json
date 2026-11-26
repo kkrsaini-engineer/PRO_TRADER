@@ -1,0 +1,13 @@
+{
+  "id": "paper_PNBHOUSING_NS_1795665079436",
+  "symbol": "PNBHOUSING.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 84,
+  "entry_price": 1186.9000244140625,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 72.26,
+  "reasons": "Morning Executor: gap +0.57% (0.18x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'PNBHOUSING.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795665079.4379838
+}

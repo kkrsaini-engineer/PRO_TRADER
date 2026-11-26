@@ -1,0 +1,13 @@
+{
+  "id": "paper_PERSISTENT_NS_1795664857392",
+  "symbol": "PERSISTENT.NS",
+  "direction": "BUY",
+  "action": "OPEN",
+  "quantity": 16,
+  "entry_price": 6202.0,
+  "status": "OPEN",
+  "regime": "BULL",
+  "confidence": 74.2,
+  "reasons": "Morning Executor: gap -1.28% (0.46x ATR, NORMAL band); Company news check unavailable (Unable to fetch news for 'PERSISTENT.NS'.) \u2014 proceeded without it. | No macro headlines available.",
+  "timestamp": 1795664857.3941646
+}
